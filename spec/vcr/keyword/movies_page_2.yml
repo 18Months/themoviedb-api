@@ -1,0 +1,84 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.themoviedb.org/3/keyword/1721/movies?api_key=8a221fc31fcdf12a8af827465574ffc9&language=en&page=2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=21600
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Wed, 05 Mar 2014 15:17:57 GMT
+      Etag:
+      - "\"45184af9bacd9a6812204dddf49c528d\""
+      Server:
+      - nginx
+      Status:
+      - 200 OK
+      Vary:
+      - Accept-Encoding
+      X-Memc:
+      - MISS, STORE
+      X-Memc-Age:
+      - '0'
+      X-Memc-Expires:
+      - '21600'
+      X-Memc-Key:
+      - 57a1d1079cc83ba2e4adb6cf6164868e
+      Content-Length:
+      - '5704'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: "{\"id\":1721,\"page\":2,\"results\":[{\"adult\":false,\"backdrop_path\":\"/iAvHedeRpQXb5S8qNhVolxMTxlX.jpg\",\"id\":10732,\"original_title\":\"La
+        fille de d'Artagnan\",\"release_date\":\"1994-08-24\",\"poster_path\":\"/jKc1W3Obb7JqsSQ3IU6FwVUFdtr.jpg\",\"popularity\":0.5701125,\"title\":\"La
+        fille de d'Artagnan\",\"vote_average\":7.0,\"vote_count\":1},{\"adult\":false,\"backdrop_path\":\"/v6YHlUoqZsCyFnB8utdbWyTgWlW.jpg\",\"id\":11509,\"original_title\":\"Silverado\",\"release_date\":\"1985-07-10\",\"poster_path\":\"/pQqdoCAjvNnt7ohnTNHIhtli1zI.jpg\",\"popularity\":0.23,\"title\":\"Silverado\",\"vote_average\":7.0,\"vote_count\":16},{\"adult\":false,\"backdrop_path\":\"/8SSIVqKnjv7UGITEemFwEQ0j9iS.jpg\",\"id\":18311,\"original_title\":\"A
+        Fei jingjyuhn\",\"release_date\":\"1990-12-15\",\"poster_path\":\"/qZnK1MRFcuxJS3DAWjcACR9zSxG.jpg\",\"popularity\":0.23,\"title\":\"Days
+        of Being Wild\",\"vote_average\":6.9,\"vote_count\":14},{\"adult\":false,\"backdrop_path\":\"/78xDRrkcjs78MSq71smLKmozCNY.jpg\",\"id\":8456,\"original_title\":\"Never
+        Back Down\",\"release_date\":\"2008-03-04\",\"poster_path\":\"/1eHx7dZ0r2ArMiKFjg49lx92pqS.jpg\",\"popularity\":1.41470617254342,\"title\":\"Never
+        Back Down\",\"vote_average\":6.9,\"vote_count\":35},{\"adult\":false,\"backdrop_path\":\"/z4joqTEzyJQPhMluEHIvqpqroul.jpg\",\"id\":10753,\"original_title\":\"Ging
+        chaat goo si juk jaap\",\"release_date\":\"1988-08-20\",\"poster_path\":\"/u3PrMrZIDynMzeckSZ5NHYd72XY.jpg\",\"popularity\":0.984242981716875,\"title\":\"Police
+        Story 2\",\"vote_average\":6.8,\"vote_count\":14},{\"adult\":false,\"backdrop_path\":\"/AprhfmDEwy14xyjaAlcwdLolLjq.jpg\",\"id\":11036,\"original_title\":\"The
+        Notebook\",\"release_date\":\"2004-06-25\",\"poster_path\":\"/gMfstesBXKdsHToAUXVPHujUDfb.jpg\",\"popularity\":1.901185223391,\"title\":\"The
+        Notebook\",\"vote_average\":6.8,\"vote_count\":627},{\"adult\":false,\"backdrop_path\":\"/rDKeoGCJAzWmO2Q7SL3EtiICfOC.jpg\",\"id\":9491,\"original_title\":\"Blue
+        Steel\",\"release_date\":\"1989-03-16\",\"poster_path\":\"/xLwruVFHhnXuQ1FCXuv7e0z8meA.jpg\",\"popularity\":1.1907675,\"title\":\"Blue
+        Steel\",\"vote_average\":6.8,\"vote_count\":3},{\"adult\":false,\"backdrop_path\":\"/nhowGAjhsyqiVxT0ZQaBv2YHl3L.jpg\",\"id\":24056,\"original_title\":\"The
+        Tournament\",\"release_date\":\"2009-05-01\",\"poster_path\":\"/ldqexoGgxnuV1hpX64MR6WnyEVG.jpg\",\"popularity\":2.02885032901618,\"title\":\"The
+        Tournament\",\"vote_average\":6.8,\"vote_count\":20},{\"adult\":false,\"backdrop_path\":\"/2kkyt0FLROrXt41IgSdE7goCFNQ.jpg\",\"id\":1366,\"original_title\":\"Rocky\",\"release_date\":\"1976-11-21\",\"poster_path\":\"/lmwGr6J5y6kngFNQuFV2y1yw4OB.jpg\",\"popularity\":4.18414415268777,\"title\":\"Rocky\",\"vote_average\":6.7,\"vote_count\":318},{\"adult\":false,\"backdrop_path\":\"/aT8eiFl2zfWkM2n326QpKRP15od.jpg\",\"id\":1497,\"original_title\":\"Teenage
+        Mutant Ninja Turtles II: The Secret of the Ooze\",\"release_date\":\"1991-03-22\",\"poster_path\":\"/84pcw1eh6Jbh4ENzewSZhcdn85T.jpg\",\"popularity\":0.413135177786512,\"title\":\"Teenage
+        Mutant Ninja Turtles II: The Secret of the Ooze\",\"vote_average\":6.7,\"vote_count\":26},{\"adult\":false,\"backdrop_path\":\"/aUTWjvYrIl1ssc1QQje91WaqbZ4.jpg\",\"id\":13813,\"original_title\":\"Defiance\",\"release_date\":\"2008-12-31\",\"poster_path\":\"/3Iu1jCiWxeLJZeNczzRwMi9OWPk.jpg\",\"popularity\":2.82363625011056,\"title\":\"Defiance\",\"vote_average\":6.6,\"vote_count\":87},{\"adult\":false,\"backdrop_path\":\"/hxGSxNREU4xbA1kfiJRvnPPoL29.jpg\",\"id\":38543,\"original_title\":\"Ironclad\",\"release_date\":\"2011-03-03\",\"poster_path\":\"/vgRPlYHiottQpDav3nfw9Q1zAJJ.jpg\",\"popularity\":1.24865990048326,\"title\":\"Ironclad\",\"vote_average\":6.5,\"vote_count\":38},{\"adult\":false,\"backdrop_path\":\"/1jXn7e2ZzOgciMOlf0eBSlXDU51.jpg\",\"id\":40718,\"original_title\":\"Wake
+        of The Red Witch\",\"release_date\":\"1948-12-30\",\"poster_path\":\"/pAJTd8pAXIf1CjgrEz1YP7AFhmQ.jpg\",\"popularity\":0.552,\"title\":\"Wake
+        of The Red Witch\",\"vote_average\":6.5,\"vote_count\":1},{\"adult\":false,\"backdrop_path\":\"/9LL2VFsBgm2VkPJduaJm4x1R89d.jpg\",\"id\":1770,\"original_title\":\"Michael
+        Collins\",\"release_date\":\"1996-10-25\",\"poster_path\":\"/kToN6lKO4NGoVoMcdPFWzPadrkg.jpg\",\"popularity\":1.07706611366043,\"title\":\"Michael
+        Collins\",\"vote_average\":6.5,\"vote_count\":7},{\"adult\":false,\"backdrop_path\":\"/iU19SVYYXtZ4S9wOSvp5UwzwsjI.jpg\",\"id\":5876,\"original_title\":\"The
+        Mist\",\"release_date\":\"2007-11-21\",\"poster_path\":\"/v8eeua2MdGa5bF7kyKECVK24oxs.jpg\",\"popularity\":1.34140193492481,\"title\":\"The
+        Mist\",\"vote_average\":6.5,\"vote_count\":162},{\"adult\":false,\"backdrop_path\":\"/pc7a2qrIkIxzqWGqcexd3mHzIxy.jpg\",\"id\":56292,\"original_title\":\"Mission:
+        Impossible - Ghost Protocol\",\"release_date\":\"2011-12-21\",\"poster_path\":\"/96k0SkL6bXqKyOj50hYu3fRRbmV.jpg\",\"popularity\":7.10530014345144,\"title\":\"Mission:
+        Impossible - Ghost Protocol\",\"vote_average\":6.4,\"vote_count\":1707},{\"adult\":false,\"backdrop_path\":\"/9snG3oqEgPMjkhTazqbjfOU454d.jpg\",\"id\":10413,\"original_title\":\"Nowhere
+        to Run\",\"release_date\":\"1993-01-15\",\"poster_path\":\"/mpEJ955gAHB5pGHbFGd7J4hW3lk.jpg\",\"popularity\":1.197311,\"title\":\"Nowhere
+        to Run\",\"vote_average\":6.4,\"vote_count\":9},{\"adult\":false,\"backdrop_path\":\"/m3aK5gSRZdG5aN65gJsK5QvHUMA.jpg\",\"id\":39254,\"original_title\":\"Real
+        Steel\",\"release_date\":\"2011-10-06\",\"poster_path\":\"/drtXi58nN6P3zcoLh6wUlsZAYqh.jpg\",\"popularity\":6.06970377194819,\"title\":\"Real
+        Steel\",\"vote_average\":6.3,\"vote_count\":754},{\"adult\":false,\"backdrop_path\":\"/1lxl9iKv30oxhB7mHP6bhF0wkKC.jpg\",\"id\":71677,\"original_title\":\"Assassination
+        Games\",\"release_date\":\"2011-07-29\",\"poster_path\":\"/zX7FQDaMFKrS026YtfBMbdCt8KF.jpg\",\"popularity\":4.56961558830003,\"title\":\"Assassination
+        Games\",\"vote_average\":6.3,\"vote_count\":15},{\"adult\":false,\"backdrop_path\":\"/pdVHUsb2eEz9ALNTr6wfRJe5xVa.jpg\",\"id\":605,\"original_title\":\"The
+        Matrix Revolutions\",\"release_date\":\"2003-10-26\",\"poster_path\":\"/sKogjhfs5q3azmpW7DFKKAeLEG8.jpg\",\"popularity\":6.58295123466373,\"title\":\"The
+        Matrix Revolutions\",\"vote_average\":6.3,\"vote_count\":1129}],\"total_pages\":5,\"total_results\":90}"
+    http_version: 
+  recorded_at: Wed, 05 Mar 2014 15:17:57 GMT
+recorded_with: VCR 2.8.0
