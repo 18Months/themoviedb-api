@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.email       = ["dev@18months.it"]
   s.homepage    = "http://rubygems.org/gems/tmdb"
   s.summary     = %q{A simple to use Ruby wrapper for the The Movie Database API.}
-  s.description = %q{Provides a simple and intuitive interface for the Movie Database API by using OpenStruct.}
+  s.description = %q{Provides a simple and intuitive interface for the Movie Database API making use of OpenStruct.}
   s.rubyforge_project = "themoviedb"
 
   s.files         = `git ls-files`.split($/)
