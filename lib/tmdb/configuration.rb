@@ -2,7 +2,7 @@ module Tmdb
   class Configuration < Struct
 
     def self.get
-      result = Resource.new('/configuration').run
+      result = Resource.new('/configuration').get
       self.new(result)
     end
 

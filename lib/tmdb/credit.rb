@@ -2,7 +2,7 @@ module Tmdb
   class Credit < Struct
 
     def self.detail(id, filters={})
-      result = Resource.new("/credit/#{id}", filters).run
+      result = Resource.new("/credit/#{id}", filters).get
 
       media = result['media']
 

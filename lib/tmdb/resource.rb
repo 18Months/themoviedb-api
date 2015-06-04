@@ -10,7 +10,7 @@ module Tmdb
       @query_url = query_url
     end
 
-    def run
+    def get
       options = Api.params.merge(@params)
       response = Api.get(@query_url, query: options)
 

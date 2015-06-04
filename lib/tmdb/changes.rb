@@ -2,7 +2,7 @@ module Tmdb
   class Changes < Struct
 
     def self.movie(filters={})
-      result = Resource.new("/movie/changes", filters).run
+      result = Resource.new("/movie/changes", filters).get
 
       change = self.new(result.except('results'))
       change.results = result['results'].map do |result|
@@ -13,7 +13,7 @@ module Tmdb
     end
 
     def self.person(filters={})
-      result = Resource.new("/person/changes", filters).run
+      result = Resource.new("/person/changes", filters).get
 
       change = self.new(result.except('results'))
       change.results = result['results'].map do |result|
@@ -24,7 +24,7 @@ module Tmdb
     end
 
     def self.tv(filters={})
-      result = Resource.new("/tv/changes", filters).run
+      result = Resource.new("/tv/changes", filters).get
 
       change = self.new(result.except('results'))
       change.results = result['results'].map do |result|
