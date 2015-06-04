@@ -1,8 +1,16 @@
 module Tmdb
   class Genre < Struct
 
-    def self.list(filters={})
-      result = Resource.new('/genre/list', filters).run
+    def self.movie_list(filters={})
+      result = Resource.new('/genre/movie/list', filters).run
+
+      result['genres'].map do |genre|
+        self.new(genre)
+      end
+    end
+
+    def self.tv_list(filters={})
+      result = Resource.new('/genre/tv/list', filters).run
 
       result['genres'].map do |genre|
         self.new(genre)

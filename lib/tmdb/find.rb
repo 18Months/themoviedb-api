@@ -5,7 +5,7 @@ module Tmdb
       result = Resource.new("/find/#{id}", filters).run
 
       result['movie_results'].map do |entry|
-        self.new(entry)
+        Movie.new(entry)
       end
     end
 
@@ -13,7 +13,7 @@ module Tmdb
       result = Resource.new("/find/#{id}", filters).run
 
       result['person_results'].map do |entry|
-        self.new(entry)
+        Person.new(entry)
       end
     end
 
@@ -21,7 +21,7 @@ module Tmdb
       result = Resource.new("/find/#{id}", filters).run
 
       result['tv_results'].map do |entry|
-        self.new(entry)
+        TV.new(entry)
       end
     end
 
@@ -29,7 +29,7 @@ module Tmdb
       result = Resource.new("/find/#{id}", filters).run
 
       result['tv_episode_results'].map do |entry|
-        self.new(entry)
+        TV.new(entry)
       end
     end
 
@@ -37,7 +37,7 @@ module Tmdb
       result = Resource.new("/find/#{id}", filters).run
 
       result['tv_season_results'].map do |entry|
-        self.new(entry)
+        TV.new(entry)
       end
     end
 

@@ -8,7 +8,13 @@ module Tmdb
 
     def self.movies(id, filters={})
       result = Resource.new("/company/#{id}/movies", filters).run
-      self.new(result)
+
+      company = self.new(result.except('results'))
+      company.results = result['results'].map do |movie|
+        Movie.new(movie)
+      end
+
+      company
     end
 
   end
