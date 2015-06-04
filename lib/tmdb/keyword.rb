@@ -2,7 +2,7 @@ module Tmdb
   class Keyword < Struct
 
     def self.detail(keyword_id, filters={})
-      result = Resource.new("/keyword/#{keyword_id}/movies", filters).run
+      result = Resource.new("/keyword/#{keyword_id}", filters).run
       self.new(result)
     end
 
