@@ -4,8 +4,8 @@ module Tmdb
     def self.list(filters={})
       result = Resource.new('/job/list', filters).run
 
-      result['jobs'].map do |genre|
-        self.new(genre)
+      result['jobs'].map do |job|
+        self.new(job)
       end
     end
 

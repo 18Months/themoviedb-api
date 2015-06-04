@@ -6,7 +6,7 @@ module Tmdb
 
       collection = self.new(result.except('parts'))
       collection.parts = result['parts'].map do |part|
-        self.new(part)
+        Movie.new(part)
       end
 
       collection
@@ -16,7 +16,7 @@ module Tmdb
       result = Resource.new("/collection/#{id}/images", filters).run
 
       result['backdrops'].map do |backdrop|
-        self.new(backdrop)
+        Backdrop.new(backdrop)
       end
     end
 
@@ -24,7 +24,7 @@ module Tmdb
       result = Resource.new("/collection/#{id}/images", filters).run
 
       result['posters'].map do |poster|
-        self.new(poster)
+        Poster.new(poster)
       end
     end
 

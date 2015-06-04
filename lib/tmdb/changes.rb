@@ -6,7 +6,7 @@ module Tmdb
 
       change = self.new(result.except('results'))
       change.results = result['results'].map do |result|
-        self.new(result)
+        Movie.new(result)
       end
 
       change
@@ -17,7 +17,7 @@ module Tmdb
 
       change = self.new(result.except('results'))
       change.results = result['results'].map do |result|
-        self.new(result)
+        Person.new(result)
       end
 
       change
@@ -28,7 +28,7 @@ module Tmdb
 
       change = self.new(result.except('results'))
       change.results = result['results'].map do |result|
-        self.new(result)
+        TV.new(result)
       end
 
       change

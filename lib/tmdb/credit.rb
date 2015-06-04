@@ -4,18 +4,20 @@ module Tmdb
     def self.detail(id, filters={})
       result = Resource.new("/credit/#{id}", filters).run
 
-      credit = self.new(result.except('media'))
       media = result['media']
 
-      credit.media = self.new(media.except('episodes', 'seasons'))
+      credit = self.new(result.except('media', 'person'))
+      credit.media = Media.new(media.except('episodes', 'seasons'))
 
       credit.media.episodes = media['episodes'].map do |episode|
-        self.new(episode)
+        Tv::Episode.new(episode)
       end
 
       credit.media.seasons = media['seasons'].map do |season|
-        self.new(season)
+        Tv::Season.new(season)
       end
+
+      credit.person = Person.new(result['person'])
 
       credit
     end

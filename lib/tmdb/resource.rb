@@ -1,5 +1,6 @@
 module Tmdb
   class Resource
+
     include Utils
 
     attr_reader :params, :query_url
@@ -19,5 +20,6 @@ module Tmdb
 
       response.to_h
     end
+
   end
 end
