@@ -4,32 +4,7 @@ module Tmdb
     def self.detail(id, filters={})
       result = Resource.new("/movie/#{id}", filters).get
 
-      movie = self.new(
-          result.except(
-              'genres',
-              'production_companies',
-              'production_countries',
-              'spoken_languages'
-          )
-      )
-
-      movie.genres = result['genres'].map do |genre|
-        Genre.new(genre)
-      end
-
-      movie.production_companies = result['production_companies'].map do |company|
-        Company.new(company)
-      end
-
-      movie.production_countries = result['production_countries'].map do |country|
-        Country.new(country)
-      end
-
-      movie.spoken_languages = result['spoken_languages'].map do |language|
-        Language.new(language)
-      end
-
-      movie
+      create_new_instance_with_normalized_data(result)
     end
 
     def self.alternative_titles(id, filters={})
@@ -114,7 +89,7 @@ module Tmdb
 
     def self.similar(id, filters={})
       result = Resource.new("/movie/#{id}/similar", filters).get
-      Movie.new(result)
+      self.new(result)
     end
 
     def self.reviews(id, filters={})
@@ -137,28 +112,60 @@ module Tmdb
 
     def self.latest(filters={})
       result = Resource.new('/movie/latest', filters).get
-      Movie.new(result)
+
+      create_new_instance_with_normalized_data(result)
     end
 
     def self.upcoming(filters={})
       result = Resource.new('/movie/upcoming', filters).get
-      Movie.new(result)
+      self.new(result)
     end
 
     def self.now_playing(filters={})
       result = Resource.new('/movie/now_playing', filters).get
-      Movie.new(result)
+      self.new(result)
     end
 
     def self.popular(filters={})
       result = Resource.new('/movie/popular', filters).get
-      Movie.new(result)
+      self.new(result)
     end
 
     def self.top_rated(filters={})
       result = Resource.new('/movie/top_rated', filters).get
-      Movie.new(result)
+      self.new(result)
     end
+
+    def self.create_new_instance_with_normalized_data(result)
+      movie = self.new(
+          result.except(
+              'genres',
+              'production_companies',
+              'production_countries',
+              'spoken_languages'
+          )
+      )
+
+      movie.genres = result['genres'].map do |genre|
+        Genre.new(genre)
+      end
+
+      movie.production_companies = result['production_companies'].map do |company|
+        Company.new(company)
+      end
+
+      movie.production_countries = result['production_countries'].map do |country|
+        Country.new(country)
+      end
+
+      movie.spoken_languages = result['spoken_languages'].map do |language|
+        Language.new(language)
+      end
+
+      movie
+    end
+
+    private_class_method :create_new_instance_with_normalized_data
 
   end
 end
