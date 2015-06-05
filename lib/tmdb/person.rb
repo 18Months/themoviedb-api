@@ -43,12 +43,37 @@ module Tmdb
 
     def self.popular(filters={})
       result = Resource.new('/person/popular', filters).get
-      self.new(result)
+      person = self.new(result)
+
+      person.convert_known_for!
+
+      person
     end
 
     def self.latest(filters={})
       result = Resource.new('/person/latest', filters).get
       self.new(result)
+    end
+
+    def convert_known_for!
+      results.each do |result|
+        result.known_for.map! do |multi|
+          known_person_reference(multi)
+        end
+      end
+    end
+
+    private
+
+    def known_person_reference(obj)
+      case obj.media_type
+        when 'movie'
+          Movie.new(obj.to_h)
+        when 'tv'
+          TV.new(obj.to_h)
+        else
+          Multi.new(obj.to_h)
+      end
     end
 
   end

@@ -47,7 +47,11 @@ module Tmdb
       filters.merge!(query: clean_query_param(query))
 
       result = Resource.new('/search/person', filters).get
-      Person.new(result)
+      person = Person.new(result)
+
+      person.convert_known_for!
+
+      person
     end
 
     def self.tv(query, filters={})
