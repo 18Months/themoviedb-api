@@ -56,7 +56,7 @@ module Tmdb
       result = Resource.new('/search/tv', filters).get
       TV.new(result)
     end
-    
+
     def self.clean_query_param(query)
       CGI.escape(query)
     end
