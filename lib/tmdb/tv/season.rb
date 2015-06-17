@@ -11,7 +11,7 @@ module Tmdb
       def self.changes(id, filters={})
         result = Resource.new("/tv/season/#{id}/changes", filters).get
 
-        result['items'].map do |entry|
+        result['changes'].map do |entry|
           Changes.new(entry)
         end
       end
@@ -41,16 +41,8 @@ module Tmdb
       end
 
       def self.external_ids(id, season_number, filters={})
-        result = Resource.new("/tv/#{id}/season/#{season_number}", filters).get
+        result = Resource.new("/tv/#{id}/season/#{season_number}/external_ids", filters).get
         self.new(result)
-      end
-
-      def self.backdrops(id, season_number, filters={})
-        result = Resource.new("/tv/#{id}/season/#{season_number}/images", filters).get
-
-        result['backdrops'].map do |entry|
-          Backdrop.new(entry)
-        end
       end
 
       def self.posters(id, season_number, filters={})
