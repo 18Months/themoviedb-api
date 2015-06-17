@@ -4,11 +4,8 @@ module Tmdb
 
       def self.detail(id, season_number, filters={})
         result = Resource.new("/tv/#{id}/season/#{season_number}", filters).get
-        season = self.new(result)
-        
-        season.convert_episodes_references!
 
-        season
+        create_new_instance_with_normalized_data(result)
       end
 
       def self.changes(id, filters={})
@@ -72,15 +69,37 @@ module Tmdb
         end
       end
 
-      private
+      def self.create_new_instance_with_normalized_data(result)
+        season = self.new(
+            result.except(
+                'episodes'
+            )
+        )
 
-      def convert_episodes_references!
-        episodes.each do |episode|
-          episode.crew.map! do |person|
-            Person.new(person.to_h)
+        season.episodes = result['episodes'].map do |episode|
+          new_episode = Tv::Episode.new(
+              episode.except(
+                  'crew',
+                  'guest_stars'
+              )
+          )
+
+          new_episode.crew = episode['crew'].map do |entry|
+            Person.new(entry)
           end
+
+          new_episode.guest_stars = episode['guest_stars'].map do |entry|
+            Person.new(entry)
+          end
+
+          new_episode
         end
+
+        season
       end
+
+      private_class_method :create_new_instance_with_normalized_data
+
     end
   end
 end
