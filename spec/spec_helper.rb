@@ -6,6 +6,7 @@
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 
 require_relative '../lib/tmdb.rb'
+require 'webmock/rspec'
 require 'vcr'
 
 VCR.configure do |c|
