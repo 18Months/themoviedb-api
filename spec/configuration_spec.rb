@@ -10,8 +10,10 @@ describe Tmdb::Configuration do
 
   let!(:configuration) { Tmdb::Configuration.new }
   subject { configuration }
-
-  its(:query_url) { should == '/configuration' }
+  
+  it 'query_url should be /configuration' do
+    expect(:query_url).to eq('/configuration')
+  end
 
   it 'should call get_configuration on #conf' do
     VCR.use_cassette 'configuration/get' do

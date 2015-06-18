@@ -9,7 +9,7 @@ describe Tmdb::Api do
     Tmdb::Api
   end
 
-  after(:all) {
+  after(:suite) {
     api.key(nil)
     api.language(nil)
   }
@@ -17,7 +17,9 @@ describe Tmdb::Api do
   subject { api }
 
   context '#config' do
-    its(:params) { should be_an_instance_of(Hash) }
+    it 'param should be an Hash' do
+      expect(:params).to be_an_instance_of(Hash)
+    end
   end
 
   context '#key' do
