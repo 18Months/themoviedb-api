@@ -23,32 +23,47 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Wed, 05 Mar 2014 15:37:48 GMT
+      - Thu, 18 Jun 2015 14:27:58 GMT
       Etag:
-      - "\"cc4805a4b28b6f54b2db88e756ce0a6c\""
+      - '"7ce7c10672427e937db67c191352e6d0"'
       Server:
-      - nginx
+      - openresty
       Status:
       - 200 OK
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '15470'
+      - '894'
       X-Memc-Expires:
-      - '6130'
+      - '20706'
       X-Memc-Key:
       - 6bbcd8124462dcecf4d071a1d41640e0
+      X-Ratelimit-Limit:
+      - '40'
+      X-Ratelimit-Remaining:
+      - '38'
+      X-Ratelimit-Reset:
+      - '1434637688'
       Content-Length:
-      - '159'
+      - '565'
       Connection:
       - keep-alive
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        eyJpZCI6NTUwLCJ0aXRsZXMiOlt7Imlzb18zMTY2XzEiOiJQTCIsInRpdGxl
-        IjoiUG9kemllbW55IGtyxIVnIn0seyJpc29fMzE2Nl8xIjoiVFciLCJ0aXRs
-        ZSI6IumspemZo+S/seaogumDqCJ9LHsiaXNvXzMxNjZfMSI6IkhVIiwidGl0
-        bGUiOiJIYXJjb3NvayBrbHViamEifV19
+        eyJpZCI6NTUwLCJ0aXRsZXMiOlt7Imlzb18zMTY2XzEiOiJUVyIsInRpdGxl
+        Ijoi6ayl6Zmj5L+x5qiC6YOoIn0seyJpc29fMzE2Nl8xIjoiQVIiLCJ0aXRs
+        ZSI6IkVsIGNsdWIgZGUgbGEgcGVsZWEifSx7Imlzb18zMTY2XzEiOiJBWiIs
+        InRpdGxlIjoiRMO2ecO8c2jDp8O8IEtsdWJ1In0seyJpc29fMzE2Nl8xIjoi
+        RUUiLCJ0aXRsZSI6Iktha2x1c2tsdWJpIn0seyJpc29fMzE2Nl8xIjoiSFIi
+        LCJ0aXRsZSI6IktsdWIgYm9yYWNhIn0seyJpc29fMzE2Nl8xIjoiSUwiLCJ0
+        aXRsZSI6Ik1vJ2Fkb24gS3JhdiJ9LHsiaXNvXzMxNjZfMSI6IkxUIiwidGl0
+        bGUiOiJLb3ZvcyBrbHViYXMifSx7Imlzb18zMTY2XzEiOiJNSyIsInRpdGxl
+        IjoiQm9yZWNoa2kgS2x1YiJ9LHsiaXNvXzMxNjZfMSI6IlBUIiwidGl0bGUi
+        OiJDbHViZSBkZSBDb21iYXRlIn0seyJpc29fMzE2Nl8xIjoiUlMiLCJ0aXRs
+        ZSI6IkJvcmlsYcSNa2kga2x1YiJ9LHsiaXNvXzMxNjZfMSI6IlNJIiwidGl0
+        bGUiOiJLbHViIGdvbGloIHBlc3RpIn0seyJpc29fMzE2Nl8xIjoiU0siLCJ0
+        aXRsZSI6IktsdWIgYml0a8Ohcm92In1dfQ==
     http_version: 
-  recorded_at: Wed, 05 Mar 2014 15:37:48 GMT
-recorded_with: VCR 2.8.0
+  recorded_at: Thu, 18 Jun 2015 14:27:58 GMT
+recorded_with: VCR 2.9.3

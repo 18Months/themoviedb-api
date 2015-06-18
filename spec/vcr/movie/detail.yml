@@ -23,11 +23,11 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Wed, 05 Mar 2014 15:32:33 GMT
+      - Thu, 18 Jun 2015 14:27:58 GMT
       Etag:
-      - "\"3db64b3124f774e1afb7e55a42a40159\""
+      - '"1294ab2807053ca0a11a8810661c8a5a"'
       Server:
-      - nginx
+      - openresty
       Status:
       - 200 OK
       Vary:
@@ -35,28 +35,35 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '1008'
+      - '373'
       X-Memc-Expires:
-      - '20592'
+      - '21227'
       X-Memc-Key:
       - f5d8d6d123f674ea3be4bd53fba9acb2
+      X-Ratelimit-Limit:
+      - '40'
+      X-Ratelimit-Remaining:
+      - '39'
+      X-Ratelimit-Reset:
+      - '1434637688'
       Content-Length:
-      - '1202'
+      - '1296'
       Connection:
       - keep-alive
     body:
       encoding: UTF-8
-      string: "{\"adult\":false,\"backdrop_path\":\"/8uO0gUM8aNqYLs1OsTBQiXu0fEv.jpg\",\"belongs_to_collection\":null,\"budget\":63000000,\"genres\":[{\"id\":28,\"name\":\"Action\"},{\"id\":18,\"name\":\"Drama\"},{\"id\":53,\"name\":\"Thriller\"}],\"homepage\":\"\",\"id\":550,\"imdb_id\":\"tt0137523\",\"original_title\":\"Fight
-        Club\",\"overview\":\"A ticking-time-bomb insomniac and a slippery soap salesman
+      string: '{"adult":false,"backdrop_path":"/8uO0gUM8aNqYLs1OsTBQiXu0fEv.jpg","belongs_to_collection":null,"budget":63000000,"genres":[{"id":18,"name":"Drama"}],"homepage":"","id":550,"imdb_id":"tt0137523","original_language":"en","original_title":"Fight
+        Club","overview":"A ticking-time-bomb insomniac and a slippery soap salesman
         channel primal male aggression into a shocking new form of therapy. Their
-        concept catches on, with underground \\\"fight clubs\\\" forming in every
-        town, until an eccentric gets in the way and ignites an out-of-control spiral
-        toward oblivion.\",\"popularity\":6.65830732181331,\"poster_path\":\"/2lECpi35Hnbpa4y46JX0aY3AWTy.jpg\",\"production_companies\":[{\"name\":\"20th
-        Century Fox\",\"id\":25},{\"name\":\"Fox 2000 Pictures\",\"id\":711},{\"name\":\"Regency
-        Enterprises\",\"id\":508}],\"production_countries\":[{\"iso_3166_1\":\"DE\",\"name\":\"Germany\"},{\"iso_3166_1\":\"US\",\"name\":\"United
-        States of America\"}],\"release_date\":\"1999-10-14\",\"revenue\":100853753,\"runtime\":139,\"spoken_languages\":[{\"iso_639_1\":\"en\",\"name\":\"English\"}],\"status\":\"Released\",\"tagline\":\"How
-        much can you know about yourself if you've never been in a fight?\",\"title\":\"Fight
-        Club\",\"vote_average\":7.6,\"vote_count\":2817}"
+        concept catches on, with underground \"fight clubs\" forming in every town,
+        until an eccentric gets in the way and ignites an out-of-control spiral toward
+        oblivion.","popularity":3.146334,"poster_path":"/811DjJTon9gD6hZ8nCjSitaIXFQ.jpg","production_companies":[{"name":"Taurus
+        Film","id":20555},{"name":"Regency Enterprises","id":508},{"name":"Fox 2000
+        Pictures","id":711},{"name":"Linson Films","id":54050},{"name":"Atman Entertainment","id":54051},{"name":"Knickerbocker
+        Films","id":54052}],"production_countries":[{"iso_3166_1":"DE","name":"Germany"},{"iso_3166_1":"US","name":"United
+        States of America"}],"release_date":"1999-10-14","revenue":100853753,"runtime":139,"spoken_languages":[{"iso_639_1":"en","name":"English"}],"status":"Released","tagline":"How
+        much can you know about yourself if you''ve never been in a fight?","title":"Fight
+        Club","video":false,"vote_average":7.8,"vote_count":3526}'
     http_version: 
-  recorded_at: Wed, 05 Mar 2014 15:32:33 GMT
-recorded_with: VCR 2.8.0
+  recorded_at: Thu, 18 Jun 2015 14:27:58 GMT
+recorded_with: VCR 2.9.3
