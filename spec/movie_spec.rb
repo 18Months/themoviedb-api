@@ -81,4 +81,34 @@ describe Tmdb::Movie do
     end
   end
 
+  context '#crew' do
+    let(:crew) do
+      VCR.use_cassette 'movie/crew' do
+        Tmdb::Movie.crew(550)
+      end
+    end
+
+    subject { crew }
+
+    it 'should return an array of Tmdb::Person' do
+      expect(subject).to be_an_instance_of(Array)
+      expect(subject.sample).to be_an_instance_of(Tmdb::Person)
+    end
+  end
+
+  context '#director' do
+    let(:director) do
+      VCR.use_cassette 'movie/director' do
+        Tmdb::Movie.director(550)
+      end
+    end
+
+    subject { director }
+
+    it 'should return an array of Tmdb::Person' do
+      expect(subject).to be_an_instance_of(Array)
+      expect(subject.sample).to be_an_instance_of(Tmdb::Person)
+    end
+  end
+
 end
