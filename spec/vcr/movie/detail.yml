@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.themoviedb.org/3/movie/550?api_key=8a221fc31fcdf12a8af827465574ffc9&language=en
+    uri: http://api.themoviedb.org/3/movie/550?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en
     body:
       encoding: US-ASCII
       string: ''
@@ -23,9 +23,9 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Thu, 18 Jun 2015 14:27:58 GMT
+      - Tue, 23 Jun 2015 15:55:04 GMT
       Etag:
-      - '"1294ab2807053ca0a11a8810661c8a5a"'
+      - '"9c7363152e97a71e5df40d6338d5d45d"'
       Server:
       - openresty
       Status:
@@ -35,9 +35,9 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '373'
+      - '5539'
       X-Memc-Expires:
-      - '21227'
+      - '16061'
       X-Memc-Key:
       - f5d8d6d123f674ea3be4bd53fba9acb2
       X-Ratelimit-Limit:
@@ -45,9 +45,9 @@ http_interactions:
       X-Ratelimit-Remaining:
       - '39'
       X-Ratelimit-Reset:
-      - '1434637688'
+      - '1435074910'
       Content-Length:
-      - '1296'
+      - '1295'
       Connection:
       - keep-alive
     body:
@@ -57,13 +57,13 @@ http_interactions:
         channel primal male aggression into a shocking new form of therapy. Their
         concept catches on, with underground \"fight clubs\" forming in every town,
         until an eccentric gets in the way and ignites an out-of-control spiral toward
-        oblivion.","popularity":3.146334,"poster_path":"/811DjJTon9gD6hZ8nCjSitaIXFQ.jpg","production_companies":[{"name":"Taurus
+        oblivion.","popularity":3.46099,"poster_path":"/811DjJTon9gD6hZ8nCjSitaIXFQ.jpg","production_companies":[{"name":"Taurus
         Film","id":20555},{"name":"Regency Enterprises","id":508},{"name":"Fox 2000
         Pictures","id":711},{"name":"Linson Films","id":54050},{"name":"Atman Entertainment","id":54051},{"name":"Knickerbocker
         Films","id":54052}],"production_countries":[{"iso_3166_1":"DE","name":"Germany"},{"iso_3166_1":"US","name":"United
         States of America"}],"release_date":"1999-10-14","revenue":100853753,"runtime":139,"spoken_languages":[{"iso_639_1":"en","name":"English"}],"status":"Released","tagline":"How
         much can you know about yourself if you''ve never been in a fight?","title":"Fight
-        Club","video":false,"vote_average":7.8,"vote_count":3526}'
+        Club","video":false,"vote_average":7.8,"vote_count":3533}'
     http_version: 
-  recorded_at: Thu, 18 Jun 2015 14:27:58 GMT
+  recorded_at: Tue, 23 Jun 2015 15:55:05 GMT
 recorded_with: VCR 2.9.3

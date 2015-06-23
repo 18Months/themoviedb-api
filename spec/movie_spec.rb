@@ -4,76 +4,81 @@ require 'vcr'
 
 describe Tmdb::Movie do
 
-  before(:each) do
-    Tmdb::Api.key("8a221fc31fcdf12a8af827465574ffc9")
-    Tmdb::Api.language('en')
+  before(:all) do
+    Tmdb::Api.key(TmdbDefaultApiKey)
+    Tmdb::Api.language(TmdbDefaultLanguage)
   end
 
-  context '#detail' do
+  after(:all) do
+    Tmdb::Api.key(nil)
+    Tmdb::Api.language(nil)
+  end
 
-    let(:movie) do
+  subject { Tmdb::Movie }
+
+  it { is_expected.to respond_to(:detail) }
+  it { is_expected.to respond_to(:alternative_titles) }
+  it { is_expected.to respond_to(:cast) }
+  it { is_expected.to respond_to(:crew) }
+  it { is_expected.to respond_to(:director) }
+  it { is_expected.to respond_to(:backdrops) }
+  it { is_expected.to respond_to(:posters) }
+  it { is_expected.to respond_to(:videos) }
+  it { is_expected.to respond_to(:keywords) }
+  it { is_expected.to respond_to(:releases) }
+  it { is_expected.to respond_to(:translations) }
+  it { is_expected.to respond_to(:similar) }
+  it { is_expected.to respond_to(:reviews) }
+  it { is_expected.to respond_to(:lists) }
+  it { is_expected.to respond_to(:changes) }
+  it { is_expected.to respond_to(:latest) }
+  it { is_expected.to respond_to(:upcoming) }
+  it { is_expected.to respond_to(:now_playing) }
+  it { is_expected.to respond_to(:popular) }
+  it { is_expected.to respond_to(:top_rated) }
+
+  context '#detail' do
+    let(:detail) do
       VCR.use_cassette 'movie/detail' do
         Tmdb::Movie.detail(550)
       end
     end
 
-    subject { movie }
+    subject { detail }
 
     it 'should return an Tmdb::Movie object' do
-      movie.should be_an_instance_of(Tmdb::Movie)
+      expect(subject).to be_an_instance_of(Tmdb::Movie)
     end
-
   end
 
   context '#alternative_titles' do
-
-    let(:movie) do
+    let(:alternative_titles) do
       VCR.use_cassette 'movie/alternative_titles' do
         Tmdb::Movie.alternative_titles(550)
       end
     end
 
-    subject { movie }
+    subject { alternative_titles }
 
-    it 'should return an array of Tmdb::Movie object' do
-      movie.should be_an_instance_of(Array)
-      movie.sample.should be_an_instance_of(Tmdb::Movie)
+    it 'should return an array of Tmdb::Movie' do
+      expect(subject).to be_an_instance_of(Array)
+      expect(subject.sample).to be_an_instance_of(Tmdb::Movie)
     end
-
   end
 
-  context '#credits' do
-
-    let(:movie) do
-      VCR.use_cassette 'movie/credits' do
-        Tmdb::Movie.credits(550)
+  context '#cast' do
+    let(:cast) do
+      VCR.use_cassette 'movie/cast' do
+        Tmdb::Movie.cast(550)
       end
     end
 
-    subject { movie }
+    subject { cast }
 
-    it 'should return an array of Tmdb::Movie object' do
-      movie.should be_an_instance_of(Array)
-      movie.sample.should be_an_instance_of(Tmdb::Movie)
+    it 'should return an array of Tmdb::Person' do
+      expect(subject).to be_an_instance_of(Array)
+      expect(subject.sample).to be_an_instance_of(Tmdb::Person)
     end
-
   end
-
-  it { should respond_to(:credits) }
-  it { should respond_to(:images) }
-  it { should respond_to(:keywords) }
-  it { should respond_to(:release) }
-  it { should respond_to(:trailers) }
-  it { should respond_to(:translations) }
-  it { should respond_to(:similar_movies) }
-  it { should respond_to(:reviews) }
-  it { should respond_to(:lists) }
-  it { should respond_to(:changes) }
-
-  it { should respond_to(:latest) }
-  it { should respond_to(:upcoming) }
-  it { should respond_to(:now_playing) }
-  it { should respond_to(:popular) }
-  it { should respond_to(:top_rated) }
 
 end

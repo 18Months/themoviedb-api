@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.themoviedb.org/3/keyword/1721?api_key=8a221fc31fcdf12a8af827465574ffc9&language=en
+    uri: http://api.themoviedb.org/3/keyword/1721?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en
     body:
       encoding: US-ASCII
       string: ''
@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Thu, 18 Jun 2015 14:27:59 GMT
+      - Tue, 23 Jun 2015 15:37:22 GMT
       Etag:
       - '"f40c57f52b981fc9c98420db18778d42"'
       Server:
@@ -31,19 +31,19 @@ http_interactions:
       Status:
       - 200 OK
       X-Memc:
-      - MISS, STORE
+      - HIT
       X-Memc-Age:
-      - '0'
+      - '9471'
       X-Memc-Expires:
-      - '21600'
+      - '12129'
       X-Memc-Key:
       - a9b43f55e00d7d2ca0ccea26b47c9b29
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '36'
+      - '39'
       X-Ratelimit-Reset:
-      - '1434637688'
+      - '1435073852'
       Content-Length:
       - '26'
       Connection:
@@ -52,5 +52,5 @@ http_interactions:
       encoding: UTF-8
       string: '{"id":1721,"name":"fight"}'
     http_version: 
-  recorded_at: Thu, 18 Jun 2015 14:27:59 GMT
+  recorded_at: Tue, 23 Jun 2015 15:37:23 GMT
 recorded_with: VCR 2.9.3

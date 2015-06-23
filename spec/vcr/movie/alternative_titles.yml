@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.themoviedb.org/3/movie/550/alternative_titles?api_key=8a221fc31fcdf12a8af827465574ffc9&language=en
+    uri: http://api.themoviedb.org/3/movie/550/alternative_titles?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en
     body:
       encoding: US-ASCII
       string: ''
@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Thu, 18 Jun 2015 14:27:58 GMT
+      - Tue, 23 Jun 2015 15:55:05 GMT
       Etag:
       - '"7ce7c10672427e937db67c191352e6d0"'
       Server:
@@ -33,9 +33,9 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '894'
+      - '6002'
       X-Memc-Expires:
-      - '20706'
+      - '15598'
       X-Memc-Key:
       - 6bbcd8124462dcecf4d071a1d41640e0
       X-Ratelimit-Limit:
@@ -43,7 +43,7 @@ http_interactions:
       X-Ratelimit-Remaining:
       - '38'
       X-Ratelimit-Reset:
-      - '1434637688'
+      - '1435074914'
       Content-Length:
       - '565'
       Connection:
@@ -65,5 +65,5 @@ http_interactions:
         bGUiOiJLbHViIGdvbGloIHBlc3RpIn0seyJpc29fMzE2Nl8xIjoiU0siLCJ0
         aXRsZSI6IktsdWIgYml0a8Ohcm92In1dfQ==
     http_version: 
-  recorded_at: Thu, 18 Jun 2015 14:27:58 GMT
+  recorded_at: Tue, 23 Jun 2015 15:55:05 GMT
 recorded_with: VCR 2.9.3

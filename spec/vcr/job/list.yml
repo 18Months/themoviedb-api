@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.themoviedb.org/3/job/list?api_key=8a221fc31fcdf12a8af827465574ffc9&language=en
+    uri: http://api.themoviedb.org/3/job/list?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en
     body:
       encoding: US-ASCII
       string: ''
@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Thu, 18 Jun 2015 14:27:58 GMT
+      - Tue, 23 Jun 2015 15:31:58 GMT
       Etag:
       - '"4f7a9a86b8fff05b27bb532b5fa03711"'
       Server:
@@ -35,9 +35,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '37'
+      - '39'
       X-Ratelimit-Reset:
-      - '1434637688'
+      - '1435073528'
       Content-Length:
       - '6914'
       Connection:
@@ -124,5 +124,5 @@ http_interactions:
         Coordinator","Lighting Production Assistant","Best Boy Electrician","Electrician","Rigging
         Grip","Other"]}]}'
     http_version: 
-  recorded_at: Thu, 18 Jun 2015 14:27:59 GMT
+  recorded_at: Tue, 23 Jun 2015 15:31:59 GMT
 recorded_with: VCR 2.9.3

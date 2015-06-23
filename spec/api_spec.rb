@@ -2,6 +2,12 @@ require 'rspec'
 require 'spec_helper'
 
 describe Tmdb::Api do
+
+  after(:all) do
+    Tmdb::Api.key(nil)
+    Tmdb::Api.language(nil)
+  end
+
   let!(:api) do
     Tmdb::Api.key(nil)
     Tmdb::Api.language(nil)
@@ -9,36 +15,30 @@ describe Tmdb::Api do
     Tmdb::Api
   end
 
-  after(:suite) {
-    api.key(nil)
-    api.language(nil)
-  }
+  it { expect(Tmdb::Api).to respond_to(:params) }
+  it { expect(Tmdb::Api).to respond_to(:key) }
+  it { expect(Tmdb::Api).to respond_to(:language) }
 
   subject { api }
 
-  context '#config' do
-    it 'param should be an Hash' do
-      expect(:params).to be_an_instance_of(Hash)
-    end
+  it 'param should be an Hash' do
+    expect(subject.params).to be_an_instance_of(Hash)
   end
 
-  context '#key' do
-    it 'should set the API Key' do
-      expect {
-        Tmdb::Api.key("8a221fc31fcdf12a8af827465574ffc9")
-      }.to change {
-        Tmdb::Api.params[:api_key]
-      }.from(nil).to("8a221fc31fcdf12a8af827465574ffc9")
-    end
+  it 'should set the API Key' do
+    expect {
+      subject.key(TmdbDefaultApiKey)
+    }.to change {
+      subject.params[:api_key]
+    }.from(nil).to(TmdbDefaultApiKey)
   end
 
-  context '#language' do
-    it 'should set the correct language' do
-      expect {
-        Tmdb::Api.language('it')
-      }.to change {
-        Tmdb::Api.params[:language]
-      }.from(nil).to('it')
-    end
+  it 'should set the correct language' do
+    expect {
+      subject.language(TmdbDefaultLanguage)
+    }.to change {
+      subject.params[:language]
+    }.from(nil).to(TmdbDefaultLanguage)
   end
+
 end
