@@ -16,12 +16,9 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.3.8)
     awesome_print (1.6.1)
-    codeclimate-test-reporter (0.4.7)
-      simplecov (>= 0.7.1, < 1.0.0)
     crack (0.4.2)
       safe_yaml (~> 1.0.0)
     diff-lcs (1.2.5)
-    docile (1.1.5)
     httparty (0.13.5)
       json (~> 1.8)
       multi_xml (>= 0.5.2)
@@ -44,11 +41,6 @@ GEM
       rspec-support (~> 3.3.0)
     rspec-support (3.3.0)
     safe_yaml (1.0.4)
-    simplecov (0.10.0)
-      docile (~> 1.1.0)
-      json (~> 1.8)
-      simplecov-html (~> 0.10.0)
-    simplecov-html (0.10.0)
     thread_safe (0.3.5)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
@@ -62,7 +54,6 @@ PLATFORMS
 
 DEPENDENCIES
   awesome_print (~> 1.6.1)
-  codeclimate-test-reporter (~> 0.4.7)
   rake (~> 10.4.2)
   rspec (~> 3.3.0)
   tmdb!
