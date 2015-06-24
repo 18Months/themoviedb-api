@@ -6,8 +6,12 @@
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 
 require_relative '../lib/tmdb.rb'
+
 require 'webmock/rspec'
 require 'vcr'
+require 'codeclimate-test-reporter'
+
+CodeClimate::TestReporter.start
 
 VCR.configure do |c|
   #the directory where your cassettes will be saved
