@@ -1,0 +1,57 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.themoviedb.org/3/movie/550/keywords?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=21600
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Wed, 24 Jun 2015 15:58:56 GMT
+      Etag:
+      - '"3a309f8b9ba7d44eafecbe94bdc6ecea"'
+      Server:
+      - openresty
+      Status:
+      - 200 OK
+      X-Memc:
+      - HIT
+      X-Memc-Age:
+      - '18549'
+      X-Memc-Expires:
+      - '3051'
+      X-Memc-Key:
+      - e900f4044ce333cdc35ce7c732c0cd40
+      X-Ratelimit-Limit:
+      - '40'
+      X-Ratelimit-Remaining:
+      - '36'
+      X-Ratelimit-Reset:
+      - '1435161546'
+      Content-Length:
+      - '186'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"id":550,"keywords":[{"id":825,"name":"support group"},{"id":851,"name":"dual
+        identity"},{"id":1541,"name":"nihilism"},{"id":3927,"name":"rage and hate"},{"id":4142,"name":"insomnia"}]}'
+    http_version: 
+  recorded_at: Wed, 24 Jun 2015 15:59:00 GMT
+recorded_with: VCR 2.9.3

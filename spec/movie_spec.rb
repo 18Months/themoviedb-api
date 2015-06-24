@@ -111,4 +111,231 @@ describe Tmdb::Movie do
     end
   end
 
+  context '#backdrops' do
+    let(:backdrops) do
+      VCR.use_cassette 'movie/backdrops' do
+        Tmdb::Movie.backdrops(550)
+      end
+    end
+
+    subject { backdrops }
+
+    it 'should return an array of Tmdb::Backdrop' do
+      expect(subject).to be_an_instance_of(Array)
+      expect(subject.sample).to be_an_instance_of(Tmdb::Backdrop)
+    end
+  end
+
+  context '#posters' do
+    let(:posters) do
+      VCR.use_cassette 'movie/posters' do
+        Tmdb::Movie.posters(550)
+      end
+    end
+
+    subject { posters }
+
+    it 'should return an array of Tmdb::Poster' do
+      expect(subject).to be_an_instance_of(Array)
+      expect(subject.sample).to be_an_instance_of(Tmdb::Poster)
+    end
+  end
+
+  context '#videos' do
+    let(:videos) do
+      VCR.use_cassette 'movie/videos' do
+        Tmdb::Movie.videos(550)
+      end
+    end
+
+    subject { videos }
+
+    it 'should return an array of Tmdb::Video' do
+      expect(subject).to be_an_instance_of(Array)
+      expect(subject.sample).to be_an_instance_of(Tmdb::Video)
+    end
+  end
+
+  context '#keywords' do
+    let(:keywords) do
+      VCR.use_cassette 'movie/keywords' do
+        Tmdb::Movie.keywords(550)
+      end
+    end
+
+    subject { keywords }
+
+    it 'should return an array of Tmdb::Keyword' do
+      expect(subject).to be_an_instance_of(Array)
+      expect(subject.sample).to be_an_instance_of(Tmdb::Keyword)
+    end
+  end
+
+  context '#releases' do
+    let(:releases) do
+      VCR.use_cassette 'movie/releases' do
+        Tmdb::Movie.releases(550)
+      end
+    end
+
+    subject { releases }
+
+    it 'should return an array of Tmdb::Release' do
+      expect(subject).to be_an_instance_of(Array)
+      expect(subject.sample).to be_an_instance_of(Tmdb::Release)
+    end
+  end
+
+  context '#translations' do
+    let(:translations) do
+      VCR.use_cassette 'movie/translations' do
+        Tmdb::Movie.translations(550)
+      end
+    end
+
+    subject { translations }
+
+    it 'should return an array of Tmdb::Translation' do
+      expect(subject).to be_an_instance_of(Array)
+      expect(subject.sample).to be_an_instance_of(Tmdb::Translation)
+    end
+  end
+
+  context '#similar' do
+    let(:similar) do
+      VCR.use_cassette 'movie/similar' do
+        Tmdb::Movie.similar(550)
+      end
+    end
+
+    subject { similar }
+
+    it { expect(subject).to be_an_instance_of(Tmdb::Movie) }
+
+    it 'should have results of kind Tmdb::Movie' do
+      expect(subject.results.sample).to be_an_instance_of(Tmdb::Movie)
+    end
+  end
+
+  context '#reviews' do
+    let(:reviews) do
+      VCR.use_cassette 'movie/reviews' do
+        Tmdb::Movie.reviews(550)
+      end
+    end
+
+    subject { reviews }
+
+    it { expect(subject).to be_an_instance_of(Tmdb::Review) }
+  end
+
+  context '#lists' do
+    let(:lists) do
+      VCR.use_cassette 'movie/lists' do
+        Tmdb::Movie.lists(550)
+      end
+    end
+
+    subject { lists }
+
+    it { expect(subject).to be_an_instance_of(Tmdb::List) }
+
+    it 'should have results of kind Tmdb::List' do
+      expect(subject.results.sample).to be_an_instance_of(Tmdb::List)
+    end
+  end
+
+  context '#changes' do
+    let(:changes) do
+      VCR.use_cassette 'movie/changes' do
+        Tmdb::Movie.changes(550)
+      end
+    end
+
+    subject { changes }
+
+    it 'should return an array of Tmdb::Changes' do
+      expect(subject).to be_an_instance_of(Array)
+      expect(subject.first.items.sample).to be_an_instance_of(Tmdb::Changes)
+    end
+  end
+
+  context '#latest' do
+    let(:latest) do
+      VCR.use_cassette 'movie/latest' do
+        Tmdb::Movie.latest
+      end
+    end
+
+    subject { latest }
+
+    it 'should return an Tmdb::Movie object' do
+      expect(subject).to be_an_instance_of(Tmdb::Movie)
+    end
+  end
+
+  context '#upcoming' do
+    let(:upcoming) do
+      VCR.use_cassette 'movie/upcoming' do
+        Tmdb::Movie.upcoming
+      end
+    end
+
+    subject { upcoming }
+
+    it { expect(subject).to be_an_instance_of(Tmdb::Movie) }
+
+    it 'should have results of kind Tmdb::Movie' do
+      expect(subject.results.sample).to be_an_instance_of(Tmdb::Movie)
+    end
+  end
+
+  context '#now_playing' do
+    let(:now_playing) do
+      VCR.use_cassette 'movie/now_playing' do
+        Tmdb::Movie.now_playing
+      end
+    end
+
+    subject { now_playing }
+
+    it { expect(subject).to be_an_instance_of(Tmdb::Movie) }
+
+    it 'should have results of kind Tmdb::Movie' do
+      expect(subject.results.sample).to be_an_instance_of(Tmdb::Movie)
+    end
+  end
+
+  context '#popular' do
+    let(:popular) do
+      VCR.use_cassette 'movie/popular' do
+        Tmdb::Movie.popular
+      end
+    end
+
+    subject { popular }
+
+    it { expect(subject).to be_an_instance_of(Tmdb::Movie) }
+
+    it 'should have results of kind Tmdb::Movie' do
+      expect(subject.results.sample).to be_an_instance_of(Tmdb::Movie)
+    end
+  end
+
+  context '#top_rated' do
+    let(:top_rated) do
+      VCR.use_cassette 'movie/top_rated' do
+        Tmdb::Movie.top_rated
+      end
+    end
+
+    subject { top_rated }
+
+    it { expect(subject).to be_an_instance_of(Tmdb::Movie) }
+
+    it 'should have results of kind Tmdb::Movie' do
+      expect(subject.results.sample).to be_an_instance_of(Tmdb::Movie)
+    end
+  end
+
 end

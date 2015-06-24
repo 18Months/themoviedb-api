@@ -1,0 +1,96 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.themoviedb.org/3/movie/550/translations?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=21600
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Wed, 24 Jun 2015 15:58:57 GMT
+      Etag:
+      - '"7ab6584166aa5f4a80f97ea80ab13197"'
+      Server:
+      - openresty
+      Status:
+      - 200 OK
+      Vary:
+      - Accept-Encoding
+      X-Memc:
+      - HIT
+      X-Memc-Age:
+      - '17427'
+      X-Memc-Expires:
+      - '4173'
+      X-Memc-Key:
+      - 2883ba6d23d012fe56a79646a748bba2
+      X-Ratelimit-Limit:
+      - '40'
+      X-Ratelimit-Remaining:
+      - '34'
+      X-Ratelimit-Reset:
+      - '1435161546'
+      Content-Length:
+      - '1698'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpZCI6NTUwLCJ0cmFuc2xhdGlvbnMiOlt7Imlzb182MzlfMSI6ImVuIiwi
+        bmFtZSI6IkVuZ2xpc2giLCJlbmdsaXNoX25hbWUiOiJFbmdsaXNoIn0seyJp
+        c29fNjM5XzEiOiJlcyIsIm5hbWUiOiJFc3Bhw7FvbCIsImVuZ2xpc2hfbmFt
+        ZSI6IlNwYW5pc2gifSx7Imlzb182MzlfMSI6InVrIiwibmFtZSI6ItCj0LrR
+        gNCw0ZfQvdGB0YzQutC40LkiLCJlbmdsaXNoX25hbWUiOiJVa3JhaW5pYW4i
+        fSx7Imlzb182MzlfMSI6ImRlIiwibmFtZSI6IkRldXRzY2giLCJlbmdsaXNo
+        X25hbWUiOiJHZXJtYW4ifSx7Imlzb182MzlfMSI6InB0IiwibmFtZSI6IlBv
+        cnR1Z3XDqnMiLCJlbmdsaXNoX25hbWUiOiJQb3J0dWd1ZXNlIn0seyJpc29f
+        NjM5XzEiOiJmciIsIm5hbWUiOiJGcmFuw6dhaXMiLCJlbmdsaXNoX25hbWUi
+        OiJGcmVuY2gifSx7Imlzb182MzlfMSI6Im5sIiwibmFtZSI6Ik5lZGVybGFu
+        ZHMiLCJlbmdsaXNoX25hbWUiOiJEdXRjaCJ9LHsiaXNvXzYzOV8xIjoiaHUi
+        LCJuYW1lIjoiTWFneWFyIiwiZW5nbGlzaF9uYW1lIjoiSHVuZ2FyaWFuIn0s
+        eyJpc29fNjM5XzEiOiJydSIsIm5hbWUiOiJQ0YPRgdGB0LrQuNC5IiwiZW5n
+        bGlzaF9uYW1lIjoiUnVzc2lhbiJ9LHsiaXNvXzYzOV8xIjoiaXQiLCJuYW1l
+        IjoiSXRhbGlhbm8iLCJlbmdsaXNoX25hbWUiOiJJdGFsaWFuIn0seyJpc29f
+        NjM5XzEiOiJ0ciIsIm5hbWUiOiJUw7xya8OnZSIsImVuZ2xpc2hfbmFtZSI6
+        IlR1cmtpc2gifSx7Imlzb182MzlfMSI6InpoIiwibmFtZSI6IuS4reWbvSIs
+        ImVuZ2xpc2hfbmFtZSI6Ik1hbmRhcmluIn0seyJpc29fNjM5XzEiOiJkYSIs
+        Im5hbWUiOiJEYW5zayIsImVuZ2xpc2hfbmFtZSI6IkRhbmlzaCJ9LHsiaXNv
+        XzYzOV8xIjoic3YiLCJuYW1lIjoic3ZlbnNrYSIsImVuZ2xpc2hfbmFtZSI6
+        IlN3ZWRpc2gifSx7Imlzb182MzlfMSI6InBsIiwibmFtZSI6IlBvbHNraSIs
+        ImVuZ2xpc2hfbmFtZSI6IlBvbGlzaCJ9LHsiaXNvXzYzOV8xIjoiY3MiLCJu
+        YW1lIjoixIxlc2vDvSIsImVuZ2xpc2hfbmFtZSI6IkN6ZWNoIn0seyJpc29f
+        NjM5XzEiOiJmaSIsIm5hbWUiOiJzdW9taSIsImVuZ2xpc2hfbmFtZSI6IkZp
+        bm5pc2gifSx7Imlzb182MzlfMSI6ImhlIiwibmFtZSI6Itei1rTXkdaw16jW
+        tNeZ16oiLCJlbmdsaXNoX25hbWUiOiJIZWJyZXcifSx7Imlzb182MzlfMSI6
+        ImFyIiwibmFtZSI6Itin2YTYudix2KjZitipIiwiZW5nbGlzaF9uYW1lIjoi
+        QXJhYmljIn0seyJpc29fNjM5XzEiOiJzciIsIm5hbWUiOiJTcnBza2kiLCJl
+        bmdsaXNoX25hbWUiOiJTZXJiaWFuIn0seyJpc29fNjM5XzEiOiJqYSIsIm5h
+        bWUiOiLml6XmnKzoqp4iLCJlbmdsaXNoX25hbWUiOiJKYXBhbmVzZSJ9LHsi
+        aXNvXzYzOV8xIjoiZWwiLCJuYW1lIjoizrXOu867zrfOvc65zrrOrCIsImVu
+        Z2xpc2hfbmFtZSI6IkdyZWVrIn0seyJpc29fNjM5XzEiOiJiZyIsIm5hbWUi
+        OiLQsdGK0LvQs9Cw0YDRgdC60Lgg0LXQt9C40LoiLCJlbmdsaXNoX25hbWUi
+        OiJCdWxnYXJpYW4ifSx7Imlzb182MzlfMSI6ImtvIiwibmFtZSI6Iu2VnOq1
+        reyWtC/sobDshKDrp5AiLCJlbmdsaXNoX25hbWUiOiJLb3JlYW4ifSx7Imlz
+        b182MzlfMSI6Imx2IiwibmFtZSI6IkxhdHZpZcWhdSIsImVuZ2xpc2hfbmFt
+        ZSI6IkxhdHZpYW4ifSx7Imlzb182MzlfMSI6InJvIiwibmFtZSI6IlJvbcOi
+        bsSDIiwiZW5nbGlzaF9uYW1lIjoiUm9tYW5pYW4ifV19
+    http_version: 
+  recorded_at: Wed, 24 Jun 2015 15:59:01 GMT
+recorded_with: VCR 2.9.3
