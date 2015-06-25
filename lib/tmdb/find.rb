@@ -13,7 +13,9 @@ module Tmdb
       result = Resource.new("/find/#{id}", filters).get
 
       result['person_results'].map do |entry|
-        Person.new(entry)
+        person = Person.new(entry)
+        person.convert_known_for!
+        person
       end
     end
 

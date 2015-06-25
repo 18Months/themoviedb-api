@@ -44,9 +44,7 @@ module Tmdb
     def self.popular(filters={})
       result = Resource.new('/person/popular', filters).get
       person = self.new(result)
-
-      person.convert_known_for!
-
+      person.convert_known_for_multiple!
       person
     end
 
@@ -56,6 +54,12 @@ module Tmdb
     end
 
     def convert_known_for!
+      known_for.map! do |multi|
+        known_person_reference(multi)
+      end
+    end
+
+    def convert_known_for_multiple!
       results.each do |result|
         result.known_for.map! do |multi|
           known_person_reference(multi)
