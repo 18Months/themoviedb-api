@@ -256,7 +256,7 @@ describe Tmdb::Movie do
 
     it 'should return an array of Tmdb::Changes' do
       expect(subject).to be_an_instance_of(Array)
-      expect(subject.first.items.sample).to be_an_instance_of(Tmdb::Changes)
+      expect(subject.first.items.sample).to be_an_instance_of(Tmdb::Change)
     end
   end
 

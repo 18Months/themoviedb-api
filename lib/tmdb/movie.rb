@@ -106,7 +106,7 @@ module Tmdb
       result = Resource.new("/movie/#{id}/changes", filters).get
 
       result['changes'].map do |entry|
-        Changes.new(entry)
+        Change.new(entry)
       end
     end
 
