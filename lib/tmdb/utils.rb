@@ -19,7 +19,7 @@ module Tmdb
           return true
         when is_update_successful?
           return false
-        default
+        else
           return true
         end
       end
