@@ -1,3 +1,3 @@
 module Tmdb
-  VERSION = '0.2.0beta'
+  VERSION = '0.5.0'
 end
