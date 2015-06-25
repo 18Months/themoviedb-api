@@ -12,7 +12,12 @@ module Tmdb
 
     def get
       options = Api.params.merge(@params)
-      response = Api.get(@query_url, query: options)
+
+      begin
+        response = Api.get(@query_url, query: options)
+      rescue Net::HTTP::Exception
+        raise Tmdb::Error, 'Network Exception: TMDB API endpoint is not reachable.'
+      end
 
       if has_errors?(response)
         raise Tmdb::Error, response['status_message']
