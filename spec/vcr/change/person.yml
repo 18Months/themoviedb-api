@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.themoviedb.org/3/person/changes?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=600
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Thu, 25 Jun 2015 08:49:09 GMT
+      Etag:
+      - '"5d45365b02253cf59caacb1f0137866b"'
+      Server:
+      - openresty
+      Status:
+      - 200 OK
+      Vary:
+      - Accept-Encoding
+      X-Memc:
+      - HIT
+      X-Memc-Age:
+      - '225'
+      X-Memc-Expires:
+      - '375'
+      X-Memc-Key:
+      - f4b79b9ed88a9ba3326b1899a217b7ba
+      X-Ratelimit-Limit:
+      - '40'
+      X-Ratelimit-Remaining:
+      - '38'
+      X-Ratelimit-Reset:
+      - '1435222159'
+      Content-Length:
+      - '2902'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"results":[{"id":1480944,"adult":false},{"id":1480945,"adult":false},{"id":1480946,"adult":false},{"id":1480947,"adult":false},{"id":1480948,"adult":false},{"id":1480949,"adult":false},{"id":1480950,"adult":false},{"id":1480951,"adult":false},{"id":1480952,"adult":false},{"id":1480953,"adult":false},{"id":1480954,"adult":false},{"id":1480955,"adult":false},{"id":1480956,"adult":false},{"id":1480957,"adult":false},{"id":1435966,"adult":false},{"id":87948,"adult":false},{"id":1480958,"adult":false},{"id":1323879,"adult":false},{"id":1480959,"adult":false},{"id":1480960,"adult":false},{"id":1480961,"adult":false},{"id":1480962,"adult":false},{"id":88929,"adult":false},{"id":1480963,"adult":false},{"id":1480964,"adult":false},{"id":1260868,"adult":false},{"id":1480965,"adult":false},{"id":1480966,"adult":false},{"id":1480967,"adult":false},{"id":1480968,"adult":false},{"id":1480969,"adult":false},{"id":1480970,"adult":false},{"id":1480971,"adult":false},{"id":1480972,"adult":false},{"id":1480973,"adult":false},{"id":1480974,"adult":false},{"id":1296083,"adult":null},{"id":1278017,"adult":null},{"id":35040,"adult":false},{"id":1225394,"adult":false},{"id":2157,"adult":false},{"id":48245,"adult":true},{"id":1480975,"adult":false},{"id":1480976,"adult":false},{"id":1480977,"adult":false},{"id":51579,"adult":false},{"id":141778,"adult":false},{"id":4515,"adult":false},{"id":87579,"adult":false},{"id":1238515,"adult":false},{"id":168986,"adult":false},{"id":51930,"adult":false},{"id":77740,"adult":false},{"id":9811,"adult":false},{"id":34,"adult":false},{"id":70696,"adult":false},{"id":92617,"adult":false},{"id":1480978,"adult":false},{"id":109679,"adult":false},{"id":1480979,"adult":false},{"id":1480980,"adult":false},{"id":80190,"adult":false},{"id":1480981,"adult":false},{"id":72855,"adult":false},{"id":10990,"adult":false},{"id":190895,"adult":false},{"id":1480982,"adult":false},{"id":1480983,"adult":false},{"id":36592,"adult":false},{"id":1480984,"adult":false},{"id":1480985,"adult":false},{"id":25541,"adult":false},{"id":1243831,"adult":false},{"id":1243966,"adult":false},{"id":1480986,"adult":false},{"id":1480987,"adult":false},{"id":1480988,"adult":false},{"id":1480989,"adult":false},{"id":1480990,"adult":false},{"id":1480991,"adult":false},{"id":1480992,"adult":false},{"id":1480993,"adult":false},{"id":1480994,"adult":false},{"id":1480995,"adult":false},{"id":1156197,"adult":false},{"id":1480996,"adult":false},{"id":1480997,"adult":false},{"id":1480998,"adult":false},{"id":1480999,"adult":false},{"id":1481000,"adult":false},{"id":1481001,"adult":false},{"id":152698,"adult":null},{"id":151568,"adult":null},{"id":1481002,"adult":false},{"id":1481003,"adult":false},{"id":1481004,"adult":false},{"id":1481005,"adult":false},{"id":1481006,"adult":false},{"id":1481007,"adult":false},{"id":1248237,"adult":null}],"page":1,"total_pages":5,"total_results":410}'
+    http_version: 
+  recorded_at: Thu, 25 Jun 2015 08:49:15 GMT
+recorded_with: VCR 2.9.3

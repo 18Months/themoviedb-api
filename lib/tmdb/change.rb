@@ -1,5 +1,5 @@
 module Tmdb
-  class Changes < Struct
+  class Change < Struct
 
     def self.movie(filters={})
       result = Resource.new("/movie/changes", filters).get

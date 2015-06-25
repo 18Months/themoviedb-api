@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.themoviedb.org/3/tv/changes?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=600
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Thu, 25 Jun 2015 08:49:09 GMT
+      Etag:
+      - '"0de89dc9915dcfe72182e68350ce8f44"'
+      Server:
+      - openresty
+      Status:
+      - 200 OK
+      Vary:
+      - Accept-Encoding
+      X-Memc:
+      - HIT
+      X-Memc-Age:
+      - '39'
+      X-Memc-Expires:
+      - '561'
+      X-Memc-Key:
+      - b7d84c11a355df739c7bbf385d2423b2
+      X-Ratelimit-Limit:
+      - '40'
+      X-Ratelimit-Remaining:
+      - '37'
+      X-Ratelimit-Reset:
+      - '1435222159'
+      Content-Length:
+      - '2736'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"results":[{"id":246,"adult":false},{"id":47144,"adult":false},{"id":15819,"adult":false},{"id":58823,"adult":false},{"id":63010,"adult":false},{"id":62558,"adult":false},{"id":62790,"adult":false},{"id":61054,"adult":false},{"id":63011,"adult":false},{"id":61059,"adult":false},{"id":41117,"adult":false},{"id":42666,"adult":false},{"id":7173,"adult":false},{"id":42914,"adult":false},{"id":63012,"adult":false},{"id":63013,"adult":false},{"id":62933,"adult":false},{"id":41116,"adult":false},{"id":63006,"adult":false},{"id":63001,"adult":false},{"id":62999,"adult":false},{"id":61789,"adult":false},{"id":60918,"adult":false},{"id":494,"adult":false},{"id":62863,"adult":false},{"id":1418,"adult":false},{"id":43642,"adult":false},{"id":4551,"adult":false},{"id":4884,"adult":false},{"id":51388,"adult":false},{"id":21567,"adult":false},{"id":61611,"adult":false},{"id":62925,"adult":false},{"id":60748,"adult":false},{"id":46952,"adult":false},{"id":63014,"adult":false},{"id":1399,"adult":false},{"id":59674,"adult":false},{"id":63015,"adult":false},{"id":61559,"adult":false},{"id":2543,"adult":false},{"id":8297,"adult":false},{"id":33234,"adult":false},{"id":39278,"adult":false},{"id":1706,"adult":false},{"id":31319,"adult":false},{"id":894,"adult":false},{"id":30948,"adult":false},{"id":47117,"adult":null},{"id":62511,"adult":false},{"id":265,"adult":false},{"id":63016,"adult":false},{"id":45950,"adult":false},{"id":40008,"adult":false},{"id":62469,"adult":false},{"id":62806,"adult":false},{"id":38420,"adult":false},{"id":61944,"adult":false},{"id":60766,"adult":false},{"id":62266,"adult":false},{"id":57320,"adult":false},{"id":46547,"adult":false},{"id":63017,"adult":false},{"id":10222,"adult":false},{"id":45383,"adult":false},{"id":31917,"adult":false},{"id":57273,"adult":false},{"id":62142,"adult":false},{"id":50720,"adult":false},{"id":2933,"adult":false},{"id":39336,"adult":false},{"id":42332,"adult":false},{"id":62137,"adult":false},{"id":58774,"adult":false},{"id":61699,"adult":false},{"id":43945,"adult":false},{"id":13998,"adult":false},{"id":38112,"adult":false},{"id":160,"adult":false},{"id":60831,"adult":false},{"id":63018,"adult":false},{"id":63019,"adult":false},{"id":47600,"adult":false},{"id":1412,"adult":false},{"id":63020,"adult":false},{"id":62990,"adult":false},{"id":18165,"adult":false},{"id":48865,"adult":false},{"id":46896,"adult":false},{"id":60866,"adult":false},{"id":54671,"adult":false},{"id":3034,"adult":false},{"id":40655,"adult":false},{"id":61917,"adult":false},{"id":61725,"adult":false},{"id":61387,"adult":false},{"id":61378,"adult":false},{"id":58111,"adult":false},{"id":50628,"adult":false},{"id":50719,"adult":false}],"page":1,"total_pages":3,"total_results":235}'
+    http_version: 
+  recorded_at: Thu, 25 Jun 2015 08:49:15 GMT
+recorded_with: VCR 2.9.3
