@@ -1,0 +1,73 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.themoviedb.org/3/collection/10?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=21600
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Thu, 25 Jun 2015 15:31:40 GMT
+      Etag:
+      - '"a918b950a6b65ba21460815e6214f5f5"'
+      Server:
+      - openresty
+      Status:
+      - 200 OK
+      Vary:
+      - Accept-Encoding
+      X-Memc:
+      - HIT
+      X-Memc-Age:
+      - '8377'
+      X-Memc-Expires:
+      - '13223'
+      X-Memc-Key:
+      - 6a2530654484370b802b3c08fffc83ac
+      X-Ratelimit-Limit:
+      - '40'
+      X-Ratelimit-Remaining:
+      - '39'
+      X-Ratelimit-Reset:
+      - '1435246310'
+      Content-Length:
+      - '2277'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"id":10,"name":"Star Wars Collection","overview":"An epic space opera
+        theatrical film series created by George Lucas.\r The first film in the franchise
+        was originally released on May 25, 1977, by 20th Century Fox, and became a
+        worldwide pop culture  phenomenon, followed by two sequels, released at three-year
+        intervals. Sixteen years after the release of the trilogy''s final film, the
+        first in a new prequel trilogy of films was released, again released at three-year
+        intervals, with the final film released on May 19, 2005.","poster_path":"/ghd5zOQnDaDW1mxO7R5fXXpZMu.jpg","backdrop_path":"/d8duYyyC9J5T825Hg7grmaabfxQ.jpg","parts":[{"title":"Star
+        Wars: Episode IV - A New Hope","id":11,"release_date":"1977-05-25","poster_path":"/tvSlBzAdRE29bZe5yYWrJ2ds137.jpg","backdrop_path":"/4iJfYYoQzZcONB9hNzg0J0wWyPH.jpg"},{"title":"Star
+        Wars: Episode V - The Empire Strikes Back","id":1891,"release_date":"1980-05-17","poster_path":"/6u1fYtxG5eqjhtCPDx04pJphQRW.jpg","backdrop_path":"/AkE7LQs2hPMG5tpWYcum847Knre.jpg"},{"title":"Star
+        Wars: Episode VI - Return of the Jedi","id":1892,"release_date":"1983-05-25","poster_path":"/jx5p0aHlbPXqe3AH9G15NvmWaqQ.jpg","backdrop_path":"/bvJOpyHYWACDusvQvXxKEHFNjce.jpg"},{"title":"Star
+        Wars: Episode I - The Phantom Menace","id":1893,"release_date":"1999-05-19","poster_path":"/n8V09dDc02KsSN6Q4hC2BX6hN8X.jpg","backdrop_path":"/wdp4unWJWY9hGKN1tM56HeSt6PZ.jpg"},{"title":"Star
+        Wars: Episode II - Attack of the Clones","id":1894,"release_date":"2002-05-16","poster_path":"/2vcNFtrZXNwIcBgH5e2xXCmVR8t.jpg","backdrop_path":"/560F7BPaxRy8BsOfVU6cW4ivM46.jpg"},{"title":"Star
+        Wars: Episode III - Revenge of the Sith","id":1895,"release_date":"2005-05-19","poster_path":"/tgr5Pdy7ehZYBqBkN2K7Q02xgOb.jpg","backdrop_path":"/wUYTfFbfPiZC6Lcyt1nonr69ZmK.jpg"},{"title":"Star
+        Wars: Episode VII - The Force Awakens","id":140607,"release_date":"2015-12-18","poster_path":"/lPMLNr8IEvwRMy36sPd5Zw6dk6D.jpg","backdrop_path":"/uQxBc98oL0I68ywFJokkGQ8Ih8d.jpg"},{"title":"Star
+        Wars: Episode VIII","id":181808,"release_date":"2017-05-26","poster_path":"/h8nOhMGqErN5IGeE1RYZTBKZu0n.jpg","backdrop_path":null},{"title":"Star
+        Wars: Episode IX","id":181812,"release_date":"2019-12-31","poster_path":"/h8nOhMGqErN5IGeE1RYZTBKZu0n.jpg","backdrop_path":null}]}'
+    http_version: 
+  recorded_at: Thu, 25 Jun 2015 15:31:40 GMT
+recorded_with: VCR 2.9.3
