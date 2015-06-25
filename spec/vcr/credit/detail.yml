@@ -1,0 +1,61 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.themoviedb.org/3/credit/525333fb19c295794002c720?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=21600
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Thu, 25 Jun 2015 16:33:26 GMT
+      Etag:
+      - '"91e6fb4cf5dbe0feb7980360f50dd481"'
+      Server:
+      - openresty
+      Status:
+      - 200 OK
+      X-Memc:
+      - HIT
+      X-Memc-Age:
+      - '747'
+      X-Memc-Expires:
+      - '20853'
+      X-Memc-Key:
+      - 2c179f100ab60972426f560557aa0533
+      X-Ratelimit-Limit:
+      - '40'
+      X-Ratelimit-Remaining:
+      - '39'
+      X-Ratelimit-Reset:
+      - '1435250016'
+      Content-Length:
+      - '685'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"credit_type":"cast","department":"Actors","job":"Actor","media":{"id":54,"name":"Growing
+        Pains","original_name":"Growing Pains","character":"","episodes":[{"air_date":"1989-02-08","episode_number":14,"name":"Feet
+        of Clay","overview":"Maggie arranges for Ben to meet his favorite rock musician.","season_number":4,"still_path":null},{"air_date":"1987-11-10","episode_number":9,"name":"Who''s
+        Zoomin'' Who?","overview":"Bobby''s annoying habits make Carol look elsewhere
+        for the man of her dreams -- just in time for her to notice a new student.","season_number":3,"still_path":null}],"seasons":[]},"media_type":"tv","id":"525333fb19c295794002c720","person":{"name":"Brad
+        Pitt","id":287}}'
+    http_version: 
+  recorded_at: Thu, 25 Jun 2015 16:33:27 GMT
+recorded_with: VCR 2.9.3
