@@ -1,0 +1,69 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.themoviedb.org/3/tv/season/59905/changes?api_key=c29379565234e20d7cbf4f2e835c3e41&end_date=2015-05-26&language=en&start_date=2015-05-23
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=300
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 26 Jun 2015 14:13:01 GMT
+      Etag:
+      - '"1f59c54f399891dd600b4c7bf8b8bd1c"'
+      Server:
+      - openresty
+      Status:
+      - 200 OK
+      Vary:
+      - Accept-Encoding
+      X-Memc:
+      - HIT
+      X-Memc-Age:
+      - '273'
+      X-Memc-Expires:
+      - '27'
+      X-Memc-Key:
+      - c88b97646076626501fbeddfb56a3e4a
+      X-Ratelimit-Limit:
+      - '40'
+      X-Ratelimit-Remaining:
+      - '38'
+      X-Ratelimit-Reset:
+      - '1435327991'
+      Content-Length:
+      - '1563'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"changes":[{"key":"air_date","items":[{"id":"55638b42925141271b001fa4","action":"updated","time":"2015-05-25
+        20:51:14 UTC","value":"2014-04-06","original_value":"2014-04-06"}]},{"key":"name","items":[{"id":"55638b42925141271b001fa5","action":"added","time":"2015-05-25
+        20:51:14 UTC","iso_639_1":"de","value":"Staffel 1"}]},{"key":"overview","items":[{"id":"55638b42925141271b001fa6","action":"added","time":"2015-05-25
+        20:51:14 UTC","iso_639_1":"de"}]},{"key":"episode","items":[{"id":"55638b68925141271b001fa8","action":"updated","time":"2015-05-25
+        20:51:52 UTC","value":{"episode_id":972002,"episode_number":1}},{"id":"55638b7592514116cb001f8b","action":"updated","time":"2015-05-25
+        20:52:05 UTC","value":{"episode_id":973803,"episode_number":2}},{"id":"55638b859251415bfb001323","action":"updated","time":"2015-05-25
+        20:52:21 UTC","value":{"episode_id":973804,"episode_number":3}},{"id":"55638b92c3a36851cf002abf","action":"updated","time":"2015-05-25
+        20:52:34 UTC","value":{"episode_id":973805,"episode_number":4}},{"id":"55638bb592514119f3002ab4","action":"updated","time":"2015-05-25
+        20:53:09 UTC","value":{"episode_id":975373,"episode_number":5}},{"id":"55638be192514119f3002ab9","action":"updated","time":"2015-05-25
+        20:53:53 UTC","value":{"episode_id":975433,"episode_number":6}},{"id":"55638bef9251411a0a002ce6","action":"updated","time":"2015-05-25
+        20:54:07 UTC","value":{"episode_id":975434,"episode_number":7}},{"id":"55638bfa92514116cb001f99","action":"updated","time":"2015-05-25
+        20:54:18 UTC","value":{"episode_id":976647,"episode_number":8}}]}]}'
+    http_version: 
+  recorded_at: Fri, 26 Jun 2015 14:13:05 GMT
+recorded_with: VCR 2.9.3

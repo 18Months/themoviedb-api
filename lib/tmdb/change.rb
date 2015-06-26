@@ -34,7 +34,7 @@ module Tmdb
       change
     end
 
-    def convert_items_multiple!
+    def convert_items!
       items.map! do |change_item|
         ChangeItem.new(change_item.to_h)
       end

@@ -43,7 +43,7 @@ module Tmdb
 
       result['changes'].map do |entry|
         change = Change.new(entry)
-        change.convert_items_multiple!
+        change.convert_items!
         change
       end
     end

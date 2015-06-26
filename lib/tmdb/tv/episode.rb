@@ -31,14 +31,6 @@ module Tmdb
         end
       end
 
-      def self.director(id, season_number, episode_number, filters={})
-        result = Resource.new("/tv/#{id}/season/#{season_number}/episode/#{episode_number}/credits", filters).get
-
-        result['crew'].select{ |x| x['job'] == 'Director' }.map do |entry|
-          Person.new(entry)
-        end
-      end
-
       def self.guest_stars(id, season_number, episode_number, filters={})
         result = Resource.new("/tv/#{id}/season/#{season_number}/episode/#{episode_number}/credits", filters).get
 

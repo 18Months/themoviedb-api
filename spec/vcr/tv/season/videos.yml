@@ -1,0 +1,72 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.themoviedb.org/3/tv/1399/season/1/videos?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=21600
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 26 Jun 2015 14:13:03 GMT
+      Etag:
+      - '"9efa62780c0dacfe3cbd6eb6eb8f0d8e"'
+      Server:
+      - openresty
+      Status:
+      - 200 OK
+      Vary:
+      - Accept-Encoding
+      X-Memc:
+      - HIT
+      X-Memc-Age:
+      - '5348'
+      X-Memc-Expires:
+      - '16252'
+      X-Memc-Key:
+      - 57e31d44afdbc57ee39fadda18f9ef47
+      X-Ratelimit-Limit:
+      - '40'
+      X-Ratelimit-Remaining:
+      - '33'
+      X-Ratelimit-Reset:
+      - '1435327991'
+      Content-Length:
+      - '2318'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"id":3624,"results":[{"id":"534921db0e0a266b3f0013bb","iso_639_1":"en","key":"9cqABojhqr4","name":"Pledge
+        Your Allegiance - House Stark","site":"YouTube","size":720,"type":"Featurette"},{"id":"534922b00e0a266b4a0014e9","iso_639_1":"en","key":"5H7Q3SZ2kec","name":"Character
+        Feature - Catelyn Stark","site":"YouTube","size":720,"type":"Featurette"},{"id":"534922d30e0a266b4a0014ee","iso_639_1":"en","key":"JLF5afwjvQQ","name":"Character
+        Feature - Robb Stark","site":"YouTube","size":720,"type":"Featurette"},{"id":"534923030e0a266b4300139d","iso_639_1":"en","key":"5FoXU1pNr7g","name":"Character
+        Feature - Arya Stark","site":"YouTube","size":720,"type":"Featurette"},{"id":"5349232b0e0a266b310013d3","iso_639_1":"en","key":"asJaqshya8s","name":"Character
+        Feature - Bran Stark","site":"YouTube","size":720,"type":"Featurette"},{"id":"534923550e0a266b3b00137e","iso_639_1":"en","key":"xkgNP60rPMs","name":"Character
+        Feature - Ned Stark","site":"YouTube","size":720,"type":"Featurette"},{"id":"5349239c0e0a266b470013c2","iso_639_1":"en","key":"6t-Z4OxLCSY","name":"Moments
+        Tease - Ned and Catelyn Stark","site":"YouTube","size":720,"type":"Teaser"},{"id":"5349289e0e0a266b430013ee","iso_639_1":"en","key":"H2QOBDGuesw","name":"Character
+        Feature - Cersei Lannister","site":"YouTube","size":720,"type":"Featurette"},{"id":"534928e90e0a266b430013f2","iso_639_1":"en","key":"13agX-f4MrU","name":"Character
+        Feature - Jaime Lannister","site":"YouTube","size":720,"type":"Featurette"},{"id":"53492a180e0a266b3f001446","iso_639_1":"en","key":"oEjgO10dzdQ","name":"Moments
+        Tease - Daenerys Targaryen and Khal Drogo","site":"YouTube","size":720,"type":"Teaser"},{"id":"53492a7d0e0a266b47001440","iso_639_1":"en","key":"otmIEFQrCHA","name":"Character
+        Feature - Daenerys Targaryen","site":"YouTube","size":720,"type":"Featurette"},{"id":"53492aaa0e0a266b3b001417","iso_639_1":"en","key":"pf0EDfgi2Uo","name":"Character
+        Feature - Viserys Targaryen","site":"YouTube","size":720,"type":"Featurette"},{"id":"534931980e0a266b310014c3","iso_639_1":"en","key":"WdGntO7vi0w","name":"Character
+        Feature - King Robert Baratheon","site":"YouTube","size":720,"type":"Featurette"},{"id":"534929160e0a266b3b0013e6","iso_639_1":"en","key":"g7ZSQRDUroo","name":"Character
+        Feature - Tyrion Lannister","site":"YouTube","size":720,"type":"Featurette"}]}'
+    http_version: 
+  recorded_at: Fri, 26 Jun 2015 14:13:06 GMT
+recorded_with: VCR 2.9.3

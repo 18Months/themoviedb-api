@@ -2,6 +2,7 @@ module Tmdb
   class Api
     include HTTParty
 
+    VERSION = '3'
     base_uri 'http://api.themoviedb.org/3/'
 
     format :json
