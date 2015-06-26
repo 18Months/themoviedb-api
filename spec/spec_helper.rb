@@ -8,6 +8,7 @@
 require_relative '../lib/tmdb.rb'
 require 'webmock/rspec'
 require 'vcr'
+require 'coveralls'
 
 VCR.configure do |c|
   #the directory where your cassettes will be saved
