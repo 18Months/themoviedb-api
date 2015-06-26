@@ -23,9 +23,9 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 13:18:25 GMT
+      - Fri, 26 Jun 2015 15:17:33 GMT
       Etag:
-      - '"494934e6d0ddd6e48ea5d963e8bea12c"'
+      - '"470d5914e38c44c520b585df1f73ae24"'
       Server:
       - openresty
       Status:
@@ -35,17 +35,17 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '216'
+      - '156'
       X-Memc-Expires:
-      - '84'
+      - '144'
       X-Memc-Key:
       - 2fbce16f5cab645b6de9a5fd747199d1
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '28'
+      - '18'
       X-Ratelimit-Reset:
-      - '1435324712'
+      - '1435331858'
       Content-Length:
       - '20012'
       Connection:
@@ -211,7 +211,7 @@ http_interactions:
         X3BhdGgiOiIvY1NYUW9LbTJVcHBZT3FBZm9CMW9JanBidEZCLmpwZyIsImZp
         cnN0X2Fpcl9kYXRlIjoiMjAxMi0wOC0wNyIsImdlbnJlX2lkcyI6WzE2LDEw
         NzU5LDEwNzY1LDM1XSwiaWQiOjQ0MzA1LCJvcmlnaW5hbF9sYW5ndWFnZSI6
-        bnVsbCwib3JpZ2luYWxfbmFtZSI6IkRyZWFtV29ya3MgRHJhZ29ucyIsIm92
+        ImVuIiwib3JpZ2luYWxfbmFtZSI6IkRyZWFtV29ya3MgRHJhZ29ucyIsIm92
         ZXJ2aWV3IjoiRHJlYW1Xb3JrcyBEcmFnb25zIGlzIGFuIEFtZXJpY2FuIGNv
         bXB1dGVyLWFuaW1hdGVkIHRlbGV2aXNpb24gc2VyaWVzIGFpcmluZyBvbiBD
         YXJ0b29uIE5ldHdvcmsgYmFzZWQgb24gdGhlIDIwMTAgZmlsbSBIb3cgdG8g
@@ -229,7 +229,7 @@ http_interactions:
         eSByZWFzb24gdG8gZGVzdHJveSB0aGUgaGFybW9ueSBiZXR3ZWVuIFZpa2lu
         Z3MgYW5kIERyYWdvbnMgYWxsIHRvZ2V0aGVyLiIsIm9yaWdpbl9jb3VudHJ5
         IjpbIlVTIl0sInBvc3Rlcl9wYXRoIjoiLzhUOGJBVnphS0t5RE5HUTZEUUIz
-        SEY4MHdiSi5qcGciLCJwb3B1bGFyaXR5IjozLjk4MzgwNiwibmFtZSI6IkRy
+        SEY4MHdiSi5qcGciLCJwb3B1bGFyaXR5Ijo0Ljk4MzgwNiwibmFtZSI6IkRy
         ZWFtV29ya3MgRHJhZ29ucyIsInZvdGVfYXZlcmFnZSI6Ni45LCJ2b3RlX2Nv
         dW50Ijo0fSx7ImJhY2tkcm9wX3BhdGgiOiIvcDJnbzFyYzUzZTZ5cW1tcDZx
         THQ3T242bUZ6LmpwZyIsImZpcnN0X2Fpcl9kYXRlIjoiMjAxMi0wMi0yNCIs
@@ -499,5 +499,5 @@ http_interactions:
         b3BsZSIsInZvdGVfYXZlcmFnZSI6NS4zLCJ2b3RlX2NvdW50IjoyfV0sInRv
         dGFsX3BhZ2VzIjoyLCJ0b3RhbF9yZXN1bHRzIjoyNX0=
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 13:18:28 GMT
+  recorded_at: Fri, 26 Jun 2015 15:17:36 GMT
 recorded_with: VCR 2.9.3

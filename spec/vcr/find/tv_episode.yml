@@ -23,9 +23,9 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 08:42:07 GMT
+      - Fri, 26 Jun 2015 15:17:13 GMT
       Etag:
-      - '"51a9d4b163c73f29b98a3fec98b25b1f"'
+      - '"cfbfb9b61147f4c094065aaae715c017"'
       Server:
       - openresty
       Status:
@@ -35,17 +35,17 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '9763'
+      - '872'
       X-Memc-Expires:
-      - '1037'
+      - '9928'
       X-Memc-Key:
       - b2b2d5b5c403479427a32475da3e48f4
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '37'
+      - '21'
       X-Ratelimit-Reset:
-      - '1435308136'
+      - '1435331837'
       Content-Length:
       - '1116'
       Connection:
@@ -57,10 +57,10 @@ http_interactions:
         land of Westeros. Friction between the houses leads to full-scale war. All
         while a very ancient evil awakens in the farthest north. Amidst the war, a
         neglected military order of misfits, the Night''s Watch, is all that stands
-        between the realms of men and icy horrors beyond.\n\n","origin_country":["US"],"poster_path":"/jIhL6mlT7AblhbHJgEoiBIOUVl1.jpg","popularity":31.518669,"name":"Game
-        of Thrones","vote_average":9.1,"vote_count":277}],"tv_episode_results":[{"air_date":"1956-02-26","episode_number":22,"name":"Place
+        between the realms of men and icy horrors beyond.\n\n","origin_country":["US"],"poster_path":"/jIhL6mlT7AblhbHJgEoiBIOUVl1.jpg","popularity":32.016915,"name":"Game
+        of Thrones","vote_average":9.1,"vote_count":278}],"tv_episode_results":[{"air_date":"1956-02-26","episode_number":22,"name":"Place
         of Shadows","id":356630,"season_number":1,"still_path":"/c0Qt5uorF3WHv9pMKhV5uprNyVl.jpg","show_id":5273,"vote_average":0.0,"vote_count":0}],"tv_season_results":[{"air_date":"1978-04-04","id":29649,"name":"Season
         1","poster_path":"/jlRY4btMdYdjJyj0XEBWMsCFNbi.jpg","season_number":1,"show_id":19239}]}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 08:42:09 GMT
+  recorded_at: Fri, 26 Jun 2015 15:17:16 GMT
 recorded_with: VCR 2.9.3

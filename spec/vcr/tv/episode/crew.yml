@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.themoviedb.org/3/tv/3572/season/1/credits?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en
+    uri: http://api.themoviedb.org/3/tv/3572/season/1/episode/1/credits?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en
     body:
       encoding: US-ASCII
       string: ''
@@ -23,9 +23,9 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:28 GMT
+      - Fri, 26 Jun 2015 15:17:26 GMT
       Etag:
-      - '"d91a300def81ea32b7eadb8571c90b7d"'
+      - '"c6dffa0c562d4d3adaa705cceebe89aa"'
       Server:
       - openresty
       Status:
@@ -35,19 +35,19 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '4628'
+      - '1559'
       X-Memc-Expires:
-      - '16972'
+      - '20041'
       X-Memc-Key:
-      - e1eb1c895a8ea3cf4550415d7c907da7
+      - 36375be959dcc921d1513d0b95bb5e1b
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '37'
+      - '7'
       X-Ratelimit-Reset:
-      - '1435331858'
+      - '1435331847'
       Content-Length:
-      - '1481'
+      - '1618'
       Connection:
       - keep-alive
     body:
@@ -58,12 +58,13 @@ http_interactions:
         Bobby Crocker","credit_id":"5257533719c29531db11626a","id":105595,"name":"Kevin
         Dobson","profile_path":"/xClcQ7O3ZORruMwOFczuYyaAMBT.jpg","order":2},{"character":"","credit_id":"5257533719c29531db116298","id":78091,"name":"George
         Savalas","profile_path":"/hufHtydfKBlrwhIrK2W5SoI5ntb.jpg","order":3},{"character":"","credit_id":"5257533919c29531db1162c9","id":1234318,"name":"Mark
-        Russell","profile_path":null,"order":4}],"crew":[{"credit_id":"5257533919c29531db11630f","department":"Production","id":12140,"name":"Abby
-        Mann","job":"Executive Producer","profile_path":null},{"credit_id":"5257533919c29531db11633d","department":"Production","id":1216932,"name":"Michael
-        Scheff","job":"Producer","profile_path":null},{"credit_id":"5257533919c29531db11636d","department":"Production","id":151445,"name":"Jack
-        Laird","job":"Producer","profile_path":null},{"credit_id":"5257533b19c29531db1163a0","department":"Production","id":1234320,"name":"James
-        Duff McAdams","job":"Producer","profile_path":null},{"credit_id":"5257533b19c29531db1163d6","department":"Production","id":118311,"name":"Matthew
-        Rapf","job":"Executive Producer","profile_path":null}],"id":10838}'
+        Russell","profile_path":null,"order":4}],"crew":[{"id":12140,"credit_id":"5257532219c29531db114592","name":"Abby
+        Mann","department":"Writing","job":"Writer","profile_path":null},{"id":15663,"credit_id":"5257532219c29531db1145b6","name":"Joseph
+        Sargent","department":"Directing","job":"Director","profile_path":"/5ePQJSf4RPwGD3sJmcFCgf08MHk.jpg"}],"guest_stars":[{"id":1037,"name":"Harvey
+        Keitel","credit_id":"5257532219c29531db1145e2","character":"","order":0,"profile_path":"/oP3A0NaJShM1BbI7WwMFui72b7O.jpg"},{"id":1215961,"name":"Rick
+        Hurst","credit_id":"5257532219c29531db114604","character":"","order":1,"profile_path":null},{"id":1212535,"name":"James
+        Sloyan","credit_id":"5257532219c29531db114626","character":"","order":2,"profile_path":null},{"id":2555,"name":"David
+        Proval","credit_id":"5257532219c29531db114648","character":"","order":3,"profile_path":"/ujBzP61tYlwqWpB3oOxknl1XuEg.jpg"}],"id":255746}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:31 GMT
+  recorded_at: Fri, 26 Jun 2015 15:17:29 GMT
 recorded_with: VCR 2.9.3

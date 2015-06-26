@@ -1,0 +1,66 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.themoviedb.org/3/tv/episode/63065/changes?api_key=c29379565234e20d7cbf4f2e835c3e41&end_date=2015-06-20&language=en&start_date=2015-06-15
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=300
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 26 Jun 2015 15:17:26 GMT
+      Etag:
+      - '"58054390ee03de09d2e7b5e74f5560a0"'
+      Server:
+      - openresty
+      Status:
+      - 200 OK
+      X-Memc:
+      - MISS, STORE
+      X-Memc-Age:
+      - '0'
+      X-Memc-Expires:
+      - '300'
+      X-Memc-Key:
+      - 6357337fdc85df5187f60b7b494d65d8
+      X-Ratelimit-Limit:
+      - '40'
+      X-Ratelimit-Remaining:
+      - '9'
+      X-Ratelimit-Reset:
+      - '1435331847'
+      Content-Length:
+      - '935'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"changes":[{"key":"name","items":[{"id":"55820667c3a3686fb1000201","action":"added","time":"2015-06-17
+        23:44:39 UTC","iso_639_1":"nl","value":"Fire and Blood"}]},{"key":"overview","items":[{"id":"55820667c3a3686fb1000202","action":"added","time":"2015-06-17
+        23:44:39 UTC","iso_639_1":"nl","value":"Terwijl het tragische nieuws zich
+        doorheen de Zeven Koninkrijken verspreidt, delen Bran en Rickon een profetische
+        droom. Catelyn ondervraagt Jaime over de val van haar zoon en Robbs toekomst
+        neemt een noodlottige wending. Tyrion keert terug naar het zuiden na een verrassende
+        beslissing van zijn vader. Arya neemt een andere identiteit aan om uit King''s
+        Landing te ontsnappen. Sansa wordt geterroriseerd door Joffrey. Aan de Muur
+        wordt Jon gedwongen om te kiezen tussen de Nachtwacht en de familie die hij
+        achterliet. Aan de andere kant van de zee betaalt Dany een vreselijke prijs
+        voor haar liefde. Tegelijk vindt ze nieuwe hoop."}]}]}'
+    http_version: 
+  recorded_at: Fri, 26 Jun 2015 15:17:29 GMT
+recorded_with: VCR 2.9.3

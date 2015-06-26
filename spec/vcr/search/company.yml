@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 12:22:34 GMT
+      - Fri, 26 Jun 2015 15:17:23 GMT
       Etag:
       - '"c1a6efa3bc6ac52a65677c49e47428cc"'
       Server:
@@ -33,19 +33,19 @@ http_interactions:
       Vary:
       - Accept-Encoding
       X-Memc:
-      - HIT
+      - MISS, STORE
       X-Memc-Age:
-      - '931'
+      - '0'
       X-Memc-Expires:
-      - '9869'
+      - '10800'
       X-Memc-Key:
       - 1a44038d7ccd4eb506787ec1b21c15bb
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '39'
+      - '18'
       X-Ratelimit-Reset:
-      - '1435321364'
+      - '1435331847'
       Content-Length:
       - '1244'
       Connection:
@@ -66,5 +66,5 @@ http_interactions:
         Disney Animation Japan"},{"id":12402,"logo_path":null,"name":"Walt Disney
         Animation Canada"}],"total_pages":2,"total_results":40}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 12:22:37 GMT
+  recorded_at: Fri, 26 Jun 2015 15:17:27 GMT
 recorded_with: VCR 2.9.3

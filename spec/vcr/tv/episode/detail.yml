@@ -1,0 +1,68 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.themoviedb.org/3/tv/3572/season/1/episode/1?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=21600
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 26 Jun 2015 15:17:25 GMT
+      Etag:
+      - '"44fda7ec7e14d600c5aac921ad1bf124"'
+      Server:
+      - openresty
+      Status:
+      - 200 OK
+      Vary:
+      - Accept-Encoding
+      X-Memc:
+      - HIT
+      X-Memc-Age:
+      - '3546'
+      X-Memc-Expires:
+      - '18054'
+      X-Memc-Key:
+      - 0c559bbdcf116f54a66c1b49f1415956
+      X-Ratelimit-Limit:
+      - '40'
+      X-Ratelimit-Remaining:
+      - '10'
+      X-Ratelimit-Reset:
+      - '1435331847'
+      Content-Length:
+      - '1297'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"air_date":"1973-10-24","crew":[{"id":12140,"credit_id":"5257532219c29531db114592","name":"Abby
+        Mann","department":"Writing","job":"Writer","profile_path":null},{"id":15663,"credit_id":"5257532219c29531db1145b6","name":"Joseph
+        Sargent","department":"Directing","job":"Director","profile_path":"/5ePQJSf4RPwGD3sJmcFCgf08MHk.jpg"}],"episode_number":1,"guest_stars":[{"id":1037,"name":"Harvey
+        Keitel","credit_id":"5257532219c29531db1145e2","character":"","order":0,"profile_path":"/oP3A0NaJShM1BbI7WwMFui72b7O.jpg"},{"id":1215961,"name":"Rick
+        Hurst","credit_id":"5257532219c29531db114604","character":"","order":1,"profile_path":null},{"id":1212535,"name":"James
+        Sloyan","credit_id":"5257532219c29531db114626","character":"","order":2,"profile_path":null},{"id":2555,"name":"David
+        Proval","credit_id":"5257532219c29531db114648","character":"","order":3,"profile_path":"/ujBzP61tYlwqWpB3oOxknl1XuEg.jpg"}],"name":"Siege
+        of Terror","overview":"When a Brinks Truck heist goes bad and a hostage situation
+        arises, Kojak races against the clock to difuse the situation. He has two
+        hours to free the hostages from three robbers (Harvey Keitel, James J. Sloyan,
+        Jude Farese) in an Army surplus store.","id":255746,"production_code":null,"season_number":1,"still_path":null,"vote_average":0.0,"vote_count":0}'
+    http_version: 
+  recorded_at: Fri, 26 Jun 2015 15:17:29 GMT
+recorded_with: VCR 2.9.3

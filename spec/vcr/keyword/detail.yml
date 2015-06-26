@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Tue, 23 Jun 2015 15:37:22 GMT
+      - Fri, 26 Jun 2015 15:17:14 GMT
       Etag:
       - '"f40c57f52b981fc9c98420db18778d42"'
       Server:
@@ -33,17 +33,17 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '9471'
+      - '641'
       X-Memc-Expires:
-      - '12129'
+      - '20959'
       X-Memc-Key:
       - a9b43f55e00d7d2ca0ccea26b47c9b29
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '39'
+      - '16'
       X-Ratelimit-Reset:
-      - '1435073852'
+      - '1435331837'
       Content-Length:
       - '26'
       Connection:
@@ -52,5 +52,5 @@ http_interactions:
       encoding: UTF-8
       string: '{"id":1721,"name":"fight"}'
     http_version: 
-  recorded_at: Tue, 23 Jun 2015 15:37:23 GMT
+  recorded_at: Fri, 26 Jun 2015 15:17:17 GMT
 recorded_with: VCR 2.9.3

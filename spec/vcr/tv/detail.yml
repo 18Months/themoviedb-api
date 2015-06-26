@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 13:00:35 GMT
+      - Fri, 26 Jun 2015 15:17:29 GMT
       Etag:
       - '"81cae3bb2dedd13eb3592df9ab54977e"'
       Server:
@@ -35,17 +35,17 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '15598'
+      - '2196'
       X-Memc-Expires:
-      - '6002'
+      - '19404'
       X-Memc-Key:
       - 784bb2de3776b09b09db0c8e57046b8b
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '39'
+      - '33'
       X-Ratelimit-Reset:
-      - '1435323645'
+      - '1435331858'
       Content-Length:
       - '2297'
       Connection:
@@ -67,5 +67,5 @@ http_interactions:
         Via Productions","id":2605},{"name":"Sony Pictures Television","id":11073},{"name":"High
         Bridge Entertainment","id":33742}],"seasons":[{"air_date":"2009-02-17","episode_count":6,"id":3577,"poster_path":"/AngNuUbXSciwLnUXtdOBHqphxNr.jpg","season_number":0},{"air_date":"2008-01-19","episode_count":7,"id":3572,"poster_path":"/o5131POxv9xFl3wBmdg0YWc9Iz4.jpg","season_number":1},{"air_date":"2009-03-08","episode_count":13,"id":3573,"poster_path":"/7FwD7IuyHy6xl18LDIRxjl7vDbo.jpg","season_number":2},{"air_date":"2010-03-21","episode_count":13,"id":3575,"poster_path":"/1HVSSlEAOILiR4BskS1zV04kTjx.jpg","season_number":3},{"air_date":"2011-07-17","episode_count":13,"id":3576,"poster_path":"/5p7WduYlIIFjVYUIsqRZLFYWjMc.jpg","season_number":4},{"air_date":"2012-07-15","episode_count":16,"id":3578,"poster_path":"/r3z70vunihrAkjILQKWHX0G2xzO.jpg","season_number":5}],"status":"Ended","type":"Scripted","vote_average":8.9,"vote_count":248}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 13:00:38 GMT
+  recorded_at: Fri, 26 Jun 2015 15:17:32 GMT
 recorded_with: VCR 2.9.3

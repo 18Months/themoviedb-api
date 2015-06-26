@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 12:22:35 GMT
+      - Fri, 26 Jun 2015 15:17:24 GMT
       Etag:
       - '"a7cedfe5235c396d2d61c57f6ace4fee"'
       Server:
@@ -33,19 +33,19 @@ http_interactions:
       Vary:
       - Accept-Encoding
       X-Memc:
-      - HIT
+      - MISS, STORE
       X-Memc-Age:
-      - '618'
+      - '0'
       X-Memc-Expires:
-      - '10182'
+      - '10800'
       X-Memc-Key:
       - 056a878e6997644be7308db0fd6760b0
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '35'
+      - '14'
       X-Ratelimit-Reset:
-      - '1435321364'
+      - '1435331847'
       Content-Length:
       - '12433'
       Connection:
@@ -331,5 +331,5 @@ http_interactions:
         MC4wLCJ2b3RlX2NvdW50IjowfV0sInRvdGFsX3BhZ2VzIjoxMiwidG90YWxf
         cmVzdWx0cyI6MjM3fQ==
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 12:22:38 GMT
+  recorded_at: Fri, 26 Jun 2015 15:17:28 GMT
 recorded_with: VCR 2.9.3

@@ -23,9 +23,9 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Tue, 23 Jun 2015 15:55:04 GMT
+      - Fri, 26 Jun 2015 15:17:15 GMT
       Etag:
-      - '"9c7363152e97a71e5df40d6338d5d45d"'
+      - '"fe02ed5dcc6974280c06e8a47358ff7b"'
       Server:
       - openresty
       Status:
@@ -35,19 +35,19 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '5539'
+      - '3220'
       X-Memc-Expires:
-      - '16061'
+      - '18380'
       X-Memc-Key:
       - f5d8d6d123f674ea3be4bd53fba9acb2
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '39'
+      - '14'
       X-Ratelimit-Reset:
-      - '1435074910'
+      - '1435331837'
       Content-Length:
-      - '1295'
+      - '1296'
       Connection:
       - keep-alive
     body:
@@ -57,13 +57,13 @@ http_interactions:
         channel primal male aggression into a shocking new form of therapy. Their
         concept catches on, with underground \"fight clubs\" forming in every town,
         until an eccentric gets in the way and ignites an out-of-control spiral toward
-        oblivion.","popularity":3.46099,"poster_path":"/811DjJTon9gD6hZ8nCjSitaIXFQ.jpg","production_companies":[{"name":"Taurus
-        Film","id":20555},{"name":"Regency Enterprises","id":508},{"name":"Fox 2000
-        Pictures","id":711},{"name":"Linson Films","id":54050},{"name":"Atman Entertainment","id":54051},{"name":"Knickerbocker
+        oblivion.","popularity":2.619357,"poster_path":"/811DjJTon9gD6hZ8nCjSitaIXFQ.jpg","production_companies":[{"name":"Regency
+        Enterprises","id":508},{"name":"Fox 2000 Pictures","id":711},{"name":"Taurus
+        Film","id":20555},{"name":"Linson Films","id":54050},{"name":"Atman Entertainment","id":54051},{"name":"Knickerbocker
         Films","id":54052}],"production_countries":[{"iso_3166_1":"DE","name":"Germany"},{"iso_3166_1":"US","name":"United
         States of America"}],"release_date":"1999-10-14","revenue":100853753,"runtime":139,"spoken_languages":[{"iso_639_1":"en","name":"English"}],"status":"Released","tagline":"How
         much can you know about yourself if you''ve never been in a fight?","title":"Fight
-        Club","video":false,"vote_average":7.8,"vote_count":3533}'
+        Club","video":false,"vote_average":7.8,"vote_count":3537}'
     http_version: 
-  recorded_at: Tue, 23 Jun 2015 15:55:05 GMT
+  recorded_at: Fri, 26 Jun 2015 15:17:18 GMT
 recorded_with: VCR 2.9.3

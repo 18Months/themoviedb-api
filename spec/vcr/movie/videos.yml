@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Wed, 24 Jun 2015 15:58:56 GMT
+      - Fri, 26 Jun 2015 15:17:16 GMT
       Etag:
       - '"8385922582a7720b7ae1305803ab5819"'
       Server:
@@ -33,17 +33,17 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '3661'
+      - '9692'
       X-Memc-Expires:
-      - '17939'
+      - '11908'
       X-Memc-Key:
       - ca5c545c41e5d5b7bf047770d2f31025
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '37'
+      - '7'
       X-Ratelimit-Reset:
-      - '1435161546'
+      - '1435331837'
       Content-Length:
       - '157'
       Connection:
@@ -53,5 +53,5 @@ http_interactions:
       string: '{"id":550,"results":[{"id":"533ec654c3a36854480003eb","iso_639_1":"en","key":"SUXWAEX2jlg","name":"Trailer
         1","site":"YouTube","size":720,"type":"Trailer"}]}'
     http_version: 
-  recorded_at: Wed, 24 Jun 2015 15:59:00 GMT
+  recorded_at: Fri, 26 Jun 2015 15:17:20 GMT
 recorded_with: VCR 2.9.3

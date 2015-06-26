@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 12:22:35 GMT
+      - Fri, 26 Jun 2015 15:17:24 GMT
       Etag:
       - '"ebdba410a0703805c3b5f55591c6603d"'
       Server:
@@ -35,17 +35,17 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '673'
+      - '641'
       X-Memc-Expires:
-      - '10127'
+      - '10159'
       X-Memc-Key:
       - 2101f84ca876c8ea7ab496ce06b3fca9
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '36'
+      - '15'
       X-Ratelimit-Reset:
-      - '1435321364'
+      - '1435331847'
       Content-Length:
       - '2236'
       Connection:
@@ -66,5 +66,5 @@ http_interactions:
         Things Disney","favorite_count":1,"id":"5448754d4af0cd124e000041","item_count":1,"iso_639_1":"en","list_type":"movie","name":"Disney
         Favorites","poster_path":null}],"total_pages":4,"total_results":39}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 12:22:38 GMT
+  recorded_at: Fri, 26 Jun 2015 15:17:27 GMT
 recorded_with: VCR 2.9.3

@@ -23,9 +23,9 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 12:22:35 GMT
+      - Fri, 26 Jun 2015 15:17:24 GMT
       Etag:
-      - '"6b95cdc8c552f9f05b48818beeb76052"'
+      - '"7f175ecc588f82a93f09c3e5b2b8a4d5"'
       Server:
       - openresty
       Status:
@@ -43,9 +43,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '34'
+      - '13'
       X-Ratelimit-Reset:
-      - '1435321364'
+      - '1435331847'
       Content-Length:
       - '17905'
       Connection:
@@ -81,7 +81,7 @@ http_interactions:
         a World...","overview":"An underachieving vocal coach is motivated by her
         father, the king of movie-trailer voice-overs, to pursue her aspirations of
         becoming a voice-over star. Amidst pride, sexism and family dysfunction, she
-        sets out to change the voice of a generation.","release_date":"2013-08-09","poster_path":"/dNtDUD9OzMSDj5Z7ZyDoouLnioU.jpg","popularity":0.660115,"title":"In
+        sets out to change the voice of a generation.","release_date":"2013-08-09","poster_path":"/dNtDUD9OzMSDj5Z7ZyDoouLnioU.jpg","popularity":1.660115,"title":"In
         a World...","video":false,"vote_average":6.5,"vote_count":72,"media_type":"movie"},{"adult":false,"backdrop_path":"/mIbwk59WP9kcRA9pprpHD2cjFxi.jpg","genre_ids":[16,28,12],"id":166076,"original_language":"en","original_title":"Superman:
         Unbound","overview":"Based on the Geoff Johns/Gary Frank 2008 release \"Superman:
         Brainiac,\" Superman: Unbound finds the horrific force responsible for the
@@ -90,9 +90,9 @@ http_interactions:
         and now the all-knowing, ever-evolving android has his sights fixed on Metropolis.
         Superman must summon all of his physical and intellectual resources to protect
         his city, the love of his life, and his newly-arrived cousin, Supergirl.","release_date":"2013-05-06","poster_path":"/sbGj8yQeUlIDZdffsuFv4Cy9snk.jpg","popularity":1.659301,"title":"Superman:
-        Unbound","video":false,"vote_average":6.7,"vote_count":44,"media_type":"movie"},{"adult":false,"backdrop_path":"/9fRNgX2bI6f27sxFEFuCPNYY4Lv.jpg","genre_ids":[28,16],"id":103269,"original_language":"en","original_title":"Superman
+        Unbound","video":false,"vote_average":6.7,"vote_count":44,"media_type":"movie"},{"adult":false,"backdrop_path":"/9fRNgX2bI6f27sxFEFuCPNYY4Lv.jpg","genre_ids":[16,28],"id":103269,"original_language":"en","original_title":"Superman
         vs. The Elite","overview":"The Man of Steel finds himself outshone by a new
-        team of ruthless superheroes who hold his idealism in contempt.","release_date":"2012-06-12","poster_path":"/cilpU63HE0nsbqMytvO3Mlltotw.jpg","popularity":0.580654,"title":"Superman
+        team of ruthless superheroes who hold his idealism in contempt.","release_date":"2012-06-12","poster_path":"/cilpU63HE0nsbqMytvO3Mlltotw.jpg","popularity":1.580654,"title":"Superman
         vs. The Elite","video":false,"vote_average":6.4,"vote_count":29,"media_type":"movie"}],"name":"Melissa
         Disney","popularity":0.63,"profile_path":"/enMfC5icRP0THFmNZRxjF5YwH3D.jpg","media_type":"person"},{"backdrop_path":null,"first_air_date":null,"genre_ids":[],"id":28926,"original_language":null,"original_name":"Disney
         411","overview":"","origin_country":["US"],"poster_path":null,"popularity":0.000153,"name":"Disney
@@ -215,5 +215,5 @@ http_interactions:
         episode. Saturday Disney celebrated 20 years on air in 2010.","origin_country":["AU"],"poster_path":null,"popularity":2.9e-05,"name":"Saturday
         Disney","vote_average":0.0,"vote_count":0,"media_type":"tv"}],"total_pages":17,"total_results":331}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 12:22:38 GMT
+  recorded_at: Fri, 26 Jun 2015 15:17:28 GMT
 recorded_with: VCR 2.9.3

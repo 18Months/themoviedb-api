@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 10:30:14 GMT
+      - Fri, 26 Jun 2015 15:17:19 GMT
       Etag:
       - '"3c220e6b3ea199011e3d1e8d4fb81251"'
       Server:
@@ -35,17 +35,17 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '19531'
+      - '14749'
       X-Memc-Expires:
-      - '2069'
+      - '6851'
       X-Memc-Key:
       - 295ceaa7e277f950dfaa70ab1e47bbde
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '39'
+      - '30'
       X-Ratelimit-Reset:
-      - '1435314624'
+      - '1435331847'
       Content-Length:
       - '1294'
       Connection:
@@ -68,5 +68,5 @@ http_interactions:
         the later blockbuster assembly line climate of the new millennium.","birthday":"1944-05-14","deathday":"","homepage":"","id":1,"imdb_id":"nm0000184","name":"George
         Lucas","place_of_birth":"Modesto - California - USA","popularity":1.978601,"profile_path":"/8qxin8urtFE0NqaZNFWOuV537bH.jpg"}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 10:30:16 GMT
+  recorded_at: Fri, 26 Jun 2015 15:17:23 GMT
 recorded_with: VCR 2.9.3

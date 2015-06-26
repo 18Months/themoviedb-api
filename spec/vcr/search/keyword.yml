@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 12:22:34 GMT
+      - Fri, 26 Jun 2015 15:17:24 GMT
       Etag:
       - '"a4353e84819d390c61b3d2ad6bc479c5"'
       Server:
@@ -31,19 +31,19 @@ http_interactions:
       Status:
       - 200 OK
       X-Memc:
-      - HIT
+      - MISS, STORE
       X-Memc-Age:
-      - '727'
+      - '0'
       X-Memc-Expires:
-      - '10073'
+      - '10800'
       X-Memc-Key:
       - 48c00a8f48e162eb8d32b154cc3ddd04
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '37'
+      - '16'
       X-Ratelimit-Reset:
-      - '1435321364'
+      - '1435331847'
       Content-Length:
       - '572'
       Connection:
@@ -57,5 +57,5 @@ http_interactions:
         disney treasures,"},{"id":209354,"name":"unofficial disney short"},{"id":209265,"name":"walt
         disney world"},{"id":15200,"name":"disney animated feature"},{"id":188291,"name":"disneyland"}],"total_pages":1,"total_results":13}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 12:22:37 GMT
+  recorded_at: Fri, 26 Jun 2015 15:17:27 GMT
 recorded_with: VCR 2.9.3

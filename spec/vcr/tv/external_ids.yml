@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 13:20:59 GMT
+      - Fri, 26 Jun 2015 15:17:30 GMT
       Etag:
       - '"ad7d9caa8406eef25aa75db72d6e1047"'
       Server:
@@ -33,17 +33,17 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '15210'
+      - '551'
       X-Memc-Expires:
-      - '6390'
+      - '21049'
       X-Memc-Key:
       - 7c8188d4ff96952bbef2d9154131fe1b
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '39'
+      - '27'
       X-Ratelimit-Reset:
-      - '1435324869'
+      - '1435331858'
       Content-Length:
       - '128'
       Connection:
@@ -52,5 +52,5 @@ http_interactions:
       encoding: UTF-8
       string: '{"imdb_id":"tt0903747","freebase_mid":"/m/03d34x8","freebase_id":"/en/breaking_bad","tvdb_id":81189,"tvrage_id":18164,"id":1396}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 13:21:02 GMT
+  recorded_at: Fri, 26 Jun 2015 15:17:34 GMT
 recorded_with: VCR 2.9.3

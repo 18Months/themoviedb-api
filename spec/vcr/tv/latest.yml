@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 13:19:15 GMT
+      - Fri, 26 Jun 2015 15:17:32 GMT
       Etag:
       - '"77650cffd6b716600f6b9650840d7835"'
       Last-Modified:
@@ -45,9 +45,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '39'
+      - '20'
       X-Ratelimit-Reset:
-      - '1435324765'
+      - '1435331858'
       Content-Length:
       - '1639'
       Connection:
@@ -93,5 +93,5 @@ http_interactions:
         dXMiOiJFbmRlZCIsInR5cGUiOiJTY3JpcHRlZCIsInZvdGVfYXZlcmFnZSI6
         MC4wLCJ2b3RlX2NvdW50IjowfQ==
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 13:19:18 GMT
+  recorded_at: Fri, 26 Jun 2015 15:17:35 GMT
 recorded_with: VCR 2.9.3

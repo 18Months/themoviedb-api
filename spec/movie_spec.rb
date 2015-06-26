@@ -266,15 +266,18 @@ describe Tmdb::Movie do
   context '#changes' do
     let(:changes) do
       VCR.use_cassette 'movie/changes' do
-        Tmdb::Movie.changes(550)
+        Tmdb::Movie.changes(550, start_date: '2015-06-20', end_date: '2015-06-26')
       end
     end
 
     subject { changes }
 
-    it 'should return an array of Tmdb::Change' do
-      expect(subject).to be_an_instance_of(Array)
-      expect(subject.first.items.sample).to be_an_instance_of(Tmdb::Change)
+    it 'should have changes of kind Tmdb::Change' do
+      expect(subject.sample).to be_an_instance_of(Tmdb::Change)
+    end
+
+    it 'changes should contain items of kind Tmdb::ChangeItem' do
+      expect(subject.first.items.first).to be_an_instance_of(Tmdb::ChangeItem)
     end
   end
 

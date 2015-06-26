@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 14:13:02 GMT
+      - Fri, 26 Jun 2015 15:17:28 GMT
       Etag:
       - '"d91a300def81ea32b7eadb8571c90b7d"'
       Server:
@@ -35,17 +35,17 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '762'
+      - '4628'
       X-Memc-Expires:
-      - '20838'
+      - '16972'
       X-Memc-Key:
       - e1eb1c895a8ea3cf4550415d7c907da7
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '37'
+      - '38'
       X-Ratelimit-Reset:
-      - '1435327991'
+      - '1435331858'
       Content-Length:
       - '1481'
       Connection:
@@ -65,5 +65,5 @@ http_interactions:
         Duff McAdams","job":"Producer","profile_path":null},{"credit_id":"5257533b19c29531db1163d6","department":"Production","id":118311,"name":"Matthew
         Rapf","job":"Executive Producer","profile_path":null}],"id":10838}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 14:13:05 GMT
+  recorded_at: Fri, 26 Jun 2015 15:17:31 GMT
 recorded_with: VCR 2.9.3

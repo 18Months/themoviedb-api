@@ -106,7 +106,9 @@ module Tmdb
       result = Resource.new("/movie/#{id}/changes", filters).get
 
       result['changes'].map do |entry|
-        Change.new(entry)
+        change = Change.new(entry)
+        change.convert_items!
+        change
       end
     end
 

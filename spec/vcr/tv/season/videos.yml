@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 14:13:03 GMT
+      - Fri, 26 Jun 2015 15:17:29 GMT
       Etag:
       - '"9efa62780c0dacfe3cbd6eb6eb8f0d8e"'
       Server:
@@ -35,17 +35,17 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '5348'
+      - '9214'
       X-Memc-Expires:
-      - '16252'
+      - '12386'
       X-Memc-Key:
       - 57e31d44afdbc57ee39fadda18f9ef47
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '33'
+      - '34'
       X-Ratelimit-Reset:
-      - '1435327991'
+      - '1435331858'
       Content-Length:
       - '2318'
       Connection:
@@ -68,5 +68,5 @@ http_interactions:
         Feature - King Robert Baratheon","site":"YouTube","size":720,"type":"Featurette"},{"id":"534929160e0a266b3b0013e6","iso_639_1":"en","key":"g7ZSQRDUroo","name":"Character
         Feature - Tyrion Lannister","site":"YouTube","size":720,"type":"Featurette"}]}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 14:13:06 GMT
+  recorded_at: Fri, 26 Jun 2015 15:17:32 GMT
 recorded_with: VCR 2.9.3

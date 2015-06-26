@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.themoviedb.org/3/tv/1396/keywords?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en
+    uri: http://api.themoviedb.org/3/tv/1399/season/1/episode/1/videos?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en
     body:
       encoding: US-ASCII
       string: ''
@@ -23,9 +23,9 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:31 GMT
+      - Fri, 26 Jun 2015 15:17:27 GMT
       Etag:
-      - '"1611fd42ecc70dd32e6f06a6f01d3ae8"'
+      - '"24e399aa35ac9c30feffaa901f62fc76"'
       Server:
       - openresty
       Status:
@@ -33,27 +33,24 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '2548'
+      - '7495'
       X-Memc-Expires:
-      - '19052'
+      - '14105'
       X-Memc-Key:
-      - 487391286c1d80d481adf648de73a9c2
+      - 76fa451f5a6cb63a4dbb07801f640a20
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '24'
+      - '3'
       X-Ratelimit-Reset:
-      - '1435331858'
+      - '1435331847'
       Content-Length:
-      - '383'
+      - '25'
       Connection:
       - keep-alive
     body:
       encoding: UTF-8
-      string: '{"id":1396,"results":[{"id":18198,"name":"drugs"},{"id":190008,"name":"outlaws"},{"id":191005,"name":"albuquerque"},{"id":191199,"name":"criminal
-        lawyer"},{"id":15484,"name":"meth lab"},{"id":15009,"name":"criminal"},{"id":41525,"name":"high
-        school teacher"},{"id":2231,"name":"drug dealer"},{"id":156805,"name":"dea
-        agent"},{"id":10163,"name":"cancer"},{"id":14536,"name":"crime"}]}'
+      string: '{"id":63056,"results":[]}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:34 GMT
+  recorded_at: Fri, 26 Jun 2015 15:17:30 GMT
 recorded_with: VCR 2.9.3

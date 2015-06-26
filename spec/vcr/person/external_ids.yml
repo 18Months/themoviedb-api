@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 10:30:15 GMT
+      - Fri, 26 Jun 2015 15:17:21 GMT
       Etag:
       - '"fa7a5b15c4bafc587c4f28fb32004ed3"'
       Server:
@@ -33,17 +33,17 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '8843'
+      - '758'
       X-Memc-Expires:
-      - '12757'
+      - '20842'
       X-Memc-Key:
       - 5da0b068c79ec8a617696ae215da629b
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '35'
+      - '26'
       X-Ratelimit-Reset:
-      - '1435314624'
+      - '1435331847'
       Content-Length:
       - '106'
       Connection:
@@ -52,5 +52,5 @@ http_interactions:
       encoding: UTF-8
       string: '{"imdb_id":"nm0000184","freebase_mid":"/m/0343h","freebase_id":"/en/george_lucas","tvrage_id":6490,"id":1}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 10:30:18 GMT
+  recorded_at: Fri, 26 Jun 2015 15:17:24 GMT
 recorded_with: VCR 2.9.3

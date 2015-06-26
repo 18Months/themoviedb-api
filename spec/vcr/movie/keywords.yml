@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Wed, 24 Jun 2015 15:58:56 GMT
+      - Fri, 26 Jun 2015 15:17:16 GMT
       Etag:
       - '"3a309f8b9ba7d44eafecbe94bdc6ecea"'
       Server:
@@ -33,17 +33,17 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '18549'
+      - '16028'
       X-Memc-Expires:
-      - '3051'
+      - '5572'
       X-Memc-Key:
       - e900f4044ce333cdc35ce7c732c0cd40
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '36'
+      - '6'
       X-Ratelimit-Reset:
-      - '1435161546'
+      - '1435331837'
       Content-Length:
       - '186'
       Connection:
@@ -53,5 +53,5 @@ http_interactions:
       string: '{"id":550,"keywords":[{"id":825,"name":"support group"},{"id":851,"name":"dual
         identity"},{"id":1541,"name":"nihilism"},{"id":3927,"name":"rage and hate"},{"id":4142,"name":"insomnia"}]}'
     http_version: 
-  recorded_at: Wed, 24 Jun 2015 15:59:00 GMT
+  recorded_at: Fri, 26 Jun 2015 15:17:20 GMT
 recorded_with: VCR 2.9.3

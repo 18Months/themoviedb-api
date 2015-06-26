@@ -23,9 +23,9 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 10:30:16 GMT
+      - Fri, 26 Jun 2015 15:17:21 GMT
       Etag:
-      - '"20907daf03528e9cd3047b7ddf3b53a7"'
+      - '"ec57a86b04dda3a2daf6f572d8372814"'
       Server:
       - openresty
       Status:
@@ -33,19 +33,19 @@ http_interactions:
       Vary:
       - Accept-Encoding
       X-Memc:
-      - MISS, STORE
+      - HIT
       X-Memc-Age:
-      - '0'
+      - '641'
       X-Memc-Expires:
-      - '21600'
+      - '20959'
       X-Memc-Key:
       - 8df5a796b8ab6cee09ffc8d0b47cd29c
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '33'
+      - '24'
       X-Ratelimit-Reset:
-      - '1435314624'
+      - '1435331847'
       Content-Length:
       - '17993'
       Connection:
@@ -395,7 +395,7 @@ http_interactions:
         aCB0d28gY29tcGFuaW9ucywgdW5hd2FyZSB0aGF0IG9uZSBvZiB0aGVtIGlz
         IGEgc2VyaWFsIGtpbGxlciBoaW1zZWxmLiIsInJlbGVhc2VfZGF0ZSI6IjE5
         OTMtMDktMDEiLCJwb3N0ZXJfcGF0aCI6Ii81TU02NFQyeTFxckJjaEJ5aEI0
-        SThWcjdIWS5qcGciLCJwb3B1bGFyaXR5IjoxLjUzMDMzOSwidGl0bGUiOiJL
+        SThWcjdIWS5qcGciLCJwb3B1bGFyaXR5IjoxLjQ5OTk5NCwidGl0bGUiOiJL
         YWxpZm9ybmlhIiwidmlkZW8iOmZhbHNlLCJ2b3RlX2F2ZXJhZ2UiOjYuNiwi
         dm90ZV9jb3VudCI6NDh9LCJtZWRpYV90eXBlIjoibW92aWUifSx7ImFzcGVj
         dF9yYXRpbyI6MS43Nzc3Nzc3Nzc3Nzc3OCwiZmlsZV9wYXRoIjoiL21UcVE3
@@ -449,10 +449,10 @@ http_interactions:
         ZW50cmljIGdldHMgaW4gdGhlIHdheSBhbmQgaWduaXRlcyBhbiBvdXQtb2Yt
         Y29udHJvbCBzcGlyYWwgdG93YXJkIG9ibGl2aW9uLiIsInJlbGVhc2VfZGF0
         ZSI6IjE5OTktMTAtMTQiLCJwb3N0ZXJfcGF0aCI6Ii84MTFEakpUb245Z0Q2
-        aFo4bkNqU2l0YUlYRlEuanBnIiwicG9wdWxhcml0eSI6NC41ODgzOTcsInRp
+        aFo4bkNqU2l0YUlYRlEuanBnIiwicG9wdWxhcml0eSI6My42MTkzNTcsInRp
         dGxlIjoiRmlnaHQgQ2x1YiIsInZpZGVvIjpmYWxzZSwidm90ZV9hdmVyYWdl
-        Ijo3LjgsInZvdGVfY291bnQiOjM1MzV9LCJtZWRpYV90eXBlIjoibW92aWUi
+        Ijo3LjgsInZvdGVfY291bnQiOjM1MzZ9LCJtZWRpYV90eXBlIjoibW92aWUi
         fV0sInRvdGFsX3BhZ2VzIjozLCJ0b3RhbF9yZXN1bHRzIjo0N30=
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 10:30:19 GMT
+  recorded_at: Fri, 26 Jun 2015 15:17:25 GMT
 recorded_with: VCR 2.9.3

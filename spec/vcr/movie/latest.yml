@@ -23,11 +23,11 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Wed, 24 Jun 2015 15:58:58 GMT
+      - Fri, 26 Jun 2015 15:17:18 GMT
       Etag:
-      - '"d9986a373eda3fa70ae91cbcf0d4949a"'
+      - '"8a6f1980a5eb3598a78aabd14beb3509"'
       Last-Modified:
-      - '2015-06-24 15:55:53 +0000'
+      - '2015-06-26 15:10:46 +0000'
       Server:
       - openresty
       Status:
@@ -43,18 +43,18 @@ http_interactions:
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '29'
+      - '36'
       X-Ratelimit-Reset:
-      - '1435161546'
+      - '1435331847'
       Content-Length:
-      - '518'
+      - '622'
       Connection:
       - keep-alive
     body:
       encoding: UTF-8
-      string: '{"adult":false,"backdrop_path":null,"belongs_to_collection":null,"budget":0,"genres":[],"homepage":null,"id":346089,"imdb_id":"tt0079958","original_language":"it","original_title":"Le
-        strelle nel fosso","overview":null,"popularity":0.0,"poster_path":"/5Urh6QPv4svC7cP8lOAfxATP0z3.jpg","production_companies":[],"production_countries":[],"release_date":"","revenue":0,"runtime":null,"spoken_languages":[],"status":"Released","tagline":null,"title":"Le
-        strelle nel fosso","video":false,"vote_average":0.0,"vote_count":0}'
+      string: '{"adult":false,"backdrop_path":null,"belongs_to_collection":null,"budget":0,"genres":[],"homepage":"","id":346254,"imdb_id":"tt0267902","original_language":"en","original_title":"Safariland","overview":"\"Safari
+        Land: Among Negroes and wildlife in East Africa\". A Norwegian exploitation
+        travel documentary in color from 1952.","popularity":0.0,"poster_path":"/y9EcJJJiqAB4NxGp60OI7d60vSH.jpg","production_companies":[],"production_countries":[],"release_date":"1952-01-17","revenue":0,"runtime":0,"spoken_languages":[],"status":"Released","tagline":"","title":"Safariland","video":false,"vote_average":0.0,"vote_count":0}'
     http_version: 
-  recorded_at: Wed, 24 Jun 2015 15:59:02 GMT
+  recorded_at: Fri, 26 Jun 2015 15:17:21 GMT
 recorded_with: VCR 2.9.3

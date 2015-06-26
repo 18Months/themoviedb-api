@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 12:22:34 GMT
+      - Fri, 26 Jun 2015 15:17:23 GMT
       Etag:
       - '"a23e85785675b008d3596e80ef94d427"'
       Server:
@@ -33,17 +33,17 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '779'
+      - '641'
       X-Memc-Expires:
-      - '10021'
+      - '10159'
       X-Memc-Key:
       - a812db08d91eff725fa1db6fa2558a81
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '38'
+      - '17'
       X-Ratelimit-Reset:
-      - '1435321364'
+      - '1435331847'
       Content-Length:
       - '321'
       Connection:
@@ -54,5 +54,5 @@ http_interactions:
         Sing-Along-Songs","poster_path":"/4hYRgJYtzNqIApRWImSkfOQ5vP2.jpg"},{"id":91657,"backdrop_path":"/tDhCsQaxFmdorEZHIgVaZH0MGDs.jpg","name":"Disney
         Buddies Collection","poster_path":"/dBTf3e1Cgh9t1i4g8XkJBvytL8d.jpg"}],"total_pages":1,"total_results":2}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 12:22:37 GMT
+  recorded_at: Fri, 26 Jun 2015 15:17:27 GMT
 recorded_with: VCR 2.9.3

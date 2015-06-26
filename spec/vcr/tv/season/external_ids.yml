@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 14:13:02 GMT
+      - Fri, 26 Jun 2015 15:17:28 GMT
       Etag:
       - '"74308c5a56323a03173b6056616f25c3"'
       Server:
@@ -33,17 +33,17 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '668'
+      - '4534'
       X-Memc-Expires:
-      - '20932'
+      - '17066'
       X-Memc-Key:
       - 7ea786aca555f85081317b6768814ade
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '35'
+      - '36'
       X-Ratelimit-Reset:
-      - '1435327991'
+      - '1435331858'
       Content-Length:
       - '107'
       Connection:
@@ -52,5 +52,5 @@ http_interactions:
       encoding: UTF-8
       string: '{"freebase_mid":"/m/05ddtqw","freebase_id":"/en/kojak_season_1","tvdb_id":2547,"tvrage_id":null,"id":10838}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 14:13:05 GMT
+  recorded_at: Fri, 26 Jun 2015 15:17:32 GMT
 recorded_with: VCR 2.9.3

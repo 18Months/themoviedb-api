@@ -23,9 +23,9 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 08:42:06 GMT
+      - Fri, 26 Jun 2015 15:17:12 GMT
       Etag:
-      - '"f546d6109292f8e058e395b292dd3560"'
+      - '"b88e99f88dfc21c6f4e3a5ee5596bfdb"'
       Server:
       - openresty
       Status:
@@ -33,19 +33,19 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '6086'
+      - '6733'
       X-Memc-Expires:
-      - '4714'
+      - '4067'
       X-Memc-Key:
       - 674c57a920529af2e6caacea7efd939b
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '39'
+      - '23'
       X-Ratelimit-Reset:
-      - '1435308136'
+      - '1435331837'
       Content-Length:
-      - '1018'
+      - '1019'
       Connection:
       - keep-alive
     body:
@@ -71,9 +71,9 @@ http_interactions:
         d29tYW4sIFRoZSBQZW5ndWluLCBUaGUgUmlkZGxlciwgVHdvLUZhY2UgYW5k
         IFRoZSBKb2tlcj8gIiwib3JpZ2luX2NvdW50cnkiOlsiVVMiXSwicG9zdGVy
         X3BhdGgiOiIvejJpUjB2bXVvRVU1ZUwyT053eWdEdXp6bE95LmpwZyIsInBv
-        cHVsYXJpdHkiOjQuNDI3NzYsIm5hbWUiOiJHb3RoYW0iLCJ2b3RlX2F2ZXJh
-        Z2UiOjguMiwidm90ZV9jb3VudCI6NTV9XSwidHZfZXBpc29kZV9yZXN1bHRz
-        IjpbXSwidHZfc2Vhc29uX3Jlc3VsdHMiOltdfQ==
+        cHVsYXJpdHkiOjQuNjI2MjM1LCJuYW1lIjoiR290aGFtIiwidm90ZV9hdmVy
+        YWdlIjo4LjIsInZvdGVfY291bnQiOjU1fV0sInR2X2VwaXNvZGVfcmVzdWx0
+        cyI6W10sInR2X3NlYXNvbl9yZXN1bHRzIjpbXX0=
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 08:42:09 GMT
+  recorded_at: Fri, 26 Jun 2015 15:17:16 GMT
 recorded_with: VCR 2.9.3

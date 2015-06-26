@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.themoviedb.org/3/tv/1399/season/1/episode/1/images?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=21600
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 26 Jun 2015 15:17:27 GMT
+      Etag:
+      - '"c44015fd1b9f9008abbb31461d0ac646"'
+      Server:
+      - openresty
+      Status:
+      - 200 OK
+      Vary:
+      - Accept-Encoding
+      X-Memc:
+      - HIT
+      X-Memc-Age:
+      - '20473'
+      X-Memc-Expires:
+      - '1127'
+      X-Memc-Key:
+      - 04a5e7dc9aef0b6616fcef57ce0594b5
+      X-Ratelimit-Limit:
+      - '40'
+      X-Ratelimit-Remaining:
+      - '4'
+      X-Ratelimit-Reset:
+      - '1435331847'
+      Content-Length:
+      - '1295'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"id":63056,"stills":[{"aspect_ratio":1.77777777777778,"file_path":"/9o3HXUmWaZq14tIAbBrn7e34NRZ.jpg","height":1080,"iso_639_1":null,"vote_average":0.0,"vote_count":0,"width":1920},{"aspect_ratio":1.77777777777778,"file_path":"/xIfvIM7YgkADTrqp23rm3CLaOVQ.jpg","height":1080,"iso_639_1":null,"vote_average":0.0,"vote_count":0,"width":1920},{"aspect_ratio":1.77777777777778,"file_path":"/wrGWeW4WKxnaeA8sxJb2T9O6ryo.jpg","height":1080,"iso_639_1":null,"vote_average":0.0,"vote_count":0,"width":1920},{"aspect_ratio":1.77777777777778,"file_path":"/uaSOtAsNrXbKxOVzC31GjYxLRXJ.jpg","height":1080,"iso_639_1":null,"vote_average":0.0,"vote_count":0,"width":1920},{"aspect_ratio":1.77777777777778,"file_path":"/v3bGMbT5Ik86ERFBfsXFqpiMTFy.jpg","height":1080,"iso_639_1":null,"vote_average":0.0,"vote_count":0,"width":1920},{"aspect_ratio":1.77777777777778,"file_path":"/g0OnOaBqSepbA8omNTfYBCl4Sbo.jpg","height":1080,"iso_639_1":null,"vote_average":0.0,"vote_count":0,"width":1920},{"aspect_ratio":1.77777777777778,"file_path":"/w85NsRYgZQZrICE1kC9q8F2D6wS.jpg","height":1080,"iso_639_1":null,"vote_average":0.0,"vote_count":0,"width":1920},{"aspect_ratio":1.77777777777778,"file_path":"/pyp0LgtqjgaeXzPMtXKnkuNBugV.jpg","height":1080,"iso_639_1":null,"vote_average":0.0,"vote_count":0,"width":1920}]}'
+    http_version: 
+  recorded_at: Fri, 26 Jun 2015 15:17:30 GMT
+recorded_with: VCR 2.9.3

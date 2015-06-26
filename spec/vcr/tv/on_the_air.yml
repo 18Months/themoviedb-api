@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 13:18:25 GMT
+      - Fri, 26 Jun 2015 15:17:32 GMT
       Etag:
       - '"5d48c5b97de8896de8a08089cf827761"'
       Server:
@@ -35,17 +35,17 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '294'
+      - '241'
       X-Memc-Expires:
-      - '6'
+      - '59'
       X-Memc-Key:
       - 726005f1246296054e42a3f83a401517
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '29'
+      - '19'
       X-Ratelimit-Reset:
-      - '1435324712'
+      - '1435331858'
       Content-Length:
       - '16324'
       Connection:
@@ -417,5 +417,5 @@ http_interactions:
         ciBZb3UiLCJ2b3RlX2F2ZXJhZ2UiOjguNSwidm90ZV9jb3VudCI6MX1dLCJ0
         b3RhbF9wYWdlcyI6OCwidG90YWxfcmVzdWx0cyI6MTQ5fQ==
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 13:18:28 GMT
+  recorded_at: Fri, 26 Jun 2015 15:17:36 GMT
 recorded_with: VCR 2.9.3

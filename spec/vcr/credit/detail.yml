@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Thu, 25 Jun 2015 16:33:26 GMT
+      - Fri, 26 Jun 2015 15:17:11 GMT
       Etag:
       - '"91e6fb4cf5dbe0feb7980360f50dd481"'
       Server:
@@ -33,17 +33,17 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '747'
+      - '642'
       X-Memc-Expires:
-      - '20853'
+      - '20958'
       X-Memc-Key:
       - 2c179f100ab60972426f560557aa0533
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '39'
+      - '28'
       X-Ratelimit-Reset:
-      - '1435250016'
+      - '1435331837'
       Content-Length:
       - '685'
       Connection:
@@ -57,5 +57,5 @@ http_interactions:
         for the man of her dreams -- just in time for her to notice a new student.","season_number":3,"still_path":null}],"seasons":[]},"media_type":"tv","id":"525333fb19c295794002c720","person":{"name":"Brad
         Pitt","id":287}}'
     http_version: 
-  recorded_at: Thu, 25 Jun 2015 16:33:27 GMT
+  recorded_at: Fri, 26 Jun 2015 15:17:14 GMT
 recorded_with: VCR 2.9.3

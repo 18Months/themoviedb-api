@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 08:46:37 GMT
+      - Fri, 26 Jun 2015 15:17:19 GMT
       Etag:
       - '"433f5360ed09b9f04908e105972723ec"'
       Server:
@@ -33,17 +33,17 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '14149'
+      - '6710'
       X-Memc-Expires:
-      - '7451'
+      - '14890'
       X-Memc-Key:
       - 7e4d8fd1ff83ef6ba02eea84690ca29c
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '39'
+      - '31'
       X-Ratelimit-Reset:
-      - '1435308407'
+      - '1435331847'
       Content-Length:
       - '33'
       Connection:
@@ -52,5 +52,5 @@ http_interactions:
       encoding: UTF-8
       string: '{"id":1,"name":"Fuji Television"}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 08:46:40 GMT
+  recorded_at: Fri, 26 Jun 2015 15:17:23 GMT
 recorded_with: VCR 2.9.3

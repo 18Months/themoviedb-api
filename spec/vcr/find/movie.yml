@@ -23,9 +23,9 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Thu, 25 Jun 2015 17:02:39 GMT
+      - Fri, 26 Jun 2015 15:17:12 GMT
       Etag:
-      - '"45a750fe82248b31a1b0ab354c886e0d"'
+      - '"6a643dc2818f2bfae6e7177081996eaa"'
       Server:
       - openresty
       Status:
@@ -33,17 +33,17 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '3104'
+      - '5372'
       X-Memc-Expires:
-      - '7696'
+      - '5428'
       X-Memc-Key:
       - feaa674eaffd6e230b76773b53c17993
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '39'
+      - '25'
       X-Ratelimit-Reset:
-      - '1435251768'
+      - '1435331837'
       Content-Length:
       - '945'
       Connection:
@@ -57,8 +57,8 @@ http_interactions:
         his home and thrust into a fish tank in a dentist''s office overlooking Sydney
         Harbor. Buoyed by the companionship of a friendly but forgetful fish named
         Dory, the overly cautious Marlin embarks on a dangerous trek and finds himself
-        the unlikely hero of an epic journey to rescue his son.","release_date":"2003-05-30","poster_path":"/zjqInUwldOBa0q07fOyohYCWxWX.jpg","popularity":4.283678,"title":"Finding
+        the unlikely hero of an epic journey to rescue his son.","release_date":"2003-05-30","poster_path":"/zjqInUwldOBa0q07fOyohYCWxWX.jpg","popularity":4.169228,"title":"Finding
         Nemo","video":false,"vote_average":7.2,"vote_count":2430}],"person_results":[],"tv_results":[],"tv_episode_results":[],"tv_season_results":[]}'
     http_version: 
-  recorded_at: Thu, 25 Jun 2015 17:02:39 GMT
+  recorded_at: Fri, 26 Jun 2015 15:17:15 GMT
 recorded_with: VCR 2.9.3

@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 10:30:14 GMT
+      - Fri, 26 Jun 2015 15:17:20 GMT
       Etag:
       - '"08c8676592c974438971160d3a74851f"'
       Server:
@@ -35,17 +35,17 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '7962'
+      - '757'
       X-Memc-Expires:
-      - '13638'
+      - '20843'
       X-Memc-Key:
       - 042878d57be83c64b99df923ef6b5a43
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '37'
+      - '28'
       X-Ratelimit-Reset:
-      - '1435314624'
+      - '1435331847'
       Content-Length:
       - '5137'
       Connection:
@@ -78,5 +78,5 @@ http_interactions:
         Wars: The Clone Wars","original_name":"Star Wars: The Clone Wars","poster_path":"/o152WTBAo9SSDc4T0unZ1V11WuD.jpg"},{"credit_id":"558967a89251414371000f2c","department":"Creator","first_air_date":"2014-10-03","id":60554,"job":"Creator","name":"Star
         Wars Rebels","original_name":"Star Wars Rebels","poster_path":"/dfzbkhKMnkdwiG1AAIJnrc9SDdY.jpg"}],"id":1}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 10:30:17 GMT
+  recorded_at: Fri, 26 Jun 2015 15:17:24 GMT
 recorded_with: VCR 2.9.3

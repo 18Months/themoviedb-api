@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Thu, 25 Jun 2015 15:31:40 GMT
+      - Fri, 26 Jun 2015 15:17:10 GMT
       Etag:
       - '"a918b950a6b65ba21460815e6214f5f5"'
       Server:
@@ -35,17 +35,17 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '8377'
+      - '14503'
       X-Memc-Expires:
-      - '13223'
+      - '7097'
       X-Memc-Key:
       - 6a2530654484370b802b3c08fffc83ac
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '39'
+      - '34'
       X-Ratelimit-Reset:
-      - '1435246310'
+      - '1435331837'
       Content-Length:
       - '2277'
       Connection:
@@ -69,5 +69,5 @@ http_interactions:
         Wars: Episode VIII","id":181808,"release_date":"2017-05-26","poster_path":"/h8nOhMGqErN5IGeE1RYZTBKZu0n.jpg","backdrop_path":null},{"title":"Star
         Wars: Episode IX","id":181812,"release_date":"2019-12-31","poster_path":"/h8nOhMGqErN5IGeE1RYZTBKZu0n.jpg","backdrop_path":null}]}'
     http_version: 
-  recorded_at: Thu, 25 Jun 2015 15:31:40 GMT
+  recorded_at: Fri, 26 Jun 2015 15:17:13 GMT
 recorded_with: VCR 2.9.3

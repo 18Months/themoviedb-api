@@ -23,7 +23,7 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 13:18:23 GMT
+      - Fri, 26 Jun 2015 15:17:30 GMT
       Etag:
       - '"78ee85843db80a252db7a1abcee00890"'
       Server:
@@ -35,17 +35,17 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '1852'
+      - '8999'
       X-Memc-Expires:
-      - '19748'
+      - '12601'
       X-Memc-Key:
       - ff58313494259ee31c15cd8400e51804
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '37'
+      - '29'
       X-Ratelimit-Reset:
-      - '1435324712'
+      - '1435331858'
       Content-Length:
       - '4071'
       Connection:
@@ -82,5 +82,5 @@ http_interactions:
         Cranston","job":"Producer","profile_path":"/fnglrIFnI5cK4OAh66AZN86mkFq.jpg"},{"credit_id":"5254228e760ee31328001ce1","department":"Production","id":1223202,"name":"Diane
         Mercer","job":"Producer","profile_path":null}],"id":1396}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 13:18:26 GMT
+  recorded_at: Fri, 26 Jun 2015 15:17:33 GMT
 recorded_with: VCR 2.9.3
