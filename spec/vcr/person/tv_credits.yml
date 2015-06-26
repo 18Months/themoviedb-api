@@ -1,0 +1,82 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.themoviedb.org/3/person/1/tv_credits?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=21600
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 26 Jun 2015 10:30:14 GMT
+      Etag:
+      - '"08c8676592c974438971160d3a74851f"'
+      Server:
+      - openresty
+      Status:
+      - 200 OK
+      Vary:
+      - Accept-Encoding
+      X-Memc:
+      - HIT
+      X-Memc-Age:
+      - '7962'
+      X-Memc-Expires:
+      - '13638'
+      X-Memc-Key:
+      - 042878d57be83c64b99df923ef6b5a43
+      X-Ratelimit-Limit:
+      - '40'
+      X-Ratelimit-Remaining:
+      - '37'
+      X-Ratelimit-Reset:
+      - '1435314624'
+      Content-Length:
+      - '5137'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"cast":[{"character":"","credit_id":"5256e90619c2956ff6101721","episode_count":1,"first_air_date":"1999-01-31","id":1434,"name":"Family
+        Guy","original_name":"Family Guy","poster_path":"/gBGUL1UTUNmdRQT8gA1LUV4yg39.jpg"},{"character":"","credit_id":"52572b3d760ee3776a2d7b61","episode_count":2,"first_air_date":"1996-07-22","id":2224,"name":"The
+        Daily Show with Jon Stewart","original_name":"The Daily Show with Jon Stewart","poster_path":"/dorWIToZ035gNAYORey8IzpFR1J.jpg"},{"character":"","credit_id":"52573f55760ee36aaa075599","episode_count":1,"first_air_date":"2003-08-05","id":2673,"name":"The
+        O.C.","original_name":"The O.C.","poster_path":"/bEvtf9F9FYNc0reXootSEqW4lIN.jpg"},{"character":"","credit_id":"52577181760ee36aaa49eb72","episode_count":1,"first_air_date":"1993-09-13","id":4573,"name":"Late
+        Night with Conan O''Brien","original_name":"Late Night with Conan O''Brien","poster_path":"/15iIgnJXME8hJlzba9I5BoUVsOK.jpg"},{"character":"","credit_id":"52595a13760ee3466190a1e8","episode_count":0,"first_air_date":null,"id":39520,"name":"The
+        Making of Star Wars","original_name":"The Making of Star Wars","poster_path":null},{"character":"","credit_id":"52595b4f760ee3466191a239","episode_count":0,"first_air_date":null,"id":39850,"name":"From
+        Star Wars to Jedi: The Making of a Saga","original_name":"From Star Wars to
+        Jedi: The Making of a Saga","poster_path":"/diaIxNuZftuNNKnfFhwRc8sUiEJ.jpg"},{"character":"","credit_id":"5258047d19c29531db39353f","episode_count":1,"first_air_date":"1984-04-01","id":10607,"name":"Al
+        TV","original_name":"Al TV","poster_path":"/1sA2UR42nXLglJIn9CPeC3xsrcs.jpg"},{"character":"","credit_id":"5258831e760ee346613fb116","episode_count":1,"first_air_date":"1929-05-16","id":27023,"name":"The
+        Academy Awards","original_name":"The Academy Awards","poster_path":"/6vTqtwtzASs4v001qMS4xxCMmUJ.jpg"}],"crew":[{"credit_id":"52538e0419c295794026c877","department":"Production","episode_count":0,"first_air_date":"1992-03-04","id":661,"job":"Executive
+        Producer","name":"The Young Indiana Jones Chronicles","original_name":"The
+        Young Indiana Jones Chronicles","poster_path":"/oJ7oxXf013K5OoXUfQBSEoCxS7R.jpg"},{"credit_id":"52575da819c29531db1aacd1","department":"Writing","episode_count":126,"first_air_date":"2008-11-23","id":4194,"job":"Writer","name":"Star
+        Wars: The Clone Wars","original_name":"Star Wars: The Clone Wars","poster_path":"/o152WTBAo9SSDc4T0unZ1V11WuD.jpg"},{"credit_id":"52575da919c29531db1aad9d","department":"Production","episode_count":126,"first_air_date":"2008-11-23","id":4194,"job":"Executive
+        Producer","name":"Star Wars: The Clone Wars","original_name":"Star Wars: The
+        Clone Wars","poster_path":"/o152WTBAo9SSDc4T0unZ1V11WuD.jpg"},{"credit_id":"52532fb719c2957940007954","department":"Production","episode_count":17,"first_air_date":"1985-09-07","id":25,"job":"Producer","name":"Star
+        Wars: Droids","original_name":"Star Wars: Droids","poster_path":"/xfqRg4m504ovzBDriizqEnUHEWg.jpg"},{"credit_id":"52574c8c760ee36aaa156a70","department":"Production","episode_count":37,"first_air_date":"2003-11-07","id":3122,"job":"Producer","name":"Star
+        Wars: Clone Wars","original_name":"Star Wars: Clone Wars","poster_path":"/ppRN9Ga16lsbfxlXVgnizMrKJ8e.jpg"},{"credit_id":"525751c5760ee36aaa1cc8d4","department":"Production","episode_count":39,"first_air_date":"1985-09-07","id":3478,"job":"Producer","name":"Star
+        Wars: Ewoks","original_name":"Star Wars: Ewoks","poster_path":"/tuwV4i5zktlQHrIpaysNfb5Ae2y.jpg"},{"credit_id":"52532fb719c2957940007910","department":"Creator","first_air_date":"1985-09-07","id":25,"job":"Creator","name":"Star
+        Wars: Droids","original_name":"Star Wars: Droids","poster_path":"/xfqRg4m504ovzBDriizqEnUHEWg.jpg"},{"credit_id":"52538e0419c295794026c85f","department":"Creator","first_air_date":"1992-03-04","id":661,"job":"Creator","name":"The
+        Young Indiana Jones Chronicles","original_name":"The Young Indiana Jones Chronicles","poster_path":"/oJ7oxXf013K5OoXUfQBSEoCxS7R.jpg"},{"credit_id":"52570c2919c295711400d883","department":"Creator","first_air_date":null,"id":1541,"job":"Creator","name":"Star
+        Wars live-action TV series","original_name":"Star Wars live-action TV series","poster_path":null},{"credit_id":"52574c8c760ee36aaa156a38","department":"Creator","first_air_date":"2003-11-07","id":3122,"job":"Creator","name":"Star
+        Wars: Clone Wars","original_name":"Star Wars: Clone Wars","poster_path":"/ppRN9Ga16lsbfxlXVgnizMrKJ8e.jpg"},{"credit_id":"525751c5760ee36aaa1cc8b6","department":"Creator","first_air_date":"1985-09-07","id":3478,"job":"Creator","name":"Star
+        Wars: Ewoks","original_name":"Star Wars: Ewoks","poster_path":"/tuwV4i5zktlQHrIpaysNfb5Ae2y.jpg"},{"credit_id":"52575da819c29531db1aacc9","department":"Creator","first_air_date":"2008-11-23","id":4194,"job":"Creator","name":"Star
+        Wars: The Clone Wars","original_name":"Star Wars: The Clone Wars","poster_path":"/o152WTBAo9SSDc4T0unZ1V11WuD.jpg"},{"credit_id":"558967a89251414371000f2c","department":"Creator","first_air_date":"2014-10-03","id":60554,"job":"Creator","name":"Star
+        Wars Rebels","original_name":"Star Wars Rebels","poster_path":"/dfzbkhKMnkdwiG1AAIJnrc9SDdY.jpg"}],"id":1}'
+    http_version: 
+  recorded_at: Fri, 26 Jun 2015 10:30:17 GMT
+recorded_with: VCR 2.9.3

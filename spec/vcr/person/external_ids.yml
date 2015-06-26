@@ -1,0 +1,56 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.themoviedb.org/3/person/1/external_ids?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=21600
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 26 Jun 2015 10:30:15 GMT
+      Etag:
+      - '"fa7a5b15c4bafc587c4f28fb32004ed3"'
+      Server:
+      - openresty
+      Status:
+      - 200 OK
+      X-Memc:
+      - HIT
+      X-Memc-Age:
+      - '8843'
+      X-Memc-Expires:
+      - '12757'
+      X-Memc-Key:
+      - 5da0b068c79ec8a617696ae215da629b
+      X-Ratelimit-Limit:
+      - '40'
+      X-Ratelimit-Remaining:
+      - '35'
+      X-Ratelimit-Reset:
+      - '1435314624'
+      Content-Length:
+      - '106'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"imdb_id":"nm0000184","freebase_mid":"/m/0343h","freebase_id":"/en/george_lucas","tvrage_id":6490,"id":1}'
+    http_version: 
+  recorded_at: Fri, 26 Jun 2015 10:30:18 GMT
+recorded_with: VCR 2.9.3

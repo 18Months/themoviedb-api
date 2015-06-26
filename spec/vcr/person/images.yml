@@ -1,0 +1,56 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.themoviedb.org/3/person/1/images?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=21600
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 26 Jun 2015 10:30:15 GMT
+      Etag:
+      - '"ea8de906a7f8ab89a1872b70d18b81d1"'
+      Server:
+      - openresty
+      Status:
+      - 200 OK
+      X-Memc:
+      - HIT
+      X-Memc-Age:
+      - '15426'
+      X-Memc-Expires:
+      - '6174'
+      X-Memc-Key:
+      - 6ff3730c9e823654fb73568fbf0f7dc1
+      X-Ratelimit-Limit:
+      - '40'
+      X-Ratelimit-Remaining:
+      - '34'
+      X-Ratelimit-Reset:
+      - '1435314624'
+      Content-Length:
+      - '673'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"id":1,"profiles":[{"aspect_ratio":0.666666666666667,"file_path":"/8qxin8urtFE0NqaZNFWOuV537bH.jpg","height":3000,"iso_639_1":null,"vote_average":5.36996336996337,"vote_count":2,"width":2000},{"aspect_ratio":0.666666666666667,"file_path":"/rJ1zvSeZfge0mHtLnzJn4Mkw18S.jpg","height":1500,"iso_639_1":null,"vote_average":5.3125,"vote_count":1,"width":1000},{"aspect_ratio":0.680272108843537,"file_path":"/7Q5FVw6RhI1gsr1QHmJZuwxshRF.jpg","height":735,"iso_639_1":null,"vote_average":0.0,"vote_count":0,"width":500},{"aspect_ratio":0.666666666666667,"file_path":"/d8I8oke7Y5K0vlcz6LVCoFHzkxx.jpg","height":720,"iso_639_1":null,"vote_average":0.0,"vote_count":0,"width":480}]}'
+    http_version: 
+  recorded_at: Fri, 26 Jun 2015 10:30:18 GMT
+recorded_with: VCR 2.9.3

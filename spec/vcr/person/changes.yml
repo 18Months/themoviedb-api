@@ -1,0 +1,61 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.themoviedb.org/3/person/1/changes?api_key=c29379565234e20d7cbf4f2e835c3e41&end_date=2014-03-01&language=en&start_date=2014-02-19
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=300
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 26 Jun 2015 10:30:16 GMT
+      Etag:
+      - '"9812328687791465cbec8ece03bc0c36"'
+      Server:
+      - openresty
+      Status:
+      - 200 OK
+      X-Memc:
+      - MISS, STORE
+      X-Memc-Age:
+      - '0'
+      X-Memc-Expires:
+      - '300'
+      X-Memc-Key:
+      - 268dfb522b35589655b7678fbb03bce8
+      X-Ratelimit-Limit:
+      - '40'
+      X-Ratelimit-Remaining:
+      - '32'
+      X-Ratelimit-Reset:
+      - '1435314624'
+      Content-Length:
+      - '714'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"changes":[{"key":"also_known_as","items":[{"id":"53077a0f925141111a00003e","action":"added","time":"2014-02-21
+        16:08:47 UTC","value":["George Walton Lucas Jr. "]}]},{"key":"place_of_birth","items":[{"id":"53077a22925141110800002f","action":"updated","time":"2014-02-21
+        16:09:06 UTC","value":"Modesto - California - USA","original_value":"Modesto,
+        California, USA"}]},{"key":"images","items":[{"id":"53077a69925141110e00002c","action":"added","time":"2014-02-21
+        16:10:17 UTC","value":{"profile":{"file_path":"/d8I8oke7Y5K0vlcz6LVCoFHzkxx.jpg"}}},{"id":"53077a79925141110e000035","action":"deleted","time":"2014-02-21
+        16:10:33 UTC","original_value":{"profile":{"file_path":"/rkO2HyUHIbXTT4EuOyub42zstrA.jpg"}}}]}]}'
+    http_version: 
+  recorded_at: Fri, 26 Jun 2015 10:30:19 GMT
+recorded_with: VCR 2.9.3

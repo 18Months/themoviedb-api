@@ -32,13 +32,17 @@ module Tmdb
     end
 
     def self.tagged_images(id, filters={})
-      result = Resource.new("/person/#{id}/images", filters).get
-      Image.new(result)
+      result = Resource.new("/person/#{id}/tagged_images", filters).get
+      image = Image.new(result)
+      image.convert_media_multiple!
+      image
     end
 
     def self.changes(id, filters={})
       result = Resource.new("/person/#{id}/changes", filters).get
-      Changes.new(result)
+      change = Change.new(result)
+      change.convert_items_multiple!
+      change
     end
 
     def self.popular(filters={})

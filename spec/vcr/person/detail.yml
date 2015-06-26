@@ -1,0 +1,72 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.themoviedb.org/3/person/1?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=21600
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 26 Jun 2015 10:30:14 GMT
+      Etag:
+      - '"3c220e6b3ea199011e3d1e8d4fb81251"'
+      Server:
+      - openresty
+      Status:
+      - 200 OK
+      Vary:
+      - Accept-Encoding
+      X-Memc:
+      - HIT
+      X-Memc-Age:
+      - '19531'
+      X-Memc-Expires:
+      - '2069'
+      X-Memc-Key:
+      - 295ceaa7e277f950dfaa70ab1e47bbde
+      X-Ratelimit-Limit:
+      - '40'
+      X-Ratelimit-Remaining:
+      - '39'
+      X-Ratelimit-Reset:
+      - '1435314624'
+      Content-Length:
+      - '1294'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"adult":false,"also_known_as":["George Walton Lucas Jr. "],"biography":"Arguably
+        the most important film innovator in the history of the medium, George Lucas
+        continually \"pushed the envelope\" of filmmaking technology since his early
+        days as a student at U.S.C. Considered a wunderkind by his contemporaries,
+        he had a much harder time communicating his vision to studio executives, whose
+        meddling managed to compromise each of his first three feature directing efforts
+        in some way. The monumental success of \"Star Wars\" (1977) ushered in the
+        era of the \"summer blockbuster,\" which, despite the later popularity of
+        low budget independent films, was still the prevailing mentality powering
+        the Hollywood engine.\n\nThough he set the tone and established the expectations
+        which influenced studios to devote the bulk of their resources to films designed
+        to blast off into hyperspace for spectacular profits, it was doubtful that
+        a film as revolutionary as \"Star Wars\" was in its day could get made in
+        the later blockbuster assembly line climate of the new millennium.","birthday":"1944-05-14","deathday":"","homepage":"","id":1,"imdb_id":"nm0000184","name":"George
+        Lucas","place_of_birth":"Modesto - California - USA","popularity":1.978601,"profile_path":"/8qxin8urtFE0NqaZNFWOuV537bH.jpg"}'
+    http_version: 
+  recorded_at: Fri, 26 Jun 2015 10:30:16 GMT
+recorded_with: VCR 2.9.3
