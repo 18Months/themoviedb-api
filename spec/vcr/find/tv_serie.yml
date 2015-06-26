@@ -1,0 +1,79 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.themoviedb.org/3/find/tt3749900?api_key=c29379565234e20d7cbf4f2e835c3e41&external_source=imdb_id&language=en
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=10800
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 26 Jun 2015 08:42:06 GMT
+      Etag:
+      - '"f546d6109292f8e058e395b292dd3560"'
+      Server:
+      - openresty
+      Status:
+      - 200 OK
+      X-Memc:
+      - HIT
+      X-Memc-Age:
+      - '6086'
+      X-Memc-Expires:
+      - '4714'
+      X-Memc-Key:
+      - 674c57a920529af2e6caacea7efd939b
+      X-Ratelimit-Limit:
+      - '40'
+      X-Ratelimit-Remaining:
+      - '39'
+      X-Ratelimit-Reset:
+      - '1435308136'
+      Content-Length:
+      - '1018'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJtb3ZpZV9yZXN1bHRzIjpbXSwicGVyc29uX3Jlc3VsdHMiOltdLCJ0dl9y
+        ZXN1bHRzIjpbeyJiYWNrZHJvcF9wYXRoIjoiL2JSRm1CVTBWUHI5czFvZUpI
+        dVM1WmI1blpRUy5qcGciLCJmaXJzdF9haXJfZGF0ZSI6IjIwMTQtMDktMjIi
+        LCJnZW5yZV9pZHMiOls4MCwxOCw1M10sImlkIjo2MDcwOCwib3JpZ2luYWxf
+        bGFuZ3VhZ2UiOm51bGwsIm9yaWdpbmFsX25hbWUiOiJHb3RoYW0iLCJvdmVy
+        dmlldyI6IkJlZm9yZSB0aGVyZSB3YXMgQmF0bWFuLCB0aGVyZSB3YXMgR09U
+        SEFNLiBcblxuRXZlcnlvbmUga25vd3MgdGhlIG5hbWUgQ29tbWlzc2lvbmVy
+        IEdvcmRvbi4gSGUgaXMgb25lIG9mIHRoZSBjcmltZSB3b3JsZCdzIGdyZWF0
+        ZXN0IGZvZXMsIGEgbWFuIHdob3NlIHJlcHV0YXRpb24gaXMgc3lub255bW91
+        cyB3aXRoIGxhdyBhbmQgb3JkZXIuIEJ1dCB3aGF0IGlzIGtub3duIG9mIEdv
+        cmRvbidzIHN0b3J5IGFuZCBoaXMgcmlzZSBmcm9tIHJvb2tpZSBkZXRlY3Rp
+        dmUgdG8gUG9saWNlIENvbW1pc3Npb25lcj8gV2hhdCBkaWQgaXQgdGFrZSB0
+        byBuYXZpZ2F0ZSB0aGUgbXVsdGlwbGUgbGF5ZXJzIG9mIGNvcnJ1cHRpb24g
+        dGhhdCBzZWNyZXRseSBydWxlZCBHb3RoYW0gQ2l0eSwgdGhlIHNwYXduaW5n
+        IGdyb3VuZCBvZiB0aGUgd29ybGQncyBtb3N0IGljb25pYyB2aWxsYWlucz8g
+        QW5kIHdoYXQgY2lyY3Vtc3RhbmNlcyBjcmVhdGVkIHRoZW0g4oCTIHRoZSBs
+        YXJnZXItdGhhbi1saWZlIHBlcnNvbmFzIHdobyB3b3VsZCBiZWNvbWUgQ2F0
+        d29tYW4sIFRoZSBQZW5ndWluLCBUaGUgUmlkZGxlciwgVHdvLUZhY2UgYW5k
+        IFRoZSBKb2tlcj8gIiwib3JpZ2luX2NvdW50cnkiOlsiVVMiXSwicG9zdGVy
+        X3BhdGgiOiIvejJpUjB2bXVvRVU1ZUwyT053eWdEdXp6bE95LmpwZyIsInBv
+        cHVsYXJpdHkiOjQuNDI3NzYsIm5hbWUiOiJHb3RoYW0iLCJ2b3RlX2F2ZXJh
+        Z2UiOjguMiwidm90ZV9jb3VudCI6NTV9XSwidHZfZXBpc29kZV9yZXN1bHRz
+        IjpbXSwidHZfc2Vhc29uX3Jlc3VsdHMiOltdfQ==
+    http_version: 
+  recorded_at: Fri, 26 Jun 2015 08:42:09 GMT
+recorded_with: VCR 2.9.3
