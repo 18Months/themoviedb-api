@@ -10,6 +10,8 @@ require 'webmock/rspec'
 require 'vcr'
 require 'coveralls'
 
+Coveralls.wear!
+
 VCR.configure do |c|
   #the directory where your cassettes will be saved
   c.cassette_library_dir = 'spec/vcr'
