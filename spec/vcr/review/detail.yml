@@ -1,0 +1,66 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.themoviedb.org/3/review/5013bc76760ee372cb00253e?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=21600
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 26 Jun 2015 10:37:55 GMT
+      Etag:
+      - '"deb66ac826fe2ad09ee8043df27ed198"'
+      Server:
+      - openresty
+      Status:
+      - 200 OK
+      X-Memc:
+      - HIT
+      X-Memc-Age:
+      - '35'
+      X-Memc-Expires:
+      - '21565'
+      X-Memc-Key:
+      - 055ef28e055eebb5f2b14761e3eba51b
+      X-Ratelimit-Limit:
+      - '40'
+      X-Ratelimit-Remaining:
+      - '39'
+      X-Ratelimit-Reset:
+      - '1435315085'
+      Content-Length:
+      - '852'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"id":"5013bc76760ee372cb00253e","author":"Chris","content":"I personally
+        thought this film is on par if not better than the Dark Knight.\r\n\r\nWhilst
+        some think the film is too long for the story I didn''t find this. The length
+        of the film is longer than some (but doesn''t feel it), I liked that the film
+        took it''s time rather than shoving more elements in it - I think this contributed
+        to the dramatic ending (much like a classical piece of music will be relaxed
+        and calm before the final crescendo).\r\n\r\nAt the end of the day whether
+        you like this film will boil down to if you like films Christopher Nolan has
+        directed and/or you like the Christopher Nolan Batman series so far.\r\n\r\nStupendously
+        good film in my opinion.","iso_639_1":"en","media_id":49026,"media_title":"The
+        Dark Knight Rises","media_type":"Movie","url":"http://j.mp/P18dg1"}'
+    http_version: 
+  recorded_at: Fri, 26 Jun 2015 10:37:58 GMT
+recorded_with: VCR 2.9.3
