@@ -48,9 +48,7 @@ module Tmdb
 
       result = Resource.new('/search/person', filters).get
       person = Person.new(result)
-
-      person.convert_known_for!
-
+      person.convert_known_for_multiple!
       person
     end
 

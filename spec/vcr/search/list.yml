@@ -1,0 +1,70 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.themoviedb.org/3/search/list?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en&query=Disney
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=10800
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 26 Jun 2015 12:22:35 GMT
+      Etag:
+      - '"ebdba410a0703805c3b5f55591c6603d"'
+      Server:
+      - openresty
+      Status:
+      - 200 OK
+      Vary:
+      - Accept-Encoding
+      X-Memc:
+      - HIT
+      X-Memc-Age:
+      - '673'
+      X-Memc-Expires:
+      - '10127'
+      X-Memc-Key:
+      - 2101f84ca876c8ea7ab496ce06b3fca9
+      X-Ratelimit-Limit:
+      - '40'
+      X-Ratelimit-Remaining:
+      - '36'
+      X-Ratelimit-Reset:
+      - '1435321364'
+      Content-Length:
+      - '2236'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"page":1,"results":[{"description":"List of the Disney Classic Collection,
+        Based on Theatrical Release Dates, and the Official list from Disney (Found  on
+        wikipedia)","favorite_count":27,"id":"51224e42760ee3297424a1e0","item_count":53,"iso_639_1":"en","list_type":"movie","name":"Disney
+        Classic Collection","poster_path":"/cKUT3bLwyU0Z08pTLMaSFRHAe6.jpg"},{"description":"Tous
+        les films Disney en ma possession.","favorite_count":1,"id":"54c3ce0e9251416185001805","item_count":48,"iso_639_1":"fr","list_type":"movie","name":"Disney","poster_path":"/Ae8wWRahDZaqBK1y5cgDdLd7xgJ.jpg"},{"description":"","favorite_count":1,"id":"545b988b0e0a261fa6001fd7","item_count":39,"iso_639_1":"de","list_type":"movie","name":"Disney","poster_path":"/budR6oAZm55yp4kr5sYqEgg3BH8.jpg"},{"description":"Disney
+        Movies","favorite_count":1,"id":"547355b4e24fab4fbc0001f5","item_count":5,"iso_639_1":"en","list_type":"movie","name":"Disney","poster_path":"/o6lOfwURuOUfFvjxUfensU7bMiC.jpg"},{"description":"Peliculas
+        de disney","favorite_count":1,"id":"5470096f5af5b10a4b00004c","item_count":6,"iso_639_1":"en","list_type":"movie","name":"Disney","poster_path":"/AbIhABWtZPrmvnqBTiH0Y0rOqBJ.jpg"},{"description":"","favorite_count":1,"id":"52a614b09a1218259e0af796","item_count":0,"iso_639_1":"en","list_type":"movie","name":"disney","poster_path":null},{"description":"Disney
+        Movies","favorite_count":1,"id":"50f0859f19c29520cf407683","item_count":30,"iso_639_1":"en","list_type":"movie","name":"Disney","poster_path":"/m5DU0TWFrFZvqPfTbp1q93esfht.jpg"},{"description":"Disney
+        film","favorite_count":1,"id":"55183e5d529157531d00002e","item_count":17,"iso_639_1":"en","list_type":"movie","name":"disney","poster_path":"/nyS5reEzH0EYE6bI2P5VAP5dYtC.jpg"},{"description":"A
+        List of all Pixar Animation Studios Full Length Features","favorite_count":7,"id":"51df844919c29502bf01f2b6","item_count":14,"iso_639_1":"en","list_type":"movie","name":"Disney
+        Pixar Animation Studios Collection","poster_path":"/1ZtSpTDvkzVPr394tf6TjSrmBSQ.jpg"},{"description":"All
+        Things Disney","favorite_count":1,"id":"5448754d4af0cd124e000041","item_count":1,"iso_639_1":"en","list_type":"movie","name":"Disney
+        Favorites","poster_path":null}],"total_pages":4,"total_results":39}'
+    http_version: 
+  recorded_at: Fri, 26 Jun 2015 12:22:38 GMT
+recorded_with: VCR 2.9.3

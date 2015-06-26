@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.themoviedb.org/3/search/collection?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en&query=Disney
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=10800
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 26 Jun 2015 12:22:34 GMT
+      Etag:
+      - '"a23e85785675b008d3596e80ef94d427"'
+      Server:
+      - openresty
+      Status:
+      - 200 OK
+      X-Memc:
+      - HIT
+      X-Memc-Age:
+      - '779'
+      X-Memc-Expires:
+      - '10021'
+      X-Memc-Key:
+      - a812db08d91eff725fa1db6fa2558a81
+      X-Ratelimit-Limit:
+      - '40'
+      X-Ratelimit-Remaining:
+      - '38'
+      X-Ratelimit-Reset:
+      - '1435321364'
+      Content-Length:
+      - '321'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"page":1,"results":[{"id":138902,"backdrop_path":null,"name":"Disney
+        Sing-Along-Songs","poster_path":"/4hYRgJYtzNqIApRWImSkfOQ5vP2.jpg"},{"id":91657,"backdrop_path":"/tDhCsQaxFmdorEZHIgVaZH0MGDs.jpg","name":"Disney
+        Buddies Collection","poster_path":"/dBTf3e1Cgh9t1i4g8XkJBvytL8d.jpg"}],"total_pages":1,"total_results":2}'
+    http_version: 
+  recorded_at: Fri, 26 Jun 2015 12:22:37 GMT
+recorded_with: VCR 2.9.3

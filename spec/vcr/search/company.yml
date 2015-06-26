@@ -1,0 +1,70 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.themoviedb.org/3/search/company?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en&query=Disney
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=10800
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 26 Jun 2015 12:22:34 GMT
+      Etag:
+      - '"c1a6efa3bc6ac52a65677c49e47428cc"'
+      Server:
+      - openresty
+      Status:
+      - 200 OK
+      Vary:
+      - Accept-Encoding
+      X-Memc:
+      - HIT
+      X-Memc-Age:
+      - '931'
+      X-Memc-Expires:
+      - '9869'
+      X-Memc-Key:
+      - 1a44038d7ccd4eb506787ec1b21c15bb
+      X-Ratelimit-Limit:
+      - '40'
+      X-Ratelimit-Remaining:
+      - '39'
+      X-Ratelimit-Reset:
+      - '1435321364'
+      Content-Length:
+      - '1244'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"page":1,"results":[{"id":6421,"logo_path":null,"name":"Disney"},{"id":5888,"logo_path":null,"name":"Walt
+        Disney"},{"id":41452,"logo_path":null,"name":"Disney Latino"},{"id":44514,"logo_path":null,"name":"Disney
+        XD"},{"id":26151,"logo_path":null,"name":"Disney Enterprises"},{"id":4855,"logo_path":null,"name":"Disney
+        Einstein"},{"id":3213,"logo_path":null,"name":"Disney Channel"},{"id":6806,"logo_path":null,"name":"Disney
+        Pixar"},{"id":17204,"logo_path":null,"name":"walt disney france"},{"id":18978,"logo_path":null,"name":"Walt
+        Disney Television Animation"},{"id":20193,"logo_path":null,"name":"Walt Disney
+        Company"},{"id":6470,"logo_path":null,"name":"Walt Disney Production"},{"id":6125,"logo_path":null,"name":"Walt
+        Disney Animation Studios"},{"id":7586,"logo_path":null,"name":"Walt Disney
+        Home Video"},{"id":10079,"logo_path":null,"name":"The Walt Disney Company"},{"id":10217,"logo_path":null,"name":"Walt
+        Disney Feature Animation"},{"id":35162,"logo_path":null,"name":"Walt Disney
+        Studios HE"},{"id":41712,"logo_path":null,"name":"Disney Interactive, Canada"},{"id":40148,"logo_path":null,"name":"Walt
+        Disney Animation Japan"},{"id":12402,"logo_path":null,"name":"Walt Disney
+        Animation Canada"}],"total_pages":2,"total_results":40}'
+    http_version: 
+  recorded_at: Fri, 26 Jun 2015 12:22:37 GMT
+recorded_with: VCR 2.9.3

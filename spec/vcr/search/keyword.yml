@@ -1,0 +1,61 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.themoviedb.org/3/search/keyword?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en&query=Disney
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=10800
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 26 Jun 2015 12:22:34 GMT
+      Etag:
+      - '"a4353e84819d390c61b3d2ad6bc479c5"'
+      Server:
+      - openresty
+      Status:
+      - 200 OK
+      X-Memc:
+      - HIT
+      X-Memc-Age:
+      - '727'
+      X-Memc-Expires:
+      - '10073'
+      X-Memc-Key:
+      - 48c00a8f48e162eb8d32b154cc3ddd04
+      X-Ratelimit-Limit:
+      - '40'
+      X-Ratelimit-Remaining:
+      - '37'
+      X-Ratelimit-Reset:
+      - '1435321364'
+      Content-Length:
+      - '572'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"page":1,"results":[{"id":191117,"name":"disney"},{"id":184948,"name":"disney
+        channel"},{"id":155290,"name":"disney short"},{"id":193468,"name":"walt disney"},{"id":209353,"name":"disney
+        fake"},{"id":206890,"name":"disney shorts"},{"id":207815,"name":"walt disney
+        treasures"},{"id":207816,"name":"walt disney treasures"},{"id":207814,"name":"walt
+        disney treasures,"},{"id":209354,"name":"unofficial disney short"},{"id":209265,"name":"walt
+        disney world"},{"id":15200,"name":"disney animated feature"},{"id":188291,"name":"disneyland"}],"total_pages":1,"total_results":13}'
+    http_version: 
+  recorded_at: Fri, 26 Jun 2015 12:22:37 GMT
+recorded_with: VCR 2.9.3
