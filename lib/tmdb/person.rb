@@ -40,9 +40,12 @@ module Tmdb
 
     def self.changes(id, filters={})
       result = Resource.new("/person/#{id}/changes", filters).get
-      change = Change.new(result)
-      change.convert_items_multiple!
-      change
+
+      result['changes'].map do |entry|
+        change = Change.new(entry)
+        change.convert_items_multiple!
+        change
+      end
     end
 
     def self.popular(filters={})

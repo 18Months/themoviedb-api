@@ -1,0 +1,59 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.themoviedb.org/3/tv/1396/alternative_titles?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=21600
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 26 Jun 2015 13:00:35 GMT
+      Etag:
+      - '"ee6c396c0a0603c69f136ccb2830728b"'
+      Server:
+      - openresty
+      Status:
+      - 200 OK
+      X-Memc:
+      - HIT
+      X-Memc-Age:
+      - '8079'
+      X-Memc-Expires:
+      - '13521'
+      X-Memc-Key:
+      - f32970bb12433bcdf536f07108ac7a72
+      X-Ratelimit-Limit:
+      - '40'
+      X-Ratelimit-Remaining:
+      - '38'
+      X-Ratelimit-Reset:
+      - '1435323645'
+      Content-Length:
+      - '118'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpZCI6MTM5NiwicmVzdWx0cyI6W3sidGl0bGUiOiJUb3TDoWwgc3rDrXbD
+        oXMiLCJpc29fMzE2Nl8xIjoiSFUifSx7InRpdGxlIjoiQnLEmXN0YW50aXMg
+        YmxvZ2lzIiwiaXNvXzMxNjZfMSI6IkxUIn1dfQ==
+    http_version: 
+  recorded_at: Fri, 26 Jun 2015 13:00:38 GMT
+recorded_with: VCR 2.9.3

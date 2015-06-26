@@ -1,0 +1,95 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.themoviedb.org/3/tv/1396/translations?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=21600
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 26 Jun 2015 13:18:24 GMT
+      Etag:
+      - '"b86961706fd1ffd1528e71f1ed6421ad"'
+      Server:
+      - openresty
+      Status:
+      - 200 OK
+      Vary:
+      - Accept-Encoding
+      X-Memc:
+      - HIT
+      X-Memc-Age:
+      - '9538'
+      X-Memc-Expires:
+      - '12062'
+      X-Memc-Key:
+      - d003b698700945107e0962486abaa45c
+      X-Ratelimit-Limit:
+      - '40'
+      X-Ratelimit-Remaining:
+      - '31'
+      X-Ratelimit-Reset:
+      - '1435324712'
+      Content-Length:
+      - '1631'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpZCI6MTM5NiwidHJhbnNsYXRpb25zIjpbeyJpc29fNjM5XzEiOiJociIs
+        Im5hbWUiOiJIcnZhdHNraSIsImVuZ2xpc2hfbmFtZSI6IkNyb2F0aWFuIn0s
+        eyJpc29fNjM5XzEiOiJicyIsIm5hbWUiOiIiLCJlbmdsaXNoX25hbWUiOiJC
+        b3NuaWFuIn0seyJpc29fNjM5XzEiOiJlbiIsIm5hbWUiOiJFbmdsaXNoIiwi
+        ZW5nbGlzaF9uYW1lIjoiRW5nbGlzaCJ9LHsiaXNvXzYzOV8xIjoiamEiLCJu
+        YW1lIjoi5pel5pys6KqeIiwiZW5nbGlzaF9uYW1lIjoiSmFwYW5lc2UifSx7
+        Imlzb182MzlfMSI6InRyIiwibmFtZSI6IlTDvHJrw6dlIiwiZW5nbGlzaF9u
+        YW1lIjoiVHVya2lzaCJ9LHsiaXNvXzYzOV8xIjoic2siLCJuYW1lIjoiU2xv
+        dmVuxI1pbmEiLCJlbmdsaXNoX25hbWUiOiJTbG92YWsifSx7Imlzb182Mzlf
+        MSI6ImRlIiwibmFtZSI6IkRldXRzY2giLCJlbmdsaXNoX25hbWUiOiJHZXJt
+        YW4ifSx7Imlzb182MzlfMSI6InJ1IiwibmFtZSI6IlDRg9GB0YHQutC40Lki
+        LCJlbmdsaXNoX25hbWUiOiJSdXNzaWFuIn0seyJpc29fNjM5XzEiOiJmciIs
+        Im5hbWUiOiJGcmFuw6dhaXMiLCJlbmdsaXNoX25hbWUiOiJGcmVuY2gifSx7
+        Imlzb182MzlfMSI6Imh1IiwibmFtZSI6Ik1hZ3lhciIsImVuZ2xpc2hfbmFt
+        ZSI6Ikh1bmdhcmlhbiJ9LHsiaXNvXzYzOV8xIjoiZWwiLCJuYW1lIjoizrXO
+        u867zrfOvc65zrrOrCIsImVuZ2xpc2hfbmFtZSI6IkdyZWVrIn0seyJpc29f
+        NjM5XzEiOiJlcyIsIm5hbWUiOiJFc3Bhw7FvbCIsImVuZ2xpc2hfbmFtZSI6
+        IlNwYW5pc2gifSx7Imlzb182MzlfMSI6ImJnIiwibmFtZSI6ItCx0YrQu9Cz
+        0LDRgNGB0LrQuCDQtdC30LjQuiIsImVuZ2xpc2hfbmFtZSI6IkJ1bGdhcmlh
+        biJ9LHsiaXNvXzYzOV8xIjoicm8iLCJuYW1lIjoiUm9tw6JuxIMiLCJlbmds
+        aXNoX25hbWUiOiJSb21hbmlhbiJ9LHsiaXNvXzYzOV8xIjoiaXQiLCJuYW1l
+        IjoiSXRhbGlhbm8iLCJlbmdsaXNoX25hbWUiOiJJdGFsaWFuIn0seyJpc29f
+        NjM5XzEiOiJoZSIsIm5hbWUiOiLXota015HWsNeo1rTXmdeqIiwiZW5nbGlz
+        aF9uYW1lIjoiSGVicmV3In0seyJpc29fNjM5XzEiOiJubCIsIm5hbWUiOiJO
+        ZWRlcmxhbmRzIiwiZW5nbGlzaF9uYW1lIjoiRHV0Y2gifSx7Imlzb182Mzlf
+        MSI6InBsIiwibmFtZSI6IlBvbHNraSIsImVuZ2xpc2hfbmFtZSI6IlBvbGlz
+        aCJ9LHsiaXNvXzYzOV8xIjoicHQiLCJuYW1lIjoiUG9ydHVndcOqcyIsImVu
+        Z2xpc2hfbmFtZSI6IlBvcnR1Z3Vlc2UifSx7Imlzb182MzlfMSI6ImNzIiwi
+        bmFtZSI6IsSMZXNrw70iLCJlbmdsaXNoX25hbWUiOiJDemVjaCJ9LHsiaXNv
+        XzYzOV8xIjoiemgiLCJuYW1lIjoi5Lit5Zu9IiwiZW5nbGlzaF9uYW1lIjoi
+        TWFuZGFyaW4ifSx7Imlzb182MzlfMSI6ImRhIiwibmFtZSI6IkRhbnNrIiwi
+        ZW5nbGlzaF9uYW1lIjoiRGFuaXNoIn0seyJpc29fNjM5XzEiOiJ1ayIsIm5h
+        bWUiOiLQo9C60YDQsNGX0L3RgdGM0LrQuNC5IiwiZW5nbGlzaF9uYW1lIjoi
+        VWtyYWluaWFuIn0seyJpc29fNjM5XzEiOiJrbyIsIm5hbWUiOiLtlZzqta3s
+        lrQv7KGw7ISg66eQIiwiZW5nbGlzaF9uYW1lIjoiS29yZWFuIn0seyJpc29f
+        NjM5XzEiOiJzdiIsIm5hbWUiOiJzdmVuc2thIiwiZW5nbGlzaF9uYW1lIjoi
+        U3dlZGlzaCJ9XX0=
+    http_version: 
+  recorded_at: Fri, 26 Jun 2015 13:18:27 GMT
+recorded_with: VCR 2.9.3

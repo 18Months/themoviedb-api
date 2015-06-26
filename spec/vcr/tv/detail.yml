@@ -1,0 +1,71 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.themoviedb.org/3/tv/1396?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=21600
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 26 Jun 2015 13:00:35 GMT
+      Etag:
+      - '"81cae3bb2dedd13eb3592df9ab54977e"'
+      Server:
+      - openresty
+      Status:
+      - 200 OK
+      Vary:
+      - Accept-Encoding
+      X-Memc:
+      - HIT
+      X-Memc-Age:
+      - '15598'
+      X-Memc-Expires:
+      - '6002'
+      X-Memc-Key:
+      - 784bb2de3776b09b09db0c8e57046b8b
+      X-Ratelimit-Limit:
+      - '40'
+      X-Ratelimit-Remaining:
+      - '39'
+      X-Ratelimit-Reset:
+      - '1435323645'
+      Content-Length:
+      - '2297'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"backdrop_path":"/eSzpy96DwBujGFj0xMbXBcGcfxX.jpg","created_by":[{"id":66633,"name":"Vince
+        Gilligan","profile_path":"/rLSUjr725ez1cK7SKVxC9udO03Y.jpg"}],"episode_run_time":[45,47],"first_air_date":"2008-01-19","genres":[{"id":18,"name":"Drama"}],"homepage":"http://www.amctv.com/shows/breaking-bad","id":1396,"in_production":false,"languages":["en","de","ro","es","fa"],"last_air_date":"2013-09-29","name":"Breaking
+        Bad","networks":[{"id":174,"name":"AMC"}],"number_of_episodes":62,"number_of_seasons":5,"origin_country":["US"],"original_language":"en","original_name":"Breaking
+        Bad","overview":"Breaking Bad is an American crime drama television series
+        created and produced by Vince Gilligan. Set and produced in Albuquerque, New
+        Mexico, Breaking Bad is the story of Walter White, a struggling high school
+        chemistry teacher who is diagnosed with inoperable lung cancer at the beginning
+        of the series. He turns to a life of crime, producing and selling methamphetamine,
+        in order to secure his family''s financial future before he dies, teaming
+        with his former student, Jesse Pinkman. Heavily serialized, the series is
+        known for positioning its characters in seemingly inextricable corners and
+        has been labeled a contemporary western by its creator.","popularity":17.223891,"poster_path":"/4yMXf3DW6oCL0lVPZaZM2GypgwE.jpg","production_companies":[{"name":"Gran
+        Via Productions","id":2605},{"name":"Sony Pictures Television","id":11073},{"name":"High
+        Bridge Entertainment","id":33742}],"seasons":[{"air_date":"2009-02-17","episode_count":6,"id":3577,"poster_path":"/AngNuUbXSciwLnUXtdOBHqphxNr.jpg","season_number":0},{"air_date":"2008-01-19","episode_count":7,"id":3572,"poster_path":"/o5131POxv9xFl3wBmdg0YWc9Iz4.jpg","season_number":1},{"air_date":"2009-03-08","episode_count":13,"id":3573,"poster_path":"/7FwD7IuyHy6xl18LDIRxjl7vDbo.jpg","season_number":2},{"air_date":"2010-03-21","episode_count":13,"id":3575,"poster_path":"/1HVSSlEAOILiR4BskS1zV04kTjx.jpg","season_number":3},{"air_date":"2011-07-17","episode_count":13,"id":3576,"poster_path":"/5p7WduYlIIFjVYUIsqRZLFYWjMc.jpg","season_number":4},{"air_date":"2012-07-15","episode_count":16,"id":3578,"poster_path":"/r3z70vunihrAkjILQKWHX0G2xzO.jpg","season_number":5}],"status":"Ended","type":"Scripted","vote_average":8.9,"vote_count":248}'
+    http_version: 
+  recorded_at: Fri, 26 Jun 2015 13:00:38 GMT
+recorded_with: VCR 2.9.3

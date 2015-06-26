@@ -1,0 +1,86 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.themoviedb.org/3/tv/1396/credits?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=21600
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 26 Jun 2015 13:18:23 GMT
+      Etag:
+      - '"78ee85843db80a252db7a1abcee00890"'
+      Server:
+      - openresty
+      Status:
+      - 200 OK
+      Vary:
+      - Accept-Encoding
+      X-Memc:
+      - HIT
+      X-Memc-Age:
+      - '1852'
+      X-Memc-Expires:
+      - '19748'
+      X-Memc-Key:
+      - ff58313494259ee31c15cd8400e51804
+      X-Ratelimit-Limit:
+      - '40'
+      X-Ratelimit-Remaining:
+      - '37'
+      X-Ratelimit-Reset:
+      - '1435324712'
+      Content-Length:
+      - '4071'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"cast":[{"character":"Walter White","credit_id":"52542282760ee313280017f9","id":17419,"name":"Bryan
+        Cranston","profile_path":"/fnglrIFnI5cK4OAh66AZN86mkFq.jpg","order":0},{"character":"Skyler
+        White","credit_id":"52542282760ee3132800181b","id":134531,"name":"Anna Gunn","profile_path":"/6yLKtfYFWbJp5HAjvCecQCYlmqk.jpg","order":1},{"character":"Jesse
+        Pinkman","credit_id":"52542282760ee31328001845","id":84497,"name":"Aaron Paul","profile_path":"/pAa8H7DjgXENBhyvJy0hVLKvVT6.jpg","order":2},{"character":"Hank
+        Schrader","credit_id":"52542283760ee3132800187b","id":14329,"name":"Dean Norris","profile_path":"/fee5Hdms2TWRnOiIY8NeKSJf4ge.jpg","order":3},{"character":"Marie
+        Schrader","credit_id":"52542283760ee31328001891","id":1217934,"name":"Betsy
+        Brandt","profile_path":"/zpmsca1HCVqYrtWXV9xdmsECDTI.jpg","order":4},{"character":"Walter
+        White Jr.","credit_id":"52542284760ee313280018a9","id":209674,"name":"RJ Mitte","profile_path":"/hO5HJKM6p6SQjpdV8Fs64BJWzmT.jpg","order":5},{"character":"Mike
+        Ehrmantraut","credit_id":"5271b1e6760ee35af60941ad","id":783,"name":"Jonathan
+        Banks","profile_path":"/s6K0lromCtmSTzuX9hig8OPiRsC.jpg","order":10},{"character":"Saul
+        Goodman","credit_id":"5271b180760ee35afc09bb8d","id":59410,"name":"Bob Odenkirk","profile_path":"/1NrWxUR86TnHzqxl4Cs9qTzJhtm.jpg","order":73}],"crew":[{"credit_id":"52542287760ee31328001af1","department":"Production","id":66633,"name":"Vince
+        Gilligan","job":"Executive Producer","profile_path":"/rLSUjr725ez1cK7SKVxC9udO03Y.jpg"},{"credit_id":"52542287760ee31328001b69","department":"Production","id":5162,"name":"Mark
+        Johnson","job":"Executive Producer","profile_path":"/yKGF6cbzyP03Gl1QhVLCu1gWSW6.jpg"},{"credit_id":"52542288760ee31328001b83","department":"Production","id":29779,"name":"Michelle
+        MacLaren","job":"Executive Producer","profile_path":"/7pSOTNnQB5GJXm5HylTY04Y2QAB.jpg"},{"credit_id":"52b7034f19c2955402184de6","department":"Costume
+        & Make-Up","id":35583,"name":"Kathleen Detoro","job":"Costume Design","profile_path":null},{"credit_id":"52b7008819c29559eb03dd72","department":"Sound","id":1280070,"name":"Dave
+        Porter","job":"Original Music Composer","profile_path":null},{"credit_id":"52b7020b19c295223b0a46e8","department":"Art","id":21640,"name":"Robb
+        Wilson King","job":"Production Design","profile_path":null},{"credit_id":"52542287760ee31328001b07","department":"Production","id":1218856,"name":"Patty
+        Lin","job":"Producer","profile_path":null},{"credit_id":"52542287760ee31328001b27","department":"Production","id":29924,"name":"John
+        Shiban","job":"Producer","profile_path":"/rswDSJsdupySS9oEBKzYDE7Uod9.jpg"},{"credit_id":"52542289760ee31328001b9d","department":"Production","id":1223199,"name":"Melissa
+        Bernstein","job":"Producer","profile_path":null},{"credit_id":"52542289760ee31328001bb3","department":"Production","id":1223194,"name":"Sam
+        Catlin","job":"Producer","profile_path":"/6Oy9AmJ9JDCzJ5RbBL4no2zZgDl.jpg"},{"credit_id":"52542289760ee31328001bd1","department":"Production","id":24951,"name":"Peter
+        Gould","job":"Producer","profile_path":null},{"credit_id":"52542289760ee31328001be9","department":"Production","id":1223193,"name":"George
+        Mastras","job":"Producer","profile_path":null},{"credit_id":"52542289760ee31328001c03","department":"Production","id":103009,"name":"Thomas
+        Schnauz","job":"Producer","profile_path":null},{"credit_id":"5254228a760ee31328001c1d","department":"Production","id":1223200,"name":"Stewart
+        Lyons","job":"Producer","profile_path":null},{"credit_id":"5254228c760ee31328001c37","department":"Production","id":1223201,"name":"Karen
+        Moore","job":"Producer","profile_path":null},{"credit_id":"5254228c760ee31328001c6d","department":"Production","id":1223198,"name":"Moira
+        Walley-Beckett","job":"Producer","profile_path":null},{"credit_id":"5254228d760ee31328001cc7","department":"Production","id":17419,"name":"Bryan
+        Cranston","job":"Producer","profile_path":"/fnglrIFnI5cK4OAh66AZN86mkFq.jpg"},{"credit_id":"5254228e760ee31328001ce1","department":"Production","id":1223202,"name":"Diane
+        Mercer","job":"Producer","profile_path":null}],"id":1396}'
+    http_version: 
+  recorded_at: Fri, 26 Jun 2015 13:18:26 GMT
+recorded_with: VCR 2.9.3

@@ -1,0 +1,57 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.themoviedb.org/3/tv/1396/videos?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=21600
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 26 Jun 2015 13:18:25 GMT
+      Etag:
+      - '"4462cc2797d85f06bab506e2edf3d527"'
+      Server:
+      - openresty
+      Status:
+      - 200 OK
+      X-Memc:
+      - HIT
+      X-Memc-Age:
+      - '15333'
+      X-Memc-Expires:
+      - '6267'
+      X-Memc-Key:
+      - 719287b62ba4fcdfb83f693a60c9eeed
+      X-Ratelimit-Limit:
+      - '40'
+      X-Ratelimit-Remaining:
+      - '30'
+      X-Ratelimit-Reset:
+      - '1435324712'
+      Content-Length:
+      - '180'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"id":1396,"results":[{"id":"5335e299c3a368265000001d","iso_639_1":"en","key":"6OdIbPMU720","name":"Opening
+        Credits (Short)","site":"YouTube","size":480,"type":"Opening Credits"}]}'
+    http_version: 
+  recorded_at: Fri, 26 Jun 2015 13:18:28 GMT
+recorded_with: VCR 2.9.3

@@ -1,0 +1,56 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.themoviedb.org/3/tv/1396/content_ratings?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=21600
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 26 Jun 2015 13:18:23 GMT
+      Etag:
+      - '"5d19dfc998e3ec3e01b820273f381468"'
+      Server:
+      - openresty
+      Status:
+      - 200 OK
+      X-Memc:
+      - HIT
+      X-Memc-Age:
+      - '815'
+      X-Memc-Expires:
+      - '20785'
+      X-Memc-Key:
+      - 2709fe3f55707aaf5bc6c308d1f2b01c
+      X-Ratelimit-Limit:
+      - '40'
+      X-Ratelimit-Remaining:
+      - '38'
+      X-Ratelimit-Reset:
+      - '1435324712'
+      Content-Length:
+      - '94'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"results":[{"iso_3166_1":"DE","rating":"16"},{"iso_3166_1":"US","rating":"TV-MA"}],"id":1396}'
+    http_version: 
+  recorded_at: Fri, 26 Jun 2015 13:18:26 GMT
+recorded_with: VCR 2.9.3

@@ -46,8 +46,26 @@ describe Tmdb::Movie do
 
     subject { detail }
 
-    it 'should return an Tmdb::Movie object' do
-      expect(subject).to be_an_instance_of(Tmdb::Movie)
+    it { expect(subject).to be_an_instance_of(Tmdb::Movie) }
+
+    it 'Tmdb::Movie should contain genres field with Tmdb::Genre objects' do
+      expect(subject.genres).to be_an_instance_of(Array)
+      expect(subject.genres.first).to be_an_instance_of(Tmdb::Genre)
+    end
+
+    it 'Tmdb::Movie should contain production_companies field with Tmdb::Company objects' do
+      expect(subject.production_companies).to be_an_instance_of(Array)
+      expect(subject.production_companies.first).to be_an_instance_of(Tmdb::Company)
+    end
+
+    it 'Tmdb::Movie should contain production_countries field with Tmdb::Country objects' do
+      expect(subject.production_countries).to be_an_instance_of(Array)
+      expect(subject.production_countries.first).to be_an_instance_of(Tmdb::Country)
+    end
+
+    it 'Tmdb::Movie should contain spoken_languages field with Tmdb::Language objects' do
+      expect(subject.spoken_languages).to be_an_instance_of(Array)
+      expect(subject.spoken_languages.first).to be_an_instance_of(Tmdb::Language)
     end
   end
 
@@ -254,7 +272,7 @@ describe Tmdb::Movie do
 
     subject { changes }
 
-    it 'should return an array of Tmdb::Changes' do
+    it 'should return an array of Tmdb::Change' do
       expect(subject).to be_an_instance_of(Array)
       expect(subject.first.items.sample).to be_an_instance_of(Tmdb::Change)
     end

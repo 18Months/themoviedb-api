@@ -1,0 +1,58 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.themoviedb.org/3/tv/1399/changes?api_key=c29379565234e20d7cbf4f2e835c3e41&end_date=2015-06-26&language=en&start_date=2015-06-23
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Content-Type:
+      - application/json
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=300
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 26 Jun 2015 13:18:22 GMT
+      Etag:
+      - '"3e8981619f629a16d5806ef58cd99dda"'
+      Server:
+      - openresty
+      Status:
+      - 200 OK
+      X-Memc:
+      - MISS, STORE
+      X-Memc-Age:
+      - '0'
+      X-Memc-Expires:
+      - '300'
+      X-Memc-Key:
+      - 565c2540bc33fdeedf26bd0edd659cb8
+      X-Ratelimit-Limit:
+      - '40'
+      X-Ratelimit-Remaining:
+      - '39'
+      X-Ratelimit-Reset:
+      - '1435324712'
+      Content-Length:
+      - '303'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"changes":[{"key":"season","items":[{"id":"558ac8ebc3a368136f000053","action":"updated","time":"2015-06-24
+        15:12:43 UTC","value":{"season_id":3628,"season_number":4}},{"id":"558b196e92514141d800010d","action":"updated","time":"2015-06-24
+        20:56:14 UTC","value":{"season_id":62090,"season_number":5}}]}]}'
+    http_version: 
+  recorded_at: Fri, 26 Jun 2015 13:18:25 GMT
+recorded_with: VCR 2.9.3

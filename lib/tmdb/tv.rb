@@ -19,7 +19,9 @@ module Tmdb
       result = Resource.new("/tv/#{id}/changes", filters).get
 
       result['changes'].map do |entry|
-        Changes.new(entry)
+        change = Change.new(entry)
+        change.convert_items_multiple!
+        change
       end
     end
 
@@ -43,14 +45,6 @@ module Tmdb
       result = Resource.new("/tv/#{id}/credits", filters).get
 
       result['crew'].map do |entry|
-        Person.new(entry)
-      end
-    end
-
-    def self.director(id, filters={})
-      result = Resource.new("/tv/#{id}/credits", filters).get
-
-      result['crew'].select{ |x| x['job'] == 'Director' }.map do |entry|
         Person.new(entry)
       end
     end

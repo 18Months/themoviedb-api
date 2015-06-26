@@ -156,14 +156,12 @@ describe Tmdb::Person do
 
     subject { changes }
 
-    it { expect(subject).to be_an_instance_of(Tmdb::Change) }
-
     it 'should have changes of kind Tmdb::Change' do
-      expect(subject.changes.sample).to be_an_instance_of(Tmdb::Change)
+      expect(subject.sample).to be_an_instance_of(Tmdb::Change)
     end
 
     it 'changes should contain items of kind Tmdb::ChangeItem' do
-      expect(subject.changes.first.items.first).to be_an_instance_of(Tmdb::ChangeItem)
+      expect(subject.first.items.first).to be_an_instance_of(Tmdb::ChangeItem)
     end
   end
 
