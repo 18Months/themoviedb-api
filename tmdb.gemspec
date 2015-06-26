@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.require_paths = %w[lib]
 
   s.add_runtime_dependency 'httparty',          '~> 0.13.5'
-  s.add_runtime_dependency 'activesupport',     '~> 4.2.1'
+  s.add_runtime_dependency 'activesupport',     '~> 4.2.2'
 
   s.add_development_dependency 'awesome_print', '~> 1.6.1'
   s.add_development_dependency 'vcr',           '~> 2.9.3'
