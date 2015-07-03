@@ -305,7 +305,9 @@ Tmdb::Discover.tv
 
 ## Find
 
-The find method makes it easy to search for objects in our database by an external id. For instance, an IMDB ID. This will search all objects (movies, TV shows and people) and return the results in a single response.  
+#### Movie
+
+The find movie method makes it easy to search for objects in our database by an external id. For instance, an IMDB ID. This will search all objects (movies, TV shows and people) and return the results in a single response.  
 The supported external sources for each object are as follows:
 
 * Movies: imdb_id
@@ -342,6 +344,34 @@ Get the list of movies for a particular genre by id. By default, only movies wit
 
 ```ruby
 Tmdb::Genre.movies(18)
+```
+
+## Jobs
+
+#### List
+
+Get a list of valid jobs.
+
+```ruby
+Tmdb::Job.list
+```
+
+## Keywords
+
+#### Detail
+
+Get the basic information for a specific keyword id.
+
+```ruby
+Tmdb::Keyword.detail(1721)
+```
+
+#### Movies
+
+Get the list of movies for a particular keyword by id.
+
+```ruby
+Tmdb::Keyword.movies(1721)
 ```
 
 ## License
