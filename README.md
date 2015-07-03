@@ -29,7 +29,9 @@ gem 'themoviedb-api'
 gem install themoviedb-api
 ```
 
-## Configuration
+## Initial Configuration
+
+If you are using this gem in a Rails application you can set the following parameters in an initializer.
 
 ```ruby
 Tmdb::Api.key("KEY_HERE")
@@ -43,7 +45,7 @@ Tmdb::Api.language("en")
 
 The default language is english.
 
-You can temporarily override global language for one request by specifying the language as an additional parameter in the method called.
+You can temporarily override global language for one request by specifying the language as an additional parameter in the method called.  
 Ex. Tmdb::Movie.detail(550, language: 'it')
 
 ## Endpoints
