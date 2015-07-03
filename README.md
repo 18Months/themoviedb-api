@@ -48,7 +48,7 @@ The default language is english.
 You can temporarily override global language for one request by specifying the language as an additional parameter in the method called.  
 
 ```ruby
-# Ex.
+# Example
 Tmdb::Movie.detail(550, language: 'it')
 ```
 ## Endpoints
@@ -231,6 +231,78 @@ Get a list of people ids that have been edited. By default we show the last 24 h
 ```ruby
 Tmdb::Change.person
 ```
+
+## Collection
+
+### Detail
+
+Get the basic collection information for a specific collection id. You can get the ID needed for this method by making a /movie/{id} request and paying attention to the belongs_to_collection hash.Movie parts are not sorted in any particular order. If you would like to sort them yourself you can use the provided release_date.
+
+```ruby
+Tmdb::Collection.detail(10)
+```
+
+### Backdrops
+
+Get all of the backdrops for a particular collection by collection id.
+
+```ruby
+Tmdb::Collection.backdrops(10)
+```
+
+### Posters
+
+Get all of the posters for a particular collection by collection id.
+
+```ruby
+Tmdb::Collection.posters(10)
+```
+
+## Company
+
+### Detail
+
+This method is used to retrieve all of the basic information about a company.
+
+```ruby
+Tmdb::Company.detail(1)
+```
+
+### Movies
+
+Get the list of movies associated with a particular company.
+
+```ruby
+Tmdb::Company.movies(1)
+```
+
+## Credit
+
+### Detail
+
+Get the detailed information about a particular credit record. This is currently only supported with the new credit model found in TV. These ids can be found from any TV credit response as well as the tv_credits and combined_credits methods for people.The episodes object returns a list of episodes and are generally going to be guest stars. The season array will return a list of season numbers. Season credits are credits that were marked with the "add to every season" option in the editing interface and are assumed to be "season regulars".
+
+```ruby
+Tmdb::Credit.detail('525333fb19c295794002c720')
+```
+
+## Discover
+
+### Movie
+
+Discover movies by different types of data like average rating, number of votes, genres and certifications. You can get a valid list of certifications from Tmdb::Certification.
+
+```ruby
+Tmdb::Discover.movie
+```
+### TV
+
+Discover TV shows by different types of data like average rating, number of votes, genres, the network they aired on and air dates.
+
+```ruby
+Tmdb::Discover.tv
+```
+
 
 ## License
 
