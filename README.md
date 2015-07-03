@@ -535,6 +535,17 @@ Get the list of movies playing that have been, or are being released this week. 
 Tmdb::Movie.top_rated
 ```
 
+## Networks
+
+#### Detail
+
+This method is used to retrieve the basic information about a TV network. You can use this ID to search for TV shows with the discover. At this time we don't have much but this will be fleshed out over time.
+
+```ruby
+Tmdb::Network.detail(1)
+```
+
+
 
 ## License
 
