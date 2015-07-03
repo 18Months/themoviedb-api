@@ -283,7 +283,7 @@ Tmdb::Company.movies(1)
 Get the detailed information about a particular credit record. This is currently only supported with the new credit model found in TV. These ids can be found from any TV credit response as well as the tv_credits and combined_credits methods for people.The episodes object returns a list of episodes and are generally going to be guest stars. The season array will return a list of season numbers. Season credits are credits that were marked with the "add to every season" option in the editing interface and are assumed to be "season regulars".
 
 ```ruby
-Tmdb::Credit.detail('525333fb19c295794002c720')
+Tmdb::Credit.detail('5256c8b219c2956ff6047cd8')
 ```
 
 ## Discover
@@ -303,6 +303,46 @@ Discover TV shows by different types of data like average rating, number of vote
 Tmdb::Discover.tv
 ```
 
+## Find
+
+The find method makes it easy to search for objects in our database by an external id. For instance, an IMDB ID. This will search all objects (movies, TV shows and people) and return the results in a single response.  
+The supported external sources for each object are as follows:
+
+* Movies: imdb_id
+* People: imdb_id, freebase_mid, freebase_id, tvrage_id
+* TV Series: imdb_id, freebase_mid, freebase_id, tvdb_id, tvrage_id
+* TV Seasons: freebase_mid, freebase_id, tvdb_id, tvrage_id
+* TV Episodes: imdb_id, freebase_mid, freebase_id, tvdb_id, tvrage_id
+
+```ruby
+Tmdb::Find.movie('tt0266543', external_source: 'imdb_id')
+```
+
+## Genres
+
+#### Movie List
+
+Get the list of movie genres.
+
+```ruby
+Tmdb::Genre.movie_list
+```
+
+#### TV List
+
+Get the list of TV genres.
+
+```ruby
+Tmdb::Genre.tv_list
+```
+
+#### Movies
+
+Get the list of movies for a particular genre by id. By default, only movies with 10 or more votes are included.
+
+```ruby
+Tmdb::Genre.movies(18)
+```
 
 ## License
 

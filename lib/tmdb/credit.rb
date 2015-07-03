@@ -9,12 +9,16 @@ module Tmdb
       credit = self.new(result.except('media', 'person'))
       credit.media = Media.new(media.except('episodes', 'seasons'))
 
-      credit.media.episodes = media['episodes'].map do |episode|
-        Tv::Episode.new(episode)
+      if media['episodes'].present?
+        credit.media.episodes = media['episodes'].map do |episode|
+          Tv::Episode.new(episode)
+        end
       end
 
-      credit.media.seasons = media['seasons'].map do |season|
-        Tv::Season.new(season)
+      if media['seasons'].present?
+        credit.media.seasons = media['seasons'].map do |season|
+          Tv::Season.new(season)
+        end
       end
 
       credit.person = Person.new(result['person'])
