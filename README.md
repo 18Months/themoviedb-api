@@ -46,8 +46,11 @@ Tmdb::Api.language("en")
 The default language is english.
 
 You can temporarily override global language for one request by specifying the language as an additional parameter in the method called.  
-Ex. Tmdb::Movie.detail(550, language: 'it')
 
+```ruby
+# Ex.
+Tmdb::Movie.detail(550, language: 'it')
+```
 ## Endpoints
 
 All endpoints available are those listed in [The Movie Database API](http://docs.themoviedb.apiary.io/) documentation.
