@@ -21,7 +21,7 @@ describe Tmdb::Credit do
   context '#detail' do
     let(:detail) do
       VCR.use_cassette 'credit/detail' do
-        Tmdb::Credit.detail('525333fb19c295794002c720')
+        Tmdb::Credit.detail('5256c8b219c2956ff6047cd8')
       end
     end
 
@@ -31,14 +31,6 @@ describe Tmdb::Credit do
 
     it 'should have media of kind Tmdb::Media' do
       expect(subject.media).to be_an_instance_of(Tmdb::Media)
-    end
-
-    it 'should have media with episodes of kind Tmdb::Tv::Episode' do
-      expect(subject.media.episodes.sample).to be_an_instance_of(Tmdb::Tv::Episode)
-    end
-
-    it 'should have media with seasons of kind Array' do
-      expect(subject.media.seasons).to be_an_instance_of(Array)
     end
 
     it 'should have a person associated of kind Tmdb::Person' do

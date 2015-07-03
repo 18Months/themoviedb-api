@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.themoviedb.org/3/credit/525333fb19c295794002c720?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en
+    uri: http://api.themoviedb.org/3/credit/5256c8b219c2956ff6047cd8?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en
     body:
       encoding: US-ASCII
       string: ''
@@ -23,9 +23,9 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:11 GMT
+      - Fri, 03 Jul 2015 15:47:32 GMT
       Etag:
-      - '"91e6fb4cf5dbe0feb7980360f50dd481"'
+      - '"82f0d8f32e49b2138b5cf99431df1d5d"'
       Server:
       - openresty
       Status:
@@ -33,29 +33,25 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '642'
+      - '771'
       X-Memc-Expires:
-      - '20958'
+      - '20829'
       X-Memc-Key:
-      - 2c179f100ab60972426f560557aa0533
+      - 2417434868a2ae7b00cdb95c690418fa
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '28'
+      - '39'
       X-Ratelimit-Reset:
-      - '1435331837'
+      - '1435938462'
       Content-Length:
-      - '685'
+      - '165'
       Connection:
       - keep-alive
     body:
       encoding: UTF-8
-      string: '{"credit_type":"cast","department":"Actors","job":"Actor","media":{"id":54,"name":"Growing
-        Pains","original_name":"Growing Pains","character":"","episodes":[{"air_date":"1989-02-08","episode_number":14,"name":"Feet
-        of Clay","overview":"Maggie arranges for Ben to meet his favorite rock musician.","season_number":4,"still_path":null},{"air_date":"1987-11-10","episode_number":9,"name":"Who''s
-        Zoomin'' Who?","overview":"Bobby''s annoying habits make Carol look elsewhere
-        for the man of her dreams -- just in time for her to notice a new student.","season_number":3,"still_path":null}],"seasons":[]},"media_type":"tv","id":"525333fb19c295794002c720","person":{"name":"Brad
-        Pitt","id":287}}'
+      string: '{"credit_type":"cast","department":"Actors","job":"Actor","media":{},"media_type":"tv","id":"5256c8b219c2956ff6047cd8","person":{"name":"Peter
+        Dinklage","id":22970}}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:14 GMT
+  recorded_at: Fri, 03 Jul 2015 15:47:32 GMT
 recorded_with: VCR 2.9.3

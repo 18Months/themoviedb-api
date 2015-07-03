@@ -16,14 +16,14 @@ Get your API key [here](https://www.themoviedb.org/account).
 
 ## Getting started
 
-### Install inside Rails app
+#### Install inside Rails app
 
 Add this line to your application’s Gemfile:
 
 ```ruby
 gem 'themoviedb-api'
 ```
-### Install outside Rails app
+#### Install outside Rails app
 
 ```ruby
 gem install themoviedb-api
@@ -198,7 +198,7 @@ base_url = config.images.base_url
 
 ## Certifications
 
-### Movie List
+#### Movie List
 
 Get the list of supported certifications for movies. These can be used in conjunction with the certification_country and certification.lte parameters when using discover.
 
@@ -206,7 +206,7 @@ Get the list of supported certifications for movies. These can be used in conjun
 Tmdb::Certification.movie_list
 ```
 
-### TV List
+#### TV List
 
 Get the list of supported certifications for tv shows.
 
@@ -216,7 +216,7 @@ Tmdb::Certification.tv_list
 
 ## Changes
 
-### Movie
+#### Movie
 
 Get a list of movie ids that have been edited. By default we show the last 24 hours and only 100 items per page. The maximum number of days that can be returned in a single request is 14. You can then use the movie changes API to get the actual data that has been changed.
 
@@ -224,7 +224,7 @@ Get a list of movie ids that have been edited. By default we show the last 24 ho
 Tmdb::Change.movie
 ```
 
-### Person
+#### Person
 
 Get a list of people ids that have been edited. By default we show the last 24 hours and only 100 items per page. The maximum number of days that can be returned in a single request is 14. You can then use the person changes API to get the actual data that has been changed.
 
@@ -234,7 +234,7 @@ Tmdb::Change.person
 
 ## Collection
 
-### Detail
+#### Detail
 
 Get the basic collection information for a specific collection id. You can get the ID needed for this method by making a /movie/{id} request and paying attention to the belongs_to_collection hash.Movie parts are not sorted in any particular order. If you would like to sort them yourself you can use the provided release_date.
 
@@ -242,7 +242,7 @@ Get the basic collection information for a specific collection id. You can get t
 Tmdb::Collection.detail(10)
 ```
 
-### Backdrops
+#### Backdrops
 
 Get all of the backdrops for a particular collection by collection id.
 
@@ -250,7 +250,7 @@ Get all of the backdrops for a particular collection by collection id.
 Tmdb::Collection.backdrops(10)
 ```
 
-### Posters
+#### Posters
 
 Get all of the posters for a particular collection by collection id.
 
@@ -260,7 +260,7 @@ Tmdb::Collection.posters(10)
 
 ## Company
 
-### Detail
+#### Detail
 
 This method is used to retrieve all of the basic information about a company.
 
@@ -268,7 +268,7 @@ This method is used to retrieve all of the basic information about a company.
 Tmdb::Company.detail(1)
 ```
 
-### Movies
+#### Movies
 
 Get the list of movies associated with a particular company.
 
@@ -278,7 +278,7 @@ Tmdb::Company.movies(1)
 
 ## Credit
 
-### Detail
+#### Detail
 
 Get the detailed information about a particular credit record. This is currently only supported with the new credit model found in TV. These ids can be found from any TV credit response as well as the tv_credits and combined_credits methods for people.The episodes object returns a list of episodes and are generally going to be guest stars. The season array will return a list of season numbers. Season credits are credits that were marked with the "add to every season" option in the editing interface and are assumed to be "season regulars".
 
@@ -288,14 +288,14 @@ Tmdb::Credit.detail('5256c8b219c2956ff6047cd8')
 
 ## Discover
 
-### Movie
+#### Movie
 
 Discover movies by different types of data like average rating, number of votes, genres and certifications. You can get a valid list of certifications from Tmdb::Certification.
 
 ```ruby
 Tmdb::Discover.movie
 ```
-### TV
+#### TV
 
 Discover TV shows by different types of data like average rating, number of votes, genres, the network they aired on and air dates.
 
