@@ -545,7 +545,7 @@ This method is used to retrieve the basic information about a TV network. You ca
 Tmdb::Network.detail(1)
 ```
 
-
+...... To be completed .....
 
 ## License
 
