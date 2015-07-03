@@ -67,7 +67,6 @@ To be thorough they are listed here with a sample call:
 * [Genres](#genres)
 * [Jobs](#jobs)
 * [Keywords](#keywords)
-* [Jobs](#jobs)
 * [Movies](#movies)
 * [Networks](#networks)
 * [People](#people)
@@ -373,6 +372,169 @@ Get the list of movies for a particular keyword by id.
 ```ruby
 Tmdb::Keyword.movies(1721)
 ```
+
+## Movies
+
+#### Detail
+
+Get the basic movie information for a specific movie id.
+
+```ruby
+Tmdb::Movie.detail(550)
+```
+
+#### Alternative titles
+
+Get the alternative titles for a specific movie id.
+
+```ruby
+Tmdb::Movie.alternative_titles(550)
+```
+
+#### Cast
+
+Get the cast information for a specific movie id.
+
+```ruby
+Tmdb::Movie.cast(550)
+```
+
+#### Crew
+
+Get the crew information for a specific movie id.
+
+```ruby
+Tmdb::Movie.crew(550)
+```
+
+#### Directors
+
+Get the directors information for a specific movie id.
+
+```ruby
+Tmdb::Movie.director(550)
+```
+
+#### Backdrops
+
+Get the backdrops for a specific movie id.
+
+```ruby
+Tmdb::Movie.backdrops(550)
+```
+
+#### Posters
+
+Get the posters for a specific movie id.
+
+```ruby
+Tmdb::Movie.posters(550)
+```
+
+#### Videos
+
+Get the videos for a specific movie id.
+
+```ruby
+Tmdb::Movie.videos(550)
+```
+
+#### Keywords
+
+Get the plot keywords for a specific movie id.
+
+```ruby
+Tmdb::Movie.keywords(550)
+```
+
+#### Releases
+
+Get the release date and certification information by country for a specific movie id.
+
+```ruby
+Tmdb::Movie.releases(550)
+```
+
+#### Translations
+
+Get the translations for a specific movie id.
+
+```ruby
+Tmdb::Movie.translations(550)
+```
+
+#### Similar
+
+Get the similar movies for a specific movie id.
+
+```ruby
+Tmdb::Movie.similar(550)
+```
+
+#### Reviews
+
+Get the reviews for a particular movie id.
+
+```ruby
+Tmdb::Movie.reviews(550)
+```
+
+#### Lists
+
+Get the lists that the movie belongs to.
+
+```ruby
+Tmdb::Movie.lists(550)
+```
+
+#### Changes
+
+Get the changes for a specific movie id.Changes are grouped by key, and ordered by date in descending order. By default, only the last 24 hours of changes are returned. The maximum number of days that can be returned in a single request is 14. The language is present on fields that are translatable.
+
+```ruby
+Tmdb::Movie.changes(550, start_date: '2015-06-20', end_date: '2015-06-26')
+```
+
+#### Latest
+
+Get the latest movie id.
+
+```ruby
+Tmdb::Movie.latest
+```
+
+#### Upcoming
+
+Get the list of upcoming movies by release date. This list refreshes every day.
+
+```ruby
+Tmdb::Movie.upcoming
+```
+
+#### Now Playing
+
+Get the list of movies playing that have been, or are being released this week. This list refreshes every day.
+
+```ruby
+Tmdb::Movie.now_playing
+```
+
+#### Popular
+
+Get the list of popular movies on The Movie Database. This list refreshes every day.
+
+```ruby
+Tmdb::Movie.popular
+```
+
+#### Top Rated
+
+Get the list of movies playing that have been, or are being released this week. This list refreshes every day.
+
+```ruby
+Tmdb::Movie.top_rated
+```
+
 
 ## License
 
