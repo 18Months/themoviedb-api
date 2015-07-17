@@ -1,3 +1,9 @@
+## 1.0.1 (2015-07-17)
+
+Improvement:
+    
+  - Removed ActiveSupport dependency (Improve compatibility with existing Rails applications).
+
 ## 1.0.0 (2015-07-17)
 
 - Releasing stable version, all tests completed.
