@@ -585,6 +585,65 @@ Tmdb::Review.detail('5013bc76760ee372cb00253e')
 ```
 
 ## Search
+
+All search endpoints allow partial searches (truncated or uncomplete words).
+
+#### Company
+
+Search for companies by name.
+```ruby
+Tmdb::Search.company('Disney')
+```
+
+#### Collection
+
+Search for collections by name.
+```ruby
+Tmdb::Search.collection('Lord of')
+```
+
+#### Keyword
+
+Search for keywords by name.
+```ruby
+Tmdb::Search.keyword('Iron man')
+```
+
+#### List
+
+Search for lists by name and description.
+```ruby
+Tmdb::Search.list('Cartoons')
+```
+
+#### Movie
+
+Search for movies by title.
+```ruby
+Tmdb::Search.movie('Harry potter')
+```
+
+#### Multi
+
+Search the movie, tv show and person collections with a single query. Each item returned in the result array has a media_type field that maps to either movie, tv or person.Each mapped result is the same response you would get from each independent search.
+```ruby
+Tmdb::Search.multi('Game of thrones')
+```
+
+#### Person
+
+Search for people by name.
+```ruby
+Tmdb::Search.person('Angelina Jolie')
+```
+
+#### TV
+
+Search for TV shows by title.
+```ruby
+Tmdb::Search.tv('Silicon Valley')
+```
+
 ## TV
 ## TV Seasons
 ## TV Episodes
