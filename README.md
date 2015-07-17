@@ -773,7 +773,113 @@ Tmdb::TV.popular
 ```
 
 ## TV Seasons
+
+#### Detail
+
+Get the primary information about a TV season by its season number.
+```ruby
+Tmdb::Tv::Season.detail(3572, 1)
+```
+
+#### Changes
+
+Look up a TV season's changes by season ID. This method is used in conjunction with the /tv/{id}/changes method. This method uses the season_id value found in the change entries.
+```ruby
+Tmdb::Tv::Season.changes(59905, start_date: '2015-05-23', end_date: '2015-05-26')
+```
+
+#### Cast
+
+Get the cast information for a TV season by season number.
+```ruby
+Tmdb::Tv::Season.cast(3572, 1)
+```
+
+#### Crew
+
+Get the crew information for a TV season by season number.
+```ruby
+Tmdb::Tv::Season.crew(3572, 1)
+```
+
+#### External IDs
+
+Get the external ids that we have stored for a TV season by season number.
+```ruby
+Tmdb::Tv::Season.external_ids(3572, 1)
+```
+
+#### Posters
+
+Get the images (posters) that we have stored for a TV season by season number.
+```ruby
+Tmdb::Tv::Season.posters(1399, 1)
+```
+
+#### Videos
+
+Get the videos that have been added to a TV season (trailers, teasers, etc...)
+```ruby
+Tmdb::Tv::Season.videos(1399, 1)
+```
+
 ## TV Episodes
+
+#### Detail
+
+Get the primary information about a TV episode by combination of a season and episode number.
+```ruby
+Tmdb::Tv::Episode.detail(3572, 1, 1)
+```
+
+#### Changes
+
+Look up a TV episode's changes by episode ID. This method is used in conjunction with the /tv/{id}/changes method. This method uses the episode_id value found in the change entries.
+```ruby
+Tmdb::Tv::Episode.changes(63065, start_date: '2015-06-15', end_date: '2015-06-20')
+```
+
+#### Cast
+
+Get the cast information by combination of season and episode number.
+```ruby
+Tmdb::Tv::Episode.cast(3572, 1, 1)
+```
+
+#### Crew
+
+Get the crew information by combination of season and episode number.
+```ruby
+Tmdb::Tv::Episode.crew(3572, 1, 1)
+```
+
+#### Guest Stars
+
+Get the guest stars information by combination of season and episode number.
+```ruby
+Tmdb::Tv::Episode.guest_stars(3572, 1, 1)
+```
+
+#### External IDs
+
+Get the external ids for a TV episode by comabination of a season and episode number.
+```ruby
+Tmdb::Tv::Episode.external_ids(3572, 1, 1)
+```
+
+#### Posters
+
+Get the images (episode stills) for a TV episode by combination of a season and episode number. Since episode stills don't have a language, this call will always return all images.
+```ruby
+Tmdb::Tv::Episode.posters(1399, 1, 1)
+```
+
+#### Videos
+
+Get the videos that have been added to a TV episode (teasers, clips, etc...)
+```ruby
+Tmdb::Tv::Episode.videos(1399, 1, 1)
+```
 
 ## License
 
