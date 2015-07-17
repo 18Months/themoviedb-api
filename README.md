@@ -881,6 +881,30 @@ Get the videos that have been added to a TV episode (teasers, clips, etc...)
 Tmdb::Tv::Episode.videos(1399, 1, 1)
 ```
 
+## Contributing
+
+We love pull requests! Here's a quick guide for contributing:
+
+1. Fork the repo.
+
+2. Run the existing test suite:
+
+```
+$ bundle exec rspec
+```
+
+3. Add tests for your change.
+
+4. Add your changes and make your test(s) pass. Following the conventions you
+see used in the source will increase the chance that your pull request is
+accepted right away.
+
+5. Update the README if necessary.
+
+6. Add a line to the CHANGELOG for your bug fix or feature.
+
+7. Push to your fork and submit a pull request.
+
 ## License
 
 The MIT License (MIT)
