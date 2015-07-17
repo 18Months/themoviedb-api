@@ -200,7 +200,6 @@ base_url = config.images.base_url
 #### Movie List
 
 Get the list of supported certifications for movies. These can be used in conjunction with the certification_country and certification.lte parameters when using discover.
-
 ```ruby
 Tmdb::Certification.movie_list
 ```
@@ -208,7 +207,6 @@ Tmdb::Certification.movie_list
 #### TV List
 
 Get the list of supported certifications for tv shows.
-
 ```ruby
 Tmdb::Certification.tv_list
 ```
@@ -218,7 +216,6 @@ Tmdb::Certification.tv_list
 #### Movie
 
 Get a list of movie ids that have been edited. By default we show the last 24 hours and only 100 items per page. The maximum number of days that can be returned in a single request is 14. You can then use the movie changes API to get the actual data that has been changed.
-
 ```ruby
 Tmdb::Change.movie
 ```
@@ -226,7 +223,6 @@ Tmdb::Change.movie
 #### Person
 
 Get a list of people ids that have been edited. By default we show the last 24 hours and only 100 items per page. The maximum number of days that can be returned in a single request is 14. You can then use the person changes API to get the actual data that has been changed.
-
 ```ruby
 Tmdb::Change.person
 ```
@@ -236,7 +232,6 @@ Tmdb::Change.person
 #### Detail
 
 Get the basic collection information for a specific collection id. You can get the ID needed for this method by making a /movie/{id} request and paying attention to the belongs_to_collection hash.Movie parts are not sorted in any particular order. If you would like to sort them yourself you can use the provided release_date.
-
 ```ruby
 Tmdb::Collection.detail(10)
 ```
@@ -244,7 +239,6 @@ Tmdb::Collection.detail(10)
 #### Backdrops
 
 Get all of the backdrops for a particular collection by collection id.
-
 ```ruby
 Tmdb::Collection.backdrops(10)
 ```
@@ -252,7 +246,6 @@ Tmdb::Collection.backdrops(10)
 #### Posters
 
 Get all of the posters for a particular collection by collection id.
-
 ```ruby
 Tmdb::Collection.posters(10)
 ```
@@ -262,7 +255,6 @@ Tmdb::Collection.posters(10)
 #### Detail
 
 This method is used to retrieve all of the basic information about a company.
-
 ```ruby
 Tmdb::Company.detail(1)
 ```
@@ -270,7 +262,6 @@ Tmdb::Company.detail(1)
 #### Movies
 
 Get the list of movies associated with a particular company.
-
 ```ruby
 Tmdb::Company.movies(1)
 ```
@@ -280,7 +271,6 @@ Tmdb::Company.movies(1)
 #### Detail
 
 Get the detailed information about a particular credit record. This is currently only supported with the new credit model found in TV. These ids can be found from any TV credit response as well as the tv_credits and combined_credits methods for people.The episodes object returns a list of episodes and are generally going to be guest stars. The season array will return a list of season numbers. Season credits are credits that were marked with the "add to every season" option in the editing interface and are assumed to be "season regulars".
-
 ```ruby
 Tmdb::Credit.detail('5256c8b219c2956ff6047cd8')
 ```
@@ -290,14 +280,12 @@ Tmdb::Credit.detail('5256c8b219c2956ff6047cd8')
 #### Movie
 
 Discover movies by different types of data like average rating, number of votes, genres and certifications. You can get a valid list of certifications from Tmdb::Certification.
-
 ```ruby
 Tmdb::Discover.movie
 ```
 #### TV
 
 Discover TV shows by different types of data like average rating, number of votes, genres, the network they aired on and air dates.
-
 ```ruby
 Tmdb::Discover.tv
 ```
@@ -314,7 +302,6 @@ The supported external sources for each object are as follows:
 * TV Series: imdb_id, freebase_mid, freebase_id, tvdb_id, tvrage_id
 * TV Seasons: freebase_mid, freebase_id, tvdb_id, tvrage_id
 * TV Episodes: imdb_id, freebase_mid, freebase_id, tvdb_id, tvrage_id
-
 ```ruby
 Tmdb::Find.movie('tt0266543', external_source: 'imdb_id')
 ```
@@ -324,7 +311,6 @@ Tmdb::Find.movie('tt0266543', external_source: 'imdb_id')
 #### Movie List
 
 Get the list of movie genres.
-
 ```ruby
 Tmdb::Genre.movie_list
 ```
@@ -332,7 +318,6 @@ Tmdb::Genre.movie_list
 #### TV List
 
 Get the list of TV genres.
-
 ```ruby
 Tmdb::Genre.tv_list
 ```
@@ -340,7 +325,6 @@ Tmdb::Genre.tv_list
 #### Movies
 
 Get the list of movies for a particular genre by id. By default, only movies with 10 or more votes are included.
-
 ```ruby
 Tmdb::Genre.movies(18)
 ```
@@ -350,7 +334,6 @@ Tmdb::Genre.movies(18)
 #### List
 
 Get a list of valid jobs.
-
 ```ruby
 Tmdb::Job.list
 ```
@@ -360,7 +343,6 @@ Tmdb::Job.list
 #### Detail
 
 Get the basic information for a specific keyword id.
-
 ```ruby
 Tmdb::Keyword.detail(1721)
 ```
@@ -368,7 +350,6 @@ Tmdb::Keyword.detail(1721)
 #### Movies
 
 Get the list of movies for a particular keyword by id.
-
 ```ruby
 Tmdb::Keyword.movies(1721)
 ```
@@ -378,7 +359,6 @@ Tmdb::Keyword.movies(1721)
 #### Detail
 
 Get the basic movie information for a specific movie id.
-
 ```ruby
 Tmdb::Movie.detail(550)
 ```
@@ -386,7 +366,6 @@ Tmdb::Movie.detail(550)
 #### Alternative titles
 
 Get the alternative titles for a specific movie id.
-
 ```ruby
 Tmdb::Movie.alternative_titles(550)
 ```
@@ -394,7 +373,6 @@ Tmdb::Movie.alternative_titles(550)
 #### Cast
 
 Get the cast information for a specific movie id.
-
 ```ruby
 Tmdb::Movie.cast(550)
 ```
@@ -402,7 +380,6 @@ Tmdb::Movie.cast(550)
 #### Crew
 
 Get the crew information for a specific movie id.
-
 ```ruby
 Tmdb::Movie.crew(550)
 ```
@@ -410,7 +387,6 @@ Tmdb::Movie.crew(550)
 #### Directors
 
 Get the directors information for a specific movie id.
-
 ```ruby
 Tmdb::Movie.director(550)
 ```
@@ -418,7 +394,6 @@ Tmdb::Movie.director(550)
 #### Backdrops
 
 Get the backdrops for a specific movie id.
-
 ```ruby
 Tmdb::Movie.backdrops(550)
 ```
@@ -426,7 +401,6 @@ Tmdb::Movie.backdrops(550)
 #### Posters
 
 Get the posters for a specific movie id.
-
 ```ruby
 Tmdb::Movie.posters(550)
 ```
@@ -434,7 +408,6 @@ Tmdb::Movie.posters(550)
 #### Videos
 
 Get the videos for a specific movie id.
-
 ```ruby
 Tmdb::Movie.videos(550)
 ```
@@ -442,7 +415,6 @@ Tmdb::Movie.videos(550)
 #### Keywords
 
 Get the plot keywords for a specific movie id.
-
 ```ruby
 Tmdb::Movie.keywords(550)
 ```
@@ -450,7 +422,6 @@ Tmdb::Movie.keywords(550)
 #### Releases
 
 Get the release date and certification information by country for a specific movie id.
-
 ```ruby
 Tmdb::Movie.releases(550)
 ```
@@ -458,7 +429,6 @@ Tmdb::Movie.releases(550)
 #### Translations
 
 Get the translations for a specific movie id.
-
 ```ruby
 Tmdb::Movie.translations(550)
 ```
@@ -466,7 +436,6 @@ Tmdb::Movie.translations(550)
 #### Similar
 
 Get the similar movies for a specific movie id.
-
 ```ruby
 Tmdb::Movie.similar(550)
 ```
@@ -474,7 +443,6 @@ Tmdb::Movie.similar(550)
 #### Reviews
 
 Get the reviews for a particular movie id.
-
 ```ruby
 Tmdb::Movie.reviews(550)
 ```
@@ -482,7 +450,6 @@ Tmdb::Movie.reviews(550)
 #### Lists
 
 Get the lists that the movie belongs to.
-
 ```ruby
 Tmdb::Movie.lists(550)
 ```
@@ -490,7 +457,6 @@ Tmdb::Movie.lists(550)
 #### Changes
 
 Get the changes for a specific movie id.Changes are grouped by key, and ordered by date in descending order. By default, only the last 24 hours of changes are returned. The maximum number of days that can be returned in a single request is 14. The language is present on fields that are translatable.
-
 ```ruby
 Tmdb::Movie.changes(550, start_date: '2015-06-20', end_date: '2015-06-26')
 ```
@@ -498,7 +464,6 @@ Tmdb::Movie.changes(550, start_date: '2015-06-20', end_date: '2015-06-26')
 #### Latest
 
 Get the latest movie id.
-
 ```ruby
 Tmdb::Movie.latest
 ```
@@ -506,7 +471,6 @@ Tmdb::Movie.latest
 #### Upcoming
 
 Get the list of upcoming movies by release date. This list refreshes every day.
-
 ```ruby
 Tmdb::Movie.upcoming
 ```
@@ -514,7 +478,6 @@ Tmdb::Movie.upcoming
 #### Now Playing
 
 Get the list of movies playing that have been, or are being released this week. This list refreshes every day.
-
 ```ruby
 Tmdb::Movie.now_playing
 ```
@@ -522,7 +485,6 @@ Tmdb::Movie.now_playing
 #### Popular
 
 Get the list of popular movies on The Movie Database. This list refreshes every day.
-
 ```ruby
 Tmdb::Movie.popular
 ```
@@ -530,7 +492,6 @@ Tmdb::Movie.popular
 #### Top Rated
 
 Get the list of movies playing that have been, or are being released this week. This list refreshes every day.
-
 ```ruby
 Tmdb::Movie.top_rated
 ```
@@ -540,12 +501,93 @@ Tmdb::Movie.top_rated
 #### Detail
 
 This method is used to retrieve the basic information about a TV network. You can use this ID to search for TV shows with the discover. At this time we don't have much but this will be fleshed out over time.
-
 ```ruby
 Tmdb::Network.detail(1)
 ```
 
-...... To be completed .....
+## People
+
+#### Detail
+
+Get the general person information for a specific id.
+```ruby
+Tmdb::Person.detail(22970)
+```
+
+#### Movie Credits
+
+Get the movie credits for a specific person id.
+```ruby
+Tmdb::Person.movie_credits(22970)
+```
+
+#### TV Credits
+
+Get the TV credits for a specific person id.To get the expanded details for each record, call the /credit method with the provided credit_id. This will provide details about which episode and/or season the credit is for.
+```ruby
+Tmdb::Person.tv_credits(22970)
+```
+
+#### Combined Credits
+
+Get the combined (movie and TV) credits for a specific person id.To get the expanded details for each TV record, call the /credit method with the provided credit_id. This will provide details about which episode and/or season the credit is for.
+```ruby
+Tmdb::Person.combined_credits(22970)
+```
+
+#### External IDs
+
+Get the external ids for a specific person id.
+```ruby
+Tmdb::Person.external_ids(1)
+```
+
+#### Images
+
+Get the images for a specific person id.
+```ruby
+Tmdb::Person.images(1)
+```
+
+#### Tagged Images
+
+Get the images that have been tagged with a specific person id. We return all of the image results with a media object mapped for each image.
+```ruby
+Tmdb::Person.tagged_images(287)
+```
+
+#### Changes
+
+Get the changes for a specific person id.Changes are grouped by key, and ordered by date in descending order. By default, only the last 24 hours of changes are returned. The maximum number of days that can be returned in a single request is 14. The language is present on fields that are translatable.
+```ruby
+Tmdb::Person.changes(1, start_date: '2014-02-19', end_date: '2014-03-01')
+```
+
+#### Popular
+Get the list of popular people on The Movie Database. This list refreshes every day.
+```ruby
+Tmdb::Person.popular
+```
+
+#### Latest
+Get the latest person id.
+```ruby
+Tmdb::Person.latest
+```
+
+## Reviews
+
+#### Detail
+
+Get the full details of a review by ID.
+```ruby
+Tmdb::Review.detail('5013bc76760ee372cb00253e')
+```
+
+## Search
+## TV
+## TV Seasons
+## TV Episodes
 
 ## License
 
