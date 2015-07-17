@@ -888,11 +888,9 @@ We love pull requests! Here's a quick guide for contributing:
 1. Fork the repo.
 
 2. Run the existing test suite:
-
 ```
 $ bundle exec rspec
 ```
-
 3. Add tests for your change.
 
 4. Add your changes and make your test(s) pass. Following the conventions you
