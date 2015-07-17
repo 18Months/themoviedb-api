@@ -1,6 +1,5 @@
 require 'ostruct'
 require 'httparty'
-require 'active_support/all'
 
 require 'tmdb/api'
 require 'tmdb/error'
@@ -58,5 +57,28 @@ class Hash
   private
   def descendent_of_tmdb_struct?(klass)
     klass.ancestors.include?(Tmdb::Struct)
+  end
+end
+
+unless defined?(ActiveSupport)
+  class Object
+    def blank?
+      respond_to?(:empty?) ? !!empty? : !self
+    end
+
+    def present?
+      !blank?
+    end
+  end
+
+  class Hash
+    def except(*keys)
+      dup.except!(*keys)
+    end
+
+    def except!(*keys)
+      keys.each { |key| delete(key) }
+      self
+    end
   end
 end
