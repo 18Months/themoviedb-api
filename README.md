@@ -645,6 +645,133 @@ Tmdb::Search.tv('Silicon Valley')
 ```
 
 ## TV
+
+#### Detail
+
+Get the primary information about a TV series by id.
+```ruby
+Tmdb::TV.detail(1396)
+```
+
+#### Alternative titles
+
+Get the alternative titles for a specific show ID.
+```ruby
+Tmdb::TV.alternative_titles(1396)
+```
+
+#### Changes
+
+Get the changes for a specific TV show id.Changes are grouped by key, and ordered by date in descending order. By default, only the last 24 hours of changes are returned. The maximum number of days that can be returned in a single request is 14. The language is present on fields that are translatable.TV changes are different than movie changes in that there are some edits on seasons and episodes that will create a change entry at the show level. They can be found under the season and episode keys. These keys will contain a series_id and episode_id. You can use the /tv/season/{id}/changes and /tv/episode/{id}/changes methods to look up these specific changes.
+```ruby
+Tmdb::TV.changes(1399, start_date: '2015-06-23', end_date: '2015-06-26')
+```
+
+#### Content Ratings
+
+Get the content ratings for a specific TV show id.
+```ruby
+Tmdb::TV.content_ratings(1396)
+```
+
+#### Cast
+
+Get the cast information for a specific tv id.
+```ruby
+Tmdb::TV.cast(1396)
+```
+
+#### Crew
+
+Get the crew information for a specific tv id.
+```ruby
+Tmdb::TV.crew(1396)
+```
+
+#### External IDs
+
+Get the external ids that we have stored for a TV series.
+```ruby
+Tmdb::TV.external_ids(1396)
+```
+
+#### Backdrops
+
+Get the backdrops for a specific tv id.
+```ruby
+Tmdb::TV.backdrops(1396)
+```
+
+#### Posters
+
+Get the posters for a specific tv id.
+```ruby
+Tmdb::TV.posters(1396)
+```
+
+#### Keywords
+
+Get the plot keywords for a specific tv id.
+```ruby
+Tmdb::TV.keywords(1396)
+```
+
+#### Similar
+
+Get the similar TV shows for a specific tv id.
+```ruby
+Tmdb::TV.similar(1396)
+```
+
+#### Translations
+
+Get the list of translations that exist for a TV series. These translations cascade down to the episode level.
+```ruby
+Tmdb::TV.translations(1396)
+```
+
+#### Videos
+
+Get the videos that have been added to a TV series (trailers, opening credits, etc...)
+```ruby
+Tmdb::TV.videos(1396)
+```
+
+#### Latest
+
+Get the latest TV show id.
+```ruby
+Tmdb::TV.latest
+```
+
+#### On The Air
+
+Get the list of TV shows that are currently on the air. This query looks for any TV show that has an episode with an air date in the next 7 days.
+```ruby
+Tmdb::TV.on_the_air
+```
+
+#### Airing Today
+
+Get the list of TV shows that air today. Without a specified timezone, this query defaults to EST (Eastern Time UTC-05:00).
+```ruby
+Tmdb::TV.airing_today
+```
+
+#### Top Rated
+
+Get the list of top rated TV shows. By default, this list will only include TV shows that have 2 or more votes. This list refreshes every day.
+```ruby
+Tmdb::TV.top_rated
+```
+
+#### Popular
+
+Get the list of popular TV shows. This list refreshes every day.
+```ruby
+Tmdb::TV.popular
+```
+
 ## TV Seasons
 ## TV Episodes
 
