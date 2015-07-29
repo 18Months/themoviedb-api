@@ -51,6 +51,14 @@ You can temporarily override global language for one request by specifying the l
 # Example
 Tmdb::Movie.detail(550, language: 'it')
 ```
+
+Every method can be called with additional parameters if needed, for further information see [The Movie Database API](http://docs.themoviedb.apiary.io/).
+
+```ruby
+# Example
+Tmdb::Search.movie('terminator', page: 2, language: 'it')
+```
+
 ## Endpoints
 
 All endpoints available are those listed in [The Movie Database API](http://docs.themoviedb.apiary.io/) documentation.
