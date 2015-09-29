@@ -1,3 +1,9 @@
+## 1.0.3 (2015-09-29)
+
+Improvement:
+    
+  - Upgraded Httparty dependency.
+
 ## 1.0.2 (2015-07-17)
 
 Improvement:

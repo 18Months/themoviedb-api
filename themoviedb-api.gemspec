@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.test_files    = s.files.grep(%r{^(test|spec|features)/})
   s.require_paths = %w[lib]
 
-  s.add_runtime_dependency 'httparty',          '~> 0.13.5', '>= 0.13.5'
+  s.add_runtime_dependency 'httparty',          '~> 0.13.7', '>= 0.13.7'
 
   s.add_development_dependency 'awesome_print', '~> 1.6.1',  '>= 1.6.1'
   s.add_development_dependency 'vcr',           '~> 2.9.3',  '>= 2.9.3'

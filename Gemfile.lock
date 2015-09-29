@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    themoviedb-api (1.0.2)
-      httparty (~> 0.13.5, >= 0.13.5)
+    themoviedb-api (1.0.3)
+      httparty (~> 0.13.7, >= 0.13.7)
 
 GEM
   remote: https://rubygems.org/
@@ -23,7 +23,7 @@ GEM
       unf (>= 0.0.5, < 1.0.0)
     http-cookie (1.0.2)
       domain_name (~> 0.5)
-    httparty (0.13.5)
+    httparty (0.13.7)
       json (~> 1.8)
       multi_xml (>= 0.5.2)
     json (1.8.3)
@@ -79,4 +79,4 @@ DEPENDENCIES
   webmock (~> 1.21.0, >= 1.21.0)
 
 BUNDLED WITH
-   1.10.4
+   1.10.6
