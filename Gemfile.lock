@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    themoviedb-api (1.0.3)
+    themoviedb-api (1.0.4)
       httparty (~> 0.13.7, >= 0.13.7)
 
 GEM
@@ -79,4 +79,4 @@ DEPENDENCIES
   webmock (~> 1.21.0, >= 1.21.0)
 
 BUNDLED WITH
-   1.10.6
+   1.11.2

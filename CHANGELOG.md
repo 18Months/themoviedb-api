@@ -1,3 +1,9 @@
+## 1.0.4 (2016-01-11)
+
+Improvement:
+
+  - Tmdb::Search methods now return correct Tmdb::Result objects
+
 ## 1.0.3 (2015-09-29)
 
 Improvement:

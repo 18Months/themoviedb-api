@@ -4,59 +4,107 @@ module Tmdb
     def self.company(query, filters={})
       filters.merge!(query: clean_query_param(query))
 
-      result = Resource.new('/search/company', filters).get
-      Company.new(result)
+      get_result = Resource.new('/search/company', filters).get
+
+      result = Result.new(get_result.except('results'))
+      result.results = get_result['results'].map do |movie|
+        Company.new(movie)
+      end
+
+      result
     end
 
     def self.collection(query, filters={})
       filters.merge!(query: clean_query_param(query))
 
-      result = Resource.new('/search/collection', filters).get
-      Collection.new(result)
+      get_result = Resource.new('/search/collection', filters).get
+
+      result = Result.new(get_result.except('results'))
+      result.results = get_result['results'].map do |movie|
+        Collection.new(movie)
+      end
+
+      result
     end
 
     def self.keyword(query, filters={})
       filters.merge!(query: clean_query_param(query))
 
-      result = Resource.new('/search/keyword', filters).get
-      Keyword.new(result)
+      get_result = Resource.new('/search/keyword', filters).get
+
+      result = Result.new(get_result.except('results'))
+      result.results = get_result['results'].map do |movie|
+        Keyword.new(movie)
+      end
+
+      result
     end
 
     def self.list(query, filters={})
       filters.merge!(query: clean_query_param(query))
 
-      result = Resource.new('/search/list', filters).get
-      Tmdb::List.new(result)
+      get_result = Resource.new('/search/list', filters).get
+
+      result = Result.new(get_result.except('results'))
+      result.results = get_result['results'].map do |movie|
+        Tmdb::List.new(movie)
+      end
+
+      result
     end
 
     def self.movie(query, filters={})
       filters.merge!(query: clean_query_param(query))
 
-      result = Resource.new('/search/movie', filters).get
-      Movie.new(result)
+      get_result = Resource.new('/search/movie', filters).get
+
+      result = Result.new(get_result.except('results'))
+      result.results = get_result['results'].map do |movie|
+        Movie.new(movie)
+      end
+
+      result
     end
 
     def self.multi(query, filters={})
       filters.merge!(query: clean_query_param(query))
 
-      result = Resource.new('/search/multi', filters).get
-      Multi.new(result)
+      get_result = Resource.new('/search/multi', filters).get
+
+      result = Result.new(get_result.except('results'))
+      result.results = get_result['results'].map do |movie|
+        Multi.new(movie)
+      end
+
+      result
     end
 
     def self.person(query, filters={})
       filters.merge!(query: clean_query_param(query))
 
-      result = Resource.new('/search/person', filters).get
-      person = Person.new(result)
-      person.convert_known_for_multiple!
-      person
+      get_result = Resource.new('/search/person', filters).get
+
+      result = Result.new(get_result.except('results'))
+      result.results = get_result['results'].map do |movie|
+        person = Person.new(movie)
+        person.convert_known_for!
+        person
+      end
+
+      result
     end
 
     def self.tv(query, filters={})
       filters.merge!(query: clean_query_param(query))
 
-      result = Resource.new('/search/tv', filters).get
-      TV.new(result)
+      get_result = Resource.new('/search/tv', filters).get
+
+      result = Result.new(get_result.except('results'))
+      result.results = get_result['results'].map do |movie|
+        TV.new(movie)
+      end
+
+      result
     end
 
     def self.clean_query_param(query)

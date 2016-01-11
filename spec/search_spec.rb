@@ -34,7 +34,7 @@ describe Tmdb::Search do
 
     subject { company }
 
-    it { expect(subject).to be_an_instance_of(Tmdb::Company) }
+    it { expect(subject).to be_an_instance_of(Tmdb::Result) }
 
     it 'should have results of kind Tmdb::Company' do
       expect(subject.results.sample).to be_an_instance_of(Tmdb::Company)
@@ -50,7 +50,7 @@ describe Tmdb::Search do
 
     subject { collection }
 
-    it { expect(subject).to be_an_instance_of(Tmdb::Collection) }
+    it { expect(subject).to be_an_instance_of(Tmdb::Result) }
 
     it 'should have results of kind Tmdb::Collection' do
       expect(subject.results.sample).to be_an_instance_of(Tmdb::Collection)
@@ -66,7 +66,7 @@ describe Tmdb::Search do
 
     subject { keyword }
 
-    it { expect(subject).to be_an_instance_of(Tmdb::Keyword) }
+    it { expect(subject).to be_an_instance_of(Tmdb::Result) }
 
     it 'should have results of kind Tmdb::Keyword' do
       expect(subject.results.sample).to be_an_instance_of(Tmdb::Keyword)
@@ -82,7 +82,7 @@ describe Tmdb::Search do
 
     subject { list }
 
-    it { expect(subject).to be_an_instance_of(Tmdb::List) }
+    it { expect(subject).to be_an_instance_of(Tmdb::Result) }
 
     it 'should have results of kind Tmdb::List' do
       expect(subject.results.sample).to be_an_instance_of(Tmdb::List)
@@ -98,7 +98,7 @@ describe Tmdb::Search do
 
     subject { movie }
 
-    it { expect(subject).to be_an_instance_of(Tmdb::Movie) }
+    it { expect(subject).to be_an_instance_of(Tmdb::Result) }
 
     it 'should have results of kind Tmdb::Movie' do
       expect(subject.results.sample).to be_an_instance_of(Tmdb::Movie)
@@ -114,7 +114,7 @@ describe Tmdb::Search do
 
     subject { multi }
 
-    it { expect(subject).to be_an_instance_of(Tmdb::Multi) }
+    it { expect(subject).to be_an_instance_of(Tmdb::Result) }
 
     it 'should have results of kind Tmdb::Multi' do
       expect(subject.results.sample).to be_an_instance_of(Tmdb::Multi)
@@ -130,7 +130,7 @@ describe Tmdb::Search do
 
     subject { person }
 
-    it { expect(subject).to be_an_instance_of(Tmdb::Person) }
+    it { expect(subject).to be_an_instance_of(Tmdb::Result) }
 
     it 'should have results of kind Tmdb::Person' do
       expect(subject.results.sample).to be_an_instance_of(Tmdb::Person)
@@ -151,7 +151,7 @@ describe Tmdb::Search do
 
     subject { tv }
 
-    it { expect(subject).to be_an_instance_of(Tmdb::TV) }
+    it { expect(subject).to be_an_instance_of(Tmdb::Result) }
 
     it 'should have results of kind Tmdb::TV' do
       expect(subject.results.sample).to be_an_instance_of(Tmdb::TV)
