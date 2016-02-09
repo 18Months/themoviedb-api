@@ -11,19 +11,14 @@ module Tmdb
     end
 
     def get
-      options = Api.params.merge(@params)
+      request_params = Api.params.merge(@params)
 
-      begin
-        response = Api.get(@query_url, query: options)
-      rescue Net::HTTP::Exception
-        raise Tmdb::Error, 'Network Exception: TMDB API endpoint is not reachable.'
-      end
+      response = RestClient.get Api::BASE_URI + query_url,
+                                Api::JSON_HEADERS.merge(
+                                    params: request_params
+                                )
 
-      if has_errors?(response)
-        raise Tmdb::Error, response['status_message']
-      end
-
-      response.to_h
+      JSON.parse(response.body)
     end
 
   end

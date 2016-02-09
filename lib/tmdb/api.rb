@@ -1,14 +1,13 @@
 module Tmdb
   class Api
-    include HTTParty
 
-    VERSION = '3'
-    base_uri 'http://api.themoviedb.org/3/'
+    VERSION  = '3'
+    BASE_URI = "http://api.themoviedb.org/#{VERSION}"
 
-    format :json
-
-    headers 'Accept'       => 'application/json'
-    headers 'Content-Type' => 'application/json'
+    JSON_HEADERS = {
+        content_type: 'application/json; charset=utf-8',
+        accept:       'application/json'
+    }
 
     def self.params
       @@params ||= {}

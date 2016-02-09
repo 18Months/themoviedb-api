@@ -2,7 +2,7 @@ module Tmdb
   class Search < Struct
 
     def self.company(query, filters={})
-      filters.merge!(query: clean_query_param(query))
+      filters.merge!(query: query)
 
       get_result = Resource.new('/search/company', filters).get
 
@@ -15,7 +15,7 @@ module Tmdb
     end
 
     def self.collection(query, filters={})
-      filters.merge!(query: clean_query_param(query))
+      filters.merge!(query: query)
 
       get_result = Resource.new('/search/collection', filters).get
 
@@ -28,7 +28,7 @@ module Tmdb
     end
 
     def self.keyword(query, filters={})
-      filters.merge!(query: clean_query_param(query))
+      filters.merge!(query: query)
 
       get_result = Resource.new('/search/keyword', filters).get
 
@@ -41,7 +41,7 @@ module Tmdb
     end
 
     def self.list(query, filters={})
-      filters.merge!(query: clean_query_param(query))
+      filters.merge!(query: query)
 
       get_result = Resource.new('/search/list', filters).get
 
@@ -54,7 +54,7 @@ module Tmdb
     end
 
     def self.movie(query, filters={})
-      filters.merge!(query: clean_query_param(query))
+      filters.merge!(query: query)
 
       get_result = Resource.new('/search/movie', filters).get
 
@@ -67,7 +67,7 @@ module Tmdb
     end
 
     def self.multi(query, filters={})
-      filters.merge!(query: clean_query_param(query))
+      filters.merge!(query: query)
 
       get_result = Resource.new('/search/multi', filters).get
 
@@ -80,7 +80,7 @@ module Tmdb
     end
 
     def self.person(query, filters={})
-      filters.merge!(query: clean_query_param(query))
+      filters.merge!(query: query)
 
       get_result = Resource.new('/search/person', filters).get
 
@@ -95,7 +95,7 @@ module Tmdb
     end
 
     def self.tv(query, filters={})
-      filters.merge!(query: clean_query_param(query))
+      filters.merge!(query: query)
 
       get_result = Resource.new('/search/tv', filters).get
 
@@ -106,12 +106,6 @@ module Tmdb
 
       result
     end
-
-    def self.clean_query_param(query)
-      CGI.escape(query)
-    end
-
-    private_class_method :clean_query_param
 
   end
 end

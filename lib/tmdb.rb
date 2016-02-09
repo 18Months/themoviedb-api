@@ -1,5 +1,6 @@
+require 'json'
+require 'rest-client'
 require 'ostruct'
-require 'httparty'
 
 require 'tmdb/api'
 require 'tmdb/error'
