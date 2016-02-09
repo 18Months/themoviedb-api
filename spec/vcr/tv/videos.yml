@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -19,11 +23,11 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
-      - public, max-age=21600
+      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:32 GMT
+      - Tue, 09 Feb 2016 15:17:21 GMT
       Etag:
       - '"4462cc2797d85f06bab506e2edf3d527"'
       Server:
@@ -33,17 +37,17 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '880'
+      - '10165'
       X-Memc-Expires:
-      - '20720'
+      - '18635'
       X-Memc-Key:
       - 719287b62ba4fcdfb83f693a60c9eeed
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '21'
+      - '17'
       X-Ratelimit-Reset:
-      - '1435331858'
+      - '1455031046'
       Content-Length:
       - '180'
       Connection:
@@ -53,5 +57,5 @@ http_interactions:
       string: '{"id":1396,"results":[{"id":"5335e299c3a368265000001d","iso_639_1":"en","key":"6OdIbPMU720","name":"Opening
         Credits (Short)","site":"YouTube","size":480,"type":"Opening Credits"}]}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:35 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:21 GMT
+recorded_with: VCR 3.0.1

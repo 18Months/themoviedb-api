@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -19,13 +23,15 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
-      - public, max-age=10800
+      - public, max-age=21600
+      Content-Encoding:
+      - gzip
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:12 GMT
+      - Tue, 09 Feb 2016 15:17:01 GMT
       Etag:
-      - '"f7d27e1733dcd26b5577942b5f44718c"'
+      - W/"bb0b1b0ce697b9a5de62beae156478dc"
       Server:
       - openresty
       Status:
@@ -35,9 +41,9 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '641'
+      - '6602'
       X-Memc-Expires:
-      - '10159'
+      - '14998'
       X-Memc-Key:
       - e40ec96533b45cf52000eb2d8938fbf9
       X-Ratelimit-Limit:
@@ -45,70 +51,67 @@ http_interactions:
       X-Ratelimit-Remaining:
       - '24'
       X-Ratelimit-Reset:
-      - '1435331837'
+      - '1455031026'
       Content-Length:
-      - '5066'
+      - '2352'
       Connection:
       - keep-alive
     body:
-      encoding: UTF-8
-      string: '{"movie_results":[],"person_results":[{"adult":false,"id":1221227,"known_for":[{"backdrop_path":"/2eP5hTWpFap5vItahoR6zGddknl.jpg","first_air_date":"2008-09-28","genre_ids":[35],"id":14880,"original_language":null,"original_name":"Little
-        Britain USA","overview":"Little Britain USA is an American spin-off-continuation
-        of British sketch show, Little Britain, produced and aired by HBO.\n\nAs in
-        the British series, Matt Lucas and David Walliams play the majority of the
-        characters: originals such as Lou and Andy, Daffyd Thomas, Sebastian Love,
-        Marjorie Dawes and Vicky Pollard, as well as new characters not previously
-        seen in the British series.\n\nThe first series started filming in March 2008
-        in Wilmington, North Carolina. HBO showed the first episode of the season
-        in the United States on September 28, 2008; The Movie Network broadcast it
-        in Canada the same day, followed by BBC One on October 3 in the UK.\n\nNew
-        guest-stars include Rachael Harris, Bob Stephenson, Paul Rudd, Hilarie Burton,
-        Vivica A. Fox, and Sting. Michael Patrick Jann served as executive producer
-        of the series and directed the majority of the shows. David Schwimmer directed
-        studio-based segments of the show. Rosie O''Donnell also makes an appearance
-        in a \"Fat Fighters\" segment.\n\nThe series was released on DVD in the UK
-        by 2entertain in August 2009.","origin_country":["US"],"poster_path":"/lMWsdFvvmaS11S5tNmXUccbMqQS.jpg","popularity":0.01161,"name":"Little
-        Britain USA","vote_average":7.0,"vote_count":2,"media_type":"tv"},{"backdrop_path":"/5uBupsPsSlvQl7BROqLFooFMToj.jpg","first_air_date":"1984-10-16","genre_ids":[18],"id":2072,"original_language":null,"original_name":"The
-        Bill","overview":"The Bill is a police procedural television series that was
-        broadcast on the ITV network from 16 October 1984 until 31 August 2010. The
-        programme originated from a one-off drama, entitled Woodentop, which was broadcast
-        in August 1983. In its final year on air, The Bill was broadcast once a week,
-        usually on Tuesdays or Thursdays, in a one-hour format. The programme focused
-        on the lives and work of one shift of police officers, rather than on any
-        particular aspect of police work. At the time of the series'' conclusion,
-        The Bill was the longest-running police procedural television series in the
-        United Kingdom, and was among the longest-running of any British television
-        series. The series was produced by Thames Television. The series name originated
-        from \"Old Bill\", a slang term for the police. This was also Geoff McQueen''s
-        original title idea for the series, before he eventually decided on \"The
-        Bill\".\n\nAlthough highly acclaimed amongst fans and critics alike, the series
-        attracted controversy on several occasions. An episode broadcast in 2008 was
-        criticised for featuring fictional treatment for multiple sclerosis, and another
-        episode in the same year resulted in litigation, submitted by MP George Galloway
-        for defamation. The series has also faced more general criticism, concerning
-        the levels of violence it portrays, particularly prior to 2009, when it occupied
-        a pre-watershed slot. During its time on air, The Bill won several awards,
-        including BAFTAs, a Writers'' Guild of Great Britain award and the title of
-        \"best drama\" at the Inside Soap Awards in 2009, the latter being the series''
-        fourth consecutive win. Throughout its twenty-seven-year run, the programme
-        was always broadcast on the main ITV network. In later years, episodes of
-        the show were repeated on ITV3 on their week of broadcast. The series has
-        also been repeated on other digital stations, including UKTV Gold, Alibi,
-        Watch and UKTV G2. In March 2010, executives at ITV announced that the network
-        did not intend to recommission The Bill, and that filming on the series would
-        cease on 14 June 2010. The last ever episode of the series was aired on 31
-        August 2010.","origin_country":["GB"],"poster_path":"/3Pa3nrW5oxkmWI0cdunbqFaEcdo.jpg","popularity":1.076729,"name":"The
-        Bill","vote_average":0.0,"vote_count":0,"media_type":"tv"},{"backdrop_path":null,"first_air_date":null,"genre_ids":[35],"id":949,"original_language":null,"original_name":"Miami
-        7","overview":"Miami 7 is a television series starring British pop group S
-        Club 7. Thirteen episodes were produced and aired on CBBC from 8 April 1999
-        to 1 July 1999 During each episode, the members would perform one of the songs
-        from their album S Club. All seven members of the band starred as themselves.
-        It was created and partially written by Kim Fuller, who also created and wrote
-        the Spice Girls'' film Spiceworld: The Movie.\n\nRenamed S Club 7 in Miami,
-        the show was taken to America where it aired on Fox Family - which later became
-        ABC Family - between 6 November 1999 and 5 February 2000.\n\nThe show was
-        watched by 90 million viewers in over 100 different countries.","origin_country":["GB"],"poster_path":null,"popularity":0.0405,"name":"Miami
-        7","vote_average":0.0,"vote_count":0,"media_type":"tv"}],"name":"Simon Fuller","popularity":2e-06,"profile_path":null}],"tv_results":[],"tv_episode_results":[],"tv_season_results":[]}'
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+        5T//A4sjGD3OEwAA
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:16 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:01 GMT
+recorded_with: VCR 3.0.1

@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -19,13 +23,15 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
-      - public, max-age=21600
+      - public, max-age=28800
+      Content-Encoding:
+      - gzip
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:29 GMT
+      - Tue, 09 Feb 2016 15:17:18 GMT
       Etag:
-      - '"9efa62780c0dacfe3cbd6eb6eb8f0d8e"'
+      - W/"9efa62780c0dacfe3cbd6eb6eb8f0d8e"
       Server:
       - openresty
       Status:
@@ -33,40 +39,40 @@ http_interactions:
       Vary:
       - Accept-Encoding
       X-Memc:
-      - HIT
+      - MISS, STORE
       X-Memc-Age:
-      - '9214'
+      - '0'
       X-Memc-Expires:
-      - '12386'
+      - '28800'
       X-Memc-Key:
       - 57e31d44afdbc57ee39fadda18f9ef47
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '34'
+      - '30'
       X-Ratelimit-Reset:
-      - '1435331858'
+      - '1455031046'
       Content-Length:
-      - '2318'
+      - '601'
       Connection:
       - keep-alive
     body:
-      encoding: UTF-8
-      string: '{"id":3624,"results":[{"id":"534921db0e0a266b3f0013bb","iso_639_1":"en","key":"9cqABojhqr4","name":"Pledge
-        Your Allegiance - House Stark","site":"YouTube","size":720,"type":"Featurette"},{"id":"534922b00e0a266b4a0014e9","iso_639_1":"en","key":"5H7Q3SZ2kec","name":"Character
-        Feature - Catelyn Stark","site":"YouTube","size":720,"type":"Featurette"},{"id":"534922d30e0a266b4a0014ee","iso_639_1":"en","key":"JLF5afwjvQQ","name":"Character
-        Feature - Robb Stark","site":"YouTube","size":720,"type":"Featurette"},{"id":"534923030e0a266b4300139d","iso_639_1":"en","key":"5FoXU1pNr7g","name":"Character
-        Feature - Arya Stark","site":"YouTube","size":720,"type":"Featurette"},{"id":"5349232b0e0a266b310013d3","iso_639_1":"en","key":"asJaqshya8s","name":"Character
-        Feature - Bran Stark","site":"YouTube","size":720,"type":"Featurette"},{"id":"534923550e0a266b3b00137e","iso_639_1":"en","key":"xkgNP60rPMs","name":"Character
-        Feature - Ned Stark","site":"YouTube","size":720,"type":"Featurette"},{"id":"5349239c0e0a266b470013c2","iso_639_1":"en","key":"6t-Z4OxLCSY","name":"Moments
-        Tease - Ned and Catelyn Stark","site":"YouTube","size":720,"type":"Teaser"},{"id":"5349289e0e0a266b430013ee","iso_639_1":"en","key":"H2QOBDGuesw","name":"Character
-        Feature - Cersei Lannister","site":"YouTube","size":720,"type":"Featurette"},{"id":"534928e90e0a266b430013f2","iso_639_1":"en","key":"13agX-f4MrU","name":"Character
-        Feature - Jaime Lannister","site":"YouTube","size":720,"type":"Featurette"},{"id":"53492a180e0a266b3f001446","iso_639_1":"en","key":"oEjgO10dzdQ","name":"Moments
-        Tease - Daenerys Targaryen and Khal Drogo","site":"YouTube","size":720,"type":"Teaser"},{"id":"53492a7d0e0a266b47001440","iso_639_1":"en","key":"otmIEFQrCHA","name":"Character
-        Feature - Daenerys Targaryen","site":"YouTube","size":720,"type":"Featurette"},{"id":"53492aaa0e0a266b3b001417","iso_639_1":"en","key":"pf0EDfgi2Uo","name":"Character
-        Feature - Viserys Targaryen","site":"YouTube","size":720,"type":"Featurette"},{"id":"534931980e0a266b310014c3","iso_639_1":"en","key":"WdGntO7vi0w","name":"Character
-        Feature - King Robert Baratheon","site":"YouTube","size":720,"type":"Featurette"},{"id":"534929160e0a266b3b0013e6","iso_639_1":"en","key":"g7ZSQRDUroo","name":"Character
-        Feature - Tyrion Lannister","site":"YouTube","size":720,"type":"Featurette"}]}'
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA63VbU/bMBAA4L8S5XORkthNGr71lY63UtpuwDShS3JNQ1sb
+        bBcIiP8+pxqUdotBI9+i8yl5dOe7PNtZYu8T36M1W6BcLZS0938+r6N2ndDQ
+        c5PIQQc834/I1HFcEkV2zc4kv/ZJeO3qNGQ6MMdcP4bxXbPFb2Z3guoYgyXq
+        4NkCkxStS74SVnOxwDQDFqO1Z/X5SqI1UiDmOltmqsjWaeNVhOvAkw4EnlOz
+        VX5bnPUQ1Eqg0okvtfdIL3JekRQ0kmJYjqz3gyEZXXlzjDfI9gwExAqF9ecj
+        2tcGhYucVSNMyI6weEGJ8PC4V4fpw839cGgWnvMoqoRHnA2PFF0Ok3Jevccv
+        Ju7tqQhSM68pcqiG520uoVvwElLOA3kId3KWQ0OaeS0B1TSX1OtvvKjgBYbm
+        Ps7T0zPfEWcnH/BOMalGF8ZvvQ0KXeyV63y1d0UHj8ft0eVGd8KXyJS0xgjy
+        VQYs+Z8BWb9C7AgbIW7fPtNw9L3hoNU5WKF8MNevjUJiZh0DY5nUR58Dlpax
+        geE2cmooo0sgvdib0hMxMSMPIVtiZUZwG1vLmlK/3Mi7N+nAdZKn5N2W2W11
+        B5ChyHUARAoiR7bu/NEMFlZH8JR/TvzPtkOQbF1MSh2DVi2/dXtD0e43zRX9
+        W/w5YnlRAbamm7pBOfN26nQ70zTzJkVlDMzvmaxSSdxw0/piRdLYsCJ/JAdM
+        DYL7zPlgho4ylhZ/GRTKauljNUP+RakXuv72tkTDJU2Dq9HwvDMR/IN6jnOR
+        cfaVSfr18htqxnDwDgkAAA==
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:32 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:18 GMT
+recorded_with: VCR 3.0.1

@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -19,13 +23,15 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
-      - public, max-age=10800
+      - public, max-age=21600
+      Content-Encoding:
+      - gzip
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:23 GMT
+      - Tue, 09 Feb 2016 15:17:13 GMT
       Etag:
-      - '"c1a6efa3bc6ac52a65677c49e47428cc"'
+      - W/"317df7b79dcb690cccf062c156f21523"
       Server:
       - openresty
       Status:
@@ -33,38 +39,35 @@ http_interactions:
       Vary:
       - Accept-Encoding
       X-Memc:
-      - MISS, STORE
+      - HIT
       X-Memc-Age:
-      - '0'
+      - '6601'
       X-Memc-Expires:
-      - '10800'
+      - '14999'
       X-Memc-Key:
       - 1a44038d7ccd4eb506787ec1b21c15bb
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '18'
+      - '13'
       X-Ratelimit-Reset:
-      - '1435331847'
+      - '1455031036'
       Content-Length:
-      - '1244'
+      - '396'
       Connection:
       - keep-alive
     body:
-      encoding: UTF-8
-      string: '{"page":1,"results":[{"id":6421,"logo_path":null,"name":"Disney"},{"id":5888,"logo_path":null,"name":"Walt
-        Disney"},{"id":41452,"logo_path":null,"name":"Disney Latino"},{"id":44514,"logo_path":null,"name":"Disney
-        XD"},{"id":26151,"logo_path":null,"name":"Disney Enterprises"},{"id":4855,"logo_path":null,"name":"Disney
-        Einstein"},{"id":3213,"logo_path":null,"name":"Disney Channel"},{"id":6806,"logo_path":null,"name":"Disney
-        Pixar"},{"id":17204,"logo_path":null,"name":"walt disney france"},{"id":18978,"logo_path":null,"name":"Walt
-        Disney Television Animation"},{"id":20193,"logo_path":null,"name":"Walt Disney
-        Company"},{"id":6470,"logo_path":null,"name":"Walt Disney Production"},{"id":6125,"logo_path":null,"name":"Walt
-        Disney Animation Studios"},{"id":7586,"logo_path":null,"name":"Walt Disney
-        Home Video"},{"id":10079,"logo_path":null,"name":"The Walt Disney Company"},{"id":10217,"logo_path":null,"name":"Walt
-        Disney Feature Animation"},{"id":35162,"logo_path":null,"name":"Walt Disney
-        Studios HE"},{"id":41712,"logo_path":null,"name":"Disney Interactive, Canada"},{"id":40148,"logo_path":null,"name":"Walt
-        Disney Animation Japan"},{"id":12402,"logo_path":null,"name":"Walt Disney
-        Animation Canada"}],"total_pages":2,"total_results":40}'
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA42UX2uDMBTFv4rkWTajSXS+lbb7A3sQWtqNMUqooWbExJm4
+        dZR+99l1M3bU6qNyfzfnnJvcHSjohoEYuqBkuhJGg/hlB3gKYoL8+q9QG7Uq
+        qMlALCshXCBpXteDCdeSfYG9eyxGEcZ9xc6US20Ylw0V+DDopcYZlZKJBsJR
+        FHVDSyqM808ciTzSTfwek/AtLRvEJxD3unem0rCyKLlm2iYBEfZ7yUdquFQW
+        QhiiXuhpYi2FXnd5KwNnzgT74Jorm/qpOnD9dkffZ8tpmSqVbR84eSafRXqz
+        TZKFuSrkBpztm/C1qcqW7wCFF0JuoyPJ89q+ks6o0qakgtN2lwv36Lwx29Dm
+        6eP+OOeqZmemSrkdRADJQBdJqdJqfTjVZkDQ0LFY2sLQH2jdBnhUbwWEOBoo
+        /17lzFnwlFnv0PPCm256njGn3WGs8oJK+8qg58OwG2+jt4weLs+ZwcEAhwPe
+        XZ3dD0fF6RxeXWCUoWJ12Gr1Kgv+vpvlhtD+G6YME/j0BAAA
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:27 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:13 GMT
+recorded_with: VCR 3.0.1

@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -19,11 +23,11 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
-      - public, max-age=21600
+      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:16 GMT
+      - Tue, 09 Feb 2016 15:17:06 GMT
       Etag:
       - '"8385922582a7720b7ae1305803ab5819"'
       Server:
@@ -33,17 +37,17 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '9692'
+      - '9756'
       X-Memc-Expires:
-      - '11908'
+      - '19044'
       X-Memc-Key:
       - ca5c545c41e5d5b7bf047770d2f31025
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '7'
+      - '39'
       X-Ratelimit-Reset:
-      - '1435331837'
+      - '1455031036'
       Content-Length:
       - '157'
       Connection:
@@ -53,5 +57,5 @@ http_interactions:
       string: '{"id":550,"results":[{"id":"533ec654c3a36854480003eb","iso_639_1":"en","key":"SUXWAEX2jlg","name":"Trailer
         1","site":"YouTube","size":720,"type":"Trailer"}]}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:20 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:06 GMT
+recorded_with: VCR 3.0.1

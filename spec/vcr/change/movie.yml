@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -20,12 +24,14 @@ http_interactions:
       - "*"
       Cache-Control:
       - public, max-age=600
+      Content-Encoding:
+      - gzip
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:08 GMT
+      - Tue, 09 Feb 2016 15:16:56 GMT
       Etag:
-      - '"2e89f29c731e09c3f082429cee288b46"'
+      - W/"c355a5ccb07b4f50f3a775e23394fc25"
       Server:
       - openresty
       Status:
@@ -33,11 +39,11 @@ http_interactions:
       Vary:
       - Accept-Encoding
       X-Memc:
-      - MISS, STORE
+      - HIT
       X-Memc-Age:
-      - '0'
+      - '259'
       X-Memc-Expires:
-      - '600'
+      - '341'
       X-Memc-Key:
       - 2f7ecce3c7b5eae3002bf7f025b5b504
       X-Ratelimit-Limit:
@@ -45,14 +51,26 @@ http_interactions:
       X-Ratelimit-Remaining:
       - '37'
       X-Ratelimit-Reset:
-      - '1435331837'
+      - '1455031026'
       Content-Length:
-      - '2800'
+      - '521'
       Connection:
       - keep-alive
     body:
-      encoding: UTF-8
-      string: '{"results":[{"id":346168,"adult":false},{"id":51617,"adult":false},{"id":43741,"adult":false},{"id":205399,"adult":false},{"id":251232,"adult":false},{"id":29376,"adult":false},{"id":273404,"adult":false},{"id":13909,"adult":false},{"id":16614,"adult":false},{"id":1040,"adult":false},{"id":14445,"adult":false},{"id":93006,"adult":false},{"id":66257,"adult":false},{"id":79349,"adult":false},{"id":60938,"adult":false},{"id":346169,"adult":false},{"id":346170,"adult":false},{"id":346171,"adult":false},{"id":270990,"adult":false},{"id":32644,"adult":false},{"id":346172,"adult":false},{"id":29811,"adult":false},{"id":18214,"adult":false},{"id":21463,"adult":false},{"id":346173,"adult":false},{"id":112454,"adult":false},{"id":83384,"adult":false},{"id":63648,"adult":false},{"id":152792,"adult":false},{"id":346174,"adult":false},{"id":38780,"adult":false},{"id":250574,"adult":false},{"id":189612,"adult":false},{"id":321628,"adult":false},{"id":66241,"adult":false},{"id":308457,"adult":false},{"id":12222,"adult":false},{"id":299145,"adult":false},{"id":226857,"adult":false},{"id":346159,"adult":false},{"id":66362,"adult":false},{"id":69618,"adult":false},{"id":278016,"adult":false},{"id":215776,"adult":false},{"id":34388,"adult":false},{"id":63311,"adult":false},{"id":281021,"adult":false},{"id":63651,"adult":false},{"id":169865,"adult":false},{"id":66249,"adult":false},{"id":4251,"adult":false},{"id":4253,"adult":false},{"id":14134,"adult":false},{"id":16566,"adult":false},{"id":41252,"adult":false},{"id":212769,"adult":false},{"id":76684,"adult":false},{"id":196305,"adult":false},{"id":20914,"adult":false},{"id":24161,"adult":false},{"id":99367,"adult":false},{"id":106090,"adult":false},{"id":239573,"adult":false},{"id":127531,"adult":false},{"id":24160,"adult":false},{"id":128488,"adult":false},{"id":136527,"adult":false},{"id":139474,"adult":false},{"id":345710,"adult":false},{"id":177360,"adult":false},{"id":253707,"adult":false},{"id":19620,"adult":false},{"id":20623,"adult":false},{"id":243688,"adult":false},{"id":28805,"adult":false},{"id":31977,"adult":false},{"id":39217,"adult":false},{"id":39218,"adult":false},{"id":46379,"adult":false},{"id":56998,"adult":false},{"id":58302,"adult":false},{"id":78701,"adult":false},{"id":83903,"adult":false},{"id":86411,"adult":false},{"id":59415,"adult":false},{"id":112971,"adult":false},{"id":136688,"adult":false},{"id":139067,"adult":false},{"id":236735,"adult":false},{"id":161793,"adult":false},{"id":168025,"adult":false},{"id":225635,"adult":false},{"id":7913,"adult":false},{"id":14705,"adult":false},{"id":17501,"adult":false},{"id":19670,"adult":false},{"id":23130,"adult":false},{"id":301903,"adult":false},{"id":44827,"adult":false},{"id":67181,"adult":false}],"page":1,"total_pages":16,"total_results":1516}'
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA32WzY4TQQyE32XOObR/2nbvqyCEIm1ASJFAm+xpte+OMwgQ
+        aD6OmZLbVXbZztv2crm9Xu+37enD2/b1eXtabuO0nZ/74/b0+Xy9Xd5PPxH1
+        GUsBM7HMY8xKcgKmarrkGBPxSAdMp1gcY5EpkC4qDSDzKW6AZUkBkyYiC+JU
+        53SomFi50ZstQOoY26sJb6rqgGJWCkE6ahXUUocVxk33BK9Ihsc8xnYFoC7D
+        HNKJTVvUPMvhlM7mIppmFQnSJeYKauxsmtCEVn4MtBmMHBbhECVDay3AcpUC
+        DTGhYbWRy6jKD6NAOhsUFNHajjGVbht0W6euorieDpodXRYBLe2ZE7RCrCwS
+        l9zuxtwh3+5merMkyM7evgRofxKotDoNmgINLaCputb4g91fXv9K959qDmLZ
+        E2DAshemCmAqUgJm73MwaNGaY+tad4BVlk66Lz3EHXeM9XY2Wgxq2fYDLIxW
+        6V5moiJLqAMzjXaDDkK6AUYLSisVrRc5kf8IBZKzCDHxUeBXiV7oQKSvO0dR
+        shwTq++5gvxjY8DGkKl4bfvuV1HcyAH+t+iaEJOHRyCd9nqiMZVYAoVs/zjt
+        wx5EPB9SVEp1HeSfPtIKuufA+7HLhrDHDsUO9D+Xf6V9PG3fz18uDZ62+7f7
+        +frp8fP2UPTrw++/vDJ8vP8A+Zd60wMLAAA=
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:11 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:16:56 GMT
+recorded_with: VCR 3.0.1

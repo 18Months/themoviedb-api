@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -19,11 +23,11 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
-      - public, max-age=21600
+      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:13 GMT
+      - Tue, 09 Feb 2016 15:17:03 GMT
       Etag:
       - '"d382b694802c1838d53816a4c72c7e93"'
       Server:
@@ -33,9 +37,9 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '7596'
+      - '13511'
       X-Memc-Expires:
-      - '14004'
+      - '15289'
       X-Memc-Key:
       - c6e485f08837601abbc4bd9c77ad3d75
       X-Ratelimit-Limit:
@@ -43,7 +47,7 @@ http_interactions:
       X-Ratelimit-Remaining:
       - '19'
       X-Ratelimit-Reset:
-      - '1435331837'
+      - '1455031026'
       Content-Length:
       - '463'
       Connection:
@@ -54,5 +58,5 @@ http_interactions:
         & Fantasy"},{"id":10766,"name":"Soap"},{"id":10767,"name":"Talk"},{"id":10768,"name":"War
         & Politics"},{"id":37,"name":"Western"}]}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:17 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:03 GMT
+recorded_with: VCR 3.0.1

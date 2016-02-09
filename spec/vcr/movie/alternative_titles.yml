@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -19,13 +23,13 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
-      - public, max-age=21600
+      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:15 GMT
+      - Tue, 09 Feb 2016 15:17:04 GMT
       Etag:
-      - '"7ce7c10672427e937db67c191352e6d0"'
+      - '"60c69b5a26ee01c2ccefaf0510fdb7cc"'
       Server:
       - openresty
       Status:
@@ -33,9 +37,9 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '3551'
+      - '5681'
       X-Memc-Expires:
-      - '18049'
+      - '23119'
       X-Memc-Key:
       - 6bbcd8124462dcecf4d071a1d41640e0
       X-Ratelimit-Limit:
@@ -43,9 +47,9 @@ http_interactions:
       X-Ratelimit-Remaining:
       - '13'
       X-Ratelimit-Reset:
-      - '1435331837'
+      - '1455031026'
       Content-Length:
-      - '565'
+      - '718'
       Connection:
       - keep-alive
     body:
@@ -63,7 +67,10 @@ http_interactions:
         OiJDbHViZSBkZSBDb21iYXRlIn0seyJpc29fMzE2Nl8xIjoiUlMiLCJ0aXRs
         ZSI6IkJvcmlsYcSNa2kga2x1YiJ9LHsiaXNvXzMxNjZfMSI6IlNJIiwidGl0
         bGUiOiJLbHViIGdvbGloIHBlc3RpIn0seyJpc29fMzE2Nl8xIjoiU0siLCJ0
-        aXRsZSI6IktsdWIgYml0a8Ohcm92In1dfQ==
+        aXRsZSI6IktsdWIgYml0a8Ohcm92In0seyJpc29fMzE2Nl8xIjoiSVIiLCJ0
+        aXRsZSI6Itio2KfYtNqv2KfZhyDZhdio2KfYsdiy2YcifSx7Imlzb18zMTY2
+        XzEiOiJNWCIsInRpdGxlIjoiRWwgY2x1YiBkZSBsYSBwZWxlYSJ9LHsiaXNv
+        XzMxNjZfMSI6IkhVIiwidGl0bGUiOiJIYXJjb3NvayBLbHViYmphIn1dfQ==
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:18 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:04 GMT
+recorded_with: VCR 3.0.1

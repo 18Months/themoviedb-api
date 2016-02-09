@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -19,11 +23,11 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
-      - public, max-age=21600
+      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:19 GMT
+      - Tue, 09 Feb 2016 15:17:09 GMT
       Etag:
       - '"433f5360ed09b9f04908e105972723ec"'
       Server:
@@ -33,17 +37,17 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '6710'
+      - '6602'
       X-Memc-Expires:
-      - '14890'
+      - '22198'
       X-Memc-Key:
       - 7e4d8fd1ff83ef6ba02eea84690ca29c
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '31'
+      - '26'
       X-Ratelimit-Reset:
-      - '1435331847'
+      - '1455031036'
       Content-Length:
       - '33'
       Connection:
@@ -52,5 +56,5 @@ http_interactions:
       encoding: UTF-8
       string: '{"id":1,"name":"Fuji Television"}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:23 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:09 GMT
+recorded_with: VCR 3.0.1

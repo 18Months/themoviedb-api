@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -23,11 +27,11 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:18 GMT
+      - Tue, 09 Feb 2016 15:17:08 GMT
       Etag:
-      - '"8a6f1980a5eb3598a78aabd14beb3509"'
+      - '"9fc727b6958add996b5fdb1178771886"'
       Last-Modified:
-      - '2015-06-26 15:10:46 +0000'
+      - '2016-02-09 14:50:53 +0000'
       Server:
       - openresty
       Status:
@@ -43,18 +47,17 @@ http_interactions:
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '36'
+      - '31'
       X-Ratelimit-Reset:
-      - '1435331847'
+      - '1455031036'
       Content-Length:
-      - '622'
+      - '468'
       Connection:
       - keep-alive
     body:
       encoding: UTF-8
-      string: '{"adult":false,"backdrop_path":null,"belongs_to_collection":null,"budget":0,"genres":[],"homepage":"","id":346254,"imdb_id":"tt0267902","original_language":"en","original_title":"Safariland","overview":"\"Safari
-        Land: Among Negroes and wildlife in East Africa\". A Norwegian exploitation
-        travel documentary in color from 1952.","popularity":0.0,"poster_path":"/y9EcJJJiqAB4NxGp60OI7d60vSH.jpg","production_companies":[],"production_countries":[],"release_date":"1952-01-17","revenue":0,"runtime":0,"spoken_languages":[],"status":"Released","tagline":"","title":"Safariland","video":false,"vote_average":0.0,"vote_count":0}'
+      string: '{"adult":true,"backdrop_path":null,"belongs_to_collection":null,"budget":0,"genres":[],"homepage":"http://silaut.com","id":381897,"imdb_id":"","original_language":"en","original_title":"Coba","overview":"Coba
+        banget","popularity":0.0,"poster_path":null,"production_companies":[],"production_countries":[],"release_date":"","revenue":0,"runtime":0,"spoken_languages":[],"status":"Released","tagline":"coba","title":"Coba","video":true,"vote_average":0.0,"vote_count":0}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:21 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:08 GMT
+recorded_with: VCR 3.0.1

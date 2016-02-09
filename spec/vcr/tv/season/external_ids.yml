@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -19,11 +23,11 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
-      - public, max-age=21600
+      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:28 GMT
+      - Tue, 09 Feb 2016 15:17:18 GMT
       Etag:
       - '"74308c5a56323a03173b6056616f25c3"'
       Server:
@@ -33,17 +37,17 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '4534'
+      - '6600'
       X-Memc-Expires:
-      - '17066'
+      - '22200'
       X-Memc-Key:
       - 7ea786aca555f85081317b6768814ade
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '36'
+      - '32'
       X-Ratelimit-Reset:
-      - '1435331858'
+      - '1455031046'
       Content-Length:
       - '107'
       Connection:
@@ -52,5 +56,5 @@ http_interactions:
       encoding: UTF-8
       string: '{"freebase_mid":"/m/05ddtqw","freebase_id":"/en/kojak_season_1","tvdb_id":2547,"tvrage_id":null,"id":10838}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:32 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:18 GMT
+recorded_with: VCR 3.0.1

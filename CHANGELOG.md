@@ -1,3 +1,13 @@
+## 1.1.0 (2016-02-09)
+
+Bugfixes:
+  
+  - Fixed bad query escaping that prevented searching some particular strings
+
+Improvement:
+
+  - Httparty dependency removed, now using a more powerful rest-client
+
 ## 1.0.4 (2016-01-11)
 
 Improvement:

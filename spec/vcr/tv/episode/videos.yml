@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -19,11 +23,11 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
-      - public, max-age=21600
+      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:27 GMT
+      - Tue, 09 Feb 2016 15:17:16 GMT
       Etag:
       - '"24e399aa35ac9c30feffaa901f62fc76"'
       Server:
@@ -33,17 +37,17 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '7495'
+      - '22416'
       X-Memc-Expires:
-      - '14105'
+      - '6384'
       X-Memc-Key:
       - 76fa451f5a6cb63a4dbb07801f640a20
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '3'
+      - '37'
       X-Ratelimit-Reset:
-      - '1435331847'
+      - '1455031046'
       Content-Length:
       - '25'
       Connection:
@@ -52,5 +56,5 @@ http_interactions:
       encoding: UTF-8
       string: '{"id":63056,"results":[]}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:30 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:16 GMT
+recorded_with: VCR 3.0.1

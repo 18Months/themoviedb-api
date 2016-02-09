@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -19,43 +23,43 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
-      - public, max-age=10800
+      - public, max-age=21600
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:24 GMT
+      - Tue, 09 Feb 2016 15:17:13 GMT
       Etag:
-      - '"a4353e84819d390c61b3d2ad6bc479c5"'
+      - '"efe62d093abd25779142ef9f06dc6b2c"'
       Server:
       - openresty
       Status:
       - 200 OK
       X-Memc:
-      - MISS, STORE
+      - HIT
       X-Memc-Age:
-      - '0'
+      - '6601'
       X-Memc-Expires:
-      - '10800'
+      - '14999'
       X-Memc-Key:
       - 48c00a8f48e162eb8d32b154cc3ddd04
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '16'
+      - '11'
       X-Ratelimit-Reset:
-      - '1435331847'
+      - '1455031036'
       Content-Length:
-      - '572'
+      - '637'
       Connection:
       - keep-alive
     body:
       encoding: UTF-8
-      string: '{"page":1,"results":[{"id":191117,"name":"disney"},{"id":184948,"name":"disney
-        channel"},{"id":155290,"name":"disney short"},{"id":193468,"name":"walt disney"},{"id":209353,"name":"disney
-        fake"},{"id":206890,"name":"disney shorts"},{"id":207815,"name":"walt disney
-        treasures"},{"id":207816,"name":"walt disney treasures"},{"id":207814,"name":"walt
-        disney treasures,"},{"id":209354,"name":"unofficial disney short"},{"id":209265,"name":"walt
-        disney world"},{"id":15200,"name":"disney animated feature"},{"id":188291,"name":"disneyland"}],"total_pages":1,"total_results":13}'
+      string: '{"page":1,"results":[{"id":191117,"name":"disney"},{"id":221006,"name":"disney"},{"id":155290,"name":"disney
+        short"},{"id":221005,"name":"walt disney"},{"id":206890,"name":"disney shorts"},{"id":209353,"name":"disney
+        fake"},{"id":184948,"name":"disney channel"},{"id":193468,"name":"walt disney"},{"id":15200,"name":"disney
+        animated feature"},{"id":207815,"name":"walt disney treasures"},{"id":209354,"name":"unofficial
+        disney short"},{"id":209265,"name":"walt disney world"},{"id":207814,"name":"walt
+        disney treasures,"},{"id":207816,"name":"walt disney treasures"},{"id":188291,"name":"disneyland"}],"total_pages":1,"total_results":15}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:27 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:13 GMT
+recorded_with: VCR 3.0.1

@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -19,13 +23,13 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
-      - public, max-age=10800
+      - public, max-age=21600
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:23 GMT
+      - Tue, 09 Feb 2016 15:17:13 GMT
       Etag:
-      - '"a23e85785675b008d3596e80ef94d427"'
+      - '"de88e65225ac8489482dc4ba68e84108"'
       Server:
       - openresty
       Status:
@@ -33,26 +37,29 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '641'
+      - '6601'
       X-Memc-Expires:
-      - '10159'
+      - '14999'
       X-Memc-Key:
       - a812db08d91eff725fa1db6fa2558a81
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '17'
+      - '12'
       X-Ratelimit-Reset:
-      - '1435331847'
+      - '1455031036'
       Content-Length:
-      - '321'
+      - '719'
       Connection:
       - keep-alive
     body:
       encoding: UTF-8
-      string: '{"page":1,"results":[{"id":138902,"backdrop_path":null,"name":"Disney
+      string: '{"page":1,"results":[{"id":377124,"backdrop_path":"/wijs7CYXYw3XY208U03ZpvSYFU7.jpg","name":"Disneynature
+        Collection","poster_path":"/mB9IchZTEipWqbsaB5lwUKtOhMm.jpg"},{"id":138902,"backdrop_path":null,"name":"Disney
         Sing-Along-Songs","poster_path":"/4hYRgJYtzNqIApRWImSkfOQ5vP2.jpg"},{"id":91657,"backdrop_path":"/tDhCsQaxFmdorEZHIgVaZH0MGDs.jpg","name":"Disney
-        Buddies Collection","poster_path":"/dBTf3e1Cgh9t1i4g8XkJBvytL8d.jpg"}],"total_pages":1,"total_results":2}'
+        Buddies Collection","poster_path":"/dBTf3e1Cgh9t1i4g8XkJBvytL8d.jpg"},{"id":365472,"backdrop_path":null,"name":"Walt
+        Disney Animation Studios Short Films","poster_path":"/faAWxEgWwXAEzWOc8vvqrGqJm2h.jpg"},{"id":369428,"backdrop_path":null,"name":"Walt
+        Disney Animation Collection Classic Short Films","poster_path":null}],"total_pages":1,"total_results":5}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:27 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:13 GMT
+recorded_with: VCR 3.0.1

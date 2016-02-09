@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -19,11 +23,11 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
-      - public, max-age=21600
+      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:14 GMT
+      - Tue, 09 Feb 2016 15:17:04 GMT
       Etag:
       - '"f40c57f52b981fc9c98420db18778d42"'
       Server:
@@ -31,11 +35,11 @@ http_interactions:
       Status:
       - 200 OK
       X-Memc:
-      - HIT
+      - MISS, STORE
       X-Memc-Age:
-      - '641'
+      - '0'
       X-Memc-Expires:
-      - '20959'
+      - '28800'
       X-Memc-Key:
       - a9b43f55e00d7d2ca0ccea26b47c9b29
       X-Ratelimit-Limit:
@@ -43,7 +47,7 @@ http_interactions:
       X-Ratelimit-Remaining:
       - '16'
       X-Ratelimit-Reset:
-      - '1435331837'
+      - '1455031026'
       Content-Length:
       - '26'
       Connection:
@@ -52,5 +56,5 @@ http_interactions:
       encoding: UTF-8
       string: '{"id":1721,"name":"fight"}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:17 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:04 GMT
+recorded_with: VCR 3.0.1

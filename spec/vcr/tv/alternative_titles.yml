@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -19,13 +23,13 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
-      - public, max-age=21600
+      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:29 GMT
+      - Tue, 09 Feb 2016 15:17:19 GMT
       Etag:
-      - '"ee6c396c0a0603c69f136ccb2830728b"'
+      - '"589aaa6e7f3afef8ec9dc9a8d4612494"'
       Server:
       - openresty
       Status:
@@ -33,27 +37,32 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '16293'
+      - '17768'
       X-Memc-Expires:
-      - '5307'
+      - '11032'
       X-Memc-Key:
       - f32970bb12433bcdf536f07108ac7a72
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '32'
+      - '28'
       X-Ratelimit-Reset:
-      - '1435331858'
+      - '1455031046'
       Content-Length:
-      - '118'
+      - '331'
       Connection:
       - keep-alive
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        eyJpZCI6MTM5NiwicmVzdWx0cyI6W3sidGl0bGUiOiJUb3TDoWwgc3rDrXbD
-        oXMiLCJpc29fMzE2Nl8xIjoiSFUifSx7InRpdGxlIjoiQnLEmXN0YW50aXMg
-        YmxvZ2lzIiwiaXNvXzMxNjZfMSI6IkxUIn1dfQ==
+        eyJpZCI6MTM5NiwicmVzdWx0cyI6W3sidGl0bGUiOiJCcmVha2luZyBCYWQ6
+        IEEgUXXDrW1pY2EgZG8gTWFsIiwiaXNvXzMxNjZfMSI6IkJSIn0seyJ0aXRs
+        ZSI6IlNob3ZlciBzaHVyb3QiLCJpc29fMzE2Nl8xIjoiSUwifSx7InRpdGxl
+        IjoiQmFkIEJpYXJpIiwiaXNvXzMxNjZfMSI6IklSIn0seyJ0aXRsZSI6IkJy
+        ZWFraW5nIEJhZCAtIFJlYXppb25pIGNvbGxhdGVyYWxpIiwiaXNvXzMxNjZf
+        MSI6IklUIn0seyJ0aXRsZSI6IkJ1cmVpa2luZ3UgYmFkZG8iLCJpc29fMzE2
+        Nl8xIjoiSlAifSx7InRpdGxlIjoiQnLEmXN0YW50aXMgYmxvZ2lzIiwiaXNv
+        XzMxNjZfMSI6IkxUIn1dfQ==
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:33 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:19 GMT
+recorded_with: VCR 3.0.1

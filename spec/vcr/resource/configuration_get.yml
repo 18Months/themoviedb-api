@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -20,12 +24,14 @@ http_interactions:
       - "*"
       Cache-Control:
       - public, max-age=36000
+      Content-Encoding:
+      - gzip
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:23 GMT
+      - Tue, 09 Feb 2016 15:17:12 GMT
       Etag:
-      - '"acd3a349fca1f788ac931639278ad061"'
+      - W/"acd3a349fca1f788ac931639278ad061"
       Server:
       - openresty
       Status:
@@ -35,16 +41,27 @@ http_interactions:
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '20'
+      - '15'
       X-Ratelimit-Reset:
-      - '1435331847'
+      - '1455031036'
       Content-Length:
-      - '1073'
+      - '490'
       Connection:
       - keep-alive
     body:
-      encoding: UTF-8
-      string: '{"images":{"base_url":"http://image.tmdb.org/t/p/","secure_base_url":"https://image.tmdb.org/t/p/","backdrop_sizes":["w300","w780","w1280","original"],"logo_sizes":["w45","w92","w154","w185","w300","w500","original"],"poster_sizes":["w92","w154","w185","w342","w500","w780","original"],"profile_sizes":["w45","w185","h632","original"],"still_sizes":["w92","w185","w300","original"]},"change_keys":["adult","air_date","also_known_as","alternative_titles","biography","birthday","budget","cast","certifications","character_names","created_by","crew","deathday","episode","episode_number","episode_run_time","freebase_id","freebase_mid","general","genres","guest_stars","homepage","images","imdb_id","languages","name","network","origin_country","original_name","original_title","overview","parts","place_of_birth","plot_keywords","production_code","production_companies","production_countries","releases","revenue","runtime","season","season_number","season_regular","spoken_languages","status","tagline","title","translations","tvdb_id","tvrage_id","type","video","videos"]}'
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA3VS0W7bMAz8Fz0HTdcmW5dfGQaBthhbiCwJFOUgLfrvExmn
+        ddbtieT5eKTOfDN+ggGLObyZDgraSsEczMicD9utfnvgyXUPiYYtb/PWbEzB
+        vhLav+jlv/wO+pOjlG3xrzLplzk/Pz62D+cfLxq+PWlM5AcfIZjfGxPSkFb8
+        3V54P5+Uvd9peFFsUdprWCvkVBhppfHP7p2C1+5lnTsRSkcf8Msm1/bx+7O0
+        rxsK+xC+Dl3v+kl/35h+hDigPeFF+eBq4MYBT9YBo6ShJHuK6RwtFK3bsyKw
+        n9Gy54ACdj4NBHm8aE48OtC0ugFFr4eiAYn90fetO0Xpa+MJevEpwqRKPWGb
+        62wn/a04t+AatChi9iU52WvJbKxTh7QCqMa22CScIyHqmXi3riYtB4xIzQbN
+        SIcPFQvbwkBSjWnC3A6qpcuRSuK6q1poxtUFleUlIJ8TnczNY9unGplk75vp
+        +s51rRYKMCPNXp+bgVhUc4AebTpadVSBxPKr2hCnBEqu9uJlm6Sm3CFThuh1
+        vztYVrrChAGbH9d0xlhFotm3uFfaxxQ/kk+nl5pwqAEUyOmE0a4taSZylYRh
+        CD6K3u2pTBBL+LgBnm+W8kyte8kvWbizd5husbST/QP844lDMQQAAA==
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:26 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:12 GMT
+recorded_with: VCR 3.0.1

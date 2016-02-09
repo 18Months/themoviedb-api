@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -19,13 +23,13 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
-      - public, max-age=10800
+      - public, max-age=21600
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:12 GMT
+      - Tue, 09 Feb 2016 15:17:01 GMT
       Etag:
-      - '"6a643dc2818f2bfae6e7177081996eaa"'
+      - '"53e2cd300aecbfd4a584d42c278b8f52"'
       Server:
       - openresty
       Status:
@@ -33,9 +37,9 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '5372'
+      - '3943'
       X-Memc-Expires:
-      - '5428'
+      - '17657'
       X-Memc-Key:
       - feaa674eaffd6e230b76773b53c17993
       X-Ratelimit-Limit:
@@ -43,22 +47,22 @@ http_interactions:
       X-Ratelimit-Remaining:
       - '25'
       X-Ratelimit-Reset:
-      - '1435331837'
+      - '1455031026'
       Content-Length:
-      - '945'
+      - '939'
       Connection:
       - keep-alive
     body:
       encoding: UTF-8
-      string: '{"movie_results":[{"adult":false,"backdrop_path":"/n2vIGWw4ezslXjlP0VNxkp9wqwU.jpg","genre_ids":[35,10751,16,12],"id":12,"original_language":"en","original_title":"Finding
+      string: '{"movie_results":[{"adult":false,"backdrop_path":"/n2vIGWw4ezslXjlP0VNxkp9wqwU.jpg","genre_ids":[16,10751],"id":12,"original_language":"en","original_title":"Finding
         Nemo","overview":"A tale which follows the comedic and eventful journeys of
         two fish, the fretful Marlin and his young son Nemo, who are separated from
         each other in the Great Barrier Reef when Nemo is unexpectedly taken from
         his home and thrust into a fish tank in a dentist''s office overlooking Sydney
         Harbor. Buoyed by the companionship of a friendly but forgetful fish named
         Dory, the overly cautious Marlin embarks on a dangerous trek and finds himself
-        the unlikely hero of an epic journey to rescue his son.","release_date":"2003-05-30","poster_path":"/zjqInUwldOBa0q07fOyohYCWxWX.jpg","popularity":4.169228,"title":"Finding
-        Nemo","video":false,"vote_average":7.2,"vote_count":2430}],"person_results":[],"tv_results":[],"tv_episode_results":[],"tv_season_results":[]}'
+        the unlikely hero of an epic journey to rescue his son.","release_date":"2003-11-29","poster_path":"/zjqInUwldOBa0q07fOyohYCWxWX.jpg","popularity":4.132987,"title":"Finding
+        Nemo","video":false,"vote_average":7.3,"vote_count":2941}],"person_results":[],"tv_results":[],"tv_episode_results":[],"tv_season_results":[]}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:15 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:01 GMT
+recorded_with: VCR 3.0.1

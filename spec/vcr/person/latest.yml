@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -23,9 +27,9 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:22 GMT
+      - Tue, 09 Feb 2016 15:17:12 GMT
       Etag:
-      - '"c3d868467a1a928d029418dec13a73f7"'
+      - '"2ca323bcb923da871f1a83c2a9f52dba"'
       Server:
       - openresty
       Status:
@@ -41,21 +45,17 @@ http_interactions:
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '21'
+      - '16'
       X-Ratelimit-Reset:
-      - '1435331847'
+      - '1455031036'
       Content-Length:
-      - '211'
+      - '205'
       Connection:
       - keep-alive
     body:
-      encoding: ASCII-8BIT
-      string: !binary |-
-        eyJhZHVsdCI6ZmFsc2UsImFsc29fa25vd25fYXMiOltdLCJiaW9ncmFwaHki
-        Om51bGwsImJpcnRoZGF5IjpudWxsLCJkZWF0aGRheSI6bnVsbCwiaG9tZXBh
-        Z2UiOm51bGwsImlkIjoxNDgxNzMwLCJpbWRiX2lkIjoiIiwibmFtZSI6IkZy
-        YW7Dp29pcyBHYWxnYW5pIiwicGxhY2Vfb2ZfYmlydGgiOm51bGwsInBvcHVs
-        YXJpdHkiOjAuMCwicHJvZmlsZV9wYXRoIjpudWxsfQ==
+      encoding: UTF-8
+      string: '{"adult":false,"also_known_as":[],"biography":null,"birthday":null,"deathday":null,"homepage":null,"id":1574910,"imdb_id":"","name":"Ron
+        Lampkin","place_of_birth":null,"popularity":0.0,"profile_path":null}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:26 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:12 GMT
+recorded_with: VCR 3.0.1

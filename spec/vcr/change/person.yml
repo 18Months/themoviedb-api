@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -20,12 +24,14 @@ http_interactions:
       - "*"
       Cache-Control:
       - public, max-age=600
+      Content-Encoding:
+      - gzip
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:09 GMT
+      - Tue, 09 Feb 2016 15:16:58 GMT
       Etag:
-      - '"a99b5e84178dd5479521e3c4a976fbd0"'
+      - W/"ea443206ae4e864b40004eb30b31833a"
       Server:
       - openresty
       Status:
@@ -45,14 +51,24 @@ http_interactions:
       X-Ratelimit-Remaining:
       - '36'
       X-Ratelimit-Reset:
-      - '1435331837'
+      - '1455031026'
       Content-Length:
-      - '2910'
+      - '434'
       Connection:
       - keep-alive
     body:
-      encoding: UTF-8
-      string: '{"results":[{"id":150111,"adult":false},{"id":1481356,"adult":false},{"id":1254426,"adult":false},{"id":1481357,"adult":false},{"id":146761,"adult":false},{"id":1419309,"adult":false},{"id":1419308,"adult":false},{"id":1381280,"adult":false},{"id":980412,"adult":false},{"id":1443656,"adult":false},{"id":1481358,"adult":false},{"id":1476384,"adult":false},{"id":1476385,"adult":false},{"id":1481359,"adult":false},{"id":570409,"adult":false},{"id":1481360,"adult":false},{"id":1481361,"adult":false},{"id":1385344,"adult":false},{"id":1481362,"adult":false},{"id":1481363,"adult":false},{"id":1481364,"adult":false},{"id":1481365,"adult":false},{"id":1107761,"adult":false},{"id":590661,"adult":false},{"id":1481366,"adult":false},{"id":1481367,"adult":false},{"id":1470760,"adult":false},{"id":1476652,"adult":false},{"id":1470759,"adult":false},{"id":1481368,"adult":false},{"id":1481369,"adult":false},{"id":1481370,"adult":false},{"id":1205447,"adult":false},{"id":1481371,"adult":false},{"id":1481372,"adult":false},{"id":1481373,"adult":false},{"id":1481374,"adult":false},{"id":1458915,"adult":false},{"id":1367625,"adult":false},{"id":1470761,"adult":false},{"id":1367631,"adult":false},{"id":1458914,"adult":false},{"id":81110,"adult":false},{"id":929777,"adult":true},{"id":1481375,"adult":true},{"id":1481376,"adult":false},{"id":1481377,"adult":true},{"id":1201293,"adult":true},{"id":1481378,"adult":false},{"id":1481379,"adult":false},{"id":1481380,"adult":false},{"id":1481381,"adult":false},{"id":1481382,"adult":false},{"id":1481383,"adult":false},{"id":1481384,"adult":false},{"id":1481385,"adult":false},{"id":1481386,"adult":false},{"id":1481387,"adult":false},{"id":1481388,"adult":false},{"id":1481389,"adult":false},{"id":1481390,"adult":false},{"id":1481391,"adult":false},{"id":1481392,"adult":false},{"id":1450113,"adult":false},{"id":146765,"adult":false},{"id":1481393,"adult":false},{"id":1442598,"adult":false},{"id":1481394,"adult":false},{"id":1481395,"adult":false},{"id":1481396,"adult":false},{"id":75926,"adult":true},{"id":135341,"adult":true},{"id":1374192,"adult":true},{"id":226821,"adult":true},{"id":1386194,"adult":true},{"id":1374207,"adult":true},{"id":1128410,"adult":true},{"id":1063153,"adult":true},{"id":1481397,"adult":true},{"id":23915,"adult":false},{"id":588926,"adult":null},{"id":1076798,"adult":null},{"id":1076797,"adult":null},{"id":1404047,"adult":null},{"id":1470758,"adult":null},{"id":1309531,"adult":null},{"id":590660,"adult":null},{"id":1419310,"adult":null},{"id":1478131,"adult":null},{"id":1481398,"adult":false},{"id":1008601,"adult":true},{"id":1389446,"adult":false},{"id":1481399,"adult":true},{"id":1481400,"adult":false},{"id":1481401,"adult":false},{"id":547154,"adult":true},{"id":69489,"adult":false},{"id":996522,"adult":true},{"id":1191847,"adult":false},{"id":1481402,"adult":true}],"page":1,"total_pages":6,"total_results":547}'
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA33WTU7DMBAF4Lt43cWM7fHYvQpCKFILQooA0XaFencSC5q2
+        6XvL5Gn8802s+Cd87w+n8XgI26ef8L4LWzXP2WwTht30Pmxfh/GwP2/+wuRR
+        ar2EH6dxvM3a46wPWsCgZi7ZUVjU4zLqXTgPCyvncFnretgkKJwr2ZyFVRYF
+        YdIiMOyVkYUJhdbyQrtiLxnUpSa5oY1E1SbLWq9HtZwjMy/o4+kh/AjmkA6L
+        Wpmax0orWSsdCfQQdUuj2RXCCt1ZJx11MiY3dLp6IWplDxF7FnEqwFriDNZR
+        S3rI5qxMvSL1HjLZimR7yPQq0ushE6Kf3lU3H4RQqCRXtk94bHuI+VJubEGN
+        zslsG7NtzLYx28Zs+VagrWcTwmeC+FS0sK2YED4TwmdC+EzonITPBPFljS3R
+        SmJrwmyV2Sqy7SHjU8anjE8ZnzIERXzi06+cboXxKeOLjC+yOSPjiwvf/V/F
+        4qJ3e59r0/+ILofJRibL7g8WGR67Chq60KXp6DK6REPkKtVX5/Z5E76Gt/2U
+        bsLx8ziML/PjdLuu/8+X+7ZLPf8CRgIrQX8LAAA=
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:12 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:16:58 GMT
+recorded_with: VCR 3.0.1

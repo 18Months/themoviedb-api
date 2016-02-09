@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -19,13 +23,15 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
-      - public, max-age=21600
+      - public, max-age=28800
+      Content-Encoding:
+      - gzip
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:26 GMT
+      - Tue, 09 Feb 2016 15:17:16 GMT
       Etag:
-      - '"c6dffa0c562d4d3adaa705cceebe89aa"'
+      - W/"e499a6e80b96f52688fd72eccb818c3c"
       Server:
       - openresty
       Status:
@@ -35,36 +41,39 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '1559'
+      - '6601'
       X-Memc-Expires:
-      - '20041'
+      - '22199'
       X-Memc-Key:
       - 36375be959dcc921d1513d0b95bb5e1b
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '6'
+      - '1'
       X-Ratelimit-Reset:
-      - '1435331847'
+      - '1455031036'
       Content-Length:
-      - '1618'
+      - '654'
       Connection:
       - keep-alive
     body:
-      encoding: UTF-8
-      string: '{"cast":[{"character":"","credit_id":"5257533719c29531db11620e","id":10169,"name":"Telly
-        Savalas","profile_path":"/37s6uJijtMcxqA0wQEZC2YyVsSl.jpg","order":0},{"character":"","credit_id":"5257533719c29531db11623c","id":40463,"name":"Dan
-        Frazer","profile_path":"/fwA9K5bAgUvdWfA17tnCQzTpiyX.jpg","order":1},{"character":"Sgt.
-        Bobby Crocker","credit_id":"5257533719c29531db11626a","id":105595,"name":"Kevin
-        Dobson","profile_path":"/xClcQ7O3ZORruMwOFczuYyaAMBT.jpg","order":2},{"character":"","credit_id":"5257533719c29531db116298","id":78091,"name":"George
-        Savalas","profile_path":"/hufHtydfKBlrwhIrK2W5SoI5ntb.jpg","order":3},{"character":"","credit_id":"5257533919c29531db1162c9","id":1234318,"name":"Mark
-        Russell","profile_path":null,"order":4}],"crew":[{"id":12140,"credit_id":"5257532219c29531db114592","name":"Abby
-        Mann","department":"Writing","job":"Writer","profile_path":null},{"id":15663,"credit_id":"5257532219c29531db1145b6","name":"Joseph
-        Sargent","department":"Directing","job":"Director","profile_path":"/5ePQJSf4RPwGD3sJmcFCgf08MHk.jpg"}],"guest_stars":[{"id":1037,"name":"Harvey
-        Keitel","credit_id":"5257532219c29531db1145e2","character":"","order":0,"profile_path":"/oP3A0NaJShM1BbI7WwMFui72b7O.jpg"},{"id":1215961,"name":"Rick
-        Hurst","credit_id":"5257532219c29531db114604","character":"","order":1,"profile_path":null},{"id":1212535,"name":"James
-        Sloyan","credit_id":"5257532219c29531db114626","character":"","order":2,"profile_path":null},{"id":2555,"name":"David
-        Proval","credit_id":"5257532219c29531db114648","character":"","order":3,"profile_path":"/ujBzP61tYlwqWpB3oOxknl1XuEg.jpg"}],"id":255746}'
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA52U3VKjMACFX4Xh2lECBIp3bVnFYm0t3Wl1Z8cJECgtEjaE
+        InV8d5Na6fZnrbNXTEjI+XLOCa9ygAomX/56lYMZoihgmMqXsnwmBxSHCXtK
+        Qj6EKjShppnAClQLaiD0ATBUBfNlYh4owLDO5Aw9Y754jNO0ljy0RCkq+Iqc
+        kihJ8VOO2IxPX+R3cJ7cho67sqdZ6/rRGWY9pwrRC3DO53nMvyA0FBTK29l/
+        UGnBhkpXdENrqGyUSVcUrfhGh0hR1bZc6Lfjn8twErWBybLu/WqcJ/V0Fwns
+        I3kxO5c6xPdrqUtJsFhvfxrSQI11EFqwoXTxMskkm/gFyY5wvnTT4N4caI+D
+        ES371eAqWJUPNWr3O+NdTnWf81tUVmtDZbYUCzRQ15jQGH+R6KyMHFaHkdtJ
+        aTW7oa46gR65gRnzd7G072FZu1iB9WmWqukaaDVgfUQX0qgsCt64A6ysTNNG
+        WH/7vVaq1k3/2AvoyjF1Vf1bXYeWKjeCbZFzH2UimxDniLJnnPHbI09owpJM
+        nHRO/M34SNMEk7BgDQANUc/TAL6xBeiRAuczHgUPhAvvUdgJxcEOx8cbckgi
+        X0A8vO95kT4aVte2VvSeg6tuHCmtvrNYhyYci0tcsKeCIVpsjVM0s+FxEF3i
+        WnIxP66I4PRpsLBzrwKf9/0QktyM79jEs6u2OvNLr7wN3WnvcTEdePMPyE8z
+        VQAtY1vZURIsJKekhfDoJJSh6P+EAvtQuxmalmZs0+GPQvJSUiPRkNO6qoj2
+        uK76la4K4fafYaNlEkpDSvj1/JaqLq75cVVtX1W+KOed1dAA7CGt/kzyjkYG
+        L4ssBdPyR9z0ZMNk6sbbOwRP1ntRBgAA
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:30 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:16 GMT
+recorded_with: VCR 3.0.1

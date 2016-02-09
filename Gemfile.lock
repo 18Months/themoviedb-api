@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    themoviedb-api (1.0.4)
+    themoviedb-api (1.1.0)
       rest-client (~> 1.8, >= 1.8)
 
 GEM

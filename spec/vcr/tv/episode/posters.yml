@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -19,13 +23,15 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
-      - public, max-age=21600
+      - public, max-age=28800
+      Content-Encoding:
+      - gzip
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:27 GMT
+      - Tue, 09 Feb 2016 15:17:16 GMT
       Etag:
-      - '"c44015fd1b9f9008abbb31461d0ac646"'
+      - W/"f31fe24f3a2cadfb592f1b80e7038538"
       Server:
       - openresty
       Status:
@@ -35,24 +41,33 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '20473'
+      - '27935'
       X-Memc-Expires:
-      - '1127'
+      - '865'
       X-Memc-Key:
       - 04a5e7dc9aef0b6616fcef57ce0594b5
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '4'
+      - '38'
       X-Ratelimit-Reset:
-      - '1435331847'
+      - '1455031046'
       Content-Length:
-      - '1295'
+      - '376'
       Connection:
       - keep-alive
     body:
-      encoding: UTF-8
-      string: '{"id":63056,"stills":[{"aspect_ratio":1.77777777777778,"file_path":"/9o3HXUmWaZq14tIAbBrn7e34NRZ.jpg","height":1080,"iso_639_1":null,"vote_average":0.0,"vote_count":0,"width":1920},{"aspect_ratio":1.77777777777778,"file_path":"/xIfvIM7YgkADTrqp23rm3CLaOVQ.jpg","height":1080,"iso_639_1":null,"vote_average":0.0,"vote_count":0,"width":1920},{"aspect_ratio":1.77777777777778,"file_path":"/wrGWeW4WKxnaeA8sxJb2T9O6ryo.jpg","height":1080,"iso_639_1":null,"vote_average":0.0,"vote_count":0,"width":1920},{"aspect_ratio":1.77777777777778,"file_path":"/uaSOtAsNrXbKxOVzC31GjYxLRXJ.jpg","height":1080,"iso_639_1":null,"vote_average":0.0,"vote_count":0,"width":1920},{"aspect_ratio":1.77777777777778,"file_path":"/v3bGMbT5Ik86ERFBfsXFqpiMTFy.jpg","height":1080,"iso_639_1":null,"vote_average":0.0,"vote_count":0,"width":1920},{"aspect_ratio":1.77777777777778,"file_path":"/g0OnOaBqSepbA8omNTfYBCl4Sbo.jpg","height":1080,"iso_639_1":null,"vote_average":0.0,"vote_count":0,"width":1920},{"aspect_ratio":1.77777777777778,"file_path":"/w85NsRYgZQZrICE1kC9q8F2D6wS.jpg","height":1080,"iso_639_1":null,"vote_average":0.0,"vote_count":0,"width":1920},{"aspect_ratio":1.77777777777778,"file_path":"/pyp0LgtqjgaeXzPMtXKnkuNBugV.jpg","height":1080,"iso_639_1":null,"vote_average":0.0,"vote_count":0,"width":1920}]}'
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA83Ty26CQBQG4HeZNbEDIwjsAC/FC1SlijYNGXQcUeQyDIoa
+        372adNEua9vEszibk/z/tzlnEC2BriAoKwIoeBTHBdDfzgAXGVnwgGEepUAX
+        a42vowpgFcUkyDBfAx08HVhnSqb1aa9KMDHUouqGkqe5CjumtU1GgQDWJKJr
+        fg2CKhRAVKSBgrRABHpSxrEA9iknAd4ThikBuly7cqCsyRJS4XV/3hdpmdwi
+        BHCIlrdiUZPgRfihVUvRs/+6m+J5Lta5bYQmSxoE1Z3R/B4rrMHvPPg7XmWv
+        9vagMaNbo+mxPJMQ2yGrj93J8BF4JR673Cgc5oe9yp2cLCR2NrOqP/K7j8Db
+        o7AzCD3Z3qpKa9Q2V4XfzrNo4LWPj8Cj0E1cbOZjkoWGmu4cbzUzrbg+Du/6
+        k7/mHVTZKUYzOh/OmW21xK2l5WpbaiqH8SPwsmMG+5TnG4qJf3oZcL+XbEvH
+        LOnkP3jvlw9+ahxTHAUAAA==
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:30 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:16 GMT
+recorded_with: VCR 3.0.1

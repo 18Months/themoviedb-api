@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -19,39 +23,48 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
-      - public, max-age=21600
+      - public, max-age=28800
+      Content-Encoding:
+      - gzip
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:17 GMT
+      - Tue, 09 Feb 2016 15:17:06 GMT
       Etag:
-      - '"50c358dc526f2237a542b394084c50cf"'
+      - W/"2c9bb32e197bd1697e9993a7b64e7e61"
       Server:
       - openresty
       Status:
       - 200 OK
+      Vary:
+      - Accept-Encoding
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '13945'
+      - '8189'
       X-Memc-Expires:
-      - '7655'
+      - '20611'
       X-Memc-Key:
       - ef2be0de1a420527c54de6ff74a48928
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '5'
+      - '37'
       X-Ratelimit-Reset:
-      - '1435331837'
+      - '1455031036'
       Content-Length:
-      - '963'
+      - '256'
       Connection:
       - keep-alive
     body:
-      encoding: UTF-8
-      string: '{"id":550,"countries":[{"certification":"R","iso_3166_1":"US","primary":true,"release_date":"1999-10-14"},{"certification":"18","iso_3166_1":"DE","primary":false,"release_date":"1999-11-10"},{"certification":"18","iso_3166_1":"GB","primary":false,"release_date":"1999-11-12"},{"certification":"16","iso_3166_1":"FR","primary":false,"release_date":"1999-11-10"},{"certification":"","iso_3166_1":"TR","primary":false,"release_date":"1999-12-10"},{"certification":"18
-        anos","iso_3166_1":"BR","primary":false,"release_date":"1999-11-12"},{"certification":"K-18","iso_3166_1":"FI","primary":false,"release_date":"1999-11-12"},{"certification":"c","iso_3166_1":"BG","primary":false,"release_date":"2012-08-28"},{"certification":"VM14","iso_3166_1":"IT","primary":false,"release_date":"1999-10-29"},{"certification":"R18+","iso_3166_1":"AU","primary":false,"release_date":"1999-11-11"},{"certification":"","iso_3166_1":"ES","primary":false,"release_date":"1999-11-05"}]}'
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA6XTwWrDMAwG4FcZui4GyVuCk9vC2lBKL127yxjBpC4YumTY
+        6aGUvPvcwy6uSzV2FeJD/JLOYHdQ5Tlm0A3HfnTWeKg+ztAZN9q97fRohx4q
+        WEMG1g/tExVFS6GwfQuVb2e/tDtBtdcHbzJw5mC0N+1Ojyb0UFmWglDQM0zZ
+        tUkqRl9nXJSCy0Sb+g+oTKNFjM4vgXDR9KQxuWGT8hZJ6kH3g4/lmi3fTGAp
+        roOdL/7NdrFZN/dNiSEBVEKqpPm+CvcWsYvNffb3WmWZZNekHmP2ZctlQwKU
+        ZGNyxv4rEpizyIaxfomIAuVly9Pn9ANLLEgiFwQAAA==
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:20 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:06 GMT
+recorded_with: VCR 3.0.1

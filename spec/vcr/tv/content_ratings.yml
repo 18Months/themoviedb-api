@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -19,13 +23,13 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
-      - public, max-age=21600
+      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:30 GMT
+      - Tue, 09 Feb 2016 15:17:19 GMT
       Etag:
-      - '"5d19dfc998e3ec3e01b820273f381468"'
+      - '"f7b3f7a030aa20bb3df511c2c2b50021"'
       Server:
       - openresty
       Status:
@@ -33,24 +37,24 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '7962'
+      - '9400'
       X-Memc-Expires:
-      - '13638'
+      - '19400'
       X-Memc-Key:
       - 2709fe3f55707aaf5bc6c308d1f2b01c
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '30'
+      - '26'
       X-Ratelimit-Reset:
-      - '1435331858'
+      - '1455031046'
       Content-Length:
-      - '94'
+      - '128'
       Connection:
       - keep-alive
     body:
       encoding: UTF-8
-      string: '{"results":[{"iso_3166_1":"DE","rating":"16"},{"iso_3166_1":"US","rating":"TV-MA"}],"id":1396}'
+      string: '{"results":[{"iso_3166_1":"DE","rating":"16"},{"iso_3166_1":"GB","rating":"18"},{"iso_3166_1":"US","rating":"TV-MA"}],"id":1396}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:33 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:19 GMT
+recorded_with: VCR 3.0.1

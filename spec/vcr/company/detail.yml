@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -19,11 +23,11 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
-      - public, max-age=21600
+      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:10 GMT
+      - Tue, 09 Feb 2016 15:17:00 GMT
       Etag:
       - '"fb7b8a07135e2e402d7162c279595d10"'
       Server:
@@ -33,9 +37,9 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '641'
+      - '3492'
       X-Memc-Expires:
-      - '20959'
+      - '25308'
       X-Memc-Key:
       - 55167ca4f4dc4cc65cc4491801b3d5de
       X-Ratelimit-Limit:
@@ -43,7 +47,7 @@ http_interactions:
       X-Ratelimit-Remaining:
       - '31'
       X-Ratelimit-Reset:
-      - '1435331837'
+      - '1455031026'
       Content-Length:
       - '196'
       Connection:
@@ -52,5 +56,5 @@ http_interactions:
       encoding: UTF-8
       string: '{"description":null,"headquarters":"San Francisco, California","homepage":"http://www.lucasfilm.com","id":1,"logo_path":"/8rUnVMVZjlmQsJ45UGotD0Uznxj.png","name":"Lucasfilm","parent_company":null}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:14 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:00 GMT
+recorded_with: VCR 3.0.1

@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -19,13 +23,13 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
-      - public, max-age=21600
+      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 03 Jul 2015 15:47:32 GMT
+      - Tue, 09 Feb 2016 15:17:00 GMT
       Etag:
-      - '"82f0d8f32e49b2138b5cf99431df1d5d"'
+      - '"28c1ef704c205002c5e225847dea6e12"'
       Server:
       - openresty
       Status:
@@ -33,25 +37,26 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '771'
+      - '6602'
       X-Memc-Expires:
-      - '20829'
+      - '22198'
       X-Memc-Key:
       - 2417434868a2ae7b00cdb95c690418fa
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '39'
+      - '28'
       X-Ratelimit-Reset:
-      - '1435938462'
+      - '1455031026'
       Content-Length:
-      - '165'
+      - '940'
       Connection:
       - keep-alive
     body:
       encoding: UTF-8
-      string: '{"credit_type":"cast","department":"Actors","job":"Actor","media":{},"media_type":"tv","id":"5256c8b219c2956ff6047cd8","person":{"name":"Peter
+      string: '{"credit_type":"cast","department":"Actors","job":"Actor","media":{"id":1399,"name":"Game
+        of Thrones","original_name":"Game of Thrones","character":"Tyrion Lannister","episodes":[],"seasons":[{"air_date":"2015-04-12","poster_path":"/yKOltUHsp9X7dXWIm0hNGcIQa4G.jpg","season_number":5},{"air_date":"2010-12-05","poster_path":"/kMTcwNRfFKCZ0O2OaBZS0nZ2AIe.jpg","season_number":0},{"air_date":"2012-04-01","poster_path":"/5tuhCkqPOT20XPwwi9NhFnC1g9R.jpg","season_number":2},{"air_date":"2011-04-17","poster_path":"/zwaj4egrhnXOBIit1tyb4Sbt3KP.jpg","season_number":1},{"air_date":"2013-03-31","poster_path":"/7d3vRgbmnrRQ39Qmzd66bQyY7Is.jpg","season_number":3},{"air_date":"2014-04-06","poster_path":"/dniQ7zw3mbLJkd1U0gdFEh4b24O.jpg","season_number":4},{"air_date":"2016-04-24","poster_path":"/gHj33hnI5dMLbmm5C4Ll49Qnbc.jpg","season_number":6}]},"media_type":"tv","id":"5256c8b219c2956ff6047cd8","person":{"name":"Peter
         Dinklage","id":22970}}'
     http_version: 
-  recorded_at: Fri, 03 Jul 2015 15:47:32 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:00 GMT
+recorded_with: VCR 3.0.1

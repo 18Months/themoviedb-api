@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -19,13 +23,15 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
-      - public, max-age=21600
+      - public, max-age=28800
+      Content-Encoding:
+      - gzip
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:19 GMT
+      - Tue, 09 Feb 2016 15:17:09 GMT
       Etag:
-      - '"3c220e6b3ea199011e3d1e8d4fb81251"'
+      - W/"54ddfd414d487d6d44530c1c688bdc35"
       Server:
       - openresty
       Status:
@@ -35,38 +41,42 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '14749'
+      - '6656'
       X-Memc-Expires:
-      - '6851'
+      - '22144'
       X-Memc-Key:
       - 295ceaa7e277f950dfaa70ab1e47bbde
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '30'
+      - '25'
       X-Ratelimit-Reset:
-      - '1435331847'
+      - '1455031036'
       Content-Length:
-      - '1294'
+      - '790'
       Connection:
       - keep-alive
     body:
-      encoding: UTF-8
-      string: '{"adult":false,"also_known_as":["George Walton Lucas Jr. "],"biography":"Arguably
-        the most important film innovator in the history of the medium, George Lucas
-        continually \"pushed the envelope\" of filmmaking technology since his early
-        days as a student at U.S.C. Considered a wunderkind by his contemporaries,
-        he had a much harder time communicating his vision to studio executives, whose
-        meddling managed to compromise each of his first three feature directing efforts
-        in some way. The monumental success of \"Star Wars\" (1977) ushered in the
-        era of the \"summer blockbuster,\" which, despite the later popularity of
-        low budget independent films, was still the prevailing mentality powering
-        the Hollywood engine.\n\nThough he set the tone and established the expectations
-        which influenced studios to devote the bulk of their resources to films designed
-        to blast off into hyperspace for spectacular profits, it was doubtful that
-        a film as revolutionary as \"Star Wars\" was in its day could get made in
-        the later blockbuster assembly line climate of the new millennium.","birthday":"1944-05-14","deathday":"","homepage":"","id":1,"imdb_id":"nm0000184","name":"George
-        Lucas","place_of_birth":"Modesto - California - USA","popularity":1.978601,"profile_path":"/8qxin8urtFE0NqaZNFWOuV537bH.jpg"}'
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA1VTXW8bNxD8K8Q9tYCsWKgdf7wFRtOgaNMHJw3QqBD2jnt3
+        rEnuhR+ShaD/vbOU3KZ+kEne7uzuzOzXjmz1pbsfyWdedfiV3VOUQ9xR7u4/
+        dz+xpInNJ/JFovmlDpTNz2ltuj9XXe9kSrTMx+6+e5OmSr0/mjKzCZKLcWGR
+        VCgWMzofjItR9lQk4dSCZpdxOxoZTzlsXQ0rcy54qjRILC5W8gDedkvNM9sW
+        zXHPXhbedpqvBQI9uTiZwsMcxct0NNnFoZUxTAkAlo7ZAJRMLtUyGqNiPq4f
+        1w9r8yAxO8sJ8GQONeIIOGv6YwPQPljnoeQ4r4y2Txoa6jDjmBBviguMyBBq
+        dAMV7UZz9y47UFeklXVi+JmHWtxegQ6z5Da79RofKNKkI4oCLUmCw2cmFMGY
+        ija6BG7LnJjNyFRqYmNd4qHV43EE51kpzoJuDnRcmw9NkVgDRiZvch0GzlkB
+        t91joQRxUwaR323ubm6+N0qy8nCWiRO9SLTtcg0Bk/Zehqe+5sJphcTD7IZ5
+        ZSznxRVuoZ7wzSyyVA/KSlPZy8H01U4Mb4DghWMTQcVTJqBMLs77lr8k3pM7
+        cdLaVoxFDpyayIh4JzDFQcTCC5OLvN7GbfwwS51mlSezsoRmJLIhKMm5wJ/u
+        Pwc9LyANMkH50wToavSVYRp7liqrEJb3cp6qr/7pTIZLJnGWmsClRrUplAI3
+        xZOAvScoJeMIXFzn48IpLwRLQiOTW/VB6cGwMroCDlxpNFipfRmrMgGH0ml/
+        8A5OxFftmLA3ePi/fpoK0YCkVoeBqrdG2Q5k+UXOkzDfCAiczEE3F2zDv94F
+        hLxIHvlgAkThGLGd606XPpUZ+Nj5zd3V1cXl9cXmCu8WZjy/4zbDfQusfLo5
+        291v8C/YfqfnLoZL/G1uNTFS0LBv9x6viwdTOxl3rR6+/yogFzxemAe4ARRG
+        R7h8fHyj0f8arbu/Xm9e39zdvcar8up5t1BDeHX75dnF25rK2x8v33+hP96/
+        /fRb/f36h5v+3fqvZer+/gdlWStDDgUAAA==
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:23 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:09 GMT
+recorded_with: VCR 3.0.1

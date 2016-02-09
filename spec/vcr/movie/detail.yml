@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -19,13 +23,15 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
-      - public, max-age=21600
+      - public, max-age=28800
+      Content-Encoding:
+      - gzip
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:15 GMT
+      - Tue, 09 Feb 2016 15:17:04 GMT
       Etag:
-      - '"fe02ed5dcc6974280c06e8a47358ff7b"'
+      - W/"47281277f835ba217b1113212a30d79e"
       Server:
       - openresty
       Status:
@@ -35,9 +41,9 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '3220'
+      - '8694'
       X-Memc-Expires:
-      - '18380'
+      - '20106'
       X-Memc-Key:
       - f5d8d6d123f674ea3be4bd53fba9acb2
       X-Ratelimit-Limit:
@@ -45,25 +51,32 @@ http_interactions:
       X-Ratelimit-Remaining:
       - '14'
       X-Ratelimit-Reset:
-      - '1435331837'
+      - '1455031026'
       Content-Length:
-      - '1296'
+      - '806'
       Connection:
       - keep-alive
     body:
-      encoding: UTF-8
-      string: '{"adult":false,"backdrop_path":"/8uO0gUM8aNqYLs1OsTBQiXu0fEv.jpg","belongs_to_collection":null,"budget":63000000,"genres":[{"id":18,"name":"Drama"}],"homepage":"","id":550,"imdb_id":"tt0137523","original_language":"en","original_title":"Fight
-        Club","overview":"A ticking-time-bomb insomniac and a slippery soap salesman
-        channel primal male aggression into a shocking new form of therapy. Their
-        concept catches on, with underground \"fight clubs\" forming in every town,
-        until an eccentric gets in the way and ignites an out-of-control spiral toward
-        oblivion.","popularity":2.619357,"poster_path":"/811DjJTon9gD6hZ8nCjSitaIXFQ.jpg","production_companies":[{"name":"Regency
-        Enterprises","id":508},{"name":"Fox 2000 Pictures","id":711},{"name":"Taurus
-        Film","id":20555},{"name":"Linson Films","id":54050},{"name":"Atman Entertainment","id":54051},{"name":"Knickerbocker
-        Films","id":54052}],"production_countries":[{"iso_3166_1":"DE","name":"Germany"},{"iso_3166_1":"US","name":"United
-        States of America"}],"release_date":"1999-10-14","revenue":100853753,"runtime":139,"spoken_languages":[{"iso_639_1":"en","name":"English"}],"status":"Released","tagline":"How
-        much can you know about yourself if you''ve never been in a fight?","title":"Fight
-        Club","video":false,"vote_average":7.8,"vote_count":3537}'
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA21U227bRhD9lcG+9EUXUrdIegnc2O4tbZrYBtI2BbEkh+Ta
+        yx1mL2SEwP/eWUqVFbQCJJEzZ88MZ87hVyHLoL3YV1I7nIhcFk+lpS7rpG/E
+        Xsy34V1SP/y6lb99/uOtS9+5++/fq48hqW762WNXCz6CmkztMk9ZQVpj4RUZ
+        sTdBa06Gskam3yyT8TMRNRqLTuz/+ipUKfbpdiKMbJFrXVvZSvH890Q01GIn
+        6xhsvO/28/kwDLOKvrTUK3Szgtr58XJeqbrx00KHnFuJhOs1F1FtmWfxTnif
+        pMtX68WS02RVrYzUmZamDkd+NJcJr7yO0dvICm+OrNSj5VoDx6/Aq+JJmXrq
+        VYvTnNoclHHUGiULkKYECU6rrkN7AEeyAyc1ulYaKBppDGrorGqlBv4iyLrm
+        WTieF7N4iocbGvnB4AAV2RaoAt+gld1hBvcNKgsFmQI7D4X0RYMOyExgUL6B
+        YEq0tSX+h09inAzEybhPYuSKvMoA9rE7TwOfC8YrzY0DFgUab1UBvC8XYVwV
+        BnkYn0rVRnkuxUAKfkrVlJvwljS4Tll+HGaTtgTKter5cWY8to66oKVV/sBL
+        mS2S1Wodg86jfVFXml4//nxPZldfb5o/t+bN453y8qePt+9P6uoslWGUFKur
+        7aRRJ/GcRPMBWVDFAW4M8/JsHadPQki2z5Mz7pa+wIIFCL+rwoeowCPqVZpe
+        oO5lsMHBrdLtKb9I1uv1BeJtXLcZEedCq2SdXECufNz32JCXyrQ81wvkZblf
+        DKsJbU7x9z+ci2iFb54/xA39ax5H2TLdbLI0WudGnG30A1qufxCxzjegh7sX
+        0EPcZwl3Xsa1ssauWuTlH+1nUaN0mJWcZGy62+2maTJNVyLmejSBw2mSbNfs
+        rCXHoooibbrcTYTr6AnN2WMv3W6Wu7GP0XKnPm5MrZVrxrKOmwlu3OlYv2SY
+        l5w3EfkjDdCGomHZGzhQgCfDEZmzHuOtdagrUFW8/q5H9g+rHHLEaC021uiG
+        15Hx/yzeqxLp/BLsyWMm+fz4itjOklNoXIDYr5bJ5vkfyIzfBzkFAAA=
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:18 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:04 GMT
+recorded_with: VCR 3.0.1

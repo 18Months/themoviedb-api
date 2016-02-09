@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -19,13 +23,15 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
-      - public, max-age=21600
+      - public, max-age=28800
+      Content-Encoding:
+      - gzip
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:30 GMT
+      - Tue, 09 Feb 2016 15:17:19 GMT
       Etag:
-      - '"78ee85843db80a252db7a1abcee00890"'
+      - W/"811621afbd7c33e531ac65f732377c4a"
       Server:
       - openresty
       Status:
@@ -35,52 +41,54 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '8999'
+      - '9423'
       X-Memc-Expires:
-      - '12601'
+      - '19377'
       X-Memc-Key:
       - ff58313494259ee31c15cd8400e51804
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '29'
+      - '25'
       X-Ratelimit-Reset:
-      - '1435331858'
+      - '1455031046'
       Content-Length:
-      - '4071'
+      - '1309'
       Connection:
       - keep-alive
     body:
-      encoding: UTF-8
-      string: '{"cast":[{"character":"Walter White","credit_id":"52542282760ee313280017f9","id":17419,"name":"Bryan
-        Cranston","profile_path":"/fnglrIFnI5cK4OAh66AZN86mkFq.jpg","order":0},{"character":"Skyler
-        White","credit_id":"52542282760ee3132800181b","id":134531,"name":"Anna Gunn","profile_path":"/6yLKtfYFWbJp5HAjvCecQCYlmqk.jpg","order":1},{"character":"Jesse
-        Pinkman","credit_id":"52542282760ee31328001845","id":84497,"name":"Aaron Paul","profile_path":"/pAa8H7DjgXENBhyvJy0hVLKvVT6.jpg","order":2},{"character":"Hank
-        Schrader","credit_id":"52542283760ee3132800187b","id":14329,"name":"Dean Norris","profile_path":"/fee5Hdms2TWRnOiIY8NeKSJf4ge.jpg","order":3},{"character":"Marie
-        Schrader","credit_id":"52542283760ee31328001891","id":1217934,"name":"Betsy
-        Brandt","profile_path":"/zpmsca1HCVqYrtWXV9xdmsECDTI.jpg","order":4},{"character":"Walter
-        White Jr.","credit_id":"52542284760ee313280018a9","id":209674,"name":"RJ Mitte","profile_path":"/hO5HJKM6p6SQjpdV8Fs64BJWzmT.jpg","order":5},{"character":"Mike
-        Ehrmantraut","credit_id":"5271b1e6760ee35af60941ad","id":783,"name":"Jonathan
-        Banks","profile_path":"/s6K0lromCtmSTzuX9hig8OPiRsC.jpg","order":10},{"character":"Saul
-        Goodman","credit_id":"5271b180760ee35afc09bb8d","id":59410,"name":"Bob Odenkirk","profile_path":"/1NrWxUR86TnHzqxl4Cs9qTzJhtm.jpg","order":73}],"crew":[{"credit_id":"52542287760ee31328001af1","department":"Production","id":66633,"name":"Vince
-        Gilligan","job":"Executive Producer","profile_path":"/rLSUjr725ez1cK7SKVxC9udO03Y.jpg"},{"credit_id":"52542287760ee31328001b69","department":"Production","id":5162,"name":"Mark
-        Johnson","job":"Executive Producer","profile_path":"/yKGF6cbzyP03Gl1QhVLCu1gWSW6.jpg"},{"credit_id":"52542288760ee31328001b83","department":"Production","id":29779,"name":"Michelle
-        MacLaren","job":"Executive Producer","profile_path":"/7pSOTNnQB5GJXm5HylTY04Y2QAB.jpg"},{"credit_id":"52b7034f19c2955402184de6","department":"Costume
-        & Make-Up","id":35583,"name":"Kathleen Detoro","job":"Costume Design","profile_path":null},{"credit_id":"52b7008819c29559eb03dd72","department":"Sound","id":1280070,"name":"Dave
-        Porter","job":"Original Music Composer","profile_path":null},{"credit_id":"52b7020b19c295223b0a46e8","department":"Art","id":21640,"name":"Robb
-        Wilson King","job":"Production Design","profile_path":null},{"credit_id":"52542287760ee31328001b07","department":"Production","id":1218856,"name":"Patty
-        Lin","job":"Producer","profile_path":null},{"credit_id":"52542287760ee31328001b27","department":"Production","id":29924,"name":"John
-        Shiban","job":"Producer","profile_path":"/rswDSJsdupySS9oEBKzYDE7Uod9.jpg"},{"credit_id":"52542289760ee31328001b9d","department":"Production","id":1223199,"name":"Melissa
-        Bernstein","job":"Producer","profile_path":null},{"credit_id":"52542289760ee31328001bb3","department":"Production","id":1223194,"name":"Sam
-        Catlin","job":"Producer","profile_path":"/6Oy9AmJ9JDCzJ5RbBL4no2zZgDl.jpg"},{"credit_id":"52542289760ee31328001bd1","department":"Production","id":24951,"name":"Peter
-        Gould","job":"Producer","profile_path":null},{"credit_id":"52542289760ee31328001be9","department":"Production","id":1223193,"name":"George
-        Mastras","job":"Producer","profile_path":null},{"credit_id":"52542289760ee31328001c03","department":"Production","id":103009,"name":"Thomas
-        Schnauz","job":"Producer","profile_path":null},{"credit_id":"5254228a760ee31328001c1d","department":"Production","id":1223200,"name":"Stewart
-        Lyons","job":"Producer","profile_path":null},{"credit_id":"5254228c760ee31328001c37","department":"Production","id":1223201,"name":"Karen
-        Moore","job":"Producer","profile_path":null},{"credit_id":"5254228c760ee31328001c6d","department":"Production","id":1223198,"name":"Moira
-        Walley-Beckett","job":"Producer","profile_path":null},{"credit_id":"5254228d760ee31328001cc7","department":"Production","id":17419,"name":"Bryan
-        Cranston","job":"Producer","profile_path":"/fnglrIFnI5cK4OAh66AZN86mkFq.jpg"},{"credit_id":"5254228e760ee31328001ce1","department":"Production","id":1223202,"name":"Diane
-        Mercer","job":"Producer","profile_path":null}],"id":1396}'
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+        BRAAAA==
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:33 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:19 GMT
+recorded_with: VCR 3.0.1

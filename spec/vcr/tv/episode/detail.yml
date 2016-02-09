@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -19,13 +23,15 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
-      - public, max-age=21600
+      - public, max-age=28800
+      Content-Encoding:
+      - gzip
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:25 GMT
+      - Tue, 09 Feb 2016 15:17:15 GMT
       Etag:
-      - '"44fda7ec7e14d600c5aac921ad1bf124"'
+      - W/"013462991054b930b10629e27d5a37db"
       Server:
       - openresty
       Status:
@@ -35,34 +41,39 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '3546'
+      - '25278'
       X-Memc-Expires:
-      - '18054'
+      - '3522'
       X-Memc-Key:
       - 0c559bbdcf116f54a66c1b49f1415956
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '10'
+      - '5'
       X-Ratelimit-Reset:
-      - '1435331847'
+      - '1455031036'
       Content-Length:
-      - '1297'
+      - '650'
       Connection:
       - keep-alive
     body:
-      encoding: UTF-8
-      string: '{"air_date":"1973-10-24","crew":[{"id":12140,"credit_id":"5257532219c29531db114592","name":"Abby
-        Mann","department":"Writing","job":"Writer","profile_path":null},{"id":15663,"credit_id":"5257532219c29531db1145b6","name":"Joseph
-        Sargent","department":"Directing","job":"Director","profile_path":"/5ePQJSf4RPwGD3sJmcFCgf08MHk.jpg"}],"episode_number":1,"guest_stars":[{"id":1037,"name":"Harvey
-        Keitel","credit_id":"5257532219c29531db1145e2","character":"","order":0,"profile_path":"/oP3A0NaJShM1BbI7WwMFui72b7O.jpg"},{"id":1215961,"name":"Rick
-        Hurst","credit_id":"5257532219c29531db114604","character":"","order":1,"profile_path":null},{"id":1212535,"name":"James
-        Sloyan","credit_id":"5257532219c29531db114626","character":"","order":2,"profile_path":null},{"id":2555,"name":"David
-        Proval","credit_id":"5257532219c29531db114648","character":"","order":3,"profile_path":"/ujBzP61tYlwqWpB3oOxknl1XuEg.jpg"}],"name":"Siege
-        of Terror","overview":"When a Brinks Truck heist goes bad and a hostage situation
-        arises, Kojak races against the clock to difuse the situation. He has two
-        hours to free the hostages from three robbers (Harvey Keitel, James J. Sloyan,
-        Jude Farese) in an Army surplus store.","id":255746,"production_code":null,"season_number":1,"still_path":null,"vote_average":0.0,"vote_count":0}'
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA42UW3PaMBCF/4pGT+2MQ3zBJvCWlKaUNA2NM0PaTscj24st
+        MJarC5Rm8t+7Apdc2+SBAR0k7edzdn1DGZdJzjTQAfX6veDAcw/8LnVoJmFN
+        B99vKM/pwPO9rrvVcq4Tq9DQD3th4PteP/P7YeDlqed1w76PR2u2tNcdp+mG
+        nLO6RimHhkm9hFrjH1PJNa8LlOcibdcgcdlIMeMVJA3TJR3UpqpunRYgjKLg
+        NQBpdAcwFgqaksRMFrbwI4ohl5A94Ngp4ikJPQxh8mUcz7qXk/WHYaDGy+z0
+        XTFzj85Hi868KejtD4dCw5XIIanNMsXHGXgOLQwonSjNpLrz0g16e8QRkyvY
+        kDNAB6qd6y88IFiHs5JJllnTBhSXQub2p/uUW3y8+qyn8XB97Jepic2n/Ox6
+        /G1xfRHPd9x//fW9sB95e65Lni3IyEhlbXsRKnK3HfMslPcY6mGsvX4Q3QWG
+        X4rEldgw2zQv1/Vt2s/X9f9X1w/DcF91yFY8JxMpVuxVEUTdo39WDR5XpYdm
+        fvJ7Enn6a7X+OW1OAnHxa1FX3rV5X+xbpyWJORRAxIxcgZTbPhQrkCtuJ5FO
+        S6gJIyeS1wtFrqTBhErgSpNCoGspywmr8UNKgQ2H9yiuDdNc4CnJFSiHnIk5
+        WxDExv2sYLzGw7oEklUCL9OC5HxmFGy1/ekOGQEpmSJ6LfBu7Am7cyZht6+t
+        plARS1SsLkWKE6DImwft7ZBdvuNOGzEKJgdyyiQoeEs4gtbkWC43RBnZVEYR
+        hdMIHfShDa3XjbYG5yazaEmG87ZL1qEKmELp3vQpzavqXvoOXQkNCUNPkRjn
+        peO2UiaMfSe4t38AzHUaBBAFAAA=
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:29 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:15 GMT
+recorded_with: VCR 3.0.1

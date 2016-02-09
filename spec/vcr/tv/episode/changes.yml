@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -23,7 +27,7 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:26 GMT
+      - Tue, 09 Feb 2016 15:17:15 GMT
       Etag:
       - '"58054390ee03de09d2e7b5e74f5560a0"'
       Server:
@@ -41,9 +45,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '9'
+      - '4'
       X-Ratelimit-Reset:
-      - '1435331847'
+      - '1455031036'
       Content-Length:
       - '935'
       Connection:
@@ -62,5 +66,5 @@ http_interactions:
         achterliet. Aan de andere kant van de zee betaalt Dany een vreselijke prijs
         voor haar liefde. Tegelijk vindt ze nieuwe hoop."}]}]}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:29 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:15 GMT
+recorded_with: VCR 3.0.1

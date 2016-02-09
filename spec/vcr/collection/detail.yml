@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -19,13 +23,15 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
-      - public, max-age=21600
+      - public, max-age=28800
+      Content-Encoding:
+      - gzip
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:10 GMT
+      - Tue, 09 Feb 2016 15:16:59 GMT
       Etag:
-      - '"a918b950a6b65ba21460815e6214f5f5"'
+      - W/"27d1943a560df73aad88abb236aeecd3"
       Server:
       - openresty
       Status:
@@ -35,9 +41,9 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '14503'
+      - '20196'
       X-Memc-Expires:
-      - '7097'
+      - '8604'
       X-Memc-Key:
       - 6a2530654484370b802b3c08fffc83ac
       X-Ratelimit-Limit:
@@ -45,29 +51,88 @@ http_interactions:
       X-Ratelimit-Remaining:
       - '34'
       X-Ratelimit-Reset:
-      - '1435331837'
+      - '1455031026'
       Content-Length:
-      - '2277'
+      - '3292'
       Connection:
       - keep-alive
     body:
-      encoding: UTF-8
-      string: '{"id":10,"name":"Star Wars Collection","overview":"An epic space opera
-        theatrical film series created by George Lucas.\r The first film in the franchise
-        was originally released on May 25, 1977, by 20th Century Fox, and became a
-        worldwide pop culture  phenomenon, followed by two sequels, released at three-year
-        intervals. Sixteen years after the release of the trilogy''s final film, the
-        first in a new prequel trilogy of films was released, again released at three-year
-        intervals, with the final film released on May 19, 2005.","poster_path":"/ghd5zOQnDaDW1mxO7R5fXXpZMu.jpg","backdrop_path":"/d8duYyyC9J5T825Hg7grmaabfxQ.jpg","parts":[{"title":"Star
-        Wars: Episode IV - A New Hope","id":11,"release_date":"1977-05-25","poster_path":"/tvSlBzAdRE29bZe5yYWrJ2ds137.jpg","backdrop_path":"/4iJfYYoQzZcONB9hNzg0J0wWyPH.jpg"},{"title":"Star
-        Wars: Episode V - The Empire Strikes Back","id":1891,"release_date":"1980-05-17","poster_path":"/6u1fYtxG5eqjhtCPDx04pJphQRW.jpg","backdrop_path":"/AkE7LQs2hPMG5tpWYcum847Knre.jpg"},{"title":"Star
-        Wars: Episode VI - Return of the Jedi","id":1892,"release_date":"1983-05-25","poster_path":"/jx5p0aHlbPXqe3AH9G15NvmWaqQ.jpg","backdrop_path":"/bvJOpyHYWACDusvQvXxKEHFNjce.jpg"},{"title":"Star
-        Wars: Episode I - The Phantom Menace","id":1893,"release_date":"1999-05-19","poster_path":"/n8V09dDc02KsSN6Q4hC2BX6hN8X.jpg","backdrop_path":"/wdp4unWJWY9hGKN1tM56HeSt6PZ.jpg"},{"title":"Star
-        Wars: Episode II - Attack of the Clones","id":1894,"release_date":"2002-05-16","poster_path":"/2vcNFtrZXNwIcBgH5e2xXCmVR8t.jpg","backdrop_path":"/560F7BPaxRy8BsOfVU6cW4ivM46.jpg"},{"title":"Star
-        Wars: Episode III - Revenge of the Sith","id":1895,"release_date":"2005-05-19","poster_path":"/tgr5Pdy7ehZYBqBkN2K7Q02xgOb.jpg","backdrop_path":"/wUYTfFbfPiZC6Lcyt1nonr69ZmK.jpg"},{"title":"Star
-        Wars: Episode VII - The Force Awakens","id":140607,"release_date":"2015-12-18","poster_path":"/lPMLNr8IEvwRMy36sPd5Zw6dk6D.jpg","backdrop_path":"/uQxBc98oL0I68ywFJokkGQ8Ih8d.jpg"},{"title":"Star
-        Wars: Episode VIII","id":181808,"release_date":"2017-05-26","poster_path":"/h8nOhMGqErN5IGeE1RYZTBKZu0n.jpg","backdrop_path":null},{"title":"Star
-        Wars: Episode IX","id":181812,"release_date":"2019-12-31","poster_path":"/h8nOhMGqErN5IGeE1RYZTBKZu0n.jpg","backdrop_path":null}]}'
+      encoding: ASCII-8BIT
+      string: !binary |-
+        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
+        KQV8DiAAAA==
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:13 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:16:59 GMT
+recorded_with: VCR 3.0.1

@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -19,11 +23,11 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
-      - public, max-age=21600
+      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:23 GMT
+      - Tue, 09 Feb 2016 15:17:12 GMT
       Etag:
       - '"deb66ac826fe2ad09ee8043df27ed198"'
       Server:
@@ -33,17 +37,17 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '641'
+      - '6601'
       X-Memc-Expires:
-      - '20959'
+      - '22199'
       X-Memc-Key:
       - 055ef28e055eebb5f2b14761e3eba51b
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '19'
+      - '14'
       X-Ratelimit-Reset:
-      - '1435331847'
+      - '1455031036'
       Content-Length:
       - '852'
       Connection:
@@ -62,5 +66,5 @@ http_interactions:
         good film in my opinion.","iso_639_1":"en","media_id":49026,"media_title":"The
         Dark Knight Rises","media_type":"Movie","url":"http://j.mp/P18dg1"}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:26 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:12 GMT
+recorded_with: VCR 3.0.1

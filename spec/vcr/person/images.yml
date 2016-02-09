@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -19,11 +23,11 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
-      - public, max-age=21600
+      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:21 GMT
+      - Tue, 09 Feb 2016 15:17:11 GMT
       Etag:
       - '"ea8de906a7f8ab89a1872b70d18b81d1"'
       Server:
@@ -31,19 +35,19 @@ http_interactions:
       Status:
       - 200 OK
       X-Memc:
-      - HIT
+      - MISS, STORE
       X-Memc-Age:
-      - '10390'
+      - '0'
       X-Memc-Expires:
-      - '11210'
+      - '28800'
       X-Memc-Key:
       - 6ff3730c9e823654fb73568fbf0f7dc1
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '25'
+      - '20'
       X-Ratelimit-Reset:
-      - '1435331847'
+      - '1455031036'
       Content-Length:
       - '673'
       Connection:
@@ -52,5 +56,5 @@ http_interactions:
       encoding: UTF-8
       string: '{"id":1,"profiles":[{"aspect_ratio":0.666666666666667,"file_path":"/8qxin8urtFE0NqaZNFWOuV537bH.jpg","height":3000,"iso_639_1":null,"vote_average":5.36996336996337,"vote_count":2,"width":2000},{"aspect_ratio":0.666666666666667,"file_path":"/rJ1zvSeZfge0mHtLnzJn4Mkw18S.jpg","height":1500,"iso_639_1":null,"vote_average":5.3125,"vote_count":1,"width":1000},{"aspect_ratio":0.680272108843537,"file_path":"/7Q5FVw6RhI1gsr1QHmJZuwxshRF.jpg","height":735,"iso_639_1":null,"vote_average":0.0,"vote_count":0,"width":500},{"aspect_ratio":0.666666666666667,"file_path":"/d8I8oke7Y5K0vlcz6LVCoFHzkxx.jpg","height":720,"iso_639_1":null,"vote_average":0.0,"vote_count":0,"width":480}]}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:24 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:11 GMT
+recorded_with: VCR 3.0.1

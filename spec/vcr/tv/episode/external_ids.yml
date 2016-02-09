@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -19,11 +23,11 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
-      - public, max-age=21600
+      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:26 GMT
+      - Tue, 09 Feb 2016 15:17:16 GMT
       Etag:
       - '"0cda9c766340b9d16b3dbdc1f067bf42"'
       Server:
@@ -33,17 +37,17 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '1475'
+      - '6600'
       X-Memc-Expires:
-      - '20125'
+      - '22200'
       X-Memc-Key:
       - 4f59bf153ca147795b2b418563394198
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '5'
+      - '39'
       X-Ratelimit-Reset:
-      - '1435331847'
+      - '1455031046'
       Content-Length:
       - '104'
       Connection:
@@ -52,5 +56,5 @@ http_interactions:
       encoding: UTF-8
       string: '{"imdb_id":"","freebase_mid":"/m/06x0z6m","freebase_id":"","tvdb_id":null,"tvrage_id":93817,"id":255746}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:30 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:16 GMT
+recorded_with: VCR 3.0.1

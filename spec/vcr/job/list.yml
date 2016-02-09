@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -20,12 +24,14 @@ http_interactions:
       - "*"
       Cache-Control:
       - public, max-age=36000
+      Content-Encoding:
+      - gzip
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:14 GMT
+      - Tue, 09 Feb 2016 15:17:03 GMT
       Etag:
-      - '"4f7a9a86b8fff05b27bb532b5fa03711"'
+      - W/"f8b560e4879d0f0b7e20b556da945cd9"
       Server:
       - openresty
       Status:
@@ -37,92 +43,64 @@ http_interactions:
       X-Ratelimit-Remaining:
       - '17'
       X-Ratelimit-Reset:
-      - '1435331837'
+      - '1455031026'
       Content-Length:
-      - '6914'
+      - '2249'
       Connection:
       - keep-alive
     body:
-      encoding: UTF-8
-      string: '{"jobs":[{"department":"Writing","job_list":["Screenplay","Author","Novel","Characters","Theatre
-        Play","Adaptation","Dialogue","Writer","Other","Storyboard","Original Story","Scenario
-        Writer","Screenstory","Musical","Idea","Story","Creative Producer","Teleplay","Texte","Opera","Co-Writer"]},{"department":"Directing","job_list":["Director","Script
-        Supervisor","Other","Layout","Script Coordinator","Special Guest Director","Assistant
-        Director"]},{"department":"Actors","job_list":["Actor","Stunt Double","Voice","Cameo","Special
-        Guest"]},{"department":"Camera","job_list":["Director of Photography","Underwater
-        Camera","Camera Operator","Still Photographer","Camera Department Manager","Camera
-        Supervisor","Camera Technician","Other","Grip","Steadicam Operator","Additional
-        Camera","Camera Intern","Additional Photography","Helicopter Camera"]},{"department":"Editing","job_list":["Editor","Supervising
-        Film Editor","Additional Editing","Editorial Manager","First Assistant Editor","Additional
-        Editorial Assistant","Editorial Coordinator","Editorial Production Assistant","Editorial
-        Services","Dialogue Editor","Archival Footage Coordinator","Archival Footage
-        Research","Color Timer","Digital Intermediate","Other"]},{"department":"Art","job_list":["Production
-        Design","Art Direction","Set Decoration","Set Designer","Conceptual Design","Interior
-        Designer","Settings","Assistant Art Director","Art Department Coordinator","Other","Art
-        Department Manager","Sculptor","Art Department Assistant","Background Designer","Co-Art
-        Director","Set Decoration Buyer","Production Illustrator","Standby Painter","Location
-        Scout","Leadman","Greensman","Gun Wrangler","Construction Coordinator","Construction
-        Foreman","Lead Painter","Sign Painter"]},{"department":"Costume & Make-Up","job_list":["Costume
-        Design","Makeup Artist","Hairstylist","Set Dressing Artist","Set Dressing
-        Supervisor","Set Dressing Manager","Set Dressing Production Assistant","Facial
-        Setup Artist","Hair Setup","Costume Supervisor","Set Costumer","Makeup Department
-        Head","Wigmaker","Maske","Shoe Design","Other","Co-Costume Designer"]},{"department":"Production","job_list":["Producer","Executive
-        Producer","Casting","Production Manager","Unit Production Manager","Line Producer","Location
-        Manager","Other","Production Supervisor","Production Accountant","Production
-        Office Coordinator","Finance","Executive Consultant","Character Technical
-        Supervisor","Development Manager","Administration","Executive In Charge Of
-        Post Production","Herstellungsleitung","Produzent","Production Director","Executive
-        In Charge Of Production","Publicist","Associate Producer","Co-Producer","Co-Executive
-        Producer"]},{"department":"Sound","job_list":["Original Music Composer","Sound
-        Designer","Sound Editor","Sound Director","Sound mixer","Music Editor","Sound
-        Effects Editor","Production Sound Mixer","Additional Soundtrack","Supervising
-        Sound Editor","Supervising Sound Effects Editor","Sound Re-Recording Mixer","Recording
-        Supervision","Boom Operator","Sound Montage Associate","Songs","Music","ADR
-        & Dubbing","Sound Engineer","Foley","Additional Music Supervisor","First Assistant
-        Sound Editor","Scoring Mixer","Dolby Consultant","Tonbearbeitung","Other"]},{"department":"Visual
-        Effects","job_list":["Animation","Visual Effects","Chief Technician / Stop-Motion
-        Expert","Creature Design","Shading","Modeling","CG Painter","Visual Development","Animation
-        Manager","Animation Director","Fix Animator","Animation Department Coordinator","Animation
-        Fix Coordinator","Animation Production Assistant","Visual Effects Supervisor","Mechanical
-        & Creature Designer","Battle Motion Coordinator","Animation Supervisor","VFX
-        Supervisor","Cloth Setup","VFX Artist","CG Engineer","24 Frame Playback","Imaging
-        Science","I/O Supervisor","Visual Effects Producer","VFX Production Coordinator","I/O
-        Manager","Additional Effects Development","Color Designer","Simulation & Effects
-        Production Assistant","Simulation & Effects Artist"]},{"department":"Crew","job_list":["Special
-        Effects","Post Production Supervisor","Second Unit","Choreographer","Stunts","Sound
-        Recordist","Stunt Coordinator","Special Effects Coordinator","Supervising
-        Technical Director","Supervising Animator","Production Artist","Sequence Leads","Second
-        Film Editor","Temp Music Editor","Temp Sound Editor","Sequence Supervisor","Software
-        Team Lead","Software Engineer","Documentation & Support","Machinist","Photoscience
-        Manager","Department Administrator","Schedule Coordinator","Supervisor of
-        Production Resources","Production Office Assistant","Information Systems Manager","Systems
-        Administrators & Support","Projection","Post Production Assistant","Sound
-        Design Assistant","Mix Technician","Motion Actor","Sets & Props Supervisor","Compositors","Tattooist","Sets
-        & Props Artist","Motion Capture Artist","Sequence Artist","Mixing Engineer","Special
-        Sound Effects","Post-Production Manager","Dialect Coach","Picture Car Coordinator","Property
-        Master","Cableman","Set Production Assistant","Video Assist Operator","Unit
-        Publicist","Set Medic","Stand In","Transportation Coordinator","Transportation
-        Captain","Supervising Art Director","Art Direction","Stunts Coordinator","Post
-        Production Consulting","Production Intern","Utility Stunts","Actor''s Assistant","Set
-        Production Intern","Production Controller","Studio Teachers","Chef","Craft
-        Service","Scenic Artist","Propmaker","Prop Maker","Transportation Co-Captain","Driver","Security","Second
-        Unit Cinematographer","Loader","Manager of Operations","Quality Control Supervisor","Legal
-        Services","Public Relations","Score Engineer","Translator","Title Graphics","Telecine
-        Colorist","Comic-Zeichner","Unit Production Manager","Unit Production Manager","Animatronic
-        and Prosthetic Effects","Martial Arts Choreographer","Cinematography","Steadycam","Regieassistenz","Executive
-        Visual Effects Producer","Visual Effects Design Consultant","Digital Effects
-        Supervisor","Digital Producer","CG Supervisor","Visual Effects Art Director","Visual
-        Effects Editor","executive in charge of Finance","Associate Choreographer","Makeup
-        Effects","Maskenbildner","Redaktion","treatment","Dramaturgie","Lighting Camera","Technical
-        Supervisor","CGI Supervisor","Creative Consultant","Script","Executive Music
-        Producer","Tongestaltung","Commissioning Editor","Klimatechnik","Tiertrainer","Additional
-        Writing","Additional Music","Poem","Thanks","Szenografie","Mischung","Titelgestaltung","Musikmischung","Comic-Zeichner","Creator","Additional
-        Dialogue","Video Game","Graphic Novel Illustrator","Other","Series Writer","Radio
-        Play"]},{"department":"Lighting","job_list":["Lighting Technician","Best Boy
-        Electric","Gaffer","Lighting Technician","Rigging Gaffer","Lighting Supervisor","Lighting
-        Manager","Directing Lighting Artist","Master Lighting Artist","Lighting Artist","Lighting
-        Coordinator","Lighting Production Assistant","Best Boy Electrician","Electrician","Rigging
-        Grip","Other"]}]}'
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA31ZS2/jNhD+K4IP20uDAm1PvSV2nBpNmjT2ZgsUi4KRaJtd
+        SVQpajdGsf+9M8PXkLL3ZGtIDef5zQz13+If/Toufvnrv0UjB2FsJ3u7+GXx
+        wSir+sPie1z/u1UjEP9abGsjZT+04gQL15M9agN/ftefZQu/y6MworbSjPCw
+        O0phjaye/OZGDFZYpXt4WCnR6sMk4S+eI5HJoz3S79Zqc3rVwjRINOqgetFW
+        RMXVWvbCKF3F95xIo19/mEZVCxRm00gR2KFsBsRRn0Eeo5uppld3spVel8dB
+        Gty+1FeR843Wn4jUqbryD1vQ2CZppFFyrGDHoEfllQOB1GCr20bBrsXHr98X
+        ll0pI+sztnV0MqhnsZ1Aqs9qJFqwz7046cmmTUutTQM28m8OsgbjVneTHG3F
+        WF6PI5wjekaci3aNdHQel4uIyNpO+LaeXlt03ItWNf4uRSd1efIZ3riPTHxO
+        50rvq6ejtvpgxHBE077vG2m+CPBEFd90fyryVZBJtS17kyzkt63i6dWD6MWB
+        r2WW9bSdrI+9Ah3QicHad2BjOkeKBgKr44dfNw35HJQuRdz0IDjyYXty/X6V
+        rar1kOm3VgacljzlF+a2xNiaB5CPOJDWawdbqrVquxCLmTiJh1tF3yU7laJc
+        4uDei/sybnlkJrrLQGRy4cUtSl9LDMSAFEwAUx/VZ9i11tqCtMUxs+VnOUoB
+        RHSObiHUdqojFVcALRY2kq862SgItkXy/Ez3uRuuDcrNXcBUW8lRHSgETMg5
+        jw8SnmWtTUBDR8DdLkR1X8vBTiBa5EEyKhCe7YPX0IFopSRrOsxbA1nHPMhN
+        FTXNN6Ug2NZTO5xlxP12I+pPB6Onvsm1uCpkyfWubqYTbWQm27TtNNqU26Jv
+        Xk/Vk1CoPVDude3e3dYeAlmgF6fdQ8J2lMp3VB/8/6mHyiH6QxtMDef503Pj
+        ZEtrbaRjgGyZRFtQlz2Gf/NQWerRTp2s3oF5P8mr9wgqPHDCevQ4bpsG1Ap3
+        AF4IzMgT7fe2NHIMmp+hZhCXrTAHc/KFtFwLgnXYWorjaGQrJ/zsSL+Aj14f
+        FkO/gilh4YM6dLBGrxw1s0AIT4ik3DpEJQHm3Dw5bovHRgqD1zlXsMEIx1oo
+        +IUyooNwAEvBw2/yVDn9vT/m7k62XJwDCDrr9k3WU9mSLMXoUZm5Iznsfa8s
+        d1RauVd9xijmStoSDMrez5TkAVBDhvU+Ahj9cb8HYC5SZQ3/euoFkkqYPlPr
+        GcS+MNRYjCd+8kpCA6mHAn6um071igDBGTKx30C6AlOA90doHMBnzCi5xAwS
+        Lr2evQndDfQAFOMQKbrGqpA5SF/lT99yIyaSYwG0UIhKH8xxBwyXEpK2c6Dj
+        ZNljUbhgdgqWYM55jG4Rshd5eMZ+m/po39i6o0qAd4TUc7h1BvdEeFBvtNvx
+        K3bf7vewe0xkHpnZ66zroAWIiZracWaXUqD5UnmcIz/Lq2csSw1hoz8wUSIf
+        ig8YA7Ie0Iupe+o1uLu32tVm0hxVWD0D+q+m11eX316mHuwt6ci1bqWblKKu
+        zmpZqpSNWak1iM31WOkWSmgWFgEGHHPmsUcMzlR/XzTm6VIL6p3OiOICaB5Y
+        L2rE5sWbe1FME73qQj7PNi6PSu5ZI179ABirh6sHTTFx+wanE6DgMDcZViy2
+        R4HeQkF1A601/V3esdrsD2NQA8QoDYedSGO2Wau3yi3QI9tzqbtKW/DdS2sc
+        c1nRzS2Tm/0BzCMciL6rCkuQAjfC2lZW3miXTs54vqz/LGaiVttjLPC4HEs/
+        WJVF7Y8/V2sDcwrN+a8uKzedOFDq1Eq6wrD54bE4MFeQYRqedREdkQ8vEGkW
+        8Yxy97qGn4OW6qbW6f+uOHzmg7N7oxWeTkZbF6hFVvg5+KzvflrNnlmQhYkk
+        3Ce4WbwwVW4QtNbF+QSC48uiuMDJpUNF8upZKAMwCPCClQTNeYQ+mA3adCOA
+        PAKQEma6VpQuC87fTZzXhON1ahN4QWEbWCpy76VG+N8JI6/Cdp0EdHrkw/BO
+        doOH2JxWYmrgVqDf3n4RkHk76A3pIE5kGbLS9YQOCaEEXAZNMPYA0EodDqqB
+        twOjSxgW4nzmSu2QEwDQupnashtLQtKlSrIO9B96Mm6sZmTf0vHI3/R7bQJM
+        nEYru5GJFCiZPGOmGLD/R8aWqgiwLMdYV5EtQP3KL2Q8msXLKGnxSGA7FCmW
+        J88OsFDrEBXsnRgrASbFQDg6j6G0U71h7DHXhojO+guvsm8TiTnzJ2yHTbGs
+        Pqmajl0KU/gRxYRqd4KXR1fBluK19WMoDlcXTPqiGqk9hXcqbnRg7S3yeJAN
+        NSc0a0NbjBaD8XhEPzr/50KVi3inq0gggoJShcLzqbd1+gX6JtyWvbeqVaBy
+        BBZy93djHjO57vHl/CBrdOuGfGDWKI1pir23azPkHn+M2Ntw2YQba4loniAe
+        PBBGU/xf4TB5zgowoEZDrAz04S5C68mAMu5vQNFqCbGD0JVQ9F6Lhv74KMG0
+        dX4D5ijuHwD/aBWvVR7u9/KAAeiUoNgjF0O2u9pF6Ae4nEESKdAGnyrsFu5Q
+        HlVTzkgIURwnqXw6WzjANRoNhKHylAblFPYPAFV0HWgwFIpikSlOVsE71VMt
+        ugUfzb7RGOQrHjSy1jYU0LO1NywyltDKfKsruc6vlIrVWB+S8CrOleDDNBan
+        QbI0ir+eSCbcYT/nu5cV9FXY3B3QWvfqcMTMSbfFF2bp5d2mIIQvH5mp3NeD
+        THpXCrl5dNepEScfwr2gL2u70leicmpZYPpL9O0OutVPlHYoSMmBfQpyyHUH
+        +i3w1o7isaJvS8XNYPxU5D6/xA82zwITPXxwMh3YmtQQZpB+CnBKEGZbsd+f
+        aZqCoRd54xTtn1WlG/zKcqNP1S2iuiG174CvE0cdqA2OhMgjz+BA5VWCrouB
+        FhdTFaJycGbhG5QcliP5QgWZKeV0zZ+icu4DiXPJx68fv/4PpeANYVEcAAA=
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:17 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:03 GMT
+recorded_with: VCR 3.0.1

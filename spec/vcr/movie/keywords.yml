@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -19,11 +23,11 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
-      - public, max-age=21600
+      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:16 GMT
+      - Tue, 09 Feb 2016 15:17:06 GMT
       Etag:
       - '"3a309f8b9ba7d44eafecbe94bdc6ecea"'
       Server:
@@ -33,17 +37,17 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '16028'
+      - '23322'
       X-Memc-Expires:
-      - '5572'
+      - '5478'
       X-Memc-Key:
       - e900f4044ce333cdc35ce7c732c0cd40
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '6'
+      - '38'
       X-Ratelimit-Reset:
-      - '1435331837'
+      - '1455031036'
       Content-Length:
       - '186'
       Connection:
@@ -53,5 +57,5 @@ http_interactions:
       string: '{"id":550,"keywords":[{"id":825,"name":"support group"},{"id":851,"name":"dual
         identity"},{"id":1541,"name":"nihilism"},{"id":3927,"name":"rage and hate"},{"id":4142,"name":"insomnia"}]}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:20 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:06 GMT
+recorded_with: VCR 3.0.1

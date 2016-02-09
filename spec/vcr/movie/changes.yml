@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -23,7 +27,7 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:18 GMT
+      - Tue, 09 Feb 2016 15:17:08 GMT
       Etag:
       - '"7f43e385e551fac54df200fe8d2ba3f4"'
       Server:
@@ -41,9 +45,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '37'
+      - '32'
       X-Ratelimit-Reset:
-      - '1435331847'
+      - '1455031036'
       Content-Length:
       - '322'
       Connection:
@@ -53,5 +57,5 @@ http_interactions:
       string: '{"changes":[{"key":"images","items":[{"id":"558ab78cc3a36869f2001e32","action":"updated","time":"2015-06-24
         13:58:36 UTC","iso_639_1":"fr","value":{"poster":{"file_path":"/tYnygTSBvN4rxypuJ9S9JjUGqMX.jpg","iso_639_1":"fr"}},"original_value":{"poster":{"file_path":"/tYnygTSBvN4rxypuJ9S9JjUGqMX.jpg","iso_639_1":"en"}}}]}]}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:21 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:08 GMT
+recorded_with: VCR 3.0.1

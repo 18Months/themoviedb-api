@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -19,13 +23,15 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
-      - public, max-age=21600
+      - public, max-age=28800
+      Content-Encoding:
+      - gzip
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:28 GMT
+      - Tue, 09 Feb 2016 15:17:17 GMT
       Etag:
-      - '"d91a300def81ea32b7eadb8571c90b7d"'
+      - W/"e850d6831769cd6f89c2f0e2cf4a511e"
       Server:
       - openresty
       Status:
@@ -35,35 +41,36 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '4628'
+      - '6599'
       X-Memc-Expires:
-      - '16972'
+      - '22201'
       X-Memc-Key:
       - e1eb1c895a8ea3cf4550415d7c907da7
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '37'
+      - '33'
       X-Ratelimit-Reset:
-      - '1435331858'
+      - '1455031046'
       Content-Length:
-      - '1481'
+      - '532'
       Connection:
       - keep-alive
     body:
-      encoding: UTF-8
-      string: '{"cast":[{"character":"","credit_id":"5257533719c29531db11620e","id":10169,"name":"Telly
-        Savalas","profile_path":"/37s6uJijtMcxqA0wQEZC2YyVsSl.jpg","order":0},{"character":"","credit_id":"5257533719c29531db11623c","id":40463,"name":"Dan
-        Frazer","profile_path":"/fwA9K5bAgUvdWfA17tnCQzTpiyX.jpg","order":1},{"character":"Sgt.
-        Bobby Crocker","credit_id":"5257533719c29531db11626a","id":105595,"name":"Kevin
-        Dobson","profile_path":"/xClcQ7O3ZORruMwOFczuYyaAMBT.jpg","order":2},{"character":"","credit_id":"5257533719c29531db116298","id":78091,"name":"George
-        Savalas","profile_path":"/hufHtydfKBlrwhIrK2W5SoI5ntb.jpg","order":3},{"character":"","credit_id":"5257533919c29531db1162c9","id":1234318,"name":"Mark
-        Russell","profile_path":null,"order":4}],"crew":[{"credit_id":"5257533919c29531db11630f","department":"Production","id":12140,"name":"Abby
-        Mann","job":"Executive Producer","profile_path":null},{"credit_id":"5257533919c29531db11633d","department":"Production","id":1216932,"name":"Michael
-        Scheff","job":"Producer","profile_path":null},{"credit_id":"5257533919c29531db11636d","department":"Production","id":151445,"name":"Jack
-        Laird","job":"Producer","profile_path":null},{"credit_id":"5257533b19c29531db1163a0","department":"Production","id":1234320,"name":"James
-        Duff McAdams","job":"Producer","profile_path":null},{"credit_id":"5257533b19c29531db1163d6","department":"Production","id":118311,"name":"Matthew
-        Rapf","job":"Executive Producer","profile_path":null}],"id":10838}'
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA63UXW+qMBgH8K/ScG12KKUIu0M9m9Nx3NSTvZwsS2mLoAik
+        FFEXv/spumHclmmWXRHo24/n+cOLRkkutfN/LxoNiSBUcqGda1pDo4KzSD5H
+        TN1iAzcxQk3oUMPBCDIfQsvQuZpWjUMdWk5DS8icq8ljHscrMCILEpNczchE
+        GkQxf86IDNXwr+wPnkbXrNtfd+4T+/Kxe5P0uiUjS9g9m2YTtSIVrFLom8Y3
+        VIi+qkzdtFCt6pAEXAiyVht9JAWl6/Sx707+Lthd4MKmTNq363EWre4PSfA9
+        aTSRZ6CV+v4KtEVKZ9vtjyMtUpcOYwfXyj5fRAnopH6eJp84l+2Y3jYH6HEw
+        FIVXDi7ounhYEddrjQ+dxnvnSSrHflU1bd2BNeqSp2LCv+hoWARduWJBvxWL
+        MrwSfeMOj9IrnEj/kIVOYzmHLOq8FctAJoJ2DfOImIFhkecqcR9YSRHH9cHm
+        5ml7UrlL+rEjkR6o/RjPiJBznqjvQ7sRKSuojLZ92WGgqdcUt0qAR5JqdJr6
+        6snvJaeFjBYc7JZ+EryKuK3IUQ9ip3gsBxn74kSq0DwGIxryoHqdHesHMNYJ
+        GAxNcx/rHqEzcE0iUa38vsM/dBD9uKNKjLFvU09dctApggB41GVkXsX5x0DM
+        Og6CNoL7T8sjUoa8BEOS7Vt0anKe3n4hNrI3/wEl0iezyQUAAA==
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:31 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:17 GMT
+recorded_with: VCR 3.0.1

@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -23,7 +27,7 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:30 GMT
+      - Tue, 09 Feb 2016 15:17:19 GMT
       Etag:
       - '"3e8981619f629a16d5806ef58cd99dda"'
       Server:
@@ -41,9 +45,9 @@ http_interactions:
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '31'
+      - '27'
       X-Ratelimit-Reset:
-      - '1435331858'
+      - '1455031046'
       Content-Length:
       - '303'
       Connection:
@@ -54,5 +58,5 @@ http_interactions:
         15:12:43 UTC","value":{"season_id":3628,"season_number":4}},{"id":"558b196e92514141d800010d","action":"updated","time":"2015-06-24
         20:56:14 UTC","value":{"season_id":62090,"season_number":5}}]}]}'
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:33 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:19 GMT
+recorded_with: VCR 3.0.1

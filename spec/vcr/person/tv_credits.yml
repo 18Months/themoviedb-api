@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -19,13 +23,15 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
-      - public, max-age=21600
+      - public, max-age=28800
+      Content-Encoding:
+      - gzip
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:20 GMT
+      - Tue, 09 Feb 2016 15:17:10 GMT
       Etag:
-      - '"08c8676592c974438971160d3a74851f"'
+      - W/"43ba546e182f55fa8ad2dfe939515cf5"
       Server:
       - openresty
       Status:
@@ -35,48 +41,50 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '757'
+      - '24450'
       X-Memc-Expires:
-      - '20843'
+      - '4350'
       X-Memc-Key:
       - 042878d57be83c64b99df923ef6b5a43
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '28'
+      - '23'
       X-Ratelimit-Reset:
-      - '1435331847'
+      - '1455031036'
       Content-Length:
-      - '5137'
+      - '1154'
       Connection:
       - keep-alive
     body:
-      encoding: UTF-8
-      string: '{"cast":[{"character":"","credit_id":"5256e90619c2956ff6101721","episode_count":1,"first_air_date":"1999-01-31","id":1434,"name":"Family
-        Guy","original_name":"Family Guy","poster_path":"/gBGUL1UTUNmdRQT8gA1LUV4yg39.jpg"},{"character":"","credit_id":"52572b3d760ee3776a2d7b61","episode_count":2,"first_air_date":"1996-07-22","id":2224,"name":"The
-        Daily Show with Jon Stewart","original_name":"The Daily Show with Jon Stewart","poster_path":"/dorWIToZ035gNAYORey8IzpFR1J.jpg"},{"character":"","credit_id":"52573f55760ee36aaa075599","episode_count":1,"first_air_date":"2003-08-05","id":2673,"name":"The
-        O.C.","original_name":"The O.C.","poster_path":"/bEvtf9F9FYNc0reXootSEqW4lIN.jpg"},{"character":"","credit_id":"52577181760ee36aaa49eb72","episode_count":1,"first_air_date":"1993-09-13","id":4573,"name":"Late
-        Night with Conan O''Brien","original_name":"Late Night with Conan O''Brien","poster_path":"/15iIgnJXME8hJlzba9I5BoUVsOK.jpg"},{"character":"","credit_id":"52595a13760ee3466190a1e8","episode_count":0,"first_air_date":null,"id":39520,"name":"The
-        Making of Star Wars","original_name":"The Making of Star Wars","poster_path":null},{"character":"","credit_id":"52595b4f760ee3466191a239","episode_count":0,"first_air_date":null,"id":39850,"name":"From
-        Star Wars to Jedi: The Making of a Saga","original_name":"From Star Wars to
-        Jedi: The Making of a Saga","poster_path":"/diaIxNuZftuNNKnfFhwRc8sUiEJ.jpg"},{"character":"","credit_id":"5258047d19c29531db39353f","episode_count":1,"first_air_date":"1984-04-01","id":10607,"name":"Al
-        TV","original_name":"Al TV","poster_path":"/1sA2UR42nXLglJIn9CPeC3xsrcs.jpg"},{"character":"","credit_id":"5258831e760ee346613fb116","episode_count":1,"first_air_date":"1929-05-16","id":27023,"name":"The
-        Academy Awards","original_name":"The Academy Awards","poster_path":"/6vTqtwtzASs4v001qMS4xxCMmUJ.jpg"}],"crew":[{"credit_id":"52538e0419c295794026c877","department":"Production","episode_count":0,"first_air_date":"1992-03-04","id":661,"job":"Executive
-        Producer","name":"The Young Indiana Jones Chronicles","original_name":"The
-        Young Indiana Jones Chronicles","poster_path":"/oJ7oxXf013K5OoXUfQBSEoCxS7R.jpg"},{"credit_id":"52575da819c29531db1aacd1","department":"Writing","episode_count":126,"first_air_date":"2008-11-23","id":4194,"job":"Writer","name":"Star
-        Wars: The Clone Wars","original_name":"Star Wars: The Clone Wars","poster_path":"/o152WTBAo9SSDc4T0unZ1V11WuD.jpg"},{"credit_id":"52575da919c29531db1aad9d","department":"Production","episode_count":126,"first_air_date":"2008-11-23","id":4194,"job":"Executive
-        Producer","name":"Star Wars: The Clone Wars","original_name":"Star Wars: The
-        Clone Wars","poster_path":"/o152WTBAo9SSDc4T0unZ1V11WuD.jpg"},{"credit_id":"52532fb719c2957940007954","department":"Production","episode_count":17,"first_air_date":"1985-09-07","id":25,"job":"Producer","name":"Star
-        Wars: Droids","original_name":"Star Wars: Droids","poster_path":"/xfqRg4m504ovzBDriizqEnUHEWg.jpg"},{"credit_id":"52574c8c760ee36aaa156a70","department":"Production","episode_count":37,"first_air_date":"2003-11-07","id":3122,"job":"Producer","name":"Star
-        Wars: Clone Wars","original_name":"Star Wars: Clone Wars","poster_path":"/ppRN9Ga16lsbfxlXVgnizMrKJ8e.jpg"},{"credit_id":"525751c5760ee36aaa1cc8d4","department":"Production","episode_count":39,"first_air_date":"1985-09-07","id":3478,"job":"Producer","name":"Star
-        Wars: Ewoks","original_name":"Star Wars: Ewoks","poster_path":"/tuwV4i5zktlQHrIpaysNfb5Ae2y.jpg"},{"credit_id":"52532fb719c2957940007910","department":"Creator","first_air_date":"1985-09-07","id":25,"job":"Creator","name":"Star
-        Wars: Droids","original_name":"Star Wars: Droids","poster_path":"/xfqRg4m504ovzBDriizqEnUHEWg.jpg"},{"credit_id":"52538e0419c295794026c85f","department":"Creator","first_air_date":"1992-03-04","id":661,"job":"Creator","name":"The
-        Young Indiana Jones Chronicles","original_name":"The Young Indiana Jones Chronicles","poster_path":"/oJ7oxXf013K5OoXUfQBSEoCxS7R.jpg"},{"credit_id":"52570c2919c295711400d883","department":"Creator","first_air_date":null,"id":1541,"job":"Creator","name":"Star
-        Wars live-action TV series","original_name":"Star Wars live-action TV series","poster_path":null},{"credit_id":"52574c8c760ee36aaa156a38","department":"Creator","first_air_date":"2003-11-07","id":3122,"job":"Creator","name":"Star
-        Wars: Clone Wars","original_name":"Star Wars: Clone Wars","poster_path":"/ppRN9Ga16lsbfxlXVgnizMrKJ8e.jpg"},{"credit_id":"525751c5760ee36aaa1cc8b6","department":"Creator","first_air_date":"1985-09-07","id":3478,"job":"Creator","name":"Star
-        Wars: Ewoks","original_name":"Star Wars: Ewoks","poster_path":"/tuwV4i5zktlQHrIpaysNfb5Ae2y.jpg"},{"credit_id":"52575da819c29531db1aacc9","department":"Creator","first_air_date":"2008-11-23","id":4194,"job":"Creator","name":"Star
-        Wars: The Clone Wars","original_name":"Star Wars: The Clone Wars","poster_path":"/o152WTBAo9SSDc4T0unZ1V11WuD.jpg"},{"credit_id":"558967a89251414371000f2c","department":"Creator","first_air_date":"2014-10-03","id":60554,"job":"Creator","name":"Star
-        Wars Rebels","original_name":"Star Wars Rebels","poster_path":"/dfzbkhKMnkdwiG1AAIJnrc9SDdY.jpg"}],"id":1}'
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA82XS3PaOhiG/4qHzdnEObpYlpUdt6ShKWkCBJIzHUa2ZXBi
+        rGCba6f/vTKQEIwBt4vMmWFj9En4efV+F36WHB4npYv/fpacIY+4k4iodFEq
+        nZWcSLh+0vdd9UgQMQUDJmQOYsT0PBMCSBFUYeLVj6Ur+o6chOoceFby/ChO
+        +tyP+i5PhNoNGWM6gDpO49PzoIGNs1LIR+nqJR/5wUK7mizUqoz8gR/yoJ+3
+        +Cpj9Xb9V54M1dK/g8pV5wZ22p3myL2/a1uDMrzpPBiLAWbnz6+D0q+zU0wU
+        2dilJhACU2py5FLbzGFC+UymDqiO0IYJIbRlag+FVuPpm7eGcqbN/GSotSMx
+        lZHWlHyYA3p6R4Y+eQrGV73u1bLeaN4H7K5a7TQtX7amqFaUHnuErOlNzjmg
+        hDC2T593owgArANLB+SN3qR4h/72vHp+AHOzlOGx69PEY5fs8rHpgEj0pExa
+        9XHXCK6bRXkotOCWx2DCpuntFOBRt6l4mA7xhscgH3huVJDW9AfDZH0vVRny
+        ULv9pxL5IsyBPBWfIZ8aTRKYDSlv7WHPfu7JS/7VnjM0qxT1sQUM6q5zE0PX
+        xgwT7BUltwwdqM97bgIT0Hf0cqC1H3IQ377PoMC4jDr3Bgp7N4OgcR2y6ndR
+        xfM4cuKiKBaGYn2JhmlC7NkQmkVRkCozRF/Fr0xJAdp1ZdnhrhgttPKMR26c
+        w5UblIE0p+1xMkuW5VZsTAGA428tYz6vfht1GmvIHyuq2bqo7uJhSwBjfVOU
+        GQCZjkWp+glXvPIoGYmUrfQ9ku7ESXyZmiUDDnLBGdLThDQ24Eq4s9KztNVa
+        fS6cSeJPhbY+Vcm+o8ijOnagXYeuz0OuNWQoYq06jGToO4E4pNDJTRnFZIPK
+        ec8DEH8lt7LX8e4qrbqszlv0fmuLTDITl1tbS0POHTe16I5Q3chP/HCwrxJE
+        Zo5OqmpZOoQ6es9yyIw3odKzPorTSnikdXkUX2gpcjVQlKvnHE2OxWalgAR1
+        25WyZK1WzTHaYBI+wQcIu5MPZXtfCrYjhcvcrBTHPPMXahyzzTHaz1UGI8+m
+        22wCgDKS5kBxZWiOMKokkrQZgDQxV3WEvMlyVIxaJP3copIXk4Gfe+P7gTEi
+        wJDTZaUW+f5yXA87X+rdwSF4ajiWs213kJicgj+Bx3nwq86uXPEOjyFChfCL
+        +uCYB3BnyqazqpVYQ/bYK9+4T5fLWtMfei+TgzIQ6HyYYqDjWO4feQCzHBn2
+        PIANahWSoT6TLycUeAvJTnST2YPhk+VLEtx9ia5f+SJuejYpC7Q4BJ+TAHDP
+        A9VI8ESmb3sac2v17a59gE92ek7TJOl4U5zycH/cwyzU37LchTZl691fNEWg
+        NNgIAaG6b1eNS8WFCCdBsBnyiHFYgfdL1ALVAHS+yhs17mmxUANsHv7pHTvs
+        6Xvk0e0XNGwVpzteug5T/p8ql52OrkV595L3Y406xvupJSpnkHPSf5lFKY+O
+        Kcco9+aNI7h7sdlcPTWb/Njk1a/fMJ5PlFARAAA=
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:24 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:10 GMT
+recorded_with: VCR 3.0.1

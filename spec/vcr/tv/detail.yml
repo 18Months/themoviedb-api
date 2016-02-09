@@ -9,8 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
+      Accept-Encoding:
+      - gzip, deflate
       Content-Type:
-      - application/json
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
   response:
     status:
       code: 200
@@ -19,13 +23,15 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Cache-Control:
-      - public, max-age=21600
+      - public, max-age=28800
+      Content-Encoding:
+      - gzip
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 26 Jun 2015 15:17:29 GMT
+      - Tue, 09 Feb 2016 15:17:18 GMT
       Etag:
-      - '"81cae3bb2dedd13eb3592df9ab54977e"'
+      - W/"95aa319fd30afa2efd635e8b354f55a8"
       Server:
       - openresty
       Status:
@@ -35,37 +41,51 @@ http_interactions:
       X-Memc:
       - HIT
       X-Memc-Age:
-      - '2196'
+      - '24270'
       X-Memc-Expires:
-      - '19404'
+      - '4530'
       X-Memc-Key:
       - 784bb2de3776b09b09db0c8e57046b8b
       X-Ratelimit-Limit:
       - '40'
       X-Ratelimit-Remaining:
-      - '33'
+      - '29'
       X-Ratelimit-Reset:
-      - '1435331858'
+      - '1455031046'
       Content-Length:
-      - '2297'
+      - '1180'
       Connection:
       - keep-alive
     body:
-      encoding: UTF-8
-      string: '{"backdrop_path":"/eSzpy96DwBujGFj0xMbXBcGcfxX.jpg","created_by":[{"id":66633,"name":"Vince
-        Gilligan","profile_path":"/rLSUjr725ez1cK7SKVxC9udO03Y.jpg"}],"episode_run_time":[45,47],"first_air_date":"2008-01-19","genres":[{"id":18,"name":"Drama"}],"homepage":"http://www.amctv.com/shows/breaking-bad","id":1396,"in_production":false,"languages":["en","de","ro","es","fa"],"last_air_date":"2013-09-29","name":"Breaking
-        Bad","networks":[{"id":174,"name":"AMC"}],"number_of_episodes":62,"number_of_seasons":5,"origin_country":["US"],"original_language":"en","original_name":"Breaking
-        Bad","overview":"Breaking Bad is an American crime drama television series
-        created and produced by Vince Gilligan. Set and produced in Albuquerque, New
-        Mexico, Breaking Bad is the story of Walter White, a struggling high school
-        chemistry teacher who is diagnosed with inoperable lung cancer at the beginning
-        of the series. He turns to a life of crime, producing and selling methamphetamine,
-        in order to secure his family''s financial future before he dies, teaming
-        with his former student, Jesse Pinkman. Heavily serialized, the series is
-        known for positioning its characters in seemingly inextricable corners and
-        has been labeled a contemporary western by its creator.","popularity":17.223891,"poster_path":"/4yMXf3DW6oCL0lVPZaZM2GypgwE.jpg","production_companies":[{"name":"Gran
-        Via Productions","id":2605},{"name":"Sony Pictures Television","id":11073},{"name":"High
-        Bridge Entertainment","id":33742}],"seasons":[{"air_date":"2009-02-17","episode_count":6,"id":3577,"poster_path":"/AngNuUbXSciwLnUXtdOBHqphxNr.jpg","season_number":0},{"air_date":"2008-01-19","episode_count":7,"id":3572,"poster_path":"/o5131POxv9xFl3wBmdg0YWc9Iz4.jpg","season_number":1},{"air_date":"2009-03-08","episode_count":13,"id":3573,"poster_path":"/7FwD7IuyHy6xl18LDIRxjl7vDbo.jpg","season_number":2},{"air_date":"2010-03-21","episode_count":13,"id":3575,"poster_path":"/1HVSSlEAOILiR4BskS1zV04kTjx.jpg","season_number":3},{"air_date":"2011-07-17","episode_count":13,"id":3576,"poster_path":"/5p7WduYlIIFjVYUIsqRZLFYWjMc.jpg","season_number":4},{"air_date":"2012-07-15","episode_count":16,"id":3578,"poster_path":"/r3z70vunihrAkjILQKWHX0G2xzO.jpg","season_number":5}],"status":"Ended","type":"Scripted","vote_average":8.9,"vote_count":248}'
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA31VW3PaOhD+Kxq/nBdDfMEY8haaBtJcW3LrdDqMbK9tgS25
+        kowhnfz3s3JcmgTOeYCxtav9vm9v/m1FNF4lUlSLiurcOraOYP5cbcfD02ZS
+        L6dnS2dzFT1N4mmcbp76yyqzbCuWQDUki2hrHf/4bbHEOh4Oh75vW5yWgDEe
+        GI+BTFlRsIxyvFFJkbICdhjycn6/lKEXwLMbX4Tzi4fNp3Gd3Dj+9xbj5adt
+        QcWUSGAha77QzMT9MQjsQYimlEmlF5TJRYJEMKDnOKOe4/bcMYJlwCWoHTV3
+        tON1KmlJ2+C5KKGimTnMta6Oj46apunTMtbrfizKI5WLRh1FKHTFeNaLaIKB
+        22j+eIhPfIGSkjrWTHDrOKWFAtsqKM9qDGqwLTC6E8A/KfAPD5E3tX4at4/k
+        Xb/njHueId8xnXTIZNIic9CNkKs3osLBzvfk6lOriddlBHIh0kWXOnQfem/P
+        FVAlOB4HtiUky1BGLGqupSmkdT837F7PabH4owYRWi07w2GKYg1yzaD5YCFM
+        EcrJSQmSxfgQSywlSUwhiIYC1kxhColCMyjSdRbeSMhrgvEl2pL3DdUnc9Dv
+        fRhCFFH9qwaJP5tcQ0OuYMNiYZOPdHQORGkht0Sk5JEWGiR5zJnGaxQNss6y
+        wrjnLMuJinMhChLnUDK0bZE0xRdJmlyYYAmjGRcKKTRM58hDVCBpVAApaoyB
+        kmN0prpFjQAzyE1sRG5ptLL7ZAZE15IjN4EcCpaC8WhzZXcizS0jWUHRsitB
+        57SsctC0ZBzdMAVCJgiGMRTEtQRUoEiK5mL7Dz5g8XjMaEHSWhtrBKkwTlgO
+        JGEbZaWJ3ApprwqJZcOU1AlwbZMvoBSQW8ZXpSnCDOgaQ7ciaMGeIbHfiDLJ
+        WXHRcBOGVEIxMysmPtNY6JxKGmPmleGtAAwyxkIlG206xWQwFpIbDyM7pwoJ
+        AycFjbBtsEXQzDWUlZAUy9KAwmjcNEsb3zSSkH2ze0RVF1QyjU3uDvqOOx6H
+        gTk2F3Ybyd3Cwxex8eVSeMvJhZQsP79ahrWYj7ut93fgcWjKinLWLZluHqYS
+        2/uBUXK7czQzb6bVGzrBi73znAu+xTTGpgqK3O2m4M+KcZ3Qf+M+M304kSzJ
+        gHxGyVJTxkusSOfv++HAMwtgN95I6v1yHPccr+eGZg91W7Wde9wPXYggDPdS
+        csKz6/o+eprHrLnk9086uZnMflX55lp2KXkFXLwuGOvYMaT/ayt/AA53wN4e
+        sAhc37292azHm7PCbyZlkjnfH+Px+fPgMLC7D4yKcamO9oFdf4fs7yGHZ81p
+        eF5vZ9vhpnBHl6fn3zbLIlyfRuIwsreH7DoG2XP/F3m//9L0dvR1BI0zGH0X
+        6ewbP3u4ckcTL72dHkZuO+Q9sttzwoNVfoM83EMOoJH8ohrcReJ+kN9d3gXx
+        440fOOVseRh5sI/stcjBAeS/DTbaQ5b+c+isa85yebJanl9+vXicPTlTb/N8
+        cxg5aLtcU11jk1ufeQLmy6O3VTtVuC4r3Z6shYYFxQ9S+/ka9YPuqCM1GIxf
+        /gWkAn2a+QgAAA==
     http_version: 
-  recorded_at: Fri, 26 Jun 2015 15:17:32 GMT
-recorded_with: VCR 2.9.3
+  recorded_at: Tue, 09 Feb 2016 15:17:18 GMT
+recorded_with: VCR 3.0.1
