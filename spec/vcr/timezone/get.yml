@@ -1,0 +1,67 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.themoviedb.org/3/timezones/list?api_key=c29379565234e20d7cbf4f2e835c3e41&language=en
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Content-Type:
+      - application/json; charset=utf-8
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Origin:
+      - "*"
+      Cache-Control:
+      - public, max-age=36000
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Tue, 09 Feb 2016 15:17:00 GMT
+      Etag:
+      - W/"acd3a349fca1f788ac931639278ad061"
+      Server:
+      - openresty
+      Status:
+      - 200 OK
+      Vary:
+      - Accept-Encoding
+      X-Ratelimit-Limit:
+      - '40'
+      X-Ratelimit-Remaining:
+      - '29'
+      X-Ratelimit-Reset:
+      - '1455031026'
+      Content-Length:
+      - '490'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA3VS0W7bMAz8Fz0HTdcmW5dfGQaBthhbiCwJFOUgLfrvExmn
+        ddbtieT5eKTOfDN+ggGLObyZDgraSsEczMicD9utfnvgyXUPiYYtb/PWbEzB
+        vhLav+jlv/wO+pOjlG3xrzLplzk/Pz62D+cfLxq+PWlM5AcfIZjfGxPSkFb8
+        3V54P5+Uvd9peFFsUdprWCvkVBhppfHP7p2C1+5lnTsRSkcf8Msm1/bx+7O0
+        rxsK+xC+Dl3v+kl/35h+hDigPeFF+eBq4MYBT9YBo6ShJHuK6RwtFK3bsyKw
+        n9Gy54ACdj4NBHm8aE48OtC0ugFFr4eiAYn90fetO0Xpa+MJevEpwqRKPWGb
+        62wn/a04t+AatChi9iU52WvJbKxTh7QCqMa22CScIyHqmXi3riYtB4xIzQbN
+        SIcPFQvbwkBSjWnC3A6qpcuRSuK6q1poxtUFleUlIJ8TnczNY9unGplk75vp
+        +s51rRYKMCPNXp+bgVhUc4AebTpadVSBxPKr2hCnBEqu9uJlm6Sm3CFThuh1
+        vztYVrrChAGbH9d0xlhFotm3uFfaxxQ/kk+nl5pwqAEUyOmE0a4taSZylYRh
+        CD6K3u2pTBBL+LgBnm+W8kyte8kvWbizd5husbST/QP844lDMQQAAA==
+    http_version:
+  recorded_at: Tue, 09 Feb 2016 15:17:00 GMT
+recorded_with: VCR 3.0.1

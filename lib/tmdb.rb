@@ -30,6 +30,7 @@ require 'tmdb/language'
 require 'tmdb/list'
 require 'tmdb/media'
 require 'tmdb/movie'
+require 'tmdb/timezone'
 require 'tmdb/multi'
 require 'tmdb/network'
 require 'tmdb/person'
@@ -48,39 +49,40 @@ require 'tmdb/video'
 require 'tmdb/version'
 
 class Hash
-  def to_tmdb_struct(klass=Tmdb::Struct)
-    if descendent_of_tmdb_struct?(klass)
-      klass.new(self)
-    else
-      raise Tmdb::Error, 'Tried to convert to a non Tmdb::Struct object'
+    def to_tmdb_struct(klass = Tmdb::Struct)
+        if descendent_of_tmdb_struct?(klass)
+            klass.new(self)
+        else
+            raise Tmdb::Error, 'Tried to convert to a non Tmdb::Struct object'
+        end
     end
-  end
 
-  private
-  def descendent_of_tmdb_struct?(klass)
-    klass.ancestors.include?(Tmdb::Struct)
-  end
+    private
+
+    def descendent_of_tmdb_struct?(klass)
+        klass.ancestors.include?(Tmdb::Struct)
+    end
 end
 
 unless defined?(ActiveSupport)
-  class Object
-    def blank?
-      respond_to?(:empty?) ? !!empty? : !self
+    class Object
+        def blank?
+            respond_to?(:empty?) ? !!empty? : !self
+        end
+
+        def present?
+            !blank?
+        end
     end
 
-    def present?
-      !blank?
-    end
-  end
+    class Hash
+        def except(*keys)
+            dup.except!(*keys)
+        end
 
-  class Hash
-    def except(*keys)
-      dup.except!(*keys)
+        def except!(*keys)
+            keys.each { |key| delete(key) }
+            self
+        end
     end
-
-    def except!(*keys)
-      keys.each { |key| delete(key) }
-      self
-    end
-  end
 end

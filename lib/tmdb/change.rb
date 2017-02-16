@@ -1,44 +1,42 @@
 module Tmdb
-  class Change < Struct
+    class Change < Struct
+        def self.movie(filters = {})
+            result = Resource.new('/movie/changes', filters).get
 
-    def self.movie(filters={})
-      result = Resource.new("/movie/changes", filters).get
+            change = new(result.except('results'))
+            change.results = result['results'].map do |result|
+                Movie.new(result)
+            end
 
-      change = self.new(result.except('results'))
-      change.results = result['results'].map do |result|
-        Movie.new(result)
+            change
       end
 
-      change
-    end
+        def self.person(filters = {})
+            result = Resource.new('/person/changes', filters).get
 
-    def self.person(filters={})
-      result = Resource.new("/person/changes", filters).get
+            change = new(result.except('results'))
+            change.results = result['results'].map do |result|
+                Person.new(result)
+            end
 
-      change = self.new(result.except('results'))
-      change.results = result['results'].map do |result|
-        Person.new(result)
+            change
+        end
+
+        def self.tv(filters = {})
+            result = Resource.new('/tv/changes', filters).get
+
+            change = new(result.except('results'))
+            change.results = result['results'].map do |result|
+                TV.new(result)
+            end
+
+            change
+        end
+
+        def convert_items!
+            items.map! do |change_item|
+                ChangeItem.new(change_item.to_h)
+            end
+        end
       end
-
-      change
-    end
-
-    def self.tv(filters={})
-      result = Resource.new("/tv/changes", filters).get
-
-      change = self.new(result.except('results'))
-      change.results = result['results'].map do |result|
-        TV.new(result)
-      end
-
-      change
-    end
-
-    def convert_items!
-      items.map! do |change_item|
-        ChangeItem.new(change_item.to_h)
-      end
-    end
-
-  end
 end
