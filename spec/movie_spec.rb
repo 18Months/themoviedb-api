@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 require 'rspec'
 require 'spec_helper'
 require 'vcr'
@@ -23,7 +24,6 @@ describe Tmdb::Movie do
     it { is_expected.to respond_to(:backdrops) }
     it { is_expected.to respond_to(:posters) }
     it { is_expected.to respond_to(:videos) }
-    it { is_expected.to respond_to(:trailers) }
     it { is_expected.to respond_to(:keywords) }
     it { is_expected.to respond_to(:releases) }
     it { is_expected.to respond_to(:translations) }
