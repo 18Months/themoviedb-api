@@ -1,33 +1,41 @@
 module Tmdb
-  class Resource
+    class Resource
+        include Utils
 
-    include Utils
+        attr_reader :params, :query_url
 
-    attr_reader :params, :query_url
-
-    def initialize(query_url, filters={})
-      @params = filters
-      @query_url = query_url
-    end
-
-    def get
-      request_params = Api.params.merge(@params)
-
-      begin
-        response = RestClient.get Api::BASE_URI + query_url,
-                                  Api::JSON_HEADERS.merge(params: request_params)
-      rescue => e
-        parsed_exception_rs = parse_json(e.response)
-
-        if parsed_exception_rs['status_message'].present?
-          raise Tmdb::Error, parsed_exception_rs['status_message']
-        else
-          raise Tmdb::Error, e.response
+        def initialize(query_url, filters = {})
+            @params = filters
+            @query_url = query_url
         end
-      end
 
-      parse_json(response)
+        def get
+            request_params = Api.params.merge(@params)
+
+            begin
+                response = RestClient.get Api::BASE_URI + query_url,
+                                          Api::JSON_HEADERS.merge(params: request_params)
+            rescue => e
+                parsed_exception_rs = parse_json(e.response)
+
+                if parsed_exception_rs['status_message'].present?
+                    raise Tmdb::Error, parsed_exception_rs['status_message']
+                else
+                    raise Tmdb::Error, e.response
+                end
+            end
+
+            parse_json(response)
+        end
+
+        def post
+            request_params = Api.params.merge(@params)
+            puts request_params
+            RestClient::Request.execute(method: :post,
+                                        url: Api::BASE_URI + query_url,
+                                        user: Api.params[:api_key],
+                                        payload: @params,
+                                        headers: Api::JSON_HEADERS.merge(params: request_params))
+        end
     end
-
-  end
 end
