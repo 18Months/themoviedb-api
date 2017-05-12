@@ -92,6 +92,11 @@ module Tmdb
       self.new(result)
     end
 
+    def self.recommendations(id, filters={})
+      result = Resource.new("/movie/#{id}/recommendations", filters).get
+      Recommendation.new(result)
+    end
+
     def self.reviews(id, filters={})
       result = Resource.new("/movie/#{id}/reviews", filters).get
       Review.new(result)

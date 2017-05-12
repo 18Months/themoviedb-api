@@ -1,3 +1,9 @@
+## 1.2.0 (2017-05-12)
+
+Minor:
+  
+  - New endpoint added for movie recommendations Tmdb::Movie.recommendations
+
 ## 1.1.0 (2016-02-09)
 
 Bugfixes:

@@ -78,6 +78,7 @@ To be thorough they are listed here with a sample call:
 * [Movies](#movies)
 * [Networks](#networks)
 * [People](#people)
+* [Recommendations](#recommendations)
 * [Reviews](#reviews)
 * [Search](#search)
 * [TV](#tv)
@@ -446,6 +447,13 @@ Tmdb::Movie.translations(550)
 Get the similar movies for a specific movie id.
 ```ruby
 Tmdb::Movie.similar(550)
+```
+
+#### Recommendations
+
+Get the recommendations for a particular movie id.
+```ruby
+Tmdb::Movie.recommendations(550)
 ```
 
 #### Reviews

@@ -235,6 +235,18 @@ describe Tmdb::Movie do
     end
   end
 
+  context '#recommendations' do
+    let(:recommendations) do
+      VCR.use_cassette 'movie/recommendations' do
+        Tmdb::Movie.recommendations(550)
+      end
+    end
+
+    subject { recommendations }
+
+    it { expect(subject).to be_an_instance_of(Tmdb::Recommendation) }
+  end
+
   context '#reviews' do
     let(:reviews) do
       VCR.use_cassette 'movie/reviews' do
