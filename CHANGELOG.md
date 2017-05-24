@@ -3,6 +3,7 @@
 Minor:
   
   - New endpoint added for movie recommendations Tmdb::Movie.recommendations
+  - Upgraded dependencies on gemfile
 
 ## 1.1.0 (2016-02-09)
 
