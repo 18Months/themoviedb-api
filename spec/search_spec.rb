@@ -124,7 +124,7 @@ describe Tmdb::Search do
   context '#person' do
     let(:person) do
       VCR.use_cassette 'search/person' do
-        Tmdb::Search.person('Angelina Jolie')
+        Tmdb::Search.person('Julian Beck')
       end
     end
 

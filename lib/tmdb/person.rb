@@ -77,6 +77,8 @@ module Tmdb
     private
 
     def known_person_reference(obj)
+      return unless obj
+
       case obj.media_type
         when 'movie'
           Movie.new(obj.to_h)
@@ -86,6 +88,5 @@ module Tmdb
           Multi.new(obj.to_h)
       end
     end
-
   end
 end
