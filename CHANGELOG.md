@@ -1,3 +1,10 @@
+## 1.3.0 (2018-03-19)
+
+Minor:
+
+  - Fix people search when known_for info response includes a nil value
+  - Dependencies upgraded
+
 ## 1.2.0 (2017-05-12)
 
 Minor:
