@@ -13,7 +13,6 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/18Months/themoviedb-api'
   s.summary     = %q{A simple to use Ruby wrapper for the The Movie Database API.}
   s.description = %q{Provides a simple and intuitive interface for the Movie Database API making use of OpenStruct.}
-  s.rubyforge_project = 'themoviedb-api'
   s.license     = 'MIT'
 
   s.files         = `git ls-files`.split($/)
