@@ -22,10 +22,11 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'rest-client', '~> 2.0', '>= 2.0'
 
-  s.add_development_dependency 'awesome_print', '~> 1.8',    '>= 1.8'
-  s.add_development_dependency 'vcr',           '~> 4.0',    '>= 4.0'
-  s.add_development_dependency 'rake',          '~> 12.3',   '>= 12.3'
-  s.add_development_dependency 'rspec',         '~> 3.7',    '>= 3.7'
-  s.add_development_dependency 'webmock',       '~> 3.3',    '>= 3.3'
-  s.add_development_dependency 'coveralls',     '~> 0.8', '>= 0.8'
+  s.add_development_dependency 'awesome_print', '~> 1.8',   '>= 1.8'
+  s.add_development_dependency 'vcr',           '~> 4.0',   '>= 4.0'
+  s.add_development_dependency 'rake',          '~> 12.3',  '>= 12.3.3'
+  s.add_development_dependency 'rspec',         '~> 3.7',   '>= 3.7'
+  s.add_development_dependency 'webmock',       '~> 3.3',   '>= 3.3'
+  s.add_development_dependency 'coveralls',     '~> 0.8',   '>= 0.8'
+  s.add_development_dependency 'json',          '>= 2.3.0', '< 3'
 end
