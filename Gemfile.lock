@@ -31,7 +31,7 @@ GEM
     mime-types-data (3.2016.0521)
     netrc (0.11.0)
     public_suffix (3.0.2)
-    rake (12.3.0)
+    rake (13.0.1)
     rest-client (2.0.2)
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
@@ -74,7 +74,8 @@ PLATFORMS
 DEPENDENCIES
   awesome_print (~> 1.8, >= 1.8)
   coveralls (~> 0.8, >= 0.8)
-  rake (~> 12.3, >= 12.3)
+  json (>= 2.3.0, < 3)
+  rake (~> 13.0, >= 12.3.3)
   rspec (~> 3.7, >= 3.7)
   themoviedb-api!
   vcr (~> 4.0, >= 4.0)
