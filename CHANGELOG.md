@@ -1,3 +1,9 @@
+## 1.3.2 (2020-10-30)
+
+Minor:
+
+  - Fix the TV season and TV episode find endpoint returning results for each other
+
 ## 1.3.0 (2018-03-19)
 
 Minor:

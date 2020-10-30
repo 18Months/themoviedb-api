@@ -75,7 +75,7 @@ describe Tmdb::Find do
   context '#tv_season' do
     let(:tv_season) do
       VCR.use_cassette 'find/tv_season' do
-        Tmdb::Find.tv_season('121361', external_source: 'tvdb_id')
+        Tmdb::Find.tv_season(62735, external_source: 'tvdb_id')
       end
     end
 
@@ -90,7 +90,7 @@ describe Tmdb::Find do
   context '#tv_episode' do
     let(:tv_episode) do
       VCR.use_cassette 'find/tv_episode' do
-        Tmdb::Find.tv_episode('121361', external_source: 'tvdb_id')
+        Tmdb::Find.tv_episode('tt3222784', external_source: 'imdb_id')
       end
     end
 
