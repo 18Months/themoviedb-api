@@ -30,7 +30,7 @@ module Tmdb
     def self.tv_season(id, filters={})
       result = Resource.new("/find/#{id}", filters).get
 
-      result['tv_episode_results'].map do |entry|
+      result['tv_season_results'].map do |entry|
         TV.new(entry)
       end
     end
@@ -38,7 +38,7 @@ module Tmdb
     def self.tv_episode(id, filters={})
       result = Resource.new("/find/#{id}", filters).get
 
-      result['tv_season_results'].map do |entry|
+      result['tv_episode_results'].map do |entry|
         TV.new(entry)
       end
     end
