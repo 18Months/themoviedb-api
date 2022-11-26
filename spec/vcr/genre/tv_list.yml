@@ -9,54 +9,58 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/2.7.7p221
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:03 GMT
-      Etag:
-      - '"d382b694802c1838d53816a4c72c7e93"'
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '13511'
-      X-Memc-Expires:
-      - '15289'
-      X-Memc-Key:
-      - c6e485f08837601abbc4bd9c77ad3d75
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '19'
-      X-Ratelimit-Reset:
-      - '1455031026'
-      Content-Length:
-      - '463'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
+      Date:
+      - Sat, 26 Nov 2022 18:52:51 GMT
+      Server:
+      - openresty
+      Cache-Control:
+      - public, max-age=28800
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - a69b9cce910da574ad28ed505c762f7d89946f71
+      X-Memc-Age:
+      - '11382'
+      X-Memc-Expires:
+      - '5144'
+      Etag:
+      - W/"c9414e40a9e909888e1e74fd911cf7d1"
+      Vary:
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 d2165ef35515312478de7a439eead44e.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - MAD53-P2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - hE0qP5gAFDJcyk6cPMBUPFAJBgxhiwSFpYpBM9oe6D5JIh1CBBtw7g==
     body:
-      encoding: UTF-8
-      string: '{"genres":[{"id":10759,"name":"Action & Adventure"},{"id":16,"name":"Animation"},{"id":35,"name":"Comedy"},{"id":99,"name":"Documentary"},{"id":18,"name":"Drama"},{"id":10751,"name":"Family"},{"id":10762,"name":"Kids"},{"id":9648,"name":"Mystery"},{"id":10763,"name":"News"},{"id":10764,"name":"Reality"},{"id":10765,"name":"Sci-Fi
+      encoding: ASCII-8BIT
+      string: '{"genres":[{"id":10759,"name":"Action & Adventure"},{"id":16,"name":"Animation"},{"id":35,"name":"Comedy"},{"id":80,"name":"Crime"},{"id":99,"name":"Documentary"},{"id":18,"name":"Drama"},{"id":10751,"name":"Family"},{"id":10762,"name":"Kids"},{"id":9648,"name":"Mystery"},{"id":10763,"name":"News"},{"id":10764,"name":"Reality"},{"id":10765,"name":"Sci-Fi
         & Fantasy"},{"id":10766,"name":"Soap"},{"id":10767,"name":"Talk"},{"id":10768,"name":"War
         & Politics"},{"id":37,"name":"Western"}]}'
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:03 GMT
-recorded_with: VCR 3.0.1
+  recorded_at: Sat, 26 Nov 2022 18:52:51 GMT
+recorded_with: VCR 6.1.0

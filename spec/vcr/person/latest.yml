@@ -9,53 +9,57 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/2.7.7p221
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=0
       Content-Type:
       - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
       Date:
-      - Tue, 09 Feb 2016 15:17:12 GMT
-      Etag:
-      - '"2ca323bcb923da871f1a83c2a9f52dba"'
+      - Sat, 26 Nov 2022 18:52:59 GMT
       Server:
       - openresty
-      Status:
-      - 200 OK
+      Cache-Control:
+      - public, max-age=0
       X-Memc:
       - MISS
+      X-Memc-Key:
+      - b866ddd0da14cb6876ea5ab1cd5f40f85e623f38
       X-Memc-Age:
       - '0'
       X-Memc-Expires:
       - '0'
-      X-Memc-Key:
-      - f3535a1d77fc4fccfeaaa01025d7fe11
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '16'
-      X-Ratelimit-Reset:
-      - '1455031036'
-      Content-Length:
-      - '205'
-      Connection:
-      - keep-alive
+      Etag:
+      - W/"c7c51a7dfcb4c027abe5b64ab1a591d6"
+      Vary:
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 04c0d9b23685055107b7127f92f41e4c.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - MAD53-P2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - chpZEg2uy_4TE-HJhTCi1AqLMGLzkBKIT6cEASVPyD8b4VMZggxLvw==
     body:
-      encoding: UTF-8
-      string: '{"adult":false,"also_known_as":[],"biography":null,"birthday":null,"deathday":null,"homepage":null,"id":1574910,"imdb_id":"","name":"Ron
-        Lampkin","place_of_birth":null,"popularity":0.0,"profile_path":null}'
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:12 GMT
-recorded_with: VCR 3.0.1
+      encoding: ASCII-8BIT
+      string: '{"adult":false,"also_known_as":[],"biography":"","birthday":null,"deathday":null,"gender":0,"homepage":null,"id":3803743,"imdb_id":null,"known_for_department":"Acting","name":"Maria
+        Wiens","place_of_birth":null,"popularity":0.0,"profile_path":null}'
+  recorded_at: Sat, 26 Nov 2022 18:52:59 GMT
+recorded_with: VCR 6.1.0

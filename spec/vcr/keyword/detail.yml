@@ -9,52 +9,56 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/2.7.7p221
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
       Date:
-      - Tue, 09 Feb 2016 15:17:04 GMT
-      Etag:
-      - '"f40c57f52b981fc9c98420db18778d42"'
+      - Sat, 26 Nov 2022 18:52:51 GMT
       Server:
       - openresty
-      Status:
-      - 200 OK
+      Cache-Control:
+      - public, max-age=28800
       X-Memc:
       - MISS, STORE
+      X-Memc-Key:
+      - d86a7744fb34141f09f456d57a2b0fce33a91aa7
       X-Memc-Age:
       - '0'
       X-Memc-Expires:
-      - '28800'
-      X-Memc-Key:
-      - a9b43f55e00d7d2ca0ccea26b47c9b29
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '16'
-      X-Ratelimit-Reset:
-      - '1455031026'
-      Content-Length:
-      - '26'
-      Connection:
-      - keep-alive
+      - '15680'
+      Etag:
+      - W/"53dd242e0422889bc1d18043a8bf114f"
+      Vary:
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 c1214d711b9d87739d1d184e6539edfc.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - MAD53-P2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - 4_bav9kc9ObRNePBVzG38rO7feOr-IKuwkYaTc4O4klJdiwQtvlhsw==
     body:
-      encoding: UTF-8
+      encoding: ASCII-8BIT
       string: '{"id":1721,"name":"fight"}'
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:04 GMT
-recorded_with: VCR 3.0.1
+  recorded_at: Sat, 26 Nov 2022 18:52:51 GMT
+recorded_with: VCR 6.1.0

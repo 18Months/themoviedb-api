@@ -9,109 +9,69 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/2.7.7p221
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=21600
-      Content-Encoding:
-      - gzip
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:01 GMT
-      Etag:
-      - W/"bb0b1b0ce697b9a5de62beae156478dc"
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      Vary:
-      - Accept-Encoding
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '6602'
-      X-Memc-Expires:
-      - '14998'
-      X-Memc-Key:
-      - e40ec96533b45cf52000eb2d8938fbf9
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '24'
-      X-Ratelimit-Reset:
-      - '1455031026'
-      Content-Length:
-      - '2352'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
+      Date:
+      - Sat, 26 Nov 2022 18:52:50 GMT
+      Server:
+      - openresty
+      Cache-Control:
+      - public, max-age=28800
+      X-Memc:
+      - MISS, STORE
+      X-Memc-Key:
+      - d0ba56f9a7ff248467e1e504dd7f847ce1142160
+      X-Memc-Age:
+      - '0'
+      X-Memc-Expires:
+      - '21600'
+      Etag:
+      - W/"cfa1b517e8e8ecf33ae3b0151f01a1be"
+      Vary:
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 c1214d711b9d87739d1d184e6539edfc.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - MAD53-P2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - nSFnbNrzWu3M_6x6uFrx10LRJwiQjDOnNFx92oZsuXgFzI8STFk47g==
     body:
       encoding: ASCII-8BIT
-      string: !binary |-
-        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
-        5T//A4sjGD3OEwAA
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:01 GMT
-recorded_with: VCR 3.0.1
+      string: '{"movie_results":[],"person_results":[{"adult":false,"id":945599,"name":"Simon
+        Fuller","original_name":"Simon Fuller","media_type":"person","popularity":1.415,"gender":2,"known_for_department":"Creator","profile_path":null,"known_for":[{"adult":false,"backdrop_path":"/jB66SWgijY4bU8J4msxj768U9Qe.jpg","id":3626,"name":"American
+        Idol","original_language":"en","original_name":"American Idol","overview":"Each
+        year, hopeful singers from all over the country audition to be part of one
+        of the biggest shows in American television history. Who will become the new
+        American Idol?","poster_path":"/wF9LQcz2EzxO2Q34CvKE8sOxGTu.jpg","media_type":"tv","genre_ids":[10764],"popularity":37.782,"first_air_date":"2002-06-11","vote_average":5.167,"vote_count":135,"origin_country":["US"]},{"adult":false,"backdrop_path":"/4j3TvqwZ3tyxvelmZQRyvNAyDnk.jpg","id":3976,"name":"So
+        You Think You Can Dance","original_language":"en","original_name":"So You
+        Think You Can Dance","overview":"Dancers selected in open auditions across
+        America take part in a rigorous competition designed to best display their
+        talents, training and personalities to a panel of judges and viewers as they
+        strive to win votes and avoid elimination.","poster_path":"/e4JAJ3UGBmAshXQG69uH9AgnZkp.jpg","media_type":"tv","genre_ids":[10764],"popularity":22.266,"first_air_date":"2005-07-20","vote_average":7.236,"vote_count":55,"origin_country":["US"]},{"adult":false,"backdrop_path":"/5gf2fnt8QTdYdSQy2cuCklBseEl.jpg","id":14880,"name":"Little
+        Britain USA","original_language":"en","original_name":"Little Britain USA","overview":"Lucas
+        and David Walliams, the stars of the smash-hit BBC comedy Little Britain,
+        bring their unique blend of scripted comedy and characterization to America.","poster_path":"/nQ0N7uCQfNDTTtTNfJzDfH5YHB0.jpg","media_type":"tv","genre_ids":[35],"popularity":6.696,"first_air_date":"2008-09-28","vote_average":6.739,"vote_count":46,"origin_country":["US"]}]}],"tv_results":[],"tv_episode_results":[],"tv_season_results":[]}'
+  recorded_at: Sat, 26 Nov 2022 18:52:50 GMT
+recorded_with: VCR 6.1.0

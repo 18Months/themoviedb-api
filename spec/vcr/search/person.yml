@@ -9,12 +9,12 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
       User-Agent:
-      - rest-client/2.0.2 (darwin16.4.0 x86_64) ruby/2.4.1p111
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/2.7.7p221
       Content-Type:
       - application/json; charset=utf-8
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Host:
       - api.themoviedb.org
   response:
@@ -22,36 +22,62 @@ http_interactions:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Access-Control-Expose-Headers:
-      - ETag, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, Retry-After
-      Cache-Control:
-      - public, max-age=21600
-      Content-Encoding:
-      - gzip
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Sat, 03 Mar 2018 07:51:28 GMT
-      Server:
-      - openresty
-      Vary:
-      - Accept-Encoding
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '39'
-      X-Ratelimit-Reset:
-      - '1520063498'
-      Content-Length:
-      - '2096'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
+      Date:
+      - Sat, 26 Nov 2022 18:53:01 GMT
+      Server:
+      - openresty
+      Cache-Control:
+      - public, max-age=600
+      Vary:
+      - Accept-Encoding,Accept-Encoding
+      - Origin
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 48d20e4a7c48c095731e8e5968bc64a0.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - MAD53-P2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - G4vk5SZgkQc5nf9IrgpKQFMATVes6HQEGyIXG3gKBikrv8qPDSe3JA==
     body:
       encoding: ASCII-8BIT
-      string: !binary |-
-        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
-    http_version: 
-  recorded_at: Sat, 03 Mar 2018 07:51:28 GMT
-recorded_with: VCR 3.0.3
+      string: '{"page":1,"results":[{"adult":false,"gender":2,"id":130723,"known_for":[{"adult":false,"backdrop_path":"/vWIFVoKBwa5uHnokF6mc4DUfB9O.jpg","genre_ids":[27,53],"id":11133,"media_type":"movie","original_language":"en","original_title":"Poltergeist
+        II: The Other Side","overview":"The Freeling family move in with Diane''s
+        mother in an effort to escape the trauma and aftermath of Carol Anne''s abduction
+        by the Beast. But the Beast is not to be put off so easily and appears in
+        a ghostly apparition as the Reverend Kane, a religeous zealot responsible
+        for the deaths of his many followers. His goal is simple - he wants the angelic
+        Carol Anne.","poster_path":"/n85IZOC8R27TK5T5YaiwCtpvjv7.jpg","release_date":"1986-05-23","title":"Poltergeist
+        II: The Other Side","video":false,"vote_average":6,"vote_count":535},{"adult":false,"backdrop_path":"/cf7jOkeY8tqSnVRzAbdlUKQynhe.jpg","genre_ids":[10749,18],"id":10068,"media_type":"movie","original_language":"en","original_title":"Nine
+        1/2 Weeks","overview":"An erotic story about a woman, the assistant of an
+        art gallery, who gets involved in an impersonal affair with a man. She barely
+        knows about his life, only about the sex games they play, so the relationship
+        begins to get complicated.","poster_path":"/vnTCgupgTMZSGbl1InrO2UhTz9S.jpg","release_date":"1986-02-09","title":"Nine
+        1/2 Weeks","video":false,"vote_average":6.1,"vote_count":787},{"adult":false,"backdrop_path":"/gNSXF2AKz3mTNT9CSWma9gxnwBR.jpg","genre_ids":[18],"id":42691,"media_type":"movie","original_language":"it","original_title":"Edipo
+        re","overview":"In pre-war Italy, a young couple have a baby boy. The father,
+        however, is jealous of his son - and the scene moves to antiquity, where the
+        baby is taken into the desert to be killed. He is rescued, given the name
+        Edipo (Oedipus), and brought up by the King and Queen of Corinth as their
+        son. One day an oracle informs Edipo that he is destined to kill his father
+        and marry his mother. Horrified, he flees Corinth and his supposed parents
+        - only to get into a fight and kill an older man on the road...","poster_path":"/7R3yPlLdiNhpGzasB8SDCT6Kwy.jpg","release_date":"1967-09-07","title":"Oedipus
+        Rex","video":false,"vote_average":6.6,"vote_count":212}],"known_for_department":"Acting","name":"Julian
+        Beck","popularity":6.292,"profile_path":"/8bujAoKVLxTPvggUpDYSGfnKHR4.jpg"},{"adult":false,"gender":0,"id":1941062,"known_for":[{"adult":false,"genre_ids":[18,36],"id":492646,"media_type":"movie","original_language":"en","original_title":"Seven
+        Meditations on Political Sado-Masochism","overview":"A visceral examination
+        of the social contract between the governed and the government, the play explores
+        Leopold von Sacher-Masoch''s Six Houses of Bondage: Love, Money, Property,
+        State, War and Death, with a seventh meditation on Revolutionary Change.\r
+        \"Seven Meditations...\" was created in 1973 by Julian Beck, Judith Malina
+        & Friends.","poster_path":"/bYWEcFHKhcTdHdmnmN4uCnvNN0R.jpg","release_date":"2011-03-27","title":"Seven
+        Meditations on Political Sado-Masochism","video":true,"vote_average":0,"vote_count":0}],"known_for_department":"Writing","name":"Julian
+        Beck","popularity":0.6,"profile_path":null}],"total_pages":1,"total_results":2}'
+  recorded_at: Sat, 26 Nov 2022 18:53:01 GMT
+recorded_with: VCR 6.1.0

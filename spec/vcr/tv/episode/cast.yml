@@ -9,71 +9,80 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/2.7.7p221
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
-      Content-Encoding:
-      - gzip
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:15 GMT
-      Etag:
-      - W/"e499a6e80b96f52688fd72eccb818c3c"
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      Vary:
-      - Accept-Encoding
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '6600'
-      X-Memc-Expires:
-      - '22200'
-      X-Memc-Key:
-      - 36375be959dcc921d1513d0b95bb5e1b
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '3'
-      X-Ratelimit-Reset:
-      - '1455031036'
-      Content-Length:
-      - '654'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
+      Date:
+      - Sat, 26 Nov 2022 18:53:01 GMT
+      Server:
+      - openresty
+      Cache-Control:
+      - public, max-age=28800
+      X-Memc:
+      - MISS, STORE
+      X-Memc-Key:
+      - 7d63161267772807c2e840f56d83c162ff645afe
+      X-Memc-Age:
+      - '0'
+      X-Memc-Expires:
+      - '17064'
+      Etag:
+      - W/"7a934d5a59f9b2aefe94162b869bc487"
+      Vary:
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 7d42866906e0f2c5ff5f028a78862f5c.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - MAD53-P2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - zl5bMiQYdl5cFhaUhOdNOkrYF5GRYqzB74qTU6-7u0nEz4GzMp36lg==
     body:
       encoding: ASCII-8BIT
-      string: !binary |-
-        H4sIAAAAAAAAA52U3VKjMACFX4Xh2lECBIp3bVnFYm0t3Wl1Z8cJECgtEjaE
-        InV8d5Na6fZnrbNXTEjI+XLOCa9ygAomX/56lYMZoihgmMqXsnwmBxSHCXtK
-        Qj6EKjShppnAClQLaiD0ATBUBfNlYh4owLDO5Aw9Y754jNO0ljy0RCkq+Iqc
-        kihJ8VOO2IxPX+R3cJ7cho67sqdZ6/rRGWY9pwrRC3DO53nMvyA0FBTK29l/
-        UGnBhkpXdENrqGyUSVcUrfhGh0hR1bZc6Lfjn8twErWBybLu/WqcJ/V0Fwns
-        I3kxO5c6xPdrqUtJsFhvfxrSQI11EFqwoXTxMskkm/gFyY5wvnTT4N4caI+D
-        ES371eAqWJUPNWr3O+NdTnWf81tUVmtDZbYUCzRQ15jQGH+R6KyMHFaHkdtJ
-        aTW7oa46gR65gRnzd7G072FZu1iB9WmWqukaaDVgfUQX0qgsCt64A6ysTNNG
-        WH/7vVaq1k3/2AvoyjF1Vf1bXYeWKjeCbZFzH2UimxDniLJnnPHbI09owpJM
-        nHRO/M34SNMEk7BgDQANUc/TAL6xBeiRAuczHgUPhAvvUdgJxcEOx8cbckgi
-        X0A8vO95kT4aVte2VvSeg6tuHCmtvrNYhyYci0tcsKeCIVpsjVM0s+FxEF3i
-        WnIxP66I4PRpsLBzrwKf9/0QktyM79jEs6u2OvNLr7wN3WnvcTEdePMPyE8z
-        VQAtY1vZURIsJKekhfDoJJSh6P+EAvtQuxmalmZs0+GPQvJSUiPRkNO6qoj2
-        uK76la4K4fafYaNlEkpDSvj1/JaqLq75cVVtX1W+KOed1dAA7CGt/kzyjkYG
-        L4ssBdPyR9z0ZMNk6sbbOwRP1ntRBgAA
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:15 GMT
-recorded_with: VCR 3.0.1
+      string: '{"cast":[{"adult":false,"gender":2,"id":10169,"known_for_department":"Acting","name":"Telly
+        Savalas","original_name":"Telly Savalas","popularity":17.193,"profile_path":"/8rNwSBuLsVeUWlU3IRFrHwIfdm.jpg","character":"Theo
+        Kojak","credit_id":"5257533719c29531db11620e","order":0},{"adult":false,"gender":2,"id":40463,"known_for_department":"Acting","name":"Dan
+        Frazer","original_name":"Dan Frazer","popularity":4.47,"profile_path":"/tBe7tZ4Hyzs7cnGFSpBiEGcwQII.jpg","character":"Frank
+        McNeill","credit_id":"5257533719c29531db11623c","order":1},{"adult":false,"gender":2,"id":105595,"known_for_department":"Acting","name":"Kevin
+        Dobson","original_name":"Kevin Dobson","popularity":2.479,"profile_path":"/vur5OEi36P2relSZ4pfam4v6hu.jpg","character":"Bobby
+        Crocker","credit_id":"5257533719c29531db11626a","order":2},{"adult":false,"gender":2,"id":78091,"known_for_department":"Acting","name":"George
+        Savalas","original_name":"George Savalas","popularity":3.146,"profile_path":"/6LldftjuRCfldm56DOVEUump48j.jpg","character":"Curly
+        Stavors","credit_id":"5257533719c29531db116298","order":3},{"adult":false,"gender":2,"id":1234318,"known_for_department":"Acting","name":"Mark
+        Russell","original_name":"Mark Russell","popularity":1.761,"profile_path":"/trlBsJk0zZGfXT3R5yWidh2NcTE.jpg","character":"Percy
+        Saperstein","credit_id":"5257533919c29531db1162c9","order":4}],"crew":[{"department":"Directing","job":"Director","credit_id":"5257532219c29531db1145b6","adult":false,"gender":2,"id":15663,"known_for_department":"Directing","name":"Joseph
+        Sargent","original_name":"Joseph Sargent","popularity":2.522,"profile_path":"/tdRughmKCOifv5nHJLSkrCGhG9J.jpg"},{"department":"Writing","job":"Writer","credit_id":"5257532219c29531db114592","adult":false,"gender":0,"id":12140,"known_for_department":"Writing","name":"Abby
+        Mann","original_name":"Abby Mann","popularity":2.43,"profile_path":null},{"job":"Editor","department":"Editing","credit_id":"59c2fe799251415b54002a73","adult":false,"gender":2,"id":1704093,"known_for_department":"Editing","name":"John
+        Kaufman","original_name":"John Kaufman","popularity":0.98,"profile_path":null},{"job":"Director
+        of Photography","department":"Camera","credit_id":"59c2fe6f9251415b24002c88","adult":false,"gender":2,"id":151454,"known_for_department":"Camera","name":"Gerald
+        Perry Finnerman","original_name":"Gerald Perry Finnerman","popularity":0.857,"profile_path":null},{"job":"Art
+        Direction","department":"Art","credit_id":"59c2fe8b9251415b32002b0c","adult":false,"gender":2,"id":7186,"known_for_department":"Art","name":"John
+        J. Lloyd","original_name":"John J. Lloyd","popularity":0.706,"profile_path":"/58BrNFWf31APqVfPEdJveqLnmfy.jpg"}],"guest_stars":[{"character":"Jerry
+        Talaba","credit_id":"5257532219c29531db1145e2","order":516,"adult":false,"gender":2,"id":1037,"known_for_department":"Acting","name":"Harvey
+        Keitel","original_name":"Harvey Keitel","popularity":19.833,"profile_path":"/7P30hza1neYWW3r7rSQOC736K2Z.jpg"},{"character":"Crew
+        Cut Hostage","credit_id":"5257532219c29531db114604","order":639,"adult":false,"gender":2,"id":1215961,"known_for_department":"Acting","name":"Rick
+        Hurst","original_name":"Rick Hurst","popularity":7.161,"profile_path":"/9BeOCN6X4GBVStGVidxdLlWR4sO.jpg"},{"character":"Jack
+        Murzie","credit_id":"5257532219c29531db114626","order":722,"adult":false,"gender":2,"id":157936,"known_for_department":"Acting","name":"James
+        Sloyan","original_name":"James Sloyan","popularity":3.576,"profile_path":"/zlQIU509Ew9ekIVQd3HzjYj5g6U.jpg"},{"character":"Calvelli","credit_id":"5257532219c29531db114648","order":814,"adult":false,"gender":2,"id":2555,"known_for_department":"Acting","name":"David
+        Proval","original_name":"David Proval","popularity":8.141,"profile_path":"/ku3LWQXiJ80nWgs21fKvTMaR6Ui.jpg"}],"id":255746}'
+  recorded_at: Sat, 26 Nov 2022 18:53:01 GMT
+recorded_with: VCR 6.1.0

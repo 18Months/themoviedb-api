@@ -9,52 +9,56 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/2.7.7p221
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:19 GMT
-      Etag:
-      - '"f7b3f7a030aa20bb3df511c2c2b50021"'
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '9400'
-      X-Memc-Expires:
-      - '19400'
-      X-Memc-Key:
-      - 2709fe3f55707aaf5bc6c308d1f2b01c
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '26'
-      X-Ratelimit-Reset:
-      - '1455031046'
-      Content-Length:
-      - '128'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
+      Date:
+      - Sat, 26 Nov 2022 18:52:40 GMT
+      Server:
+      - openresty
+      Cache-Control:
+      - public, max-age=28800
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - 77757996bb4718d702dd96de01d554703df0aba2
+      X-Memc-Age:
+      - '7242'
+      X-Memc-Expires:
+      - '10115'
+      Etag:
+      - W/"e9f2c356efd1675bb5241fc8dd34baec"
+      Vary:
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 27b6689b1a55964bce73c502075b687c.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - MAD53-P2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - cJ0sONvHIBSiSpYgmg-WT-FCP7kRs4KAdMX_sVJA26XxLwdtrKTvhQ==
     body:
-      encoding: UTF-8
-      string: '{"results":[{"iso_3166_1":"DE","rating":"16"},{"iso_3166_1":"GB","rating":"18"},{"iso_3166_1":"US","rating":"TV-MA"}],"id":1396}'
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:19 GMT
-recorded_with: VCR 3.0.1
+      encoding: ASCII-8BIT
+      string: '{"results":[{"iso_3166_1":"DE","rating":"16"},{"iso_3166_1":"GB","rating":"18"},{"iso_3166_1":"AU","rating":"MA15+"},{"iso_3166_1":"US","rating":"TV-MA"},{"iso_3166_1":"FR","rating":"12"},{"iso_3166_1":"RU","rating":"18+"},{"iso_3166_1":"KR","rating":"19"},{"iso_3166_1":"BR","rating":"18"},{"iso_3166_1":"NL","rating":"16"},{"iso_3166_1":"PT","rating":"18"},{"iso_3166_1":"HU","rating":"18"},{"iso_3166_1":"LT","rating":"N-14"},{"iso_3166_1":"ES","rating":"16"}],"id":1396}'
+  recorded_at: Sat, 26 Nov 2022 18:52:40 GMT
+recorded_with: VCR 6.1.0

@@ -9,71 +9,72 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/2.7.7p221
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
-      Content-Encoding:
-      - gzip
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:15 GMT
-      Etag:
-      - W/"013462991054b930b10629e27d5a37db"
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      Vary:
-      - Accept-Encoding
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '25278'
-      X-Memc-Expires:
-      - '3522'
-      X-Memc-Key:
-      - 0c559bbdcf116f54a66c1b49f1415956
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '5'
-      X-Ratelimit-Reset:
-      - '1455031036'
-      Content-Length:
-      - '650'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
+      Date:
+      - Sat, 26 Nov 2022 18:53:01 GMT
+      Server:
+      - openresty
+      Cache-Control:
+      - public, max-age=28800
+      X-Memc:
+      - MISS, STORE
+      X-Memc-Key:
+      - b75d8d1dc9599068b8938528b097c06faaa9e4df
+      X-Memc-Age:
+      - '0'
+      X-Memc-Expires:
+      - '17078'
+      Etag:
+      - W/"da89be1fc919812f47bc031653bdc2c2"
+      Vary:
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 0b3f7a0dbb3e067507fa2eb950742c30.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - MAD53-P2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - hG9MSZxgtvOF6LJkIWtgT1MY3fkp3FpEzHAIZeAvwP5VVPNTlBFYpA==
     body:
       encoding: ASCII-8BIT
-      string: !binary |-
-        H4sIAAAAAAAAA42UW3PaMBCF/4pGT+2MQ3zBJvCWlKaUNA2NM0PaTscj24st
-        MJarC5Rm8t+7Apdc2+SBAR0k7edzdn1DGZdJzjTQAfX6veDAcw/8LnVoJmFN
-        B99vKM/pwPO9rrvVcq4Tq9DQD3th4PteP/P7YeDlqed1w76PR2u2tNcdp+mG
-        nLO6RimHhkm9hFrjH1PJNa8LlOcibdcgcdlIMeMVJA3TJR3UpqpunRYgjKLg
-        NQBpdAcwFgqaksRMFrbwI4ohl5A94Ngp4ikJPQxh8mUcz7qXk/WHYaDGy+z0
-        XTFzj85Hi868KejtD4dCw5XIIanNMsXHGXgOLQwonSjNpLrz0g16e8QRkyvY
-        kDNAB6qd6y88IFiHs5JJllnTBhSXQub2p/uUW3y8+qyn8XB97Jepic2n/Ox6
-        /G1xfRHPd9x//fW9sB95e65Lni3IyEhlbXsRKnK3HfMslPcY6mGsvX4Q3QWG
-        X4rEldgw2zQv1/Vt2s/X9f9X1w/DcF91yFY8JxMpVuxVEUTdo39WDR5XpYdm
-        fvJ7Enn6a7X+OW1OAnHxa1FX3rV5X+xbpyWJORRAxIxcgZTbPhQrkCtuJ5FO
-        S6gJIyeS1wtFrqTBhErgSpNCoGspywmr8UNKgQ2H9yiuDdNc4CnJFSiHnIk5
-        WxDExv2sYLzGw7oEklUCL9OC5HxmFGy1/ekOGQEpmSJ6LfBu7Am7cyZht6+t
-        plARS1SsLkWKE6DImwft7ZBdvuNOGzEKJgdyyiQoeEs4gtbkWC43RBnZVEYR
-        hdMIHfShDa3XjbYG5yazaEmG87ZL1qEKmELp3vQpzavqXvoOXQkNCUNPkRjn
-        peO2UiaMfSe4t38AzHUaBBAFAAA=
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:15 GMT
-recorded_with: VCR 3.0.1
+      string: '{"air_date":"1973-10-24","crew":[{"department":"Directing","job":"Director","credit_id":"5257532219c29531db1145b6","adult":false,"gender":2,"id":15663,"known_for_department":"Directing","name":"Joseph
+        Sargent","original_name":"Joseph Sargent","popularity":2.522,"profile_path":"/tdRughmKCOifv5nHJLSkrCGhG9J.jpg"},{"department":"Writing","job":"Writer","credit_id":"5257532219c29531db114592","adult":false,"gender":0,"id":12140,"known_for_department":"Writing","name":"Abby
+        Mann","original_name":"Abby Mann","popularity":2.43,"profile_path":null},{"job":"Editor","department":"Editing","credit_id":"59c2fe799251415b54002a73","adult":false,"gender":2,"id":1704093,"known_for_department":"Editing","name":"John
+        Kaufman","original_name":"John Kaufman","popularity":0.98,"profile_path":null},{"job":"Director
+        of Photography","department":"Camera","credit_id":"59c2fe6f9251415b24002c88","adult":false,"gender":2,"id":151454,"known_for_department":"Camera","name":"Gerald
+        Perry Finnerman","original_name":"Gerald Perry Finnerman","popularity":0.857,"profile_path":null},{"job":"Art
+        Direction","department":"Art","credit_id":"59c2fe8b9251415b32002b0c","adult":false,"gender":2,"id":7186,"known_for_department":"Art","name":"John
+        J. Lloyd","original_name":"John J. Lloyd","popularity":0.706,"profile_path":"/58BrNFWf31APqVfPEdJveqLnmfy.jpg"}],"episode_number":1,"guest_stars":[{"character":"Jerry
+        Talaba","credit_id":"5257532219c29531db1145e2","order":516,"adult":false,"gender":2,"id":1037,"known_for_department":"Acting","name":"Harvey
+        Keitel","original_name":"Harvey Keitel","popularity":19.833,"profile_path":"/7P30hza1neYWW3r7rSQOC736K2Z.jpg"},{"character":"Crew
+        Cut Hostage","credit_id":"5257532219c29531db114604","order":639,"adult":false,"gender":2,"id":1215961,"known_for_department":"Acting","name":"Rick
+        Hurst","original_name":"Rick Hurst","popularity":7.161,"profile_path":"/9BeOCN6X4GBVStGVidxdLlWR4sO.jpg"},{"character":"Jack
+        Murzie","credit_id":"5257532219c29531db114626","order":722,"adult":false,"gender":2,"id":157936,"known_for_department":"Acting","name":"James
+        Sloyan","original_name":"James Sloyan","popularity":3.576,"profile_path":"/zlQIU509Ew9ekIVQd3HzjYj5g6U.jpg"},{"character":"Calvelli","credit_id":"5257532219c29531db114648","order":814,"adult":false,"gender":2,"id":2555,"known_for_department":"Acting","name":"David
+        Proval","original_name":"David Proval","popularity":8.141,"profile_path":"/ku3LWQXiJ80nWgs21fKvTMaR6Ui.jpg"}],"name":"Siege
+        of Terror","overview":"Kojak has two hours to free the hostages from three
+        robbers in an Army surplus store.","id":255746,"production_code":"","runtime":60,"season_number":1,"still_path":"/pAznrflVb54IkFCWxep6ECgagPV.jpg","vote_average":0.0,"vote_count":0}'
+  recorded_at: Sat, 26 Nov 2022 18:53:01 GMT
+recorded_with: VCR 6.1.0

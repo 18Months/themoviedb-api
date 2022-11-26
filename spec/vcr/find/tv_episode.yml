@@ -2,78 +2,64 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.themoviedb.org/3/find/121361?api_key=c29379565234e20d7cbf4f2e835c3e41&external_source=tvdb_id&language=en
+    uri: http://api.themoviedb.org/3/find/1924016?api_key=c29379565234e20d7cbf4f2e835c3e41&external_source=tvdb_id&language=en
     body:
       encoding: US-ASCII
       string: ''
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/2.7.7p221
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=21600
-      Content-Encoding:
-      - gzip
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:02 GMT
-      Etag:
-      - W/"ba983ea21b3c5553746c72cbdf96739c"
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      Vary:
-      - Accept-Encoding
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '20647'
-      X-Memc-Expires:
-      - '953'
-      X-Memc-Key:
-      - b2b2d5b5c403479427a32475da3e48f4
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '21'
-      X-Ratelimit-Reset:
-      - '1455031026'
-      Content-Length:
-      - '670'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
+      Date:
+      - Sat, 26 Nov 2022 19:24:22 GMT
+      Server:
+      - openresty
+      Cache-Control:
+      - public, max-age=28800
+      X-Memc:
+      - MISS, STORE
+      X-Memc-Key:
+      - b649ad34891730973e93eb134153d493e2d5d323
+      X-Memc-Age:
+      - '0'
+      X-Memc-Expires:
+      - '21600'
+      Etag:
+      - W/"3b2157e907b79b0b2a3a348185219ffd"
+      Vary:
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 4fb361dabf6902582234513aa6a23540.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - MAD53-P2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - P0yc8mfKnEmPMaeFZ6JnQ6syp4WfzmDtxlnp-2KTKPNCSthFmMxKMQ==
     body:
       encoding: ASCII-8BIT
-      string: !binary |-
-        H4sIAAAAAAAAA3VT2XLbIBT9FYaXvsiuFku2/Ja0WZulrRO7maajQRKScBBo
-        AFmjyeTfe1Fs126nT8BdDuccLq+4lhtGE0V1y43G85+/HNxQpaU4jpnNwfkV
-        pyR7yZVskoaYCs/xx/rxpc38rl/G+eXNhfvZvZGkC5t7X8/G66bEDi6Y0iYh
-        TCU5MRR6fNfzRu5k5E0hW1KhaMJyC++50yh0vJkTRA7swxjuZzmee0EcO1gq
-        VjJBeMKJKFtSWigq8EFCkNoGL2BBskAPlZKCaluxoQrUdpBc0A0VSMiUU1SQ
-        mnFGNSpYWRlUSIUyKYyS3LabiqK6NxXLCEdwZ26DK6oNVVKP0blimWFSoJSa
-        jgKmra9kqwGPU5JrZCQqWs5HGgAo6ogaoxPOUVcxOBIEnHpERMaoMIhuGEek
-        Iy9UaMTewQqiYNEG2MIGmmuwyQwpAHMAQtCS08zQHFkhhgCgVDlVlmnNdMGM
-        dob6Oyvwg0YrYrLKQUwjAkxMRQzSBqTpIxWKEl7rAQQiVjnLetCmlFS2spci
-        Hz+L5z/mJ5lswbgeHhE/LrCdJWmN2o/J+qq6iWr+MD1JeZVeXpdnkp1e3T8u
-        ubcdk0Y2LSeKGQDxpuM4mMy80MH/fdONNDQhYOIwCbNxuA0NTPB8Movf3seX
-        NkzL/HDUX/HBNHpxGI1cf+RHALqrFW2dUoXnvr9n8JWTbKCwqEguO0vBzmYQ
-        RlHgOlhTYv/OrtGDiGGc7w3I3G8mbKU6D1aXm7i5/VItw7ZRd/2Sbw3QlewS
-        Cxn60+Bvfe7YPdbnbtVt7/2vuOnMfjV3sqXrx9Ek3mtaDM3IG+w/fi/+/WmS
-        mtv8KV9f92v3x9np6lZ/Or9L2Y7uv4J3ArzYD8D9t98r6k1YZQQAAA==
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:02 GMT
-recorded_with: VCR 3.0.1
+      string: '{"movie_results":[],"person_results":[],"tv_results":[],"tv_episode_results":[],"tv_season_results":[{"id":126785,"name":"Season
+        1","overview":"","poster_path":"/csDPKzcTH6IaRekE1YVmbLUa23f.jpg","media_type":"tv_season","air_date":"2022-11-17","season_number":1,"show_id":90669,"episode_count":8}]}'
+  recorded_at: Sat, 26 Nov 2022 19:24:22 GMT
+recorded_with: VCR 6.1.0

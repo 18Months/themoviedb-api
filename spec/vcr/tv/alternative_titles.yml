@@ -9,60 +9,57 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/2.7.7p221
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:19 GMT
-      Etag:
-      - '"589aaa6e7f3afef8ec9dc9a8d4612494"'
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '17768'
-      X-Memc-Expires:
-      - '11032'
-      X-Memc-Key:
-      - f32970bb12433bcdf536f07108ac7a72
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '28'
-      X-Ratelimit-Reset:
-      - '1455031046'
-      Content-Length:
-      - '331'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
+      Date:
+      - Sat, 26 Nov 2022 18:52:40 GMT
+      Server:
+      - openresty
+      Cache-Control:
+      - public, max-age=28800
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - d386446f299ed89ab6dec807188288bd66745427
+      X-Memc-Age:
+      - '16313'
+      X-Memc-Expires:
+      - '250'
+      Etag:
+      - W/"eb1fe5b07f69ccd31aae13cada8ac1e7"
+      Vary:
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 f2727c44c4de3e46c8cb9f7afb6c780e.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - MAD53-P2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - Gs9r_hytN2RHhURO97YcJbMl2v4ybAbcsv_uwb-7XoI7AIUQRsMbDg==
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        eyJpZCI6MTM5NiwicmVzdWx0cyI6W3sidGl0bGUiOiJCcmVha2luZyBCYWQ6
-        IEEgUXXDrW1pY2EgZG8gTWFsIiwiaXNvXzMxNjZfMSI6IkJSIn0seyJ0aXRs
-        ZSI6IlNob3ZlciBzaHVyb3QiLCJpc29fMzE2Nl8xIjoiSUwifSx7InRpdGxl
-        IjoiQmFkIEJpYXJpIiwiaXNvXzMxNjZfMSI6IklSIn0seyJ0aXRsZSI6IkJy
-        ZWFraW5nIEJhZCAtIFJlYXppb25pIGNvbGxhdGVyYWxpIiwiaXNvXzMxNjZf
-        MSI6IklUIn0seyJ0aXRsZSI6IkJ1cmVpa2luZ3UgYmFkZG8iLCJpc29fMzE2
-        Nl8xIjoiSlAifSx7InRpdGxlIjoiQnLEmXN0YW50aXMgYmxvZ2lzIiwiaXNv
-        XzMxNjZfMSI6IkxUIn1dfQ==
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:19 GMT
-recorded_with: VCR 3.0.1
+        eyJpZCI6MTM5NiwicmVzdWx0cyI6W3siaXNvXzMxNjZfMSI6IkJHIiwidGl0bGUiOiLQkiDQvtCx0YPQstC60LjRgtC1INC90LAg0KHQsNGC0LDQvdCw0YLQsCIsInR5cGUiOiIifSx7Imlzb18zMTY2XzEiOiJCUiIsInRpdGxlIjoiQnJlYWtpbmcgQmFkOiBBIFF1w61taWNhIGRvIE1hbCIsInR5cGUiOiIifSx7Imlzb18zMTY2XzEiOiJDTiIsInRpdGxlIjoi57ud5ZG95q+S5biIIiwidHlwZSI6IiJ9LHsiaXNvXzMxNjZfMSI6IkNOIiwidGl0bGUiOiLnu53lkb3mr5LluIggMjAwOCIsInR5cGUiOiIifSx7Imlzb18zMTY2XzEiOiJDWiIsInRpdGxlIjoiUGVybsOta292w70gdMOhdGEiLCJ0eXBlIjoiIn0seyJpc29fMzE2Nl8xIjoiRUUiLCJ0aXRsZSI6IkhhbHZhbGUgdGVlbGUiLCJ0eXBlIjoiIn0seyJpc29fMzE2Nl8xIjoiRVMiLCJ0aXRsZSI6IlJvbXBpZW5kbyBUdXMgTMOtbWl0ZXMgTW9yYWxlcyIsInR5cGUiOiIifSx7Imlzb18zMTY2XzEiOiJHUiIsInRpdGxlIjoizqPPgM6szrbOv869z4TOsc+CIM+EzrEgzrfOuM65zrrOrCDPg86/z4Ugz4zPgc65zrEiLCJ0eXBlIjoiIn0seyJpc29fMzE2Nl8xIjoiSFIiLCJ0aXRsZSI6Ik5hIHB1dHUgcHJlbWEgZG9samUiLCJ0eXBlIjoiIn0seyJpc29fMzE2Nl8xIjoiSFUiLCJ0aXRsZSI6IlRvdMOhbCBzesOtdsOhcyIsInR5cGUiOiIifSx7Imlzb18zMTY2XzEiOiJJTCIsInRpdGxlIjoiU2hvdmVyIHNodXJvdCIsInR5cGUiOiJyb21hbml6YXRpb24ifSx7Imlzb18zMTY2XzEiOiJJUiIsInRpdGxlIjoi2KfZgdiz2KfYsSDar9iz24zYrtiq2YciLCJ0eXBlIjoiIn0seyJpc29fMzE2Nl8xIjoiSVQiLCJ0aXRsZSI6IkJyZWFraW5nIEJhZCAtIFJlYXppb25pIGNvbGxhdGVyYWxpIiwidHlwZSI6IiJ9LHsiaXNvXzMxNjZfMSI6IkpQIiwidGl0bGUiOiJCdXJlaWtpbmd1IGJhZGRvIiwidHlwZSI6InJvbWFqaSJ9LHsiaXNvXzMxNjZfMSI6IkpQIiwidGl0bGUiOiLjg5bjg6zjgqTjgq3jg7PjgrDjg7vjg5Djg4Pjg4kiLCJ0eXBlIjoiIn0seyJpc29fMzE2Nl8xIjoiTFQiLCJ0aXRsZSI6IkJyxJlzdGFudGlzIGJsb2dpcyIsInR5cGUiOiIifSx7Imlzb18zMTY2XzEiOiJMViIsInRpdGxlIjoiUMSBcmvEgXB0IHJvYmXFvnUiLCJ0eXBlIjoiIn0seyJpc29fMzE2Nl8xIjoiUFQiLCJ0aXRsZSI6IkJyZWFraW5nIEJhZDogUnVwdHVyYSBUb3RhbCIsInR5cGUiOiIifSx7Imlzb18zMTY2XzEiOiJSUyIsInRpdGxlIjoi0KfQuNGB0YLQsCDRhdC10LzQuNGY0LAiLCJ0eXBlIjoiIn0seyJpc29fMzE2Nl8xIjoiUlUiLCJ0aXRsZSI6ItCS0L4g0LLRgdC1INGC0Y/QttC60LjQtSIsInR5cGUiOiIifSx7Imlzb18zMTY2XzEiOiJTSSIsInRpdGxlIjoiS3JpdmEgcG90YSIsInR5cGUiOiIifSx7Imlzb18zMTY2XzEiOiJTSyIsInRpdGxlIjoiUGVybsOta292w70gdGF0a28iLCJ0eXBlIjoiIn0seyJpc29fMzE2Nl8xIjoiVFciLCJ0aXRsZSI6Iue1leWRveavkuW4qyIsInR5cGUiOiIifSx7Imlzb18zMTY2XzEiOiJVQSIsInRpdGxlIjoi0J/Rg9GB0YLQuNGC0LjRgdGPINCx0LXRgNC10LPQsCIsInR5cGUiOiIifSx7Imlzb18zMTY2XzEiOiJVWiIsInRpdGxlIjoiRWdyaWxpayBzYXJpIiwidHlwZSI6IiJ9LHsiaXNvXzMxNjZfMSI6IlZOIiwidGl0bGUiOiJU4bqtcCBMw6BtIE5nxrDhu51pIFjhuqV1IiwidHlwZSI6IiJ9XX0=
+  recorded_at: Sat, 26 Nov 2022 18:52:40 GMT
+recorded_with: VCR 6.1.0

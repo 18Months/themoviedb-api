@@ -9,55 +9,59 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/2.7.7p221
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:20 GMT
-      Etag:
-      - '"1611fd42ecc70dd32e6f06a6f01d3ae8"'
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '14095'
-      X-Memc-Expires:
-      - '14705'
-      X-Memc-Key:
-      - 487391286c1d80d481adf648de73a9c2
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '20'
-      X-Ratelimit-Reset:
-      - '1455031046'
-      Content-Length:
-      - '383'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
+      Date:
+      - Sat, 26 Nov 2022 18:52:41 GMT
+      Server:
+      - openresty
+      Cache-Control:
+      - public, max-age=28800
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - 436da8cc2088c0c49a944b22c6bef5b60a92c709
+      X-Memc-Age:
+      - '7243'
+      X-Memc-Expires:
+      - '8894'
+      Etag:
+      - W/"9c0c89669059313b13e674fa97087956"
+      Vary:
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 04c0d9b23685055107b7127f92f41e4c.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - MAD53-P2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - KCRc9SHdQrbxuDuBCSGahra7m0UNirl_5Fz756uiBl5VpuYw_5Q1-A==
     body:
-      encoding: UTF-8
-      string: '{"id":1396,"results":[{"id":18198,"name":"drugs"},{"id":190008,"name":"outlaws"},{"id":191005,"name":"albuquerque"},{"id":191199,"name":"criminal
-        lawyer"},{"id":15484,"name":"meth lab"},{"id":15009,"name":"criminal"},{"id":41525,"name":"high
-        school teacher"},{"id":2231,"name":"drug dealer"},{"id":156805,"name":"dea
-        agent"},{"id":10163,"name":"cancer"},{"id":14536,"name":"crime"}]}'
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:20 GMT
-recorded_with: VCR 3.0.1
+      encoding: ASCII-8BIT
+      string: '{"id":1396,"results":[{"name":"drug dealer","id":2231},{"name":"psychopath","id":6259},{"name":"new
+        mexico","id":1508},{"name":"terminal illness","id":6564},{"name":"outlaw","id":9503},{"name":"cancer","id":10163},{"name":"drugs","id":14964},{"name":"criminal","id":15009},{"name":"meth
+        lab","id":15484},{"name":"high school teacher","id":41525},{"name":"dea agent","id":156805},{"name":"albuquerque","id":191005},{"name":"criminal
+        lawyer","id":191199},{"name":"cartel","id":206594},{"name":"crystal meth","id":239108},{"name":"methamphetamine","id":281692}]}'
+  recorded_at: Sat, 26 Nov 2022 18:52:41 GMT
+recorded_with: VCR 6.1.0

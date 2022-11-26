@@ -9,53 +9,57 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/2.7.7p221
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:21 GMT
-      Etag:
-      - '"4462cc2797d85f06bab506e2edf3d527"'
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '10165'
-      X-Memc-Expires:
-      - '18635'
-      X-Memc-Key:
-      - 719287b62ba4fcdfb83f693a60c9eeed
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '17'
-      X-Ratelimit-Reset:
-      - '1455031046'
-      Content-Length:
-      - '180'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
+      Date:
+      - Sat, 26 Nov 2022 18:52:41 GMT
+      Server:
+      - openresty
+      Cache-Control:
+      - public, max-age=28800
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - a7e3de0ecd02eb68b050e339dee0ae3d5c2849fc
+      X-Memc-Age:
+      - '15415'
+      X-Memc-Expires:
+      - '2560'
+      Etag:
+      - W/"c057e28bc9d69aa5c71a29fa8c55ce84"
+      Vary:
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 052639a3fdbf583b98df88e0f378ee72.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - MAD53-P2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - ESEPTq8LJRtGTTFSiy6Sr9E5eglmP1qF0jE5Kc8Ju-lLTsKRMTBr3w==
     body:
-      encoding: UTF-8
-      string: '{"id":1396,"results":[{"id":"5335e299c3a368265000001d","iso_639_1":"en","key":"6OdIbPMU720","name":"Opening
-        Credits (Short)","site":"YouTube","size":480,"type":"Opening Credits"}]}'
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:21 GMT
-recorded_with: VCR 3.0.1
+      encoding: ASCII-8BIT
+      string: '{"id":1396,"results":[{"iso_639_1":"en","iso_3166_1":"US","name":"Series
+        Trailer","key":"XZ8daibM3AE","published_at":"2013-03-25T16:28:54.000Z","site":"YouTube","size":480,"type":"Trailer","official":true,"id":"5759db2fc3a3683e7c003df7"}]}'
+  recorded_at: Sat, 26 Nov 2022 18:52:41 GMT
+recorded_with: VCR 6.1.0
