@@ -19,7 +19,6 @@ describe Tmdb::Search do
   it { is_expected.to respond_to(:company) }
   it { is_expected.to respond_to(:collection) }
   it { is_expected.to respond_to(:keyword) }
-  it { is_expected.to respond_to(:list) }
   it { is_expected.to respond_to(:movie) }
   it { is_expected.to respond_to(:multi) }
   it { is_expected.to respond_to(:person) }
@@ -70,22 +69,6 @@ describe Tmdb::Search do
 
     it 'should have results of kind Tmdb::Keyword' do
       expect(subject.results.sample).to be_an_instance_of(Tmdb::Keyword)
-    end
-  end
-
-  context '#list' do
-    let(:list) do
-      VCR.use_cassette 'search/list' do
-        Tmdb::Search.list('Disney')
-      end
-    end
-
-    subject { list }
-
-    it { expect(subject).to be_an_instance_of(Tmdb::Result) }
-
-    it 'should have results of kind Tmdb::List' do
-      expect(subject.results.sample).to be_an_instance_of(Tmdb::List)
     end
   end
 

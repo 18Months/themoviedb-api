@@ -40,19 +40,6 @@ module Tmdb
       result
     end
 
-    def self.list(query, filters={})
-      filters.merge!(query: query)
-
-      get_result = Resource.new('/search/list', filters).get
-
-      result = Result.new(get_result.except('results'))
-      result.results = get_result['results'].map do |movie|
-        Tmdb::List.new(movie)
-      end
-
-      result
-    end
-
     def self.movie(query, filters={})
       filters.merge!(query: query)
 
