@@ -4,8 +4,16 @@ module Tmdb
       @table = {}
 
       if data
-        data.each do |k,v|
-          set_ostruct_member_value! k, analyze_value(v)
+        if Gem::Version.new(RUBY_VERSION) >= Gem::Version.new('3.0.0')
+          data.each do |k,v|
+            set_ostruct_member_value! k, analyze_value(v)
+          end
+        else
+          data.each do |k,v|
+            @table[k.to_sym] = analyze_value(v)
+
+            new_ostruct_member!(k)
+          end
         end
       end
     end
