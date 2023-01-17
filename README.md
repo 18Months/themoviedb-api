@@ -624,13 +624,6 @@ Search for keywords by name.
 Tmdb::Search.keyword('Iron man')
 ```
 
-#### List
-
-Search for lists by name and description.
-```ruby
-Tmdb::Search.list('Cartoons')
-```
-
 #### Movie
 
 Search for movies by title.

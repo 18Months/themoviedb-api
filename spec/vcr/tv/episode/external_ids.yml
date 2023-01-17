@@ -9,52 +9,56 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/2.7.7p221
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:16 GMT
-      Etag:
-      - '"0cda9c766340b9d16b3dbdc1f067bf42"'
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '6600'
-      X-Memc-Expires:
-      - '22200'
-      X-Memc-Key:
-      - 4f59bf153ca147795b2b418563394198
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '39'
-      X-Ratelimit-Reset:
-      - '1455031046'
-      Content-Length:
-      - '104'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
+      Date:
+      - Sat, 26 Nov 2022 18:53:02 GMT
+      Server:
+      - openresty
+      Cache-Control:
+      - public, max-age=28800
+      X-Memc:
+      - MISS, STORE
+      X-Memc-Key:
+      - 9af859d73955063d409894b9ee949fbbfd2932eb
+      X-Memc-Age:
+      - '0'
+      X-Memc-Expires:
+      - '17675'
+      Etag:
+      - W/"5287de150ca11a09e50227cd9587f8d7"
+      Vary:
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 f19bce06c16c6defc09946014373b622.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - MAD53-P2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - 279HIKYG-41e5zsiB7wz9IJuUDtZnJTw9nHgV7TIUyuap7wokT_cQA==
     body:
-      encoding: UTF-8
-      string: '{"imdb_id":"","freebase_mid":"/m/06x0z6m","freebase_id":"","tvdb_id":null,"tvrage_id":93817,"id":255746}'
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:16 GMT
-recorded_with: VCR 3.0.1
+      encoding: ASCII-8BIT
+      string: '{"id":255746,"imdb_id":"tt0621366","freebase_mid":"/m/06x0z6m","freebase_id":null,"tvdb_id":null,"tvrage_id":93817,"wikidata_id":null}'
+  recorded_at: Sat, 26 Nov 2022 18:53:02 GMT
+recorded_with: VCR 6.1.0

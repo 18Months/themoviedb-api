@@ -9,57 +9,61 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/2.7.7p221
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=300
       Content-Type:
       - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
       Date:
-      - Tue, 09 Feb 2016 15:17:11 GMT
-      Etag:
-      - '"9812328687791465cbec8ece03bc0c36"'
+      - Sat, 26 Nov 2022 18:52:58 GMT
       Server:
       - openresty
-      Status:
-      - 200 OK
+      Cache-Control:
+      - public, max-age=28800
       X-Memc:
       - MISS, STORE
+      X-Memc-Key:
+      - d36347f36ab4938b8846bea1ec34bbd32ee510fd
       X-Memc-Age:
       - '0'
       X-Memc-Expires:
       - '300'
-      X-Memc-Key:
-      - 268dfb522b35589655b7678fbb03bce8
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '18'
-      X-Ratelimit-Reset:
-      - '1455031036'
-      Content-Length:
-      - '714'
-      Connection:
-      - keep-alive
+      Etag:
+      - W/"4c3a5f89f6b10ccaeda455007c84417f"
+      Vary:
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 97f0b09a634b28391788bf319e6b1076.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - MAD53-P2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - D65Gbk3uusd2O_i1AZGJQKMeWr7ZgtP_kvuVNa0UyXExkdeqxpFLZw==
     body:
-      encoding: UTF-8
-      string: '{"changes":[{"key":"also_known_as","items":[{"id":"53077a0f925141111a00003e","action":"added","time":"2014-02-21
-        16:08:47 UTC","value":["George Walton Lucas Jr. "]}]},{"key":"place_of_birth","items":[{"id":"53077a22925141110800002f","action":"updated","time":"2014-02-21
+      encoding: ASCII-8BIT
+      string: '{"changes":[{"key":"place_of_birth","items":[{"id":"53077a22925141110800002f","action":"updated","time":"2014-02-21
         16:09:06 UTC","value":"Modesto - California - USA","original_value":"Modesto,
         California, USA"}]},{"key":"images","items":[{"id":"53077a69925141110e00002c","action":"added","time":"2014-02-21
         16:10:17 UTC","value":{"profile":{"file_path":"/d8I8oke7Y5K0vlcz6LVCoFHzkxx.jpg"}}},{"id":"53077a79925141110e000035","action":"deleted","time":"2014-02-21
-        16:10:33 UTC","original_value":{"profile":{"file_path":"/rkO2HyUHIbXTT4EuOyub42zstrA.jpg"}}}]}]}'
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:11 GMT
-recorded_with: VCR 3.0.1
+        16:10:33 UTC","original_value":{"profile":{"file_path":"/rkO2HyUHIbXTT4EuOyub42zstrA.jpg"}}}]},{"key":"also_known_as","items":[{"id":"53077a0f925141111a00003e","action":"added","time":"2014-02-21
+        16:08:47 UTC","value":["George Walton Lucas Jr. "]}]}]}'
+  recorded_at: Sat, 26 Nov 2022 18:52:58 GMT
+recorded_with: VCR 6.1.0

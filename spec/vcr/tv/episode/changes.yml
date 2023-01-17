@@ -9,51 +9,56 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/2.7.7p221
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=300
       Content-Type:
       - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
       Date:
-      - Tue, 09 Feb 2016 15:17:15 GMT
-      Etag:
-      - '"58054390ee03de09d2e7b5e74f5560a0"'
+      - Sat, 26 Nov 2022 18:53:01 GMT
       Server:
       - openresty
-      Status:
-      - 200 OK
+      Cache-Control:
+      - public, max-age=28800
       X-Memc:
       - MISS, STORE
+      X-Memc-Key:
+      - 5a8323a13a7ac02f724036ebb4956941bd8e3c15
       X-Memc-Age:
       - '0'
       X-Memc-Expires:
       - '300'
-      X-Memc-Key:
-      - 6357337fdc85df5187f60b7b494d65d8
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '4'
-      X-Ratelimit-Reset:
-      - '1455031036'
-      Content-Length:
-      - '935'
-      Connection:
-      - keep-alive
+      Etag:
+      - W/"9195db8d91189f50be1e9d53f84aa025"
+      Vary:
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 910ee4d9b7bcfd663f2b41579b2aadc2.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - MAD53-P2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - xJOx8bmsl6As2EnR8ndPEBC3mclLd2FZSEGgq1-0APEPV-RwC1LnMg==
     body:
-      encoding: UTF-8
+      encoding: ASCII-8BIT
       string: '{"changes":[{"key":"name","items":[{"id":"55820667c3a3686fb1000201","action":"added","time":"2015-06-17
         23:44:39 UTC","iso_639_1":"nl","value":"Fire and Blood"}]},{"key":"overview","items":[{"id":"55820667c3a3686fb1000202","action":"added","time":"2015-06-17
         23:44:39 UTC","iso_639_1":"nl","value":"Terwijl het tragische nieuws zich
@@ -65,6 +70,5 @@ http_interactions:
         wordt Jon gedwongen om te kiezen tussen de Nachtwacht en de familie die hij
         achterliet. Aan de andere kant van de zee betaalt Dany een vreselijke prijs
         voor haar liefde. Tegelijk vindt ze nieuwe hoop."}]}]}'
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:15 GMT
-recorded_with: VCR 3.0.1
+  recorded_at: Sat, 26 Nov 2022 18:53:01 GMT
+recorded_with: VCR 6.1.0

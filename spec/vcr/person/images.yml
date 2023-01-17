@@ -9,52 +9,56 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/2.7.7p221
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:11 GMT
-      Etag:
-      - '"ea8de906a7f8ab89a1872b70d18b81d1"'
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      X-Memc:
-      - MISS, STORE
-      X-Memc-Age:
-      - '0'
-      X-Memc-Expires:
-      - '28800'
-      X-Memc-Key:
-      - 6ff3730c9e823654fb73568fbf0f7dc1
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '20'
-      X-Ratelimit-Reset:
-      - '1455031036'
-      Content-Length:
-      - '673'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
+      Date:
+      - Sat, 26 Nov 2022 18:52:58 GMT
+      Server:
+      - openresty
+      Cache-Control:
+      - public, max-age=28800
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - e4a471ef4d0608162905726fb84c12952ec47945
+      X-Memc-Age:
+      - '3046'
+      X-Memc-Expires:
+      - '13476'
+      Etag:
+      - W/"836490f5da01be0408863aaa75ca2f18"
+      Vary:
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 0e9cf4855658b96ed45badec40998a02.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - MAD53-P2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - eUX0UzcedxdcRP_9DYofh4_tQKpMjF4aDm8EemDAuL8fIzIz9PJO_A==
     body:
-      encoding: UTF-8
-      string: '{"id":1,"profiles":[{"aspect_ratio":0.666666666666667,"file_path":"/8qxin8urtFE0NqaZNFWOuV537bH.jpg","height":3000,"iso_639_1":null,"vote_average":5.36996336996337,"vote_count":2,"width":2000},{"aspect_ratio":0.666666666666667,"file_path":"/rJ1zvSeZfge0mHtLnzJn4Mkw18S.jpg","height":1500,"iso_639_1":null,"vote_average":5.3125,"vote_count":1,"width":1000},{"aspect_ratio":0.680272108843537,"file_path":"/7Q5FVw6RhI1gsr1QHmJZuwxshRF.jpg","height":735,"iso_639_1":null,"vote_average":0.0,"vote_count":0,"width":500},{"aspect_ratio":0.666666666666667,"file_path":"/d8I8oke7Y5K0vlcz6LVCoFHzkxx.jpg","height":720,"iso_639_1":null,"vote_average":0.0,"vote_count":0,"width":480}]}'
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:11 GMT
-recorded_with: VCR 3.0.1
+      encoding: ASCII-8BIT
+      string: '{"id":1,"profiles":[{"aspect_ratio":0.666,"height":1750,"iso_639_1":null,"file_path":"/WCSZzWdtPmdRxH9LUCVi2JPCSJ.jpg","vote_average":5.252,"vote_count":4,"width":1166},{"aspect_ratio":0.667,"height":3000,"iso_639_1":null,"file_path":"/mDLDvsx8PaZoEThkBdyaG1JxPdf.jpg","vote_average":5.198,"vote_count":7,"width":2000}]}'
+  recorded_at: Sat, 26 Nov 2022 18:52:58 GMT
+recorded_with: VCR 6.1.0

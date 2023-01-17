@@ -9,79 +9,56 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/2.7.7p221
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
-      Content-Encoding:
-      - gzip
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:05 GMT
-      Etag:
-      - W/"7968849179003297f82a0372bf3e9a53"
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      Vary:
-      - Accept-Encoding
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '4702'
-      X-Memc-Expires:
-      - '24098'
-      X-Memc-Key:
-      - 5aff060a307dbdfc519b166c1993d0f2
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '9'
-      X-Ratelimit-Reset:
-      - '1455031026'
-      Content-Length:
-      - '1007'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
+      Date:
+      - Sat, 26 Nov 2022 18:52:54 GMT
+      Server:
+      - openresty
+      Cache-Control:
+      - public, max-age=28800
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - 0467bfaa50791e1c48073d640e391c5735ed7a21
+      X-Memc-Age:
+      - '3800'
+      X-Memc-Expires:
+      - '11440'
+      Etag:
+      - W/"e7ff3ce0864dda503d947946137d7008"
+      Vary:
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 407450e28e8bf98746c9a0195dceeeee.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - MAD53-P2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - bYD6Cuawgwjj0cd61sa511shFBD6jJHvjWdk8CsztKbQtvZSOVAqLw==
     body:
       encoding: ASCII-8BIT
-      string: !binary |-
-        H4sIAAAAAAAAA6XWW3OiSBQH8O/Cs5Xt+yVv3qPRCIoX3JpKgaDgDQKo6FS+
-        +5DazEY72R2G4eG8gPKr03/69HctcLV7SkFFc+zFxo3DKNHu//6u2UnkLdLn
-        2E6DULuHd/z6EhVtGWy958hOfe1e+0scBmA17gv76cXqJXCQmDUjmB3Asnm8
-        W0crraL5XrDyU+2eo/xNQRI+MyyfYf5bb5/fPYap92wfvdheebnmjhBIIKII
-        AEYQfL+/CA/7/B8Qq2inwH17MUQCvFZ+01pNl/zQE5OkW/f7azKechJMMrs3
-        7g0VKwSiCDZHCoA4yh8XhNxi+YdVot+3psljizBj6UXriTHaHFOrre95p1M3
-        62Ws5E5yRhEVCFLJkGIVf2aFUU0f1db9Iw7NcaMP7Rc7ptWtOxJeSSuEEnPM
-        OZNA3FIhuLV+q2hRmKRe/FV2wR27ubgaXggb664Z7uWqwfy52NfXoyC1O7OW
-        ocIF+DWc3jFBKMICyLeqpBdeJSKP9+cu/0rrRym2bRoAMx5V9013iyfdeBiv
-        PfEpErSQlmAMGUSQobzbVPnWrvoMymhPF2gaA8eIhlav94SyyJjbUZay1YOp
-        aPPPp4gWC46JkEwSLCi61ZIPLCmFnXUcGLPeYozDunnO8N7bgVT2k72KLdja
-        fAfDQAouIadUae0VtlRnt07bHY0AfVqNDMdvnJftx+3Q8xPX89XOkmJYAEm+
-        OfxTldDSDywrg93JkW6JS+amVrcTR97EcoSD/EX7MinXWYgZoCSfDZwJrnxi
-        +EpbqrXndmh0Li9gtpwny8vxorc9bgyCzNJf1Gn2Njd/jUWAcyQJE1TKW+vH
-        LKNlpC80djYu6VukK6rz5gU8ZdZ0Pz1frEa5vubzVmL6XrmSgj+NrH2y9F3D
-        WIjpysY6Gg4P6TbSG0yvqtqCkQVUMAYhoSzPgaK9OiX8R2Q5+D8sGhzr22DW
-        3D40FsRJbLMZxAFohVGwU7CymJVglD/5XpXE/mtlmH1FvYZ+pu574Rj3Ux+x
-        rrFtHXaL88wIwrqPpu2SKShkLReC6LEdZ2YN0+qml8zrpnCFz1qyNuo/lcQi
-        CBn5WW+x6GraltKeBrNOOtNrTa+9bz8azf5Kr6W7wazO1K2gkDY/1DApoJAw
-        H2JAKJvB1QGsFPY82aSyNl+tt5mbDAfAQvqKxGn3ocZLYvNpm08uCBAg6hGs
-        QGc5kATA9woVbFXuTmjUCwxmhw6brbPTxsFrd+cZqboZYFIM+3PfyqsS2uut
-        i/KvtYypJ1ofPkDHDLt6MAgdkmWL6fLgNsetfpOqxGL9fFtyTPMDKyAcYIV4
-        tfr50r5+e/0BLNAX75sNAAA=
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:05 GMT
-recorded_with: VCR 3.0.1
+      string: '{"backdrops":[{"aspect_ratio":1.778,"height":720,"iso_639_1":"en","file_path":"/fygeMr16EcxJiYhdiO1LEr7iHtI.jpg","vote_average":5.312,"vote_count":1,"width":1280},{"aspect_ratio":1.778,"height":1080,"iso_639_1":"en","file_path":"/5pxdgKVEDWDQBtvqIB2eB2oheml.jpg","vote_average":5.18,"vote_count":3,"width":1920},{"aspect_ratio":1.778,"height":720,"iso_639_1":"en","file_path":"/yPeG1RQm5Am0eslu0IwUEJ4VXND.jpg","vote_average":5.172,"vote_count":1,"width":1280},{"aspect_ratio":1.778,"height":1080,"iso_639_1":"en","file_path":"/jAvY6IN6MIxmPM2oAtNqYK7P2gi.jpg","vote_average":5.172,"vote_count":1,"width":1920},{"aspect_ratio":1.778,"height":1080,"iso_639_1":"en","file_path":"/b9HyPoxwxjxkWEUL5ErZdhApQe2.jpg","vote_average":0.0,"vote_count":0,"width":1920}],"id":550,"logos":[{"aspect_ratio":4.638,"height":389,"iso_639_1":"en","file_path":"/7Uqhv24pGJs4Ns31NoOPWFJGWNG.png","vote_average":5.172,"vote_count":1,"width":1804},{"aspect_ratio":1.329,"height":1275,"iso_639_1":"en","file_path":"/v7JwpiYf2knmf2R2mLLvJmNxy9x.png","vote_average":0.0,"vote_count":0,"width":1694},{"aspect_ratio":0.848,"height":1295,"iso_639_1":"en","file_path":"/4XkF0Rf7gvSfea8fYLFbU5tmuJw.png","vote_average":0.0,"vote_count":0,"width":1098},{"aspect_ratio":1.5,"height":290,"iso_639_1":"en","file_path":"/y9dOBfqWvCdxQcwBSPT2nfXGJpi.png","vote_average":0.0,"vote_count":0,"width":435},{"aspect_ratio":0.861,"height":294,"iso_639_1":"en","file_path":"/7s3aiqRnwRUVpwtxFLrWyMITHSC.png","vote_average":0.0,"vote_count":0,"width":253},{"aspect_ratio":1.29,"height":310,"iso_639_1":"en","file_path":"/ahnGkBeGqvUtpyfOqoWt9Cto9WR.png","vote_average":0.0,"vote_count":0,"width":400},{"aspect_ratio":1.34,"height":300,"iso_639_1":"en","file_path":"/fI7UHnoU685iz4eG7lQu7aKfxPW.png","vote_average":0.0,"vote_count":0,"width":402},{"aspect_ratio":1.766,"height":295,"iso_639_1":"en","file_path":"/hfbxs6yi35ciD6xcuGz0eeHfpm9.png","vote_average":0.0,"vote_count":0,"width":521},{"aspect_ratio":0.868,"height":296,"iso_639_1":"en","file_path":"/ofkQTAMEY6N8MSiezFMxdQtej3o.png","vote_average":0.0,"vote_count":0,"width":257},{"aspect_ratio":1.382,"height":296,"iso_639_1":"en","file_path":"/a3YV8Fnue6LTuSRuvnLxvEPeZxz.png","vote_average":0.0,"vote_count":0,"width":409},{"aspect_ratio":3.365,"height":233,"iso_639_1":"en","file_path":"/yDcFmXCT4XUkTujDY3p1auO8Po5.png","vote_average":0.0,"vote_count":0,"width":784},{"aspect_ratio":1.371,"height":294,"iso_639_1":"en","file_path":"/mjrGAw5IyGQIYsJaqGIyxgvnfZj.png","vote_average":0.0,"vote_count":0,"width":403},{"aspect_ratio":1.041,"height":244,"iso_639_1":"en","file_path":"/40uRxnaxKNIxZPVKVMizbe76a8h.png","vote_average":0.0,"vote_count":0,"width":254}],"posters":[{"aspect_ratio":0.667,"height":3000,"iso_639_1":"en","file_path":"/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg","vote_average":5.548,"vote_count":43,"width":2000},{"aspect_ratio":0.667,"height":1200,"iso_639_1":"en","file_path":"/9VOESirK1bX66Xenj9QHcl5GJU9.jpg","vote_average":5.396,"vote_count":12,"width":800},{"aspect_ratio":0.667,"height":3000,"iso_639_1":"en","file_path":"/jSziioSwPVrOy9Yow3XhWIBDjq1.jpg","vote_average":5.392,"vote_count":8,"width":2000},{"aspect_ratio":0.667,"height":3000,"iso_639_1":"en","file_path":"/a26cQPRhJPX6GbWfQbvZdrrp9j9.jpg","vote_average":5.354,"vote_count":23,"width":2000},{"aspect_ratio":0.706,"height":2834,"iso_639_1":"en","file_path":"/14Cs3sr6nus6QTHThldis8p4Nlm.jpg","vote_average":5.312,"vote_count":1,"width":2000},{"aspect_ratio":0.667,"height":2400,"iso_639_1":"en","file_path":"/dMgcjU3uaL9BhizmZbrGJsPQ8h4.jpg","vote_average":5.312,"vote_count":1,"width":1600},{"aspect_ratio":0.667,"height":1500,"iso_639_1":"en","file_path":"/nk5RU2PxYwvSMFTp0eKuOHkAHf.jpg","vote_average":5.312,"vote_count":1,"width":1000},{"aspect_ratio":0.672,"height":1114,"iso_639_1":"en","file_path":"/pYmgkQNPn74yM1kEaHlICq74q2Q.jpg","vote_average":5.312,"vote_count":1,"width":749},{"aspect_ratio":0.667,"height":2700,"iso_639_1":"en","file_path":"/8kijDhE543ah7IAhCr3aHvL4KOD.jpg","vote_average":5.312,"vote_count":1,"width":1800},{"aspect_ratio":0.667,"height":2700,"iso_639_1":"en","file_path":"/aik7DCc0owyX5Byg6sg29u94X9Y.jpg","vote_average":5.312,"vote_count":1,"width":1800},{"aspect_ratio":0.682,"height":880,"iso_639_1":"en","file_path":"/ssMuyoBvUfd6PQC6HbOD6ntCSE2.jpg","vote_average":5.312,"vote_count":1,"width":600},{"aspect_ratio":0.667,"height":1500,"iso_639_1":"en","file_path":"/n62Y0DNBRQEf5wD013B3V1rpHPL.jpg","vote_average":5.312,"vote_count":1,"width":1000},{"aspect_ratio":0.666,"height":1000,"iso_639_1":"en","file_path":"/b1ONg8Is4l760oryJa7Aw7LdPtM.jpg","vote_average":5.252,"vote_count":4,"width":666},{"aspect_ratio":0.701,"height":1426,"iso_639_1":"en","file_path":"/yWILrVBRtwRztPw4ainftwtMCS2.jpg","vote_average":5.252,"vote_count":4,"width":1000},{"aspect_ratio":0.701,"height":1426,"iso_639_1":"en","file_path":"/8kNruSfhk5IoE4eZOc4UpvDn6tq.jpg","vote_average":5.25,"vote_count":23,"width":1000},{"aspect_ratio":0.667,"height":2100,"iso_639_1":"en","file_path":"/obVTG7QMbQ7gV3oZAJuFjKBhsGk.jpg","vote_average":5.246,"vote_count":2,"width":1400},{"aspect_ratio":0.667,"height":1500,"iso_639_1":"en","file_path":"/qnbWXA8UWzkbEu2RUqacIrMPpCU.jpg","vote_average":5.246,"vote_count":2,"width":1000},{"aspect_ratio":0.667,"height":1500,"iso_639_1":"en","file_path":"/uVe8UnJTgLso26NtA8GB4M0RDLh.jpg","vote_average":5.246,"vote_count":2,"width":1000},{"aspect_ratio":0.669,"height":2278,"iso_639_1":"en","file_path":"/bptfVGEQuv6vDTIMVCHjJ9Dz8PX.jpg","vote_average":5.232,"vote_count":17,"width":1524},{"aspect_ratio":0.754,"height":1500,"iso_639_1":"en","file_path":"/wR5HZWdVpcXx9sevV1bQi7rP4op.jpg","vote_average":5.212,"vote_count":11,"width":1131},{"aspect_ratio":0.667,"height":1500,"iso_639_1":"en","file_path":"/7KR49D4jnPId7G3DKTNV2r9qjUh.jpg","vote_average":5.198,"vote_count":7,"width":1000},{"aspect_ratio":0.667,"height":3000,"iso_639_1":"en","file_path":"/2z8mFQrT0ESSytWZqro1jsCbvCC.jpg","vote_average":5.19,"vote_count":5,"width":2000},{"aspect_ratio":0.667,"height":1500,"iso_639_1":"en","file_path":"/clkAGOl8GiPLJ0T2HyrgnBXQmx8.jpg","vote_average":5.19,"vote_count":5,"width":1000},{"aspect_ratio":0.707,"height":1403,"iso_639_1":"en","file_path":"/wlmGPHDbnOK4AwL37m6tegxO8A3.jpg","vote_average":5.18,"vote_count":3,"width":992},{"aspect_ratio":0.667,"height":3000,"iso_639_1":"en","file_path":"/plzV6fap5bGqMaIpOrihmhtd7lW.jpg","vote_average":5.18,"vote_count":3,"width":2000},{"aspect_ratio":0.667,"height":3000,"iso_639_1":"en","file_path":"/kx2A9BgDr3p0vWQQOFgFV4aC0kv.jpg","vote_average":5.18,"vote_count":3,"width":2000},{"aspect_ratio":0.667,"height":2100,"iso_639_1":"en","file_path":"/hPkAixiAyXzQb8uTOiovuhpDBK2.jpg","vote_average":5.172,"vote_count":1,"width":1400},{"aspect_ratio":0.667,"height":2400,"iso_639_1":"en","file_path":"/7Yl18M6LegCaMuwYDkEhohXsG1b.jpg","vote_average":5.172,"vote_count":1,"width":1600},{"aspect_ratio":0.667,"height":2400,"iso_639_1":"en","file_path":"/tcmNYC8ub4E51gkErXoIgkbESZH.jpg","vote_average":5.172,"vote_count":1,"width":1600},{"aspect_ratio":0.701,"height":1426,"iso_639_1":"en","file_path":"/k1lICEYRpJeFRIRfjxYwmpO9LTu.jpg","vote_average":5.128,"vote_count":6,"width":1000},{"aspect_ratio":0.667,"height":1800,"iso_639_1":"en","file_path":"/fCTjGJxKWZGWQDCGFGYMGvh4VNP.jpg","vote_average":5.068,"vote_count":7,"width":1200},{"aspect_ratio":0.667,"height":946,"iso_639_1":"en","file_path":"/jrKpfWghQDPTIJwcZBK0uXh9ds3.jpg","vote_average":0.0,"vote_count":0,"width":631},{"aspect_ratio":0.667,"height":1080,"iso_639_1":"en","file_path":"/A86dg5r6tdUVvQBeOGhvgTXGoQi.jpg","vote_average":0.0,"vote_count":0,"width":720},{"aspect_ratio":0.667,"height":2100,"iso_639_1":"en","file_path":"/m10ywT1Bnazwhccdymn6hap6Fmw.jpg","vote_average":0.0,"vote_count":0,"width":1400},{"aspect_ratio":0.667,"height":3000,"iso_639_1":"en","file_path":"/uwOQQvBHbOALl7l9LegJSGmVY9e.jpg","vote_average":0.0,"vote_count":0,"width":2000},{"aspect_ratio":0.667,"height":2928,"iso_639_1":"en","file_path":"/zk4t5puCiXPvw2dwKBGUt4Hh977.jpg","vote_average":0.0,"vote_count":0,"width":1952},{"aspect_ratio":0.667,"height":1500,"iso_639_1":"en","file_path":"/krAoSoir6XtvQYAqqRRHzC5Xhiv.jpg","vote_average":0.0,"vote_count":0,"width":1000},{"aspect_ratio":0.667,"height":3000,"iso_639_1":"en","file_path":"/wJBgAtjZWUqYKz99WYrA2yzsN0j.jpg","vote_average":0.0,"vote_count":0,"width":2000},{"aspect_ratio":0.667,"height":1500,"iso_639_1":"en","file_path":"/euYd43t6GCwNeFowNjivkdP0TD2.jpg","vote_average":0.0,"vote_count":0,"width":1000},{"aspect_ratio":0.707,"height":842,"iso_639_1":"en","file_path":"/4JeEScbKxbERLFAGnA3sbsqBLX3.jpg","vote_average":0.0,"vote_count":0,"width":595},{"aspect_ratio":0.707,"height":1449,"iso_639_1":"en","file_path":"/xzzP5EaAS8l9CzGWdoZ6n5Xmu8i.jpg","vote_average":0.0,"vote_count":0,"width":1024},{"aspect_ratio":0.703,"height":996,"iso_639_1":"en","file_path":"/qJLURZuGHYO8b3ldi61Cqedwq9q.jpg","vote_average":0.0,"vote_count":0,"width":700},{"aspect_ratio":0.667,"height":1920,"iso_639_1":"en","file_path":"/x7n8LY5EvqsvXXe0GscGEgf2zQU.jpg","vote_average":0.0,"vote_count":0,"width":1280},{"aspect_ratio":0.75,"height":853,"iso_639_1":"en","file_path":"/uA01tzxAfLDRRM5ZS3ethCdrqsJ.jpg","vote_average":0.0,"vote_count":0,"width":640}]}'
+  recorded_at: Sat, 26 Nov 2022 18:52:53 GMT
+recorded_with: VCR 6.1.0

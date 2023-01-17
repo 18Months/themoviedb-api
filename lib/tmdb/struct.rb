@@ -1,23 +1,20 @@
 module Tmdb
   class Struct < OpenStruct
-
     def initialize(data=nil)
       @table = {}
 
       if data
         data.each do |k,v|
-          @table[k.to_sym] = analyze_value(v)
-
-          new_ostruct_member(k)
+          set_ostruct_member_value! k, analyze_value(v)
         end
       end
     end
 
     def analyze_value(v)
-      case
-        when v.is_a?(Hash)
+      case v
+        when Hash
           self.class.new(v)
-        when v.is_a?(Array)
+        when Array
           v.map do |element|
             analyze_value(element)
           end
@@ -25,6 +22,5 @@ module Tmdb
           v
       end
     end
-
   end
 end

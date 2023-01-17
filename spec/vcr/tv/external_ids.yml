@@ -9,52 +9,56 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/2.7.7p221
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:20 GMT
-      Etag:
-      - '"ad7d9caa8406eef25aa75db72d6e1047"'
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '9424'
-      X-Memc-Expires:
-      - '19376'
-      X-Memc-Key:
-      - 7c8188d4ff96952bbef2d9154131fe1b
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '23'
-      X-Ratelimit-Reset:
-      - '1455031046'
-      Content-Length:
-      - '128'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
+      Date:
+      - Sat, 26 Nov 2022 18:52:40 GMT
+      Server:
+      - openresty
+      Cache-Control:
+      - public, max-age=28800
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - 625fca36c7981757727fe7caca9319410c8d9e71
+      X-Memc-Age:
+      - '13502'
+      X-Memc-Expires:
+      - '2837'
+      Etag:
+      - W/"87716597ae97982db41a36f5dee46fa6"
+      Vary:
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 910fbbf7d12e83a937f5dcaa50fd288c.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - MAD53-P2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - LqmdUdnwHKaR_IJ0uNWzqhNWwNS5IntrBdaiN7SsuGWRKz7xzD4sHw==
     body:
-      encoding: UTF-8
-      string: '{"imdb_id":"tt0903747","freebase_mid":"/m/03d34x8","freebase_id":"/en/breaking_bad","tvdb_id":81189,"tvrage_id":18164,"id":1396}'
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:20 GMT
-recorded_with: VCR 3.0.1
+      encoding: ASCII-8BIT
+      string: '{"id":1396,"imdb_id":"tt0903747","freebase_mid":"/m/03d34x8","freebase_id":"/en/breaking_bad","tvdb_id":81189,"tvrage_id":18164,"wikidata_id":null,"facebook_id":"BreakingBad","instagram_id":"breakingbad","twitter_id":"BreakingBad"}'
+  recorded_at: Sat, 26 Nov 2022 18:52:40 GMT
+recorded_with: VCR 6.1.0

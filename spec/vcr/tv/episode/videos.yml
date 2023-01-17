@@ -9,52 +9,56 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/2.7.7p221
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:16 GMT
-      Etag:
-      - '"24e399aa35ac9c30feffaa901f62fc76"'
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '22416'
-      X-Memc-Expires:
-      - '6384'
-      X-Memc-Key:
-      - 76fa451f5a6cb63a4dbb07801f640a20
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '37'
-      X-Ratelimit-Reset:
-      - '1455031046'
-      Content-Length:
-      - '25'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
+      Date:
+      - Sat, 26 Nov 2022 18:53:02 GMT
+      Server:
+      - openresty
+      Cache-Control:
+      - public, max-age=28800
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - 9a614c150f2cf5cfd7208297b4942d4caba8b8a5
+      X-Memc-Age:
+      - '10790'
+      X-Memc-Expires:
+      - '6300'
+      Etag:
+      - W/"ba53ff949582095725acc3c680abcf93"
+      Vary:
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 f19bce06c16c6defc09946014373b622.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - MAD53-P2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - 2WjnRdbznrVnTslcaQJaDcP2ZrvUV-_PO11dmHN9oY-7cUIeTXAuyA==
     body:
-      encoding: UTF-8
+      encoding: ASCII-8BIT
       string: '{"id":63056,"results":[]}'
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:16 GMT
-recorded_with: VCR 3.0.1
+  recorded_at: Sat, 26 Nov 2022 18:53:02 GMT
+recorded_with: VCR 6.1.0

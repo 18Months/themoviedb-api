@@ -9,86 +9,97 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/2.7.7p221
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
-      Content-Encoding:
-      - gzip
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:19 GMT
-      Etag:
-      - W/"811621afbd7c33e531ac65f732377c4a"
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      Vary:
-      - Accept-Encoding
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '9423'
-      X-Memc-Expires:
-      - '19377'
-      X-Memc-Key:
-      - ff58313494259ee31c15cd8400e51804
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '25'
-      X-Ratelimit-Reset:
-      - '1455031046'
-      Content-Length:
-      - '1309'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
+      Date:
+      - Sat, 26 Nov 2022 18:52:40 GMT
+      Server:
+      - openresty
+      Cache-Control:
+      - public, max-age=28800
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - d00782944eec59996ed34a0dae1ade9a798249b3
+      X-Memc-Age:
+      - '14008'
+      X-Memc-Expires:
+      - '3802'
+      Etag:
+      - W/"758db67a49ca9226f8f34dbcee81f670"
+      Vary:
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 48d20e4a7c48c095731e8e5968bc64a0.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - MAD53-P2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - 3RFazoEQG1HAhTDOJxz-NsfgT26d3BTznziZnVkCZAEYD0qsrS8Mdw==
     body:
       encoding: ASCII-8BIT
-      string: !binary |-
-        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
-        BRAAAA==
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:19 GMT
-recorded_with: VCR 3.0.1
+      string: '{"cast":[{"adult":false,"gender":2,"id":17419,"known_for_department":"Acting","name":"Bryan
+        Cranston","original_name":"Bryan Cranston","popularity":45.095,"profile_path":"/7Jahy5LZX2Fo8fGJltMreAI49hC.jpg","character":"Walter
+        White","credit_id":"52542282760ee313280017f9","order":0},{"adult":false,"gender":2,"id":84497,"known_for_department":"Acting","name":"Aaron
+        Paul","original_name":"Aaron Paul","popularity":29.473,"profile_path":"/lowE44ffgu4UmnOT3wOTKYhtUzp.jpg","character":"Jesse
+        Pinkman","credit_id":"52542282760ee31328001845","order":1},{"adult":false,"gender":1,"id":134531,"known_for_department":"Acting","name":"Anna
+        Gunn","original_name":"Anna Gunn","popularity":16.973,"profile_path":"/adppyeu1a4REN3khtgmXusrapFi.jpg","character":"Skyler
+        White","credit_id":"52542282760ee3132800181b","order":2},{"adult":false,"gender":2,"id":14329,"known_for_department":"Acting","name":"Dean
+        Norris","original_name":"Dean Norris","popularity":24.364,"profile_path":"/yV3DZ52LYRf5F605xRas5BEcJrZ.jpg","character":"Hank
+        Schrader","credit_id":"52542283760ee3132800187b","order":3},{"adult":false,"gender":2,"id":783,"known_for_department":"Acting","name":"Jonathan
+        Banks","original_name":"Jonathan Banks","popularity":28.712,"profile_path":"/va6APAzwv68YxvYQkB3lHhpccCi.jpg","character":"Mike
+        Ehrmantraut","credit_id":"5271b1e6760ee35af60941ad","order":5},{"adult":false,"gender":2,"id":59410,"known_for_department":"Acting","name":"Bob
+        Odenkirk","original_name":"Bob Odenkirk","popularity":23.358,"profile_path":"/rF0Lb6SBhGSTvjRffmlKRSeI3jE.jpg","character":"Saul
+        Goodman","credit_id":"5271b180760ee35afc09bb8d","order":6},{"adult":false,"gender":1,"id":1217934,"known_for_department":"Acting","name":"Betsy
+        Brandt","original_name":"Betsy Brandt","popularity":14.214,"profile_path":"/zmhhPmXnwjSzVyoTVL93i1EkLRK.jpg","character":"Marie
+        Schrader","credit_id":"52542283760ee31328001891","order":7},{"adult":false,"gender":2,"id":209674,"known_for_department":"Acting","name":"RJ
+        Mitte","original_name":"RJ Mitte","popularity":15.31,"profile_path":"/aG6NYV2EgzBFLRIl7vvbtd7go1j.jpg","character":"Walter
+        White Jr.","credit_id":"52542284760ee313280018a9","order":8},{"adult":false,"gender":0,"id":3791836,"known_for_department":"Acting","name":"Patrick
+        Hession","original_name":"Patrick Hession","popularity":1.572,"profile_path":null,"character":"Heisenberg","credit_id":"63776965336e01007fd1fca9","order":9}],"crew":[{"adult":false,"gender":2,"id":5162,"known_for_department":"Production","name":"Mark
+        Johnson","original_name":"Mark Johnson","popularity":5.863,"profile_path":"/gLuXkOQjqB81aHMGJ2OtYzEpHQu.jpg","credit_id":"52542287760ee31328001b69","department":"Production","job":"Executive
+        Producer"},{"adult":false,"gender":1,"id":29779,"known_for_department":"Directing","name":"Michelle
+        MacLaren","original_name":"Michelle MacLaren","popularity":1.576,"profile_path":"/3LcH5eNiysMWaepARllVrS4Dzn7.jpg","credit_id":"52542288760ee31328001b83","department":"Production","job":"Executive
+        Producer"},{"adult":false,"gender":2,"id":66633,"known_for_department":"Writing","name":"Vince
+        Gilligan","original_name":"Vince Gilligan","popularity":9.936,"profile_path":"/uFh3OrBvkwKSU3N5y0XnXOhqBJz.jpg","credit_id":"52542287760ee31328001af1","department":"Production","job":"Executive
+        Producer"},{"adult":false,"gender":0,"id":35583,"known_for_department":"Costume
+        \u0026 Make-Up","name":"Kathleen Detoro","original_name":"Kathleen Detoro","popularity":0.6,"profile_path":null,"credit_id":"52b7034f19c2955402184de6","department":"Costume
+        \u0026 Make-Up","job":"Costume Design"},{"adult":false,"gender":2,"id":1280070,"known_for_department":"Sound","name":"Dave
+        Porter","original_name":"Dave Porter","popularity":1.435,"profile_path":"/flRW9QknVtU8HG7lLjMvflbhl2a.jpg","credit_id":"52b7008819c29559eb03dd72","department":"Sound","job":"Original
+        Music Composer"},{"adult":false,"gender":2,"id":21640,"known_for_department":"Art","name":"Robb
+        Wilson King","original_name":"Robb Wilson King","popularity":1.4,"profile_path":null,"credit_id":"52b7020b19c295223b0a46e8","department":"Art","job":"Production
+        Design"},{"adult":false,"gender":2,"id":103009,"known_for_department":"Writing","name":"Thomas
+        Schnauz","original_name":"Thomas Schnauz","popularity":3.448,"profile_path":"/uMz5wsgv6QQAgFI809SgCCbwYn9.jpg","credit_id":"52542289760ee31328001c03","department":"Production","job":"Producer"},{"adult":false,"gender":0,"id":1223200,"known_for_department":"Production","name":"Stewart
+        Lyons","original_name":"Stewart Lyons","popularity":0.6,"profile_path":"/dCAN4EMn8rsqALwDIjf9aNjuVTm.jpg","credit_id":"5254228a760ee31328001c1d","department":"Production","job":"Producer"},{"adult":false,"gender":1,"id":1223202,"known_for_department":"Production","name":"Diane
+        Mercer","original_name":"Diane Mercer","popularity":3.572,"profile_path":"/giYxNEo4pvcfUJU58qhsMQg7per.jpg","credit_id":"5254228e760ee31328001ce1","department":"Production","job":"Producer"},{"adult":false,"gender":1,"id":1218856,"known_for_department":"Writing","name":"Patty
+        Lin","original_name":"Patty Lin","popularity":1.502,"profile_path":null,"credit_id":"52542287760ee31328001b07","department":"Production","job":"Producer"},{"adult":false,"gender":2,"id":24951,"known_for_department":"Writing","name":"Peter
+        Gould","original_name":"Peter Gould","popularity":4.104,"profile_path":"/il6NSy05UnO7SV9SgzEqKHXioNl.jpg","credit_id":"52542289760ee31328001bd1","department":"Production","job":"Producer"},{"adult":false,"gender":0,"id":1223201,"known_for_department":"Production","name":"Karen
+        Moore","original_name":"Karen Moore","popularity":1.018,"profile_path":null,"credit_id":"5254228c760ee31328001c37","department":"Production","job":"Producer"},{"adult":false,"gender":2,"id":1223194,"known_for_department":"Writing","name":"Sam
+        Catlin","original_name":"Sam Catlin","popularity":0.728,"profile_path":"/5Xt7ONeJpF3x2XZ9JwQO9vGDuJ1.jpg","credit_id":"52542289760ee31328001bb3","department":"Production","job":"Producer"},{"adult":false,"gender":1,"id":1223198,"known_for_department":"Writing","name":"Moira
+        Walley-Beckett","original_name":"Moira Walley-Beckett","popularity":7.042,"profile_path":"/1sRNcxMZVsVcY6NFNQzASJuR8By.jpg","credit_id":"5254228c760ee31328001c6d","department":"Production","job":"Producer"},{"adult":false,"gender":2,"id":1223193,"known_for_department":"Writing","name":"George
+        Mastras","original_name":"George Mastras","popularity":0.958,"profile_path":"/2K0NELbA0Ow45ECudbO2eFc1Fe4.jpg","credit_id":"52542289760ee31328001be9","department":"Production","job":"Producer"},{"adult":false,"gender":1,"id":1223199,"known_for_department":"Production","name":"Melissa
+        Bernstein","original_name":"Melissa Bernstein","popularity":0.6,"profile_path":"/sBlPOEv4cujjIJuYUWBcrh7csWL.jpg","credit_id":"52542289760ee31328001b9d","department":"Production","job":"Producer"},{"adult":false,"gender":2,"id":29924,"known_for_department":"Writing","name":"John
+        Shiban","original_name":"John Shiban","popularity":1.702,"profile_path":"/rdmBnBQnxAab2FE2CP6A6hGnUXT.jpg","credit_id":"52542287760ee31328001b27","department":"Production","job":"Producer"},{"adult":false,"gender":2,"id":17419,"known_for_department":"Acting","name":"Bryan
+        Cranston","original_name":"Bryan Cranston","popularity":45.095,"profile_path":"/7Jahy5LZX2Fo8fGJltMreAI49hC.jpg","credit_id":"5254228d760ee31328001cc7","department":"Production","job":"Producer"}],"id":1396}'
+  recorded_at: Sat, 26 Nov 2022 18:52:40 GMT
+recorded_with: VCR 6.1.0

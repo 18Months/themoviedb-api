@@ -9,68 +9,72 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/2.7.7p221
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
-      Content-Encoding:
-      - gzip
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:17 GMT
-      Etag:
-      - W/"e850d6831769cd6f89c2f0e2cf4a511e"
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      Vary:
-      - Accept-Encoding
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '6599'
-      X-Memc-Expires:
-      - '22201'
-      X-Memc-Key:
-      - e1eb1c895a8ea3cf4550415d7c907da7
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '33'
-      X-Ratelimit-Reset:
-      - '1455031046'
-      Content-Length:
-      - '532'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
+      Date:
+      - Sat, 26 Nov 2022 18:53:03 GMT
+      Server:
+      - openresty
+      Cache-Control:
+      - public, max-age=28800
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - a144aae016bbab80ea1afed17edb51afea08f9ba
+      X-Memc-Age:
+      - '12882'
+      X-Memc-Expires:
+      - '2871'
+      Etag:
+      - W/"c5b9e2ec031e91aa7eef25bf51470a0b"
+      Vary:
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
+      X-Cache:
+      - Hit from cloudfront
+      Via:
+      - 1.1 c8d7a354d7a20d6a1ce079386bfa92e0.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - MAD53-P2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - AToSyibs1qcIXWEBVRRRLzxUBdgjTS3xi0UNH_7zlg3M1LI_eiPGhw==
     body:
       encoding: ASCII-8BIT
-      string: !binary |-
-        H4sIAAAAAAAAA63UXW+qMBgH8K/ScG12KKUIu0M9m9Nx3NSTvZwsS2mLoAik
-        FFEXv/spumHclmmWXRHo24/n+cOLRkkutfN/LxoNiSBUcqGda1pDo4KzSD5H
-        TN1iAzcxQk3oUMPBCDIfQsvQuZpWjUMdWk5DS8icq8ljHscrMCILEpNczchE
-        GkQxf86IDNXwr+wPnkbXrNtfd+4T+/Kxe5P0uiUjS9g9m2YTtSIVrFLom8Y3
-        VIi+qkzdtFCt6pAEXAiyVht9JAWl6/Sx707+Lthd4MKmTNq363EWre4PSfA9
-        aTSRZ6CV+v4KtEVKZ9vtjyMtUpcOYwfXyj5fRAnopH6eJp84l+2Y3jYH6HEw
-        FIVXDi7ounhYEddrjQ+dxnvnSSrHflU1bd2BNeqSp2LCv+hoWARduWJBvxWL
-        MrwSfeMOj9IrnEj/kIVOYzmHLOq8FctAJoJ2DfOImIFhkecqcR9YSRHH9cHm
-        5ml7UrlL+rEjkR6o/RjPiJBznqjvQ7sRKSuojLZ92WGgqdcUt0qAR5JqdJr6
-        6snvJaeFjBYc7JZ+EryKuK3IUQ9ip3gsBxn74kSq0DwGIxryoHqdHesHMNYJ
-        GAxNcx/rHqEzcE0iUa38vsM/dBD9uKNKjLFvU09dctApggB41GVkXsX5x0DM
-        Og6CNoL7T8sjUoa8BEOS7Vt0anKe3n4hNrI3/wEl0iezyQUAAA==
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:17 GMT
-recorded_with: VCR 3.0.1
+      string: '{"cast":[{"adult":false,"gender":2,"id":10169,"known_for_department":"Acting","name":"Telly
+        Savalas","original_name":"Telly Savalas","popularity":17.193,"profile_path":"/8rNwSBuLsVeUWlU3IRFrHwIfdm.jpg","character":"Theo
+        Kojak","credit_id":"5257533719c29531db11620e","order":0},{"adult":false,"gender":2,"id":40463,"known_for_department":"Acting","name":"Dan
+        Frazer","original_name":"Dan Frazer","popularity":4.47,"profile_path":"/tBe7tZ4Hyzs7cnGFSpBiEGcwQII.jpg","character":"Frank
+        McNeill","credit_id":"5257533719c29531db11623c","order":1},{"adult":false,"gender":2,"id":105595,"known_for_department":"Acting","name":"Kevin
+        Dobson","original_name":"Kevin Dobson","popularity":2.479,"profile_path":"/vur5OEi36P2relSZ4pfam4v6hu.jpg","character":"Bobby
+        Crocker","credit_id":"5257533719c29531db11626a","order":2},{"adult":false,"gender":2,"id":78091,"known_for_department":"Acting","name":"George
+        Savalas","original_name":"George Savalas","popularity":3.146,"profile_path":"/6LldftjuRCfldm56DOVEUump48j.jpg","character":"Curly
+        Stavors","credit_id":"5257533719c29531db116298","order":3},{"adult":false,"gender":2,"id":1234318,"known_for_department":"Acting","name":"Mark
+        Russell","original_name":"Mark Russell","popularity":1.761,"profile_path":"/trlBsJk0zZGfXT3R5yWidh2NcTE.jpg","character":"Percy
+        Saperstein","credit_id":"5257533919c29531db1162c9","order":4}],"crew":[{"adult":false,"gender":0,"id":12140,"known_for_department":"Writing","name":"Abby
+        Mann","original_name":"Abby Mann","popularity":2.43,"profile_path":null,"credit_id":"5257533919c29531db11630f","department":"Production","job":"Executive
+        Producer"},{"adult":false,"gender":2,"id":151445,"known_for_department":"Writing","name":"Jack
+        Laird","original_name":"Jack Laird","popularity":1.4,"profile_path":null,"credit_id":"5257533919c29531db11636d","department":"Production","job":"Producer"},{"adult":false,"gender":0,"id":1234320,"known_for_department":"Production","name":"James
+        Duff McAdams","original_name":"James Duff McAdams","popularity":1.4,"profile_path":null,"credit_id":"5257533b19c29531db1163a0","department":"Production","job":"Producer"},{"adult":false,"gender":0,"id":118311,"known_for_department":"Writing","name":"Matthew
+        Rapf","original_name":"Matthew Rapf","popularity":0.6,"profile_path":null,"credit_id":"5257533b19c29531db1163d6","department":"Production","job":"Executive
+        Producer"}],"id":10838}'
+  recorded_at: Sat, 26 Nov 2022 18:53:03 GMT
+recorded_with: VCR 6.1.0

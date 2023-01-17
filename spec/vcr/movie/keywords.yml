@@ -9,53 +9,61 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/2.7.7p221
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:06 GMT
-      Etag:
-      - '"3a309f8b9ba7d44eafecbe94bdc6ecea"'
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '23322'
-      X-Memc-Expires:
-      - '5478'
-      X-Memc-Key:
-      - e900f4044ce333cdc35ce7c732c0cd40
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '38'
-      X-Ratelimit-Reset:
-      - '1455031036'
-      Content-Length:
-      - '186'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
+      Date:
+      - Sat, 26 Nov 2022 18:52:54 GMT
+      Server:
+      - openresty
+      Cache-Control:
+      - public, max-age=28800
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - 7e6608f129cda84edf538810b218bf7db631d4f0
+      X-Memc-Age:
+      - '6832'
+      X-Memc-Expires:
+      - '7843'
+      Etag:
+      - W/"51fffa12bae1c9fe0b0a6d870ba2a3ff"
+      Vary:
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 d2165ef35515312478de7a439eead44e.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - MAD53-P2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - e9viLmRdwb3PEFOM5V_B9bd-L67nbnyhwJy8NkGivZGVv4ukFW5aAA==
     body:
-      encoding: UTF-8
-      string: '{"id":550,"keywords":[{"id":825,"name":"support group"},{"id":851,"name":"dual
-        identity"},{"id":1541,"name":"nihilism"},{"id":3927,"name":"rage and hate"},{"id":4142,"name":"insomnia"}]}'
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:06 GMT
-recorded_with: VCR 3.0.1
+      encoding: ASCII-8BIT
+      string: '{"id":550,"keywords":[{"id":818,"name":"based on novel or book"},{"id":825,"name":"support
+        group"},{"id":851,"name":"dual identity"},{"id":1541,"name":"nihilism"},{"id":1721,"name":"fight"},{"id":3927,"name":"rage
+        and hate"},{"id":4142,"name":"insomnia"},{"id":4565,"name":"dystopia"},{"id":9181,"name":"alter
+        ego"},{"id":34117,"name":"cult film"},{"id":156761,"name":"split personality"},{"id":179173,"name":"quitting
+        a job"},{"id":212803,"name":"dissociative identity disorder"},{"id":260426,"name":"self
+        destructiveness"}]}'
+  recorded_at: Sat, 26 Nov 2022 18:52:54 GMT
+recorded_with: VCR 6.1.0

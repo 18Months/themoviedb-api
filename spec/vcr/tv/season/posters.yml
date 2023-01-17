@@ -9,67 +9,56 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/2.7.7p221
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
-      Content-Encoding:
-      - gzip
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:18 GMT
-      Etag:
-      - W/"47cf19742817bf02c0f8e1cd88ba08f2"
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      Vary:
-      - Accept-Encoding
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '4032'
-      X-Memc-Expires:
-      - '24768'
-      X-Memc-Key:
-      - 33616f269c30c79c135703f337f31dde
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '31'
-      X-Ratelimit-Reset:
-      - '1455031046'
-      Content-Length:
-      - '474'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
+      Date:
+      - Sat, 26 Nov 2022 18:53:03 GMT
+      Server:
+      - openresty
+      Cache-Control:
+      - public, max-age=28800
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - be108b6edb43256dbe6e5b26ebd23ded9fc67179
+      X-Memc-Age:
+      - '7213'
+      X-Memc-Expires:
+      - '7658'
+      Etag:
+      - W/"fa957bb52e88a2ae9137a1348eace8dd"
+      Vary:
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 f66357245c61a895b6b035f1812e33a2.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - MAD53-P2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - T0WjnMM5388vLsTgijVU7dMSN8yj2GGYpCOZ7cW4Eg7x-o_uJehTcw==
     body:
       encoding: ASCII-8BIT
-      string: !binary |-
-        H4sIAAAAAAAAA83S2W7iMBQG4HfxdcR4jWPuhqWF0AxlG6DVCAWyBxJInAWq
-        vvtQDUIKQnRUqRK++G+O7fPp6LwB3wJ1omKqgG2cSjtJQf31DZjp1l7JRWJK
-        PwZ1WFMFhhQxjKlAhAoFOP7aXmxN6YE6+HEozIDabuJFs36j60sk90s6WkrS
-        e64FWxcowLN915OgzrimAD+NFyoRC3R8a0fHah5Le2HmdmK69vFODWuMI3pK
-        caqv4iw6/sAVUPjWR18K4btyhVo5/IJauE7P3x0yI3nohhNkqFqr1Zpr4WMT
-        XVARg/B/rJRRjE7JqlZ8tiJ4HcsJvgCuByHr7tZ6UMyDziDXmFV2RNlZ6nHx
-        vUChXQPenma81lU/n5VNY0dWThbEqDssCOwn6eASSz96f44lGhTslLSKpWes
-        YFeHeXtJs8ffqZOynE8b3RSK7GU4LuE60PKN8aUlRRwhcsZWqejTJb1JPTxZ
-        wxlX7UGGLV13xlPSnkEvL53+9N6oybSDItX/xVn7ofmSm5unwo205b4X/rw3
-        atQKV6jNnP1Y7nHKNzCcZLI1fR6NyL1RVTKZlEUYted9YuwbnqF3Jjv3gDIL
-        fo2KBKRc/Ze4SmUV6p/3v0UhI1UTBgAA
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:18 GMT
-recorded_with: VCR 3.0.1
+      string: '{"id":3624,"posters":[{"aspect_ratio":0.667,"height":1500,"iso_639_1":"en","file_path":"/wgfKiqzuMrFIkU1M68DDDY8kGC1.jpg","vote_average":5.402,"vote_count":18,"width":1000},{"aspect_ratio":0.667,"height":1500,"iso_639_1":"en","file_path":"/qCOMbOrSeZ8n4Jur2GPCxpZsRgx.jpg","vote_average":5.39,"vote_count":6,"width":1000},{"aspect_ratio":0.667,"height":1425,"iso_639_1":"en","file_path":"/olJ6ivXxCMq3cfujo1IRw30OrsQ.jpg","vote_average":5.338,"vote_count":13,"width":950},{"aspect_ratio":0.692,"height":578,"iso_639_1":"en","file_path":"/zwaj4egrhnXOBIit1tyb4Sbt3KP.jpg","vote_average":5.332,"vote_count":29,"width":400},{"aspect_ratio":0.667,"height":1500,"iso_639_1":"en","file_path":"/f2VFinnHA1QRnZajVvLYOnuIjcO.jpg","vote_average":5.318,"vote_count":3,"width":1000},{"aspect_ratio":0.667,"height":1500,"iso_639_1":"en","file_path":"/etbNjTy6WFgFXWLtwfIIgV0e7uV.jpg","vote_average":5.312,"vote_count":1,"width":1000},{"aspect_ratio":0.675,"height":1481,"iso_639_1":"en","file_path":"/y0XaWR4Zg3Ynyi7Rm0ceNKY0EnX.jpg","vote_average":5.312,"vote_count":1,"width":1000},{"aspect_ratio":0.667,"height":1500,"iso_639_1":"en","file_path":"/fY9SToqac7bjqLczawuc7kLmX74.jpg","vote_average":5.246,"vote_count":2,"width":1000},{"aspect_ratio":0.667,"height":3000,"iso_639_1":"en","file_path":"/67o6EdiVBjx4l2qG88dk51VH7Du.jpg","vote_average":5.19,"vote_count":5,"width":2000},{"aspect_ratio":0.732,"height":1500,"iso_639_1":"en","file_path":"/lQk5IqlJjwYjHQv85dxH9xHbJow.jpg","vote_average":5.118,"vote_count":4,"width":1098},{"aspect_ratio":0.692,"height":578,"iso_639_1":"en","file_path":"/ed7V8LH6hRS3DGtBosDteKWJ5tU.jpg","vote_average":5.106,"vote_count":2,"width":400},{"aspect_ratio":0.692,"height":578,"iso_639_1":"en","file_path":"/uGVsfs5v7WBIs09uZRTx0lj8vmM.jpg","vote_average":5.044,"vote_count":3,"width":400},{"aspect_ratio":0.692,"height":578,"iso_639_1":"en","file_path":"/nDkc1E5fyTty2s7m0kUutDWPSS3.jpg","vote_average":5.044,"vote_count":3,"width":400},{"aspect_ratio":0.692,"height":578,"iso_639_1":"en","file_path":"/rWH1n6iN75EFCZvamLwgn8byKkA.jpg","vote_average":5.044,"vote_count":3,"width":400},{"aspect_ratio":0.692,"height":578,"iso_639_1":"en","file_path":"/63UUxwknEYO3MyBhMJHUqgz1ud0.jpg","vote_average":5.0,"vote_count":7,"width":400},{"aspect_ratio":0.692,"height":578,"iso_639_1":"en","file_path":"/zLdRX76eQu2dJJfTW3EX0hvxfOW.jpg","vote_average":4.982,"vote_count":4,"width":400},{"aspect_ratio":0.667,"height":1425,"iso_639_1":"en","file_path":"/96bzkgUZK3NcVhrgf6bEGKxRnsD.jpg","vote_average":0.0,"vote_count":0,"width":950},{"aspect_ratio":0.667,"height":3000,"iso_639_1":"en","file_path":"/2v619NAr3taUnnvzYjMWNr48uEx.jpg","vote_average":0.0,"vote_count":0,"width":2000},{"aspect_ratio":0.667,"height":1500,"iso_639_1":"en","file_path":"/5EfpcMHFmAz8zNz2pIcYonQRIaR.jpg","vote_average":0.0,"vote_count":0,"width":1000}]}'
+  recorded_at: Sat, 26 Nov 2022 18:53:03 GMT
+recorded_with: VCR 6.1.0

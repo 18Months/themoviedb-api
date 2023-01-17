@@ -9,65 +9,66 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/2.7.7p221
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=300
-      Content-Encoding:
-      - gzip
       Content-Type:
       - application/json;charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
       Date:
-      - Tue, 09 Feb 2016 15:17:17 GMT
-      Etag:
-      - W/"1f59c54f399891dd600b4c7bf8b8bd1c"
+      - Sat, 26 Nov 2022 18:53:03 GMT
       Server:
       - openresty
-      Status:
-      - 200 OK
-      Vary:
-      - Accept-Encoding
+      Cache-Control:
+      - public, max-age=28800
       X-Memc:
       - MISS, STORE
+      X-Memc-Key:
+      - 13dd3174a89af3deea89f09f828f883600356892
       X-Memc-Age:
       - '0'
       X-Memc-Expires:
       - '300'
-      X-Memc-Key:
-      - c88b97646076626501fbeddfb56a3e4a
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '35'
-      X-Ratelimit-Reset:
-      - '1455031046'
-      Content-Length:
-      - '398'
-      Connection:
-      - keep-alive
+      Etag:
+      - W/"0db3d4cd4b6e72ea9fc57eb39f7bcfce"
+      Vary:
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 12d82d6b4aa77bb6c346a86b23a37b5c.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - MAD53-P2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - F1pd14Y9EThC4AYwDKiMlqkmQOSDzL5uMevXVH9oU45ffScvMpBsOA==
     body:
       encoding: ASCII-8BIT
-      string: !binary |-
-        H4sIAAAAAAAAA6XUX2uDMBAA8K9SfG4h/y7GvO4jbHsaRaImXVjVYm3HKH73
-        xbYOjVIrA5/uTu6XnOclSD9VsdPHQH5cgi/9E8hA2SrOVK2DdWBrnd9SNnMZ
-        AE5FwkhEADNMQpwghI1irlKltS0LV3M6tO9mLlTbXLsAQRg2CDYEVgRJwBKz
-        1fvbiys4q/3pXsE2yD3cBcvK7myh9vFEttk2605ZqPx5IfSFKsue89ljGXMa
-        xdhVZW2zjvRaK2P0foUHovKsq7PV30+r2uP+W9UX6INLXqWTAC48gOgD5gcH
-        ZDi4S9cwbptEIUGIrP9ixSlPdBVI3LTAHiOEGwPz9MoQyRIGkQgeM6hAdMwg
-        PkPcGZCYlkEJXcYgeJbBxgzqMyKSUkW5AJwad38qMcsY1NumCQaMGcxnJN1Q
-        IkOvjEVLTSWKHjOAhhNDAZ+hsceIljGAzjAYnWDwEcPcGQopx0j1YFXnGEyi
-        cJYx8W2EPsOo4aZEi26DSSweMzhn4ZghGvdP2Ta/Yy10QRsGAAA=
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:17 GMT
-recorded_with: VCR 3.0.1
+      string: '{"changes":[{"key":"name","items":[{"id":"55638b42925141271b001fa5","action":"added","time":"2015-05-25
+        20:51:14 UTC","iso_639_1":"de","value":"Staffel 1"}]},{"key":"air_date","items":[{"id":"55638b42925141271b001fa4","action":"updated","time":"2015-05-25
+        20:51:14 UTC","value":"2014-04-06","original_value":"2014-04-06"}]},{"key":"episode","items":[{"id":"55638b68925141271b001fa8","action":"updated","time":"2015-05-25
+        20:51:52 UTC","value":{"episode_id":972002,"episode_number":1}},{"id":"55638b7592514116cb001f8b","action":"updated","time":"2015-05-25
+        20:52:05 UTC","value":{"episode_id":973803,"episode_number":2}},{"id":"55638b859251415bfb001323","action":"updated","time":"2015-05-25
+        20:52:21 UTC","value":{"episode_id":973804,"episode_number":3}},{"id":"55638b92c3a36851cf002abf","action":"updated","time":"2015-05-25
+        20:52:34 UTC","value":{"episode_id":973805,"episode_number":4}},{"id":"55638bb592514119f3002ab4","action":"updated","time":"2015-05-25
+        20:53:09 UTC","value":{"episode_id":975373,"episode_number":5}},{"id":"55638be192514119f3002ab9","action":"updated","time":"2015-05-25
+        20:53:53 UTC","value":{"episode_id":975433,"episode_number":6}},{"id":"55638bef9251411a0a002ce6","action":"updated","time":"2015-05-25
+        20:54:07 UTC","value":{"episode_id":975434,"episode_number":7}},{"id":"55638bfa92514116cb001f99","action":"updated","time":"2015-05-25
+        20:54:18 UTC","value":{"episode_id":976647,"episode_number":8}}]}]}'
+  recorded_at: Sat, 26 Nov 2022 18:53:03 GMT
+recorded_with: VCR 6.1.0

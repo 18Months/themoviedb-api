@@ -9,71 +9,64 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/2.7.7p221
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=21600
-      Content-Encoding:
-      - gzip
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:02 GMT
-      Etag:
-      - W/"ba983ea21b3c5553746c72cbdf96739c"
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      Vary:
-      - Accept-Encoding
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '20647'
-      X-Memc-Expires:
-      - '953'
-      X-Memc-Key:
-      - b2b2d5b5c403479427a32475da3e48f4
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '22'
-      X-Ratelimit-Reset:
-      - '1455031026'
-      Content-Length:
-      - '670'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
+      Date:
+      - Sat, 26 Nov 2022 18:52:50 GMT
+      Server:
+      - openresty
+      Cache-Control:
+      - public, max-age=28800
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - 5ccd1a9f68f6204d925c564d4356392f8cc19540
+      X-Memc-Age:
+      - '10819'
+      X-Memc-Expires:
+      - '10781'
+      Etag:
+      - W/"24c1884359e169a021576cd6b2ce9503"
+      Vary:
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 3188de0255f489b4cf0b9cf9ad1f8238.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - MAD53-P2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - dPBpcDxWfJ0QUyLOHJMjlsZ_qCchNVU9Rqr6OAcidK2Gr5cjUnc8fQ==
     body:
       encoding: ASCII-8BIT
-      string: !binary |-
-        H4sIAAAAAAAAA3VT2XLbIBT9FYaXvsiuFku2/Ja0WZulrRO7maajQRKScBBo
-        AFmjyeTfe1Fs126nT8BdDuccLq+4lhtGE0V1y43G85+/HNxQpaU4jpnNwfkV
-        pyR7yZVskoaYCs/xx/rxpc38rl/G+eXNhfvZvZGkC5t7X8/G66bEDi6Y0iYh
-        TCU5MRR6fNfzRu5k5E0hW1KhaMJyC++50yh0vJkTRA7swxjuZzmee0EcO1gq
-        VjJBeMKJKFtSWigq8EFCkNoGL2BBskAPlZKCaluxoQrUdpBc0A0VSMiUU1SQ
-        mnFGNSpYWRlUSIUyKYyS3LabiqK6NxXLCEdwZ26DK6oNVVKP0blimWFSoJSa
-        jgKmra9kqwGPU5JrZCQqWs5HGgAo6ogaoxPOUVcxOBIEnHpERMaoMIhuGEek
-        Iy9UaMTewQqiYNEG2MIGmmuwyQwpAHMAQtCS08zQHFkhhgCgVDlVlmnNdMGM
-        dob6Oyvwg0YrYrLKQUwjAkxMRQzSBqTpIxWKEl7rAQQiVjnLetCmlFS2spci
-        Hz+L5z/mJ5lswbgeHhE/LrCdJWmN2o/J+qq6iWr+MD1JeZVeXpdnkp1e3T8u
-        ubcdk0Y2LSeKGQDxpuM4mMy80MH/fdONNDQhYOIwCbNxuA0NTPB8Movf3seX
-        NkzL/HDUX/HBNHpxGI1cf+RHALqrFW2dUoXnvr9n8JWTbKCwqEguO0vBzmYQ
-        RlHgOlhTYv/OrtGDiGGc7w3I3G8mbKU6D1aXm7i5/VItw7ZRd/2Sbw3QlewS
-        Cxn60+Bvfe7YPdbnbtVt7/2vuOnMfjV3sqXrx9Ek3mtaDM3IG+w/fi/+/WmS
-        mtv8KV9f92v3x9np6lZ/Or9L2Y7uv4J3ArzYD8D9t98r6k1YZQQAAA==
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:02 GMT
-recorded_with: VCR 3.0.1
+      string: '{"movie_results":[],"person_results":[],"tv_results":[{"adult":false,"backdrop_path":"/suopoADq0k8YZr4dQXcU6pToj6s.jpg","id":1399,"name":"Game
+        of Thrones","original_language":"en","original_name":"Game of Thrones","overview":"Seven
+        noble families fight for control of the mythical land of Westeros. Friction
+        between the houses leads to full-scale war. All while a very ancient evil
+        awakens in the farthest north. Amidst the war, a neglected military order
+        of misfits, the Night''s Watch, is all that stands between the realms of men
+        and icy horrors beyond.","poster_path":"/7WUHnWGx5OO145IRxPDUkQSh4C7.jpg","media_type":"tv","genre_ids":[10765,18,10759],"popularity":798.035,"first_air_date":"2011-04-17","vote_average":8.43,"vote_count":19823,"origin_country":["US"]}],"tv_episode_results":[{"id":356630,"name":"Place
+        of Shadows","overview":"A young man tries to insinuate his way into a monastery,
+        in order to gain revenge on a thief whom he blames for ruining his life.","media_type":"tv_episode","vote_average":7.0,"vote_count":1,"air_date":"1956-02-26","episode_number":22,"production_code":"","runtime":26,"season_number":1,"show_id":5273,"still_path":"/nXcoXAXPPA6vDcyaVrK87TOxlcH.jpg"}],"tv_season_results":[]}'
+  recorded_at: Sat, 26 Nov 2022 18:52:50 GMT
+recorded_with: VCR 6.1.0

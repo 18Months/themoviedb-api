@@ -9,52 +9,56 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/2.7.7p221
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:10 GMT
-      Etag:
-      - '"fa7a5b15c4bafc587c4f28fb32004ed3"'
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '15422'
-      X-Memc-Expires:
-      - '13378'
-      X-Memc-Key:
-      - 5da0b068c79ec8a617696ae215da629b
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '21'
-      X-Ratelimit-Reset:
-      - '1455031036'
-      Content-Length:
-      - '106'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
+      Date:
+      - Sat, 26 Nov 2022 18:52:58 GMT
+      Server:
+      - openresty
+      Cache-Control:
+      - public, max-age=28800
+      X-Memc:
+      - MISS, STORE
+      X-Memc-Key:
+      - 7687c299bf3be55d2a8e078602c21c8531fb5263
+      X-Memc-Age:
+      - '0'
+      X-Memc-Expires:
+      - '16403'
+      Etag:
+      - W/"d5589024776c5edcb5c3f197bb48b996"
+      Vary:
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 27b6689b1a55964bce73c502075b687c.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - MAD53-P2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - qHzGk4APBT6sxQpIapZVxYKyR_R3DSAUR-svR9zq_DhIlTN9q5wiVw==
     body:
-      encoding: UTF-8
-      string: '{"imdb_id":"nm0000184","freebase_mid":"/m/0343h","freebase_id":"/en/george_lucas","tvrage_id":6490,"id":1}'
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:10 GMT
-recorded_with: VCR 3.0.1
+      encoding: ASCII-8BIT
+      string: '{"id":1,"freebase_mid":"/m/0343h","freebase_id":"/en/george_lucas","imdb_id":"nm0000184","tvrage_id":6490,"wikidata_id":"Q38222","facebook_id":null,"instagram_id":null,"twitter_id":""}'
+  recorded_at: Sat, 26 Nov 2022 18:52:58 GMT
+recorded_with: VCR 6.1.0

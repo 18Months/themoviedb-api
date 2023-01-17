@@ -9,52 +9,56 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/2.7.7p221
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:18 GMT
-      Etag:
-      - '"74308c5a56323a03173b6056616f25c3"'
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '6600'
-      X-Memc-Expires:
-      - '22200'
-      X-Memc-Key:
-      - 7ea786aca555f85081317b6768814ade
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '32'
-      X-Ratelimit-Reset:
-      - '1455031046'
-      Content-Length:
-      - '107'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
+      Date:
+      - Sat, 26 Nov 2022 18:53:03 GMT
+      Server:
+      - openresty
+      Cache-Control:
+      - public, max-age=28800
+      X-Memc:
+      - MISS, STORE
+      X-Memc-Key:
+      - 15024aae95fd9043a5765607bddc36b680a0337f
+      X-Memc-Age:
+      - '0'
+      X-Memc-Expires:
+      - '16333'
+      Etag:
+      - W/"b8658d59084a27f110878e68d36b993d"
+      Vary:
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 2ccbc5caee1698bce379c0e885350056.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - MAD53-P2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - DdsNMuIujOpQqsJ1ch7KmqY8IH44rTjNZGOdxbI2bQnlhWduWiwOEw==
     body:
-      encoding: UTF-8
-      string: '{"freebase_mid":"/m/05ddtqw","freebase_id":"/en/kojak_season_1","tvdb_id":2547,"tvrage_id":null,"id":10838}'
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:18 GMT
-recorded_with: VCR 3.0.1
+      encoding: ASCII-8BIT
+      string: '{"id":10838,"freebase_mid":"/m/05ddtqw","freebase_id":"/en/kojak_season_1","tvdb_id":2547,"tvrage_id":null,"wikidata_id":null}'
+  recorded_at: Sat, 26 Nov 2022 18:53:03 GMT
+recorded_with: VCR 6.1.0

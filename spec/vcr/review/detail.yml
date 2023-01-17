@@ -9,53 +9,58 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/2.7.7p221
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=28800
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:12 GMT
-      Etag:
-      - '"deb66ac826fe2ad09ee8043df27ed198"'
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '6601'
-      X-Memc-Expires:
-      - '22199'
-      X-Memc-Key:
-      - 055ef28e055eebb5f2b14761e3eba51b
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '14'
-      X-Ratelimit-Reset:
-      - '1455031036'
-      Content-Length:
-      - '852'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
+      Date:
+      - Sat, 26 Nov 2022 18:52:59 GMT
+      Server:
+      - openresty
+      Cache-Control:
+      - public, max-age=28800
+      X-Memc:
+      - MISS, STORE
+      X-Memc-Key:
+      - a9372f13c7f7cf4969739c6816a1f45a209f963c
+      X-Memc-Age:
+      - '0'
+      X-Memc-Expires:
+      - '15973'
+      Etag:
+      - W/"668d74d3e3ef9c03e841c93cedecbc2f"
+      Vary:
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 910ee4d9b7bcfd663f2b41579b2aadc2.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - MAD53-P2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - Ox09CeijUyVagUW4ZO8pURsP5Tas00pvs9F1SZ3L0JVHcSYlAtuEaA==
     body:
-      encoding: UTF-8
-      string: '{"id":"5013bc76760ee372cb00253e","author":"Chris","content":"I personally
-        thought this film is on par if not better than the Dark Knight.\r\n\r\nWhilst
+      encoding: ASCII-8BIT
+      string: '{"id":"5013bc76760ee372cb00253e","author":"Chris","author_details":{"name":"Chris","username":"Chris!","avatar_path":"/https://www.gravatar.com/avatar/4db9bdaf253adc0860983a2492b9ef6a.jpg","rating":10.0},"content":"I
+        personally thought this film is on par if not better than the Dark Knight.\r\n\r\nWhilst
         some think the film is too long for the story I didn''t find this. The length
         of the film is longer than some (but doesn''t feel it), I liked that the film
         took it''s time rather than shoving more elements in it - I think this contributed
@@ -63,8 +68,7 @@ http_interactions:
         and calm before the final crescendo).\r\n\r\nAt the end of the day whether
         you like this film will boil down to if you like films Christopher Nolan has
         directed and/or you like the Christopher Nolan Batman series so far.\r\n\r\nStupendously
-        good film in my opinion.","iso_639_1":"en","media_id":49026,"media_title":"The
-        Dark Knight Rises","media_type":"Movie","url":"http://j.mp/P18dg1"}'
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:12 GMT
-recorded_with: VCR 3.0.1
+        good film in my opinion.","created_at":"2012-07-28T10:18:30.000Z","iso_639_1":"en","media_id":49026,"media_title":"The
+        Dark Knight Rises","media_type":"movie","updated_at":"2021-06-23T15:57:17.403Z","url":"https://www.themoviedb.org/review/5013bc76760ee372cb00253e"}'
+  recorded_at: Sat, 26 Nov 2022 18:52:59 GMT
+recorded_with: VCR 6.1.0

@@ -9,60 +9,62 @@ http_interactions:
     headers:
       Accept:
       - application/json
-      Accept-Encoding:
-      - gzip, deflate
+      User-Agent:
+      - rest-client/2.1.0 (darwin21 x86_64) ruby/2.7.7p221
       Content-Type:
       - application/json; charset=utf-8
-      User-Agent:
-      - Ruby
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Host:
+      - api.themoviedb.org
   response:
     status:
       code: 200
       message: OK
     headers:
-      Access-Control-Allow-Origin:
-      - "*"
-      Cache-Control:
-      - public, max-age=21600
       Content-Type:
       - application/json;charset=utf-8
-      Date:
-      - Tue, 09 Feb 2016 15:17:01 GMT
-      Etag:
-      - '"53e2cd300aecbfd4a584d42c278b8f52"'
-      Server:
-      - openresty
-      Status:
-      - 200 OK
-      X-Memc:
-      - HIT
-      X-Memc-Age:
-      - '3943'
-      X-Memc-Expires:
-      - '17657'
-      X-Memc-Key:
-      - feaa674eaffd6e230b76773b53c17993
-      X-Ratelimit-Limit:
-      - '40'
-      X-Ratelimit-Remaining:
-      - '25'
-      X-Ratelimit-Reset:
-      - '1455031026'
-      Content-Length:
-      - '939'
+      Transfer-Encoding:
+      - chunked
       Connection:
       - keep-alive
+      Date:
+      - Sat, 26 Nov 2022 18:52:50 GMT
+      Server:
+      - openresty
+      Cache-Control:
+      - public, max-age=28800
+      X-Memc:
+      - HIT
+      X-Memc-Key:
+      - 7372401177dd230ae742daf85beeced643368ae6
+      X-Memc-Age:
+      - '19163'
+      X-Memc-Expires:
+      - '2437'
+      Etag:
+      - W/"f96b14365f8d1b177a34851502b4d39e"
+      Vary:
+      - Accept-Encoding,Accept-Encoding,Accept-Encoding
+      - Origin
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 48d20e4a7c48c095731e8e5968bc64a0.cloudfront.net (CloudFront)
+      X-Amz-Cf-Pop:
+      - MAD53-P2
+      Alt-Svc:
+      - h3=":443"; ma=86400
+      X-Amz-Cf-Id:
+      - pcr0nBCP4CGSdpXicdLmZKOTu9-ujR0szYxWCuG7rbV2M-q72Aj_8g==
     body:
-      encoding: UTF-8
-      string: '{"movie_results":[{"adult":false,"backdrop_path":"/n2vIGWw4ezslXjlP0VNxkp9wqwU.jpg","genre_ids":[16,10751],"id":12,"original_language":"en","original_title":"Finding
-        Nemo","overview":"A tale which follows the comedic and eventful journeys of
-        two fish, the fretful Marlin and his young son Nemo, who are separated from
-        each other in the Great Barrier Reef when Nemo is unexpectedly taken from
-        his home and thrust into a fish tank in a dentist''s office overlooking Sydney
-        Harbor. Buoyed by the companionship of a friendly but forgetful fish named
-        Dory, the overly cautious Marlin embarks on a dangerous trek and finds himself
-        the unlikely hero of an epic journey to rescue his son.","release_date":"2003-11-29","poster_path":"/zjqInUwldOBa0q07fOyohYCWxWX.jpg","popularity":4.132987,"title":"Finding
-        Nemo","video":false,"vote_average":7.3,"vote_count":2941}],"person_results":[],"tv_results":[],"tv_episode_results":[],"tv_season_results":[]}'
-    http_version: 
-  recorded_at: Tue, 09 Feb 2016 15:17:01 GMT
-recorded_with: VCR 3.0.1
+      encoding: ASCII-8BIT
+      string: '{"movie_results":[{"adult":false,"backdrop_path":"/yzqaKAhglTrkeOfuIXYYArf0WnA.jpg","id":12,"title":"Finding
+        Nemo","original_language":"en","original_title":"Finding Nemo","overview":"Nemo,
+        an adventurous young clownfish, is unexpectedly taken from his Great Barrier
+        Reef home to a dentist''s office aquarium. It''s up to his worrisome father
+        Marlin and a friendly but forgetful fish Dory to bring Nemo home -- meeting
+        vegetarian sharks, surfer dude turtles, hypnotic jellyfish, hungry seagulls,
+        and more along the way.","poster_path":"/eHuGQ10FUzK1mdOY69wF5pGgEf5.jpg","media_type":"movie","genre_ids":[16,10751],"popularity":119.137,"release_date":"2003-05-30","video":false,"vote_average":7.825,"vote_count":17024}],"person_results":[],"tv_results":[],"tv_episode_results":[],"tv_season_results":[]}'
+  recorded_at: Sat, 26 Nov 2022 18:52:50 GMT
+recorded_with: VCR 6.1.0
