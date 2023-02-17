@@ -5,7 +5,7 @@ module Tmdb
 
       if data
         data.each do |k,v|
-          set_ostruct_member_value! k, analyze_value(v)
+          self[k] = analyze_value(v)
         end
       end
     end
