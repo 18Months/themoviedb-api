@@ -74,7 +74,7 @@ To be thorough they are listed here with a sample call:
 * [Genres](#genres)
 * [Jobs](#jobs)
 * [Keywords](#keywords)
-* [Movies](#movies)
+* [Movies](#movies-3)
 * [Networks](#networks)
 * [People](#people)
 * [Recommendations](#recommendations)
